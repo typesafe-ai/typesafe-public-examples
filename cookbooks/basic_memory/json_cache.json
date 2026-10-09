@@ -1,0 +1,608 @@
+{
+  "004c1749cc575baeb451ba84734870577bb60e693eac2aa17972859da990cbf8": {
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 784,
+      "output_tokens": 79
+    },
+    "answers": {
+      "team": {
+        "type": "choice",
+        "choice": "cloud_ops",
+        "confidence": 0.9,
+        "probabilities": {
+          "enterprise_desk": 0.0,
+          "none_suitable": 0.01,
+          "selfhosted_linux": 0.0,
+          "general": 0.08,
+          "selfhosted_windows": 0.0,
+          "cloud_ops": 0.91,
+          "billing": 0.0
+        }
+      }
+    }
+  },
+  "012d589a1cc596af4440cfa53c46e448631a85d3baa5a59b446f2a773228407b": {
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 974,
+      "output_tokens": 81
+    },
+    "answers": {
+      "team": {
+        "type": "choice",
+        "choice": "selfhosted_windows",
+        "confidence": 0.93,
+        "probabilities": {
+          "billing": 0.0,
+          "none_suitable": 0.01,
+          "selfhosted_windows": 0.94,
+          "general": 0.0,
+          "selfhosted_linux": 0.0,
+          "enterprise_desk": 0.05,
+          "cloud_ops": 0.0
+        }
+      }
+    }
+  },
+  "107f0ab117c21729d94c98d6125dae08da428ee8a0382844e56505321c0a2e99": {
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 599,
+      "output_tokens": 81
+    },
+    "answers": {
+      "team": {
+        "type": "choice",
+        "choice": "none_suitable",
+        "confidence": 0.54,
+        "probabilities": {
+          "selfhosted_linux": 0.08,
+          "cloud_ops": 0.12,
+          "none_suitable": 0.6,
+          "selfhosted_windows": 0.15,
+          "general": 0.04,
+          "billing": 0.0,
+          "enterprise_desk": 0.01
+        }
+      }
+    }
+  },
+  "23cd18a64c82255eb2b6825732759ea30cd59a66eb3e2a24245df0f200aa4f3f": {
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 798,
+      "output_tokens": 80
+    },
+    "answers": {
+      "team": {
+        "type": "choice",
+        "choice": "enterprise_desk",
+        "confidence": 0.35,
+        "probabilities": {
+          "enterprise_desk": 0.44,
+          "general": 0.01,
+          "selfhosted_linux": 0.0,
+          "selfhosted_windows": 0.23,
+          "cloud_ops": 0.0,
+          "none_suitable": 0.0,
+          "billing": 0.32
+        }
+      }
+    }
+  },
+  "2b7ba9bc4ff8dbe670d0e542232085448fcb24991c8e07395253c13bdc59769b": {
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 633,
+      "output_tokens": 20
+    },
+    "answers": {
+      "remember": {
+        "type": "noul",
+        "noul": 0.91
+      }
+    }
+  },
+  "2bca0bcaa84c4ec23d736d82300ec5ed4819ff1b680e1e85e2861fc0e3e767ce": {
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 620,
+      "output_tokens": 81
+    },
+    "answers": {
+      "team": {
+        "type": "choice",
+        "choice": "selfhosted_windows",
+        "confidence": 0.5,
+        "probabilities": {
+          "selfhosted_windows": 0.57,
+          "general": 0.42,
+          "none_suitable": 0.0,
+          "billing": 0.0,
+          "enterprise_desk": 0.01,
+          "cloud_ops": 0.0,
+          "selfhosted_linux": 0.0
+        }
+      }
+    }
+  },
+  "352fcf6c5b93a55615f662f74bc0278575474ba74f97154e76f5014afcbec52d": {
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 605,
+      "output_tokens": 20
+    },
+    "answers": {
+      "remember": {
+        "type": "noul",
+        "noul": 0.12
+      }
+    }
+  },
+  "39b776bf2bb5cb8efa2520090556b715e0e0aeffa83f24789941bbc82219d26b": {
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 974,
+      "output_tokens": 81
+    },
+    "answers": {
+      "team": {
+        "type": "choice",
+        "choice": "selfhosted_windows",
+        "confidence": 0.99,
+        "probabilities": {
+          "general": 0.0,
+          "enterprise_desk": 0.0,
+          "cloud_ops": 0.0,
+          "selfhosted_linux": 0.0,
+          "selfhosted_windows": 1.0,
+          "billing": 0.0,
+          "none_suitable": 0.0
+        }
+      }
+    }
+  },
+  "442a0f0e30194d3ee82e27349f4857597e9c09d76996da68ad44e68d3d394a1a": {
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 602,
+      "output_tokens": 20
+    },
+    "answers": {
+      "remember": {
+        "type": "noul",
+        "noul": 0.08
+      }
+    }
+  },
+  "4d59600151a128450e84aed4feabea5251aa261ef68985e93fd38975e2483c38": {
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 620,
+      "output_tokens": 78
+    },
+    "answers": {
+      "team": {
+        "type": "choice",
+        "choice": "general",
+        "confidence": 0.85,
+        "probabilities": {
+          "selfhosted_linux": 0.0,
+          "cloud_ops": 0.13,
+          "enterprise_desk": 0.0,
+          "none_suitable": 0.0,
+          "billing": 0.0,
+          "selfhosted_windows": 0.0,
+          "general": 0.87
+        }
+      }
+    }
+  },
+  "4da2f2ae9a035edc71b68ed5968926551d6cb129994bbb40e5ae5bee4574e864": {
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 797,
+      "output_tokens": 78
+    },
+    "answers": {
+      "team": {
+        "type": "choice",
+        "choice": "general",
+        "confidence": 1.0,
+        "probabilities": {
+          "cloud_ops": 0.0,
+          "none_suitable": 0.0,
+          "selfhosted_linux": 0.0,
+          "selfhosted_windows": 0.0,
+          "general": 1.0,
+          "enterprise_desk": 0.0,
+          "billing": 0.0
+        }
+      }
+    }
+  },
+  "53b50af6608ad43c995fce3d2afbecf311771eb6c0b8d7cb7569740d7a150919": {
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 784,
+      "output_tokens": 79
+    },
+    "answers": {
+      "team": {
+        "type": "choice",
+        "choice": "cloud_ops",
+        "confidence": 0.84,
+        "probabilities": {
+          "cloud_ops": 0.86,
+          "enterprise_desk": 0.0,
+          "selfhosted_windows": 0.01,
+          "billing": 0.0,
+          "general": 0.07,
+          "selfhosted_linux": 0.01,
+          "none_suitable": 0.05
+        }
+      }
+    }
+  },
+  "64e1c301f082b5e3750cf6e3a049caba9ce27df8d8bc35042b89785af7b56a31": {
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 797,
+      "output_tokens": 81
+    },
+    "answers": {
+      "team": {
+        "type": "choice",
+        "choice": "selfhosted_windows",
+        "confidence": 0.99,
+        "probabilities": {
+          "selfhosted_linux": 0.0,
+          "none_suitable": 0.01,
+          "cloud_ops": 0.0,
+          "enterprise_desk": 0.0,
+          "general": 0.0,
+          "selfhosted_windows": 0.99,
+          "billing": 0.0
+        }
+      }
+    }
+  },
+  "7d61f0b7f3d3cb881ac82a44257cfd29fdab6c7c6d278792d41f0cb919b44f43": {
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 602,
+      "output_tokens": 20
+    },
+    "answers": {
+      "remember": {
+        "type": "noul",
+        "noul": 0.11
+      }
+    }
+  },
+  "81a5b2649de57915578d837445c09955022b39c21291ab92c8a69b9c7d2e2539": {
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 807,
+      "output_tokens": 80
+    },
+    "answers": {
+      "team": {
+        "type": "choice",
+        "choice": "enterprise_desk",
+        "confidence": 0.24,
+        "probabilities": {
+          "billing": 0.0,
+          "selfhosted_linux": 0.0,
+          "none_suitable": 0.05,
+          "general": 0.33,
+          "enterprise_desk": 0.35,
+          "cloud_ops": 0.02,
+          "selfhosted_windows": 0.25
+        }
+      }
+    }
+  },
+  "8e37c3549228918ccf5fd08696b2f6bd4caa3f82b56bfd6e6c62550fbf43f33c": {
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 615,
+      "output_tokens": 20
+    },
+    "answers": {
+      "remember": {
+        "type": "noul",
+        "noul": 0.11
+      }
+    }
+  },
+  "97b9846592274e6829a13743ae5685c12098b6c832609c5ece0299bd278c2c1e": {
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 624,
+      "output_tokens": 20
+    },
+    "answers": {
+      "remember": {
+        "type": "noul",
+        "noul": 0.92
+      }
+    }
+  },
+  "a4a65cb5ffe12f3f4629fa38debcb9783e03d6160e2ea3a21c504f7dce67bbdf": {
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 615,
+      "output_tokens": 20
+    },
+    "answers": {
+      "remember": {
+        "type": "noul",
+        "noul": 0.1
+      }
+    }
+  },
+  "ae3803172bf2e48f13f0898a567f7f6d6aaf79f1f7cdace213be796bba5a56b2": {
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 600,
+      "output_tokens": 80
+    },
+    "answers": {
+      "team": {
+        "type": "choice",
+        "choice": "enterprise_desk",
+        "confidence": 0.55,
+        "probabilities": {
+          "none_suitable": 0.0,
+          "enterprise_desk": 0.62,
+          "selfhosted_windows": 0.0,
+          "general": 0.0,
+          "cloud_ops": 0.0,
+          "selfhosted_linux": 0.0,
+          "billing": 0.38
+        }
+      }
+    }
+  },
+  "af2ca488b05ab5f40e1a91e03012cbdc9b139dd01b9829e45555ec8a617c287a": {
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 599,
+      "output_tokens": 79
+    },
+    "answers": {
+      "team": {
+        "type": "choice",
+        "choice": "cloud_ops",
+        "confidence": 0.72,
+        "probabilities": {
+          "general": 0.04,
+          "enterprise_desk": 0.0,
+          "cloud_ops": 0.75,
+          "none_suitable": 0.19,
+          "selfhosted_linux": 0.01,
+          "selfhosted_windows": 0.01,
+          "billing": 0.0
+        }
+      }
+    }
+  },
+  "b2abed87e52144a6e1a2958691b99e437d20b57697a8dfd14895e6751469c5a2": {
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 600,
+      "output_tokens": 80
+    },
+    "answers": {
+      "team": {
+        "type": "choice",
+        "choice": "enterprise_desk",
+        "confidence": 0.42,
+        "probabilities": {
+          "general": 0.0,
+          "enterprise_desk": 0.52,
+          "cloud_ops": 0.0,
+          "none_suitable": 0.0,
+          "selfhosted_windows": 0.0,
+          "selfhosted_linux": 0.0,
+          "billing": 0.48
+        }
+      }
+    }
+  },
+  "bb3f6cdc89362534196e047cecf67a03b68d6bfbd6df5bc0813d07505d9c6da0": {
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 808,
+      "output_tokens": 78
+    },
+    "answers": {
+      "team": {
+        "type": "choice",
+        "choice": "billing",
+        "confidence": 0.9,
+        "probabilities": {
+          "general": 0.01,
+          "billing": 0.91,
+          "none_suitable": 0.0,
+          "cloud_ops": 0.0,
+          "selfhosted_linux": 0.0,
+          "selfhosted_windows": 0.08,
+          "enterprise_desk": 0.0
+        }
+      }
+    }
+  },
+  "bdcb7d08c35ce63607d8c0ab3a91a6e61884294a7932eb28538f12fee09ed1e8": {
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 785,
+      "output_tokens": 78
+    },
+    "answers": {
+      "team": {
+        "type": "choice",
+        "choice": "billing",
+        "confidence": 0.97,
+        "probabilities": {
+          "billing": 0.98,
+          "none_suitable": 0.0,
+          "cloud_ops": 0.0,
+          "selfhosted_windows": 0.0,
+          "selfhosted_linux": 0.0,
+          "enterprise_desk": 0.0,
+          "general": 0.02
+        }
+      }
+    }
+  },
+  "c13cf69b29c895193da06242521001e21968918a326bac15966db189c41e5df2": {
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 620,
+      "output_tokens": 20
+    },
+    "answers": {
+      "remember": {
+        "type": "noul",
+        "noul": 0.91
+      }
+    }
+  },
+  "ca49149377aa57c5e6a9fe284fae98f2b22b24936d954b2440e942ebcc14d9a7": {
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 975,
+      "output_tokens": 80
+    },
+    "answers": {
+      "team": {
+        "type": "choice",
+        "choice": "enterprise_desk",
+        "confidence": 0.99,
+        "probabilities": {
+          "billing": 0.0,
+          "cloud_ops": 0.0,
+          "none_suitable": 0.0,
+          "selfhosted_windows": 0.01,
+          "selfhosted_linux": 0.0,
+          "enterprise_desk": 0.99,
+          "general": 0.0
+        }
+      }
+    }
+  },
+  "d5784604fe3c4219d3b77c041935680f9ece55bbf173c2b741767199936e7abc": {
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 602,
+      "output_tokens": 20
+    },
+    "answers": {
+      "remember": {
+        "type": "noul",
+        "noul": 0.07
+      }
+    }
+  },
+  "d95c6df0afe44e1f2015c9f2d614bc9dc9a3fa7b356934acb4b366ee8e8587e8": {
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 612,
+      "output_tokens": 20
+    },
+    "answers": {
+      "remember": {
+        "type": "noul",
+        "noul": 0.08
+      }
+    }
+  },
+  "db1936360d7bdfd7460e32ef65d67e939a3cd3d98dc8e95c50ff11ab05b703a5": {
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 599,
+      "output_tokens": 81
+    },
+    "answers": {
+      "team": {
+        "type": "choice",
+        "choice": "none_suitable",
+        "confidence": 0.56,
+        "probabilities": {
+          "cloud_ops": 0.12,
+          "selfhosted_linux": 0.07,
+          "none_suitable": 0.63,
+          "billing": 0.0,
+          "general": 0.07,
+          "selfhosted_windows": 0.11,
+          "enterprise_desk": 0.0
+        }
+      }
+    }
+  },
+  "df1fb6f577dbea67d4066a7094ce5161987a014541f87400f1f02ce9d48bd2b7": {
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 612,
+      "output_tokens": 20
+    },
+    "answers": {
+      "remember": {
+        "type": "noul",
+        "noul": 0.1
+      }
+    }
+  },
+  "f000f72689c42c56f0a0b9cd26b2eb6738c68e02058fcb7438c03676624ab824": {
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 615,
+      "output_tokens": 20
+    },
+    "answers": {
+      "remember": {
+        "type": "noul",
+        "noul": 0.07
+      }
+    }
+  },
+  "f8f226dfbd75267d11b510313f1432cae58a41d7bdb71a91d80a37d1553a3495": {
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 599,
+      "output_tokens": 79
+    },
+    "answers": {
+      "team": {
+        "type": "choice",
+        "choice": "cloud_ops",
+        "confidence": 0.76,
+        "probabilities": {
+          "selfhosted_linux": 0.0,
+          "none_suitable": 0.16,
+          "selfhosted_windows": 0.01,
+          "general": 0.03,
+          "cloud_ops": 0.8,
+          "billing": 0.0,
+          "enterprise_desk": 0.0
+        }
+      }
+    }
+  },
+  "fa86e5526b22188d46d981e435b54b134dffb8ebfffe8c1ebbca8323b359d401": {
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 612,
+      "output_tokens": 20
+    },
+    "answers": {
+      "remember": {
+        "type": "noul",
+        "noul": 0.12
+      }
+    }
+  }
+}
