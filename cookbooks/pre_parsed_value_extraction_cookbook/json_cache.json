@@ -1,0 +1,32 @@
+{
+  "093c355e38074dfe704b9f2c96f60d4669b7930c1b1135626cf6c1ded20c0ffe": {
+    "choice": "dana.personal@gmail.com",
+    "confidence": 0.98
+  },
+  "1ef47a72d086835b11c3c00ffcb1f73b95e33f0514dc097d5b16a76d4bdc0667": 0.01,
+  "3f189dd847ed7216dd07e9cadec43716c9079209519fc07a3ec8b426ed0b5e10": {
+    "choice": "dana.whit@acme-corp.com",
+    "confidence": 1.0
+  },
+  "43a2ea1eb506ea73a36f8f261f8bf7a04906175b0cba8b3107389537d735e883": {
+    "choice": "US",
+    "confidence": 0.9
+  },
+  "72b77472255de1c2574a36cdd848b7bf900203eca42772c16ff27ffffaa0d754": {
+    "choice": "(415) 555-0177",
+    "confidence": 1.0
+  },
+  "8182926ab875945f3af972e0619accf99aee54bb9845be9af23d78a07fbc55b0": 0.99,
+  "8b9674526f46a79522a34ddf7ca1c37d1efab5cbe65c6b68c5d046710831a886": {
+    "choice": "USD",
+    "confidence": 1.0
+  },
+  "8dd5c7fcd2c69ae1eb43313c45a3e2fa14e437c9da22c95a0b2715259642711a": {
+    "choice": "$1,315.50",
+    "confidence": 0.57
+  },
+  "fc6355451caeca17d9d6814638ac43f873913c602959575a310894f580ec9043": {
+    "choice": "$50.00",
+    "confidence": 1.0
+  }
+}

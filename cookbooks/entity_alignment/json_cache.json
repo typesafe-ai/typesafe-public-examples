@@ -1,0 +1,7202 @@
+{
+  "score|c000": {
+    "confidence": 0.56,
+    "input_tokens": 486,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.72,
+      "1": 0.27,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.04,
+      "same_name": 0.18,
+      "same_style": 0.46
+    },
+    "score": 0.29
+  },
+  "score|c001": {
+    "confidence": 0.57,
+    "input_tokens": 488,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.02,
+      "1": 0.25,
+      "2": 0.73
+    },
+    "properties": {
+      "same_brewery": 0.98,
+      "same_name": 0.8,
+      "same_style": 0.36
+    },
+    "score": 1.71
+  },
+  "score|c002": {
+    "confidence": 0.46,
+    "input_tokens": 499,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.68,
+      "1": 0.28,
+      "2": 0.04
+    },
+    "properties": {
+      "same_brewery": 0.13,
+      "same_name": 0.28,
+      "same_style": 0.25
+    },
+    "score": 0.36
+  },
+  "score|c003": {
+    "confidence": 0.78,
+    "input_tokens": 490,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.85,
+      "1": 0.14,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.11,
+      "same_name": 0.06,
+      "same_style": 0.57
+    },
+    "score": 0.15
+  },
+  "score|c004": {
+    "confidence": 0.4,
+    "input_tokens": 484,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.31,
+      "1": 0.6,
+      "2": 0.09
+    },
+    "properties": {
+      "same_brewery": 0.1,
+      "same_name": 0.58,
+      "same_style": 0.37
+    },
+    "score": 0.77
+  },
+  "score|c005": {
+    "confidence": 0.55,
+    "input_tokens": 493,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.71,
+      "1": 0.27,
+      "2": 0.02
+    },
+    "properties": {
+      "same_brewery": 0.1,
+      "same_name": 0.21,
+      "same_style": 0.43
+    },
+    "score": 0.3
+  },
+  "score|c006": {
+    "confidence": 0.68,
+    "input_tokens": 485,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.8,
+      "1": 0.19,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.11,
+      "same_name": 0.06,
+      "same_style": 0.65
+    },
+    "score": 0.21
+  },
+  "score|c007": {
+    "confidence": 0.62,
+    "input_tokens": 489,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.76,
+      "1": 0.23,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.16,
+      "same_name": 0.17,
+      "same_style": 0.47
+    },
+    "score": 0.25
+  },
+  "score|c008": {
+    "confidence": 0.75,
+    "input_tokens": 491,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.84,
+      "1": 0.16,
+      "2": 0.0
+    },
+    "properties": {
+      "same_brewery": 0.03,
+      "same_name": 0.09,
+      "same_style": 0.29
+    },
+    "score": 0.16
+  },
+  "score|c009": {
+    "confidence": 0.36,
+    "input_tokens": 484,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.41,
+      "1": 0.58,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.03,
+      "same_name": 0.18,
+      "same_style": 0.64
+    },
+    "score": 0.6
+  },
+  "score|c010": {
+    "confidence": 0.24,
+    "input_tokens": 489,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.49,
+      "1": 0.5,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.04,
+      "same_name": 0.12,
+      "same_style": 0.33
+    },
+    "score": 0.52
+  },
+  "score|c011": {
+    "confidence": 0.84,
+    "input_tokens": 504,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.89,
+      "1": 0.1,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.06,
+      "same_name": 0.11,
+      "same_style": 0.08
+    },
+    "score": 0.11
+  },
+  "score|c012": {
+    "confidence": 0.44,
+    "input_tokens": 483,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.1,
+      "1": 0.63,
+      "2": 0.27
+    },
+    "properties": {
+      "same_brewery": 0.28,
+      "same_name": 0.93,
+      "same_style": 0.56
+    },
+    "score": 1.17
+  },
+  "score|c013": {
+    "confidence": 0.65,
+    "input_tokens": 492,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.78,
+      "1": 0.2,
+      "2": 0.02
+    },
+    "properties": {
+      "same_brewery": 0.05,
+      "same_name": 0.07,
+      "same_style": 0.22
+    },
+    "score": 0.23
+  },
+  "score|c014": {
+    "confidence": 0.67,
+    "input_tokens": 492,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.79,
+      "1": 0.2,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.14,
+      "same_name": 0.3,
+      "same_style": 0.75
+    },
+    "score": 0.22
+  },
+  "score|c015": {
+    "confidence": 0.49,
+    "input_tokens": 481,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.26,
+      "1": 0.66,
+      "2": 0.08
+    },
+    "properties": {
+      "same_brewery": 0.04,
+      "same_name": 0.51,
+      "same_style": 0.75
+    },
+    "score": 0.82
+  },
+  "score|c016": {
+    "confidence": 0.83,
+    "input_tokens": 481,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.01,
+      "1": 0.1,
+      "2": 0.89
+    },
+    "properties": {
+      "same_brewery": 0.99,
+      "same_name": 0.81,
+      "same_style": 0.76
+    },
+    "score": 1.89
+  },
+  "score|c017": {
+    "confidence": 0.75,
+    "input_tokens": 491,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.84,
+      "1": 0.15,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.06,
+      "same_name": 0.11,
+      "same_style": 0.37
+    },
+    "score": 0.17
+  },
+  "score|c018": {
+    "confidence": 0.75,
+    "input_tokens": 493,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.84,
+      "1": 0.15,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.07,
+      "same_name": 0.07,
+      "same_style": 0.65
+    },
+    "score": 0.17
+  },
+  "score|c019": {
+    "confidence": 0.74,
+    "input_tokens": 483,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.84,
+      "1": 0.16,
+      "2": 0.0
+    },
+    "properties": {
+      "same_brewery": 0.05,
+      "same_name": 0.03,
+      "same_style": 0.27
+    },
+    "score": 0.17
+  },
+  "score|c020": {
+    "confidence": 0.36,
+    "input_tokens": 495,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.59,
+      "1": 0.39,
+      "2": 0.02
+    },
+    "properties": {
+      "same_brewery": 0.05,
+      "same_name": 0.07,
+      "same_style": 0.29
+    },
+    "score": 0.42
+  },
+  "score|c021": {
+    "confidence": 0.24,
+    "input_tokens": 486,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.04,
+      "1": 0.43,
+      "2": 0.53
+    },
+    "properties": {
+      "same_brewery": 0.51,
+      "same_name": 0.77,
+      "same_style": 0.74
+    },
+    "score": 1.49
+  },
+  "score|c022": {
+    "confidence": 0.69,
+    "input_tokens": 483,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.8,
+      "1": 0.19,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.13,
+      "same_name": 0.07,
+      "same_style": 0.78
+    },
+    "score": 0.21
+  },
+  "score|c023": {
+    "confidence": 0.56,
+    "input_tokens": 500,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.74,
+      "1": 0.24,
+      "2": 0.02
+    },
+    "properties": {
+      "same_brewery": 0.04,
+      "same_name": 0.07,
+      "same_style": 0.21
+    },
+    "score": 0.29
+  },
+  "score|c024": {
+    "confidence": 0.61,
+    "input_tokens": 483,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.76,
+      "1": 0.22,
+      "2": 0.02
+    },
+    "properties": {
+      "same_brewery": 0.28,
+      "same_name": 0.21,
+      "same_style": 0.35
+    },
+    "score": 0.26
+  },
+  "score|c025": {
+    "confidence": 0.78,
+    "input_tokens": 492,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.86,
+      "1": 0.13,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.11,
+      "same_name": 0.05,
+      "same_style": 0.56
+    },
+    "score": 0.15
+  },
+  "score|c026": {
+    "confidence": 0.48,
+    "input_tokens": 486,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.67,
+      "1": 0.32,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.17,
+      "same_name": 0.1,
+      "same_style": 0.59
+    },
+    "score": 0.35
+  },
+  "score|c027": {
+    "confidence": 0.58,
+    "input_tokens": 492,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.75,
+      "1": 0.23,
+      "2": 0.02
+    },
+    "properties": {
+      "same_brewery": 0.1,
+      "same_name": 0.22,
+      "same_style": 0.34
+    },
+    "score": 0.28
+  },
+  "score|c028": {
+    "confidence": 0.63,
+    "input_tokens": 498,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.76,
+      "1": 0.23,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.08,
+      "same_name": 0.13,
+      "same_style": 0.46
+    },
+    "score": 0.25
+  },
+  "score|c029": {
+    "confidence": 0.62,
+    "input_tokens": 488,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.76,
+      "1": 0.23,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.14,
+      "same_name": 0.2,
+      "same_style": 0.68
+    },
+    "score": 0.25
+  },
+  "score|c030": {
+    "confidence": 0.71,
+    "input_tokens": 486,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.8200000000000001,
+      "1": 0.18,
+      "2": 0.0
+    },
+    "properties": {
+      "same_brewery": 0.06,
+      "same_name": 0.18,
+      "same_style": 0.44
+    },
+    "score": 0.19
+  },
+  "score|c031": {
+    "confidence": 0.58,
+    "input_tokens": 490,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.73,
+      "1": 0.25,
+      "2": 0.02
+    },
+    "properties": {
+      "same_brewery": 0.06,
+      "same_name": 0.13,
+      "same_style": 0.37
+    },
+    "score": 0.28
+  },
+  "score|c032": {
+    "confidence": 0.84,
+    "input_tokens": 496,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.9,
+      "1": 0.09,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.05,
+      "same_name": 0.05,
+      "same_style": 0.09
+    },
+    "score": 0.1
+  },
+  "score|c033": {
+    "confidence": 0.37,
+    "input_tokens": 490,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.02,
+      "1": 0.39,
+      "2": 0.59
+    },
+    "properties": {
+      "same_brewery": 0.94,
+      "same_name": 0.93,
+      "same_style": 0.73
+    },
+    "score": 1.58
+  },
+  "score|c034": {
+    "confidence": 0.56,
+    "input_tokens": 488,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.73,
+      "1": 0.26,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.06,
+      "same_name": 0.19,
+      "same_style": 0.44
+    },
+    "score": 0.29
+  },
+  "score|c035": {
+    "confidence": 0.69,
+    "input_tokens": 497,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.81,
+      "1": 0.18,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.07,
+      "same_name": 0.08,
+      "same_style": 0.34
+    },
+    "score": 0.21
+  },
+  "score|c036": {
+    "confidence": 0.87,
+    "input_tokens": 489,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.0,
+      "1": 0.07,
+      "2": 0.93
+    },
+    "properties": {
+      "same_brewery": 0.94,
+      "same_name": 0.92,
+      "same_style": 0.76
+    },
+    "score": 1.92
+  },
+  "score|c037": {
+    "confidence": 0.8,
+    "input_tokens": 484,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.01,
+      "1": 0.11,
+      "2": 0.88
+    },
+    "properties": {
+      "same_brewery": 0.98,
+      "same_name": 0.98,
+      "same_style": 0.44
+    },
+    "score": 1.87
+  },
+  "score|c038": {
+    "confidence": 0.26,
+    "input_tokens": 483,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.49,
+      "1": 0.5,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.03,
+      "same_name": 0.39,
+      "same_style": 0.17
+    },
+    "score": 0.52
+  },
+  "score|c039": {
+    "confidence": 0.58,
+    "input_tokens": 492,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.74,
+      "1": 0.24,
+      "2": 0.02
+    },
+    "properties": {
+      "same_brewery": 0.11,
+      "same_name": 0.11,
+      "same_style": 0.37
+    },
+    "score": 0.28
+  },
+  "score|c040": {
+    "confidence": 0.7,
+    "input_tokens": 495,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.81,
+      "1": 0.18,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.2,
+      "same_name": 0.09,
+      "same_style": 0.39
+    },
+    "score": 0.2
+  },
+  "score|c041": {
+    "confidence": 0.61,
+    "input_tokens": 500,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.75,
+      "1": 0.24,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.08,
+      "same_name": 0.15,
+      "same_style": 0.44
+    },
+    "score": 0.26
+  },
+  "score|c042": {
+    "confidence": 0.42,
+    "input_tokens": 485,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.63,
+      "1": 0.35,
+      "2": 0.02
+    },
+    "properties": {
+      "same_brewery": 0.18,
+      "same_name": 0.23,
+      "same_style": 0.76
+    },
+    "score": 0.39
+  },
+  "score|c043": {
+    "confidence": 0.66,
+    "input_tokens": 496,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.78,
+      "1": 0.22,
+      "2": 0.0
+    },
+    "properties": {
+      "same_brewery": 0.08,
+      "same_name": 0.04,
+      "same_style": 0.67
+    },
+    "score": 0.23
+  },
+  "score|c044": {
+    "confidence": 0.79,
+    "input_tokens": 489,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.86,
+      "1": 0.13,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.05,
+      "same_name": 0.07,
+      "same_style": 0.43
+    },
+    "score": 0.14
+  },
+  "score|c045": {
+    "confidence": 0.36,
+    "input_tokens": 492,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.61,
+      "1": 0.36,
+      "2": 0.03
+    },
+    "properties": {
+      "same_brewery": 0.09,
+      "same_name": 0.27,
+      "same_style": 0.42
+    },
+    "score": 0.43
+  },
+  "score|c046": {
+    "confidence": 0.56,
+    "input_tokens": 493,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.71,
+      "1": 0.28,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.05,
+      "same_name": 0.1,
+      "same_style": 0.52
+    },
+    "score": 0.3
+  },
+  "score|c047": {
+    "confidence": 0.44,
+    "input_tokens": 477,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.11,
+      "1": 0.62,
+      "2": 0.27
+    },
+    "properties": {
+      "same_brewery": 0.83,
+      "same_name": 0.91,
+      "same_style": 0.33
+    },
+    "score": 1.16
+  },
+  "score|c048": {
+    "confidence": 0.82,
+    "input_tokens": 498,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.01,
+      "1": 0.1,
+      "2": 0.89
+    },
+    "properties": {
+      "same_brewery": 0.99,
+      "same_name": 0.75,
+      "same_style": 0.8
+    },
+    "score": 1.88
+  },
+  "score|c049": {
+    "confidence": 0.85,
+    "input_tokens": 500,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.91,
+      "1": 0.09,
+      "2": 0.0
+    },
+    "properties": {
+      "same_brewery": 0.03,
+      "same_name": 0.05,
+      "same_style": 0.28
+    },
+    "score": 0.1
+  },
+  "score|c050": {
+    "confidence": 0.3,
+    "input_tokens": 478,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.06,
+      "1": 0.54,
+      "2": 0.4
+    },
+    "properties": {
+      "same_brewery": 0.73,
+      "same_name": 0.69,
+      "same_style": 0.33
+    },
+    "score": 1.34
+  },
+  "score|c051": {
+    "confidence": 0.64,
+    "input_tokens": 488,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.78,
+      "1": 0.21,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.09,
+      "same_name": 0.1,
+      "same_style": 0.51
+    },
+    "score": 0.24
+  },
+  "score|c052": {
+    "confidence": 0.62,
+    "input_tokens": 486,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.75,
+      "1": 0.24,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.22,
+      "same_name": 0.15,
+      "same_style": 0.4
+    },
+    "score": 0.25
+  },
+  "score|c053": {
+    "confidence": 0.45,
+    "input_tokens": 490,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.64,
+      "1": 0.34,
+      "2": 0.02
+    },
+    "properties": {
+      "same_brewery": 0.06,
+      "same_name": 0.23,
+      "same_style": 0.33
+    },
+    "score": 0.37
+  },
+  "score|c054": {
+    "confidence": 0.31,
+    "input_tokens": 486,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.56,
+      "1": 0.42,
+      "2": 0.02
+    },
+    "properties": {
+      "same_brewery": 0.19,
+      "same_name": 0.24,
+      "same_style": 0.54
+    },
+    "score": 0.46
+  },
+  "score|c055": {
+    "confidence": 0.39,
+    "input_tokens": 497,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.62,
+      "1": 0.36,
+      "2": 0.02
+    },
+    "properties": {
+      "same_brewery": 0.2,
+      "same_name": 0.26,
+      "same_style": 0.45
+    },
+    "score": 0.41
+  },
+  "score|c056": {
+    "confidence": 0.78,
+    "input_tokens": 489,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.85,
+      "1": 0.14,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.11,
+      "same_name": 0.08,
+      "same_style": 0.78
+    },
+    "score": 0.15
+  },
+  "score|c057": {
+    "confidence": 0.58,
+    "input_tokens": 493,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.73,
+      "1": 0.27,
+      "2": 0.0
+    },
+    "properties": {
+      "same_brewery": 0.07,
+      "same_name": 0.22,
+      "same_style": 0.45
+    },
+    "score": 0.28
+  },
+  "score|c058": {
+    "confidence": 0.72,
+    "input_tokens": 491,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.83,
+      "1": 0.16,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.06,
+      "same_name": 0.06,
+      "same_style": 0.56
+    },
+    "score": 0.18
+  },
+  "score|c059": {
+    "confidence": 0.78,
+    "input_tokens": 493,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.86,
+      "1": 0.13,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.09,
+      "same_name": 0.17,
+      "same_style": 0.31
+    },
+    "score": 0.15
+  },
+  "score|c060": {
+    "confidence": 0.78,
+    "input_tokens": 487,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.85,
+      "1": 0.14,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.06,
+      "same_name": 0.14,
+      "same_style": 0.79
+    },
+    "score": 0.15
+  },
+  "score|c061": {
+    "confidence": 0.73,
+    "input_tokens": 490,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.82,
+      "1": 0.17,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.07,
+      "same_name": 0.09,
+      "same_style": 0.35
+    },
+    "score": 0.18
+  },
+  "score|c062": {
+    "confidence": 0.45,
+    "input_tokens": 497,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.64,
+      "1": 0.35,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.05,
+      "same_name": 0.12,
+      "same_style": 0.5
+    },
+    "score": 0.37
+  },
+  "score|c063": {
+    "confidence": 0.68,
+    "input_tokens": 490,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.81,
+      "1": 0.18,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.08,
+      "same_name": 0.11,
+      "same_style": 0.31
+    },
+    "score": 0.21
+  },
+  "score|c064": {
+    "confidence": 0.77,
+    "input_tokens": 489,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.85,
+      "1": 0.14,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.05,
+      "same_name": 0.09,
+      "same_style": 0.28
+    },
+    "score": 0.15
+  },
+  "score|c065": {
+    "confidence": 0.59,
+    "input_tokens": 490,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.74,
+      "1": 0.24,
+      "2": 0.02
+    },
+    "properties": {
+      "same_brewery": 0.09,
+      "same_name": 0.11,
+      "same_style": 0.38
+    },
+    "score": 0.28
+  },
+  "score|c066": {
+    "confidence": 0.62,
+    "input_tokens": 493,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.75,
+      "1": 0.24,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.12,
+      "same_name": 0.06,
+      "same_style": 0.53
+    },
+    "score": 0.26
+  },
+  "score|c067": {
+    "confidence": 0.6,
+    "input_tokens": 499,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.75,
+      "1": 0.23,
+      "2": 0.02
+    },
+    "properties": {
+      "same_brewery": 0.19,
+      "same_name": 0.14,
+      "same_style": 0.71
+    },
+    "score": 0.27
+  },
+  "score|c068": {
+    "confidence": 0.86,
+    "input_tokens": 488,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.92,
+      "1": 0.08,
+      "2": 0.0
+    },
+    "properties": {
+      "same_brewery": 0.14,
+      "same_name": 0.1,
+      "same_style": 0.26
+    },
+    "score": 0.09
+  },
+  "score|c069": {
+    "confidence": 0.46,
+    "input_tokens": 485,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.67,
+      "1": 0.3,
+      "2": 0.03
+    },
+    "properties": {
+      "same_brewery": 0.1,
+      "same_name": 0.16,
+      "same_style": 0.74
+    },
+    "score": 0.36
+  },
+  "score|c070": {
+    "confidence": 0.71,
+    "input_tokens": 488,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.01,
+      "1": 0.16,
+      "2": 0.83
+    },
+    "properties": {
+      "same_brewery": 0.96,
+      "same_name": 0.79,
+      "same_style": 0.74
+    },
+    "score": 1.81
+  },
+  "score|c071": {
+    "confidence": 0.43,
+    "input_tokens": 494,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.03,
+      "1": 0.32,
+      "2": 0.65
+    },
+    "properties": {
+      "same_brewery": 0.97,
+      "same_name": 0.72,
+      "same_style": 0.79
+    },
+    "score": 1.62
+  },
+  "score|c072": {
+    "confidence": 0.43,
+    "input_tokens": 495,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.62,
+      "1": 0.37,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.29,
+      "same_name": 0.43,
+      "same_style": 0.36
+    },
+    "score": 0.38
+  },
+  "score|c073": {
+    "confidence": 0.74,
+    "input_tokens": 494,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.84,
+      "1": 0.15,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.07,
+      "same_name": 0.08,
+      "same_style": 0.31
+    },
+    "score": 0.17
+  },
+  "score|c074": {
+    "confidence": 0.66,
+    "input_tokens": 496,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.78,
+      "1": 0.21,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.14,
+      "same_name": 0.12,
+      "same_style": 0.4
+    },
+    "score": 0.22
+  },
+  "score|c075": {
+    "confidence": 0.89,
+    "input_tokens": 497,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.93,
+      "1": 0.07,
+      "2": 0.0
+    },
+    "properties": {
+      "same_brewery": 0.43,
+      "same_name": 0.04,
+      "same_style": 0.28
+    },
+    "score": 0.07
+  },
+  "score|c076": {
+    "confidence": 0.51,
+    "input_tokens": 488,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.7,
+      "1": 0.28,
+      "2": 0.02
+    },
+    "properties": {
+      "same_brewery": 0.08,
+      "same_name": 0.1,
+      "same_style": 0.54
+    },
+    "score": 0.33
+  },
+  "score|c077": {
+    "confidence": 0.88,
+    "input_tokens": 488,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.0,
+      "1": 0.07,
+      "2": 0.93
+    },
+    "properties": {
+      "same_brewery": 0.99,
+      "same_name": 0.85,
+      "same_style": 0.83
+    },
+    "score": 1.92
+  },
+  "score|c078": {
+    "confidence": 0.76,
+    "input_tokens": 484,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.01,
+      "1": 0.13,
+      "2": 0.86
+    },
+    "properties": {
+      "same_brewery": 0.97,
+      "same_name": 0.81,
+      "same_style": 0.77
+    },
+    "score": 1.84
+  },
+  "score|c079": {
+    "confidence": 0.61,
+    "input_tokens": 483,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.75,
+      "1": 0.24,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.09,
+      "same_name": 0.05,
+      "same_style": 0.31
+    },
+    "score": 0.26
+  },
+  "score|c080": {
+    "confidence": 0.64,
+    "input_tokens": 506,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.78,
+      "1": 0.2,
+      "2": 0.02
+    },
+    "properties": {
+      "same_brewery": 0.06,
+      "same_name": 0.16,
+      "same_style": 0.34
+    },
+    "score": 0.24
+  },
+  "score|c081": {
+    "confidence": 0.58,
+    "input_tokens": 480,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.03,
+      "1": 0.22,
+      "2": 0.75
+    },
+    "properties": {
+      "same_brewery": 0.99,
+      "same_name": 0.67,
+      "same_style": 0.67
+    },
+    "score": 1.72
+  },
+  "score|c082": {
+    "confidence": 0.46,
+    "input_tokens": 486,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.66,
+      "1": 0.31,
+      "2": 0.03
+    },
+    "properties": {
+      "same_brewery": 0.16,
+      "same_name": 0.18,
+      "same_style": 0.4
+    },
+    "score": 0.36
+  },
+  "score|c083": {
+    "confidence": 0.63,
+    "input_tokens": 495,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.77,
+      "1": 0.22,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.07,
+      "same_name": 0.05,
+      "same_style": 0.38
+    },
+    "score": 0.24
+  },
+  "score|c084": {
+    "confidence": 0.68,
+    "input_tokens": 491,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.8,
+      "1": 0.19,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.06,
+      "same_name": 0.17,
+      "same_style": 0.46
+    },
+    "score": 0.21
+  },
+  "score|c085": {
+    "confidence": 0.7,
+    "input_tokens": 488,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.81,
+      "1": 0.18,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.03,
+      "same_name": 0.14,
+      "same_style": 0.5
+    },
+    "score": 0.2
+  },
+  "score|c086": {
+    "confidence": 0.48,
+    "input_tokens": 491,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.67,
+      "1": 0.31,
+      "2": 0.02
+    },
+    "properties": {
+      "same_brewery": 0.08,
+      "same_name": 0.1,
+      "same_style": 0.39
+    },
+    "score": 0.34
+  },
+  "score|c087": {
+    "confidence": 0.52,
+    "input_tokens": 484,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.69,
+      "1": 0.3,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.06,
+      "same_name": 0.17,
+      "same_style": 0.73
+    },
+    "score": 0.32
+  },
+  "score|c088": {
+    "confidence": 0.81,
+    "input_tokens": 496,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.88,
+      "1": 0.11,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.06,
+      "same_name": 0.06,
+      "same_style": 0.13
+    },
+    "score": 0.12
+  },
+  "score|c089": {
+    "confidence": 0.53,
+    "input_tokens": 484,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.69,
+      "1": 0.3,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.09,
+      "same_name": 0.12,
+      "same_style": 0.71
+    },
+    "score": 0.32
+  },
+  "score|c090": {
+    "confidence": 0.44,
+    "input_tokens": 496,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.63,
+      "1": 0.36,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.15,
+      "same_name": 0.15,
+      "same_style": 0.32
+    },
+    "score": 0.38
+  },
+  "score|c091": {
+    "confidence": 0.62,
+    "input_tokens": 482,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.76,
+      "1": 0.23,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.1,
+      "same_name": 0.1,
+      "same_style": 0.75
+    },
+    "score": 0.26
+  },
+  "score|c092": {
+    "confidence": 0.6,
+    "input_tokens": 489,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.74,
+      "1": 0.25,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.04,
+      "same_name": 0.2,
+      "same_style": 0.41
+    },
+    "score": 0.26
+  },
+  "score|c093": {
+    "confidence": 0.69,
+    "input_tokens": 492,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.81,
+      "1": 0.17,
+      "2": 0.02
+    },
+    "properties": {
+      "same_brewery": 0.1,
+      "same_name": 0.06,
+      "same_style": 0.26
+    },
+    "score": 0.21
+  },
+  "score|c094": {
+    "confidence": 0.85,
+    "input_tokens": 487,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.9,
+      "1": 0.1,
+      "2": 0.0
+    },
+    "properties": {
+      "same_brewery": 0.11,
+      "same_name": 0.04,
+      "same_style": 0.23
+    },
+    "score": 0.1
+  },
+  "score|c095": {
+    "confidence": 0.65,
+    "input_tokens": 489,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.77,
+      "1": 0.22,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.08,
+      "same_name": 0.08,
+      "same_style": 0.7
+    },
+    "score": 0.23
+  },
+  "score|c096": {
+    "confidence": 0.43,
+    "input_tokens": 492,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.65,
+      "1": 0.31,
+      "2": 0.04
+    },
+    "properties": {
+      "same_brewery": 0.31,
+      "same_name": 0.37,
+      "same_style": 0.59
+    },
+    "score": 0.38
+  },
+  "score|c097": {
+    "confidence": 0.39,
+    "input_tokens": 486,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.6,
+      "1": 0.39,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.05,
+      "same_name": 0.3,
+      "same_style": 0.41
+    },
+    "score": 0.41
+  },
+  "score|c098": {
+    "confidence": 0.72,
+    "input_tokens": 492,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.82,
+      "1": 0.17,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.14,
+      "same_name": 0.09,
+      "same_style": 0.43
+    },
+    "score": 0.19
+  },
+  "score|c099": {
+    "confidence": 0.35,
+    "input_tokens": 504,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.62,
+      "1": 0.33,
+      "2": 0.05
+    },
+    "properties": {
+      "same_brewery": 0.14,
+      "same_name": 0.12,
+      "same_style": 0.3
+    },
+    "score": 0.44
+  },
+  "score|c100": {
+    "confidence": 0.27,
+    "input_tokens": 484,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.09,
+      "1": 0.52,
+      "2": 0.39
+    },
+    "properties": {
+      "same_brewery": 0.94,
+      "same_name": 0.95,
+      "same_style": 0.35
+    },
+    "score": 1.3
+  },
+  "score|c101": {
+    "confidence": 0.64,
+    "input_tokens": 488,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.77,
+      "1": 0.22,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.05,
+      "same_name": 0.05,
+      "same_style": 0.74
+    },
+    "score": 0.24
+  },
+  "score|c102": {
+    "confidence": 0.77,
+    "input_tokens": 503,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.08,
+      "1": 0.85,
+      "2": 0.07
+    },
+    "properties": {
+      "same_brewery": 0.86,
+      "same_name": 0.36,
+      "same_style": 0.62
+    },
+    "score": 0.99
+  },
+  "score|c103": {
+    "confidence": 0.73,
+    "input_tokens": 493,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.83,
+      "1": 0.17,
+      "2": 0.0
+    },
+    "properties": {
+      "same_brewery": 0.06,
+      "same_name": 0.02,
+      "same_style": 0.44
+    },
+    "score": 0.18
+  },
+  "score|c104": {
+    "confidence": 0.53,
+    "input_tokens": 485,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.7,
+      "1": 0.29,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.12,
+      "same_name": 0.14,
+      "same_style": 0.37
+    },
+    "score": 0.31
+  },
+  "score|c105": {
+    "confidence": 0.52,
+    "input_tokens": 487,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.69,
+      "1": 0.3,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.04,
+      "same_name": 0.14,
+      "same_style": 0.4
+    },
+    "score": 0.32
+  },
+  "score|c106": {
+    "confidence": 0.31,
+    "input_tokens": 492,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.55,
+      "1": 0.43,
+      "2": 0.02
+    },
+    "properties": {
+      "same_brewery": 0.04,
+      "same_name": 0.11,
+      "same_style": 0.71
+    },
+    "score": 0.46
+  },
+  "score|c107": {
+    "confidence": 0.78,
+    "input_tokens": 492,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.86,
+      "1": 0.13,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.05,
+      "same_name": 0.06,
+      "same_style": 0.29
+    },
+    "score": 0.14
+  },
+  "score|c108": {
+    "confidence": 0.75,
+    "input_tokens": 489,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.01,
+      "1": 0.15,
+      "2": 0.84
+    },
+    "properties": {
+      "same_brewery": 0.98,
+      "same_name": 0.97,
+      "same_style": 0.67
+    },
+    "score": 1.83
+  },
+  "score|c109": {
+    "confidence": 0.33,
+    "input_tokens": 492,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.5599999999999999,
+      "1": 0.42,
+      "2": 0.02
+    },
+    "properties": {
+      "same_brewery": 0.16,
+      "same_name": 0.27,
+      "same_style": 0.4
+    },
+    "score": 0.45
+  },
+  "score|c110": {
+    "confidence": 0.29,
+    "input_tokens": 488,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.54,
+      "1": 0.44,
+      "2": 0.02
+    },
+    "properties": {
+      "same_brewery": 0.04,
+      "same_name": 0.16,
+      "same_style": 0.75
+    },
+    "score": 0.48
+  },
+  "score|c111": {
+    "confidence": 0.65,
+    "input_tokens": 502,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.79,
+      "1": 0.19,
+      "2": 0.02
+    },
+    "properties": {
+      "same_brewery": 0.15,
+      "same_name": 0.18,
+      "same_style": 0.47
+    },
+    "score": 0.24
+  },
+  "score|c112": {
+    "confidence": 0.5,
+    "input_tokens": 483,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.67,
+      "1": 0.32,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.15,
+      "same_name": 0.14,
+      "same_style": 0.44
+    },
+    "score": 0.33
+  },
+  "score|c113": {
+    "confidence": 0.69,
+    "input_tokens": 495,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.8,
+      "1": 0.19,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.03,
+      "same_name": 0.09,
+      "same_style": 0.47
+    },
+    "score": 0.21
+  },
+  "score|c114": {
+    "confidence": 0.61,
+    "input_tokens": 490,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.75,
+      "1": 0.23,
+      "2": 0.02
+    },
+    "properties": {
+      "same_brewery": 0.04,
+      "same_name": 0.08,
+      "same_style": 0.4
+    },
+    "score": 0.26
+  },
+  "score|c115": {
+    "confidence": 0.54,
+    "input_tokens": 500,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.24,
+      "1": 0.69,
+      "2": 0.07
+    },
+    "properties": {
+      "same_brewery": 0.13,
+      "same_name": 0.64,
+      "same_style": 0.79
+    },
+    "score": 0.83
+  },
+  "score|c116": {
+    "confidence": 0.74,
+    "input_tokens": 493,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.84,
+      "1": 0.15,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.29,
+      "same_name": 0.07,
+      "same_style": 0.23
+    },
+    "score": 0.17
+  },
+  "score|c117": {
+    "confidence": 0.63,
+    "input_tokens": 485,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.76,
+      "1": 0.23,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.07,
+      "same_name": 0.11,
+      "same_style": 0.3
+    },
+    "score": 0.24
+  },
+  "score|c118": {
+    "confidence": 0.43,
+    "input_tokens": 491,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.64,
+      "1": 0.35,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.08,
+      "same_name": 0.18,
+      "same_style": 0.47
+    },
+    "score": 0.38
+  },
+  "score|c119": {
+    "confidence": 0.6,
+    "input_tokens": 492,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.75,
+      "1": 0.24,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.04,
+      "same_name": 0.1,
+      "same_style": 0.49
+    },
+    "score": 0.26
+  },
+  "score|c120": {
+    "confidence": 0.77,
+    "input_tokens": 490,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.85,
+      "1": 0.14,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.06,
+      "same_name": 0.04,
+      "same_style": 0.21
+    },
+    "score": 0.15
+  },
+  "score|c121": {
+    "confidence": 0.91,
+    "input_tokens": 497,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.94,
+      "1": 0.06,
+      "2": 0.0
+    },
+    "properties": {
+      "same_brewery": 0.11,
+      "same_name": 0.03,
+      "same_style": 0.15
+    },
+    "score": 0.06
+  },
+  "score|c122": {
+    "confidence": 0.34,
+    "input_tokens": 480,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.03,
+      "1": 0.38,
+      "2": 0.59
+    },
+    "properties": {
+      "same_brewery": 0.99,
+      "same_name": 0.97,
+      "same_style": 0.4
+    },
+    "score": 1.56
+  },
+  "score|c123": {
+    "confidence": 0.28,
+    "input_tokens": 483,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.04,
+      "1": 0.52,
+      "2": 0.44
+    },
+    "properties": {
+      "same_brewery": 0.86,
+      "same_name": 0.79,
+      "same_style": 0.65
+    },
+    "score": 1.4
+  },
+  "score|c124": {
+    "confidence": 0.22,
+    "input_tokens": 484,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.51,
+      "1": 0.46,
+      "2": 0.03
+    },
+    "properties": {
+      "same_brewery": 0.09,
+      "same_name": 0.12,
+      "same_style": 0.56
+    },
+    "score": 0.52
+  },
+  "score|c125": {
+    "confidence": 0.91,
+    "input_tokens": 492,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.02,
+      "1": 0.94,
+      "2": 0.04
+    },
+    "properties": {
+      "same_brewery": 0.98,
+      "same_name": 0.49,
+      "same_style": 0.59
+    },
+    "score": 1.02
+  },
+  "score|c126": {
+    "confidence": 0.5,
+    "input_tokens": 496,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.69,
+      "1": 0.29,
+      "2": 0.02
+    },
+    "properties": {
+      "same_brewery": 0.16,
+      "same_name": 0.11,
+      "same_style": 0.33
+    },
+    "score": 0.34
+  },
+  "score|c127": {
+    "confidence": 0.77,
+    "input_tokens": 483,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.85,
+      "1": 0.15,
+      "2": 0.0
+    },
+    "properties": {
+      "same_brewery": 0.05,
+      "same_name": 0.06,
+      "same_style": 0.45
+    },
+    "score": 0.15
+  },
+  "score|c128": {
+    "confidence": 0.66,
+    "input_tokens": 489,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.79,
+      "1": 0.2,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.1,
+      "same_name": 0.14,
+      "same_style": 0.36
+    },
+    "score": 0.23
+  },
+  "score|c129": {
+    "confidence": 0.64,
+    "input_tokens": 490,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.77,
+      "1": 0.22,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.07,
+      "same_name": 0.15,
+      "same_style": 0.4
+    },
+    "score": 0.24
+  },
+  "score|c130": {
+    "confidence": 0.3,
+    "input_tokens": 477,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.45,
+      "1": 0.53,
+      "2": 0.02
+    },
+    "properties": {
+      "same_brewery": 0.07,
+      "same_name": 0.27,
+      "same_style": 0.68
+    },
+    "score": 0.57
+  },
+  "score|c131": {
+    "confidence": 0.52,
+    "input_tokens": 489,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.69,
+      "1": 0.3,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.09,
+      "same_name": 0.15,
+      "same_style": 0.36
+    },
+    "score": 0.32
+  },
+  "score|c132": {
+    "confidence": 0.37,
+    "input_tokens": 494,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.6,
+      "1": 0.38,
+      "2": 0.02
+    },
+    "properties": {
+      "same_brewery": 0.03,
+      "same_name": 0.18,
+      "same_style": 0.48
+    },
+    "score": 0.42
+  },
+  "score|c133": {
+    "confidence": 0.33,
+    "input_tokens": 497,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.6,
+      "1": 0.35,
+      "2": 0.05
+    },
+    "properties": {
+      "same_brewery": 0.17,
+      "same_name": 0.38,
+      "same_style": 0.73
+    },
+    "score": 0.45
+  },
+  "score|c134": {
+    "confidence": 0.7,
+    "input_tokens": 480,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.81,
+      "1": 0.19,
+      "2": 0.0
+    },
+    "properties": {
+      "same_brewery": 0.09,
+      "same_name": 0.06,
+      "same_style": 0.75
+    },
+    "score": 0.2
+  },
+  "score|c135": {
+    "confidence": 0.64,
+    "input_tokens": 493,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.78,
+      "1": 0.2,
+      "2": 0.02
+    },
+    "properties": {
+      "same_brewery": 0.08,
+      "same_name": 0.16,
+      "same_style": 0.42
+    },
+    "score": 0.24
+  },
+  "score|c136": {
+    "confidence": 0.58,
+    "input_tokens": 493,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.73,
+      "1": 0.25,
+      "2": 0.02
+    },
+    "properties": {
+      "same_brewery": 0.05,
+      "same_name": 0.08,
+      "same_style": 0.38
+    },
+    "score": 0.28
+  },
+  "score|c137": {
+    "confidence": 0.51,
+    "input_tokens": 491,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.7,
+      "1": 0.27,
+      "2": 0.03
+    },
+    "properties": {
+      "same_brewery": 0.04,
+      "same_name": 0.12,
+      "same_style": 0.81
+    },
+    "score": 0.32
+  },
+  "score|c138": {
+    "confidence": 0.57,
+    "input_tokens": 488,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.73,
+      "1": 0.27,
+      "2": 0.0
+    },
+    "properties": {
+      "same_brewery": 0.05,
+      "same_name": 0.07,
+      "same_style": 0.5
+    },
+    "score": 0.28
+  },
+  "score|c139": {
+    "confidence": 0.73,
+    "input_tokens": 488,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.82,
+      "1": 0.17,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.06,
+      "same_name": 0.06,
+      "same_style": 0.49
+    },
+    "score": 0.18
+  },
+  "score|c140": {
+    "confidence": 0.91,
+    "input_tokens": 503,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.94,
+      "1": 0.06,
+      "2": 0.0
+    },
+    "properties": {
+      "same_brewery": 0.11,
+      "same_name": 0.03,
+      "same_style": 0.17
+    },
+    "score": 0.06
+  },
+  "score|c141": {
+    "confidence": 0.47,
+    "input_tokens": 492,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.66,
+      "1": 0.32,
+      "2": 0.02
+    },
+    "properties": {
+      "same_brewery": 0.09,
+      "same_name": 0.13,
+      "same_style": 0.39
+    },
+    "score": 0.35
+  },
+  "score|c142": {
+    "confidence": 0.73,
+    "input_tokens": 481,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.83,
+      "1": 0.17,
+      "2": 0.0
+    },
+    "properties": {
+      "same_brewery": 0.16,
+      "same_name": 0.06,
+      "same_style": 0.62
+    },
+    "score": 0.18
+  },
+  "score|c143": {
+    "confidence": 0.81,
+    "input_tokens": 493,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.87,
+      "1": 0.12,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.1,
+      "same_name": 0.08,
+      "same_style": 0.73
+    },
+    "score": 0.13
+  },
+  "score|c144": {
+    "confidence": 0.62,
+    "input_tokens": 489,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.76,
+      "1": 0.22,
+      "2": 0.02
+    },
+    "properties": {
+      "same_brewery": 0.08,
+      "same_name": 0.16,
+      "same_style": 0.4
+    },
+    "score": 0.26
+  },
+  "score|c145": {
+    "confidence": 0.73,
+    "input_tokens": 484,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.83,
+      "1": 0.17,
+      "2": 0.0
+    },
+    "properties": {
+      "same_brewery": 0.04,
+      "same_name": 0.06,
+      "same_style": 0.77
+    },
+    "score": 0.18
+  },
+  "score|c146": {
+    "confidence": 0.39,
+    "input_tokens": 487,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.4,
+      "1": 0.59,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.04,
+      "same_name": 0.13,
+      "same_style": 0.31
+    },
+    "score": 0.62
+  },
+  "score|c147": {
+    "confidence": 0.91,
+    "input_tokens": 491,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.94,
+      "1": 0.06,
+      "2": 0.0
+    },
+    "properties": {
+      "same_brewery": 0.1,
+      "same_name": 0.04,
+      "same_style": 0.13
+    },
+    "score": 0.06
+  },
+  "score|c148": {
+    "confidence": 0.77,
+    "input_tokens": 489,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.01,
+      "1": 0.13,
+      "2": 0.86
+    },
+    "properties": {
+      "same_brewery": 0.99,
+      "same_name": 0.81,
+      "same_style": 0.42
+    },
+    "score": 1.85
+  },
+  "score|c149": {
+    "confidence": 0.77,
+    "input_tokens": 484,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.01,
+      "1": 0.13,
+      "2": 0.86
+    },
+    "properties": {
+      "same_brewery": 0.98,
+      "same_name": 0.8,
+      "same_style": 0.69
+    },
+    "score": 1.84
+  },
+  "score|c150": {
+    "confidence": 0.0,
+    "input_tokens": 487,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.15,
+      "1": 0.42,
+      "2": 0.43
+    },
+    "properties": {
+      "same_brewery": 0.88,
+      "same_name": 0.76,
+      "same_style": 0.25
+    },
+    "score": 1.28
+  },
+  "score|c151": {
+    "confidence": 0.53,
+    "input_tokens": 491,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.7,
+      "1": 0.29,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.05,
+      "same_name": 0.14,
+      "same_style": 0.35
+    },
+    "score": 0.32
+  },
+  "score|c152": {
+    "confidence": 0.56,
+    "input_tokens": 490,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.73,
+      "1": 0.26,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.03,
+      "same_name": 0.14,
+      "same_style": 0.83
+    },
+    "score": 0.29
+  },
+  "score|c153": {
+    "confidence": 0.61,
+    "input_tokens": 483,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.02,
+      "1": 0.22,
+      "2": 0.76
+    },
+    "properties": {
+      "same_brewery": 0.95,
+      "same_name": 0.87,
+      "same_style": 0.54
+    },
+    "score": 1.74
+  },
+  "score|c154": {
+    "confidence": 0.87,
+    "input_tokens": 497,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.91,
+      "1": 0.08,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.16,
+      "same_name": 0.05,
+      "same_style": 0.26
+    },
+    "score": 0.09
+  },
+  "score|c155": {
+    "confidence": 0.5,
+    "input_tokens": 493,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.69,
+      "1": 0.29,
+      "2": 0.02
+    },
+    "properties": {
+      "same_brewery": 0.25,
+      "same_name": 0.3,
+      "same_style": 0.39
+    },
+    "score": 0.34
+  },
+  "score|c156": {
+    "confidence": 0.71,
+    "input_tokens": 495,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.8099999999999999,
+      "1": 0.18,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.13,
+      "same_name": 0.14,
+      "same_style": 0.75
+    },
+    "score": 0.19
+  },
+  "score|c157": {
+    "confidence": 0.78,
+    "input_tokens": 498,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.86,
+      "1": 0.13,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.23,
+      "same_name": 0.07,
+      "same_style": 0.14
+    },
+    "score": 0.15
+  },
+  "score|c158": {
+    "confidence": 0.69,
+    "input_tokens": 497,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.81,
+      "1": 0.18,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.12,
+      "same_name": 0.15,
+      "same_style": 0.43
+    },
+    "score": 0.21
+  },
+  "score|c159": {
+    "confidence": 0.53,
+    "input_tokens": 488,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.7,
+      "1": 0.29,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.06,
+      "same_name": 0.1,
+      "same_style": 0.33
+    },
+    "score": 0.31
+  },
+  "score|c160": {
+    "confidence": 0.64,
+    "input_tokens": 486,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.77,
+      "1": 0.22,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.05,
+      "same_name": 0.12,
+      "same_style": 0.38
+    },
+    "score": 0.24
+  },
+  "score|c161": {
+    "confidence": 0.65,
+    "input_tokens": 492,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.77,
+      "1": 0.22,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.06,
+      "same_name": 0.07,
+      "same_style": 0.52
+    },
+    "score": 0.23
+  },
+  "score|c162": {
+    "confidence": 0.65,
+    "input_tokens": 483,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.02,
+      "1": 0.19,
+      "2": 0.79
+    },
+    "properties": {
+      "same_brewery": 0.85,
+      "same_name": 0.82,
+      "same_style": 0.81
+    },
+    "score": 1.76
+  },
+  "score|c163": {
+    "confidence": 0.81,
+    "input_tokens": 499,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.87,
+      "1": 0.12,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.26,
+      "same_name": 0.11,
+      "same_style": 0.74
+    },
+    "score": 0.13
+  },
+  "score|c164": {
+    "confidence": 0.8,
+    "input_tokens": 506,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.88,
+      "1": 0.11,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.5,
+      "same_name": 0.09,
+      "same_style": 0.4
+    },
+    "score": 0.13
+  },
+  "score|c165": {
+    "confidence": 0.51,
+    "input_tokens": 496,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.68,
+      "1": 0.31,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.27,
+      "same_name": 0.1,
+      "same_style": 0.23
+    },
+    "score": 0.33
+  },
+  "score|c166": {
+    "confidence": 0.56,
+    "input_tokens": 498,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.73,
+      "1": 0.25,
+      "2": 0.02
+    },
+    "properties": {
+      "same_brewery": 0.37,
+      "same_name": 0.12,
+      "same_style": 0.55
+    },
+    "score": 0.29
+  },
+  "score|c167": {
+    "confidence": 0.58,
+    "input_tokens": 492,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.74,
+      "1": 0.25,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.13,
+      "same_name": 0.05,
+      "same_style": 0.59
+    },
+    "score": 0.28
+  },
+  "score|c168": {
+    "confidence": 0.41,
+    "input_tokens": 483,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.63,
+      "1": 0.35,
+      "2": 0.02
+    },
+    "properties": {
+      "same_brewery": 0.08,
+      "same_name": 0.17,
+      "same_style": 0.75
+    },
+    "score": 0.4
+  },
+  "score|c169": {
+    "confidence": 0.46,
+    "input_tokens": 491,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.66,
+      "1": 0.32,
+      "2": 0.02
+    },
+    "properties": {
+      "same_brewery": 0.13,
+      "same_name": 0.13,
+      "same_style": 0.43
+    },
+    "score": 0.36
+  },
+  "score|c170": {
+    "confidence": 0.5,
+    "input_tokens": 501,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.69,
+      "1": 0.29,
+      "2": 0.02
+    },
+    "properties": {
+      "same_brewery": 0.2,
+      "same_name": 0.27,
+      "same_style": 0.38
+    },
+    "score": 0.33
+  },
+  "score|c171": {
+    "confidence": 0.83,
+    "input_tokens": 491,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.89,
+      "1": 0.1,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.12,
+      "same_name": 0.04,
+      "same_style": 0.3
+    },
+    "score": 0.11
+  },
+  "score|c172": {
+    "confidence": 0.5,
+    "input_tokens": 491,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.68,
+      "1": 0.3,
+      "2": 0.02
+    },
+    "properties": {
+      "same_brewery": 0.07,
+      "same_name": 0.07,
+      "same_style": 0.49
+    },
+    "score": 0.34
+  },
+  "score|c173": {
+    "confidence": 0.57,
+    "input_tokens": 481,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.73,
+      "1": 0.25,
+      "2": 0.02
+    },
+    "properties": {
+      "same_brewery": 0.13,
+      "same_name": 0.06,
+      "same_style": 0.73
+    },
+    "score": 0.29
+  },
+  "score|c174": {
+    "confidence": 0.85,
+    "input_tokens": 483,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.91,
+      "1": 0.09,
+      "2": 0.0
+    },
+    "properties": {
+      "same_brewery": 0.05,
+      "same_name": 0.02,
+      "same_style": 0.24
+    },
+    "score": 0.1
+  },
+  "score|c175": {
+    "confidence": 0.94,
+    "input_tokens": 489,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.96,
+      "1": 0.04,
+      "2": 0.0
+    },
+    "properties": {
+      "same_brewery": 0.03,
+      "same_name": 0.02,
+      "same_style": 0.1
+    },
+    "score": 0.04
+  },
+  "score|c176": {
+    "confidence": 0.5,
+    "input_tokens": 492,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.68,
+      "1": 0.3,
+      "2": 0.02
+    },
+    "properties": {
+      "same_brewery": 0.09,
+      "same_name": 0.08,
+      "same_style": 0.28
+    },
+    "score": 0.33
+  },
+  "score|c177": {
+    "confidence": 0.68,
+    "input_tokens": 490,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.81,
+      "1": 0.18,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.12,
+      "same_name": 0.1,
+      "same_style": 0.7
+    },
+    "score": 0.21
+  },
+  "score|c178": {
+    "confidence": 0.76,
+    "input_tokens": 487,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.84,
+      "1": 0.15,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.06,
+      "same_name": 0.11,
+      "same_style": 0.46
+    },
+    "score": 0.16
+  },
+  "score|c179": {
+    "confidence": 0.24,
+    "input_tokens": 508,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.55,
+      "1": 0.4,
+      "2": 0.05
+    },
+    "properties": {
+      "same_brewery": 0.32,
+      "same_name": 0.26,
+      "same_style": 0.34
+    },
+    "score": 0.5
+  },
+  "score|c180": {
+    "confidence": 0.62,
+    "input_tokens": 500,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.76,
+      "1": 0.23,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.15,
+      "same_name": 0.13,
+      "same_style": 0.75
+    },
+    "score": 0.25
+  },
+  "score|c181": {
+    "confidence": 0.7,
+    "input_tokens": 489,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.81,
+      "1": 0.18,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.41,
+      "same_name": 0.14,
+      "same_style": 0.49
+    },
+    "score": 0.2
+  },
+  "score|c182": {
+    "confidence": 0.78,
+    "input_tokens": 485,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.86,
+      "1": 0.14,
+      "2": 0.0
+    },
+    "properties": {
+      "same_brewery": 0.07,
+      "same_name": 0.15,
+      "same_style": 0.67
+    },
+    "score": 0.15
+  },
+  "score|c183": {
+    "confidence": 0.65,
+    "input_tokens": 490,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.77,
+      "1": 0.22,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.12,
+      "same_name": 0.05,
+      "same_style": 0.38
+    },
+    "score": 0.24
+  },
+  "score|c184": {
+    "confidence": 0.75,
+    "input_tokens": 496,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.84,
+      "1": 0.16,
+      "2": 0.0
+    },
+    "properties": {
+      "same_brewery": 0.04,
+      "same_name": 0.08,
+      "same_style": 0.52
+    },
+    "score": 0.17
+  },
+  "score|c185": {
+    "confidence": 0.87,
+    "input_tokens": 485,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.01,
+      "1": 0.08,
+      "2": 0.91
+    },
+    "properties": {
+      "same_brewery": 0.99,
+      "same_name": 0.81,
+      "same_style": 0.81
+    },
+    "score": 1.91
+  },
+  "score|c186": {
+    "confidence": 0.17,
+    "input_tokens": 503,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.51,
+      "1": 0.42,
+      "2": 0.07
+    },
+    "properties": {
+      "same_brewery": 0.14,
+      "same_name": 0.18,
+      "same_style": 0.44
+    },
+    "score": 0.55
+  },
+  "score|c187": {
+    "confidence": 0.65,
+    "input_tokens": 494,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.78,
+      "1": 0.21,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.08,
+      "same_name": 0.08,
+      "same_style": 0.37
+    },
+    "score": 0.23
+  },
+  "score|c188": {
+    "confidence": 0.4,
+    "input_tokens": 493,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.62,
+      "1": 0.35,
+      "2": 0.03
+    },
+    "properties": {
+      "same_brewery": 0.27,
+      "same_name": 0.31,
+      "same_style": 0.39
+    },
+    "score": 0.4
+  },
+  "score|c189": {
+    "confidence": 0.65,
+    "input_tokens": 483,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.77,
+      "1": 0.22,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.05,
+      "same_name": 0.07,
+      "same_style": 0.51
+    },
+    "score": 0.23
+  },
+  "score|c190": {
+    "confidence": 0.61,
+    "input_tokens": 488,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.75,
+      "1": 0.24,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.09,
+      "same_name": 0.03,
+      "same_style": 0.31
+    },
+    "score": 0.26
+  },
+  "score|c191": {
+    "confidence": 0.58,
+    "input_tokens": 493,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.73,
+      "1": 0.26,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.07,
+      "same_name": 0.16,
+      "same_style": 0.41
+    },
+    "score": 0.28
+  },
+  "score|c192": {
+    "confidence": 0.69,
+    "input_tokens": 482,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.81,
+      "1": 0.17,
+      "2": 0.02
+    },
+    "properties": {
+      "same_brewery": 0.07,
+      "same_name": 0.1,
+      "same_style": 0.73
+    },
+    "score": 0.2
+  },
+  "score|c193": {
+    "confidence": 0.78,
+    "input_tokens": 494,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.86,
+      "1": 0.14,
+      "2": 0.0
+    },
+    "properties": {
+      "same_brewery": 0.04,
+      "same_name": 0.08,
+      "same_style": 0.32
+    },
+    "score": 0.15
+  },
+  "score|c194": {
+    "confidence": 0.2,
+    "input_tokens": 482,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.11,
+      "1": 0.47,
+      "2": 0.42
+    },
+    "properties": {
+      "same_brewery": 0.3,
+      "same_name": 0.8,
+      "same_style": 0.67
+    },
+    "score": 1.3
+  },
+  "score|c195": {
+    "confidence": 0.45,
+    "input_tokens": 492,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.66,
+      "1": 0.32,
+      "2": 0.02
+    },
+    "properties": {
+      "same_brewery": 0.15,
+      "same_name": 0.34,
+      "same_style": 0.35
+    },
+    "score": 0.37
+  },
+  "score|c196": {
+    "confidence": 0.4,
+    "input_tokens": 492,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.63,
+      "1": 0.34,
+      "2": 0.03
+    },
+    "properties": {
+      "same_brewery": 0.09,
+      "same_name": 0.27,
+      "same_style": 0.38
+    },
+    "score": 0.4
+  },
+  "score|c197": {
+    "confidence": 0.58,
+    "input_tokens": 491,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.73,
+      "1": 0.26,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.04,
+      "same_name": 0.15,
+      "same_style": 0.82
+    },
+    "score": 0.28
+  },
+  "score|c198": {
+    "confidence": 0.84,
+    "input_tokens": 508,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.9,
+      "1": 0.1,
+      "2": 0.0
+    },
+    "properties": {
+      "same_brewery": 0.05,
+      "same_name": 0.06,
+      "same_style": 0.63
+    },
+    "score": 0.1
+  },
+  "score|c199": {
+    "confidence": 0.56,
+    "input_tokens": 487,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.28,
+      "1": 0.71,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.03,
+      "same_name": 0.24,
+      "same_style": 0.25
+    },
+    "score": 0.73
+  },
+  "score|c200": {
+    "confidence": 0.8,
+    "input_tokens": 489,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.87,
+      "1": 0.12,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.21,
+      "same_name": 0.06,
+      "same_style": 0.79
+    },
+    "score": 0.14
+  },
+  "score|c201": {
+    "confidence": 0.33,
+    "input_tokens": 494,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.56,
+      "1": 0.43,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.12,
+      "same_name": 0.1,
+      "same_style": 0.79
+    },
+    "score": 0.45
+  },
+  "score|c202": {
+    "confidence": 0.53,
+    "input_tokens": 487,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.7,
+      "1": 0.28,
+      "2": 0.02
+    },
+    "properties": {
+      "same_brewery": 0.2,
+      "same_name": 0.07,
+      "same_style": 0.75
+    },
+    "score": 0.32
+  },
+  "score|c203": {
+    "confidence": 0.5,
+    "input_tokens": 488,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.7,
+      "1": 0.27,
+      "2": 0.03
+    },
+    "properties": {
+      "same_brewery": 0.09,
+      "same_name": 0.13,
+      "same_style": 0.35
+    },
+    "score": 0.33
+  },
+  "score|c204": {
+    "confidence": 0.75,
+    "input_tokens": 494,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.84,
+      "1": 0.16,
+      "2": 0.0
+    },
+    "properties": {
+      "same_brewery": 0.04,
+      "same_name": 0.11,
+      "same_style": 0.47
+    },
+    "score": 0.17
+  },
+  "score|c205": {
+    "confidence": 0.49,
+    "input_tokens": 500,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.66,
+      "1": 0.33,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.05,
+      "same_name": 0.25,
+      "same_style": 0.49
+    },
+    "score": 0.34
+  },
+  "score|c206": {
+    "confidence": 0.73,
+    "input_tokens": 487,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.83,
+      "1": 0.16,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.13,
+      "same_name": 0.13,
+      "same_style": 0.43
+    },
+    "score": 0.18
+  },
+  "score|c207": {
+    "confidence": 0.55,
+    "input_tokens": 497,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.71,
+      "1": 0.28,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.09,
+      "same_name": 0.05,
+      "same_style": 0.28
+    },
+    "score": 0.3
+  },
+  "score|c208": {
+    "confidence": 0.68,
+    "input_tokens": 483,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.79,
+      "1": 0.2,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.12,
+      "same_name": 0.04,
+      "same_style": 0.65
+    },
+    "score": 0.21
+  },
+  "score|c209": {
+    "confidence": 0.53,
+    "input_tokens": 485,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.7,
+      "1": 0.28,
+      "2": 0.02
+    },
+    "properties": {
+      "same_brewery": 0.19,
+      "same_name": 0.1,
+      "same_style": 0.65
+    },
+    "score": 0.31
+  },
+  "score|c210": {
+    "confidence": 0.46,
+    "input_tokens": 493,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.01,
+      "1": 0.34,
+      "2": 0.65
+    },
+    "properties": {
+      "same_brewery": 0.98,
+      "same_name": 0.86,
+      "same_style": 0.79
+    },
+    "score": 1.64
+  },
+  "score|c211": {
+    "confidence": 0.85,
+    "input_tokens": 489,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.01,
+      "1": 0.09,
+      "2": 0.9
+    },
+    "properties": {
+      "same_brewery": 0.99,
+      "same_name": 0.81,
+      "same_style": 0.82
+    },
+    "score": 1.9
+  },
+  "score|c212": {
+    "confidence": 0.44,
+    "input_tokens": 482,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.63,
+      "1": 0.36,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.04,
+      "same_name": 0.5,
+      "same_style": 0.2
+    },
+    "score": 0.38
+  },
+  "score|c213": {
+    "confidence": 0.67,
+    "input_tokens": 498,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.78,
+      "1": 0.21,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.12,
+      "same_name": 0.09,
+      "same_style": 0.38
+    },
+    "score": 0.22
+  },
+  "score|c214": {
+    "confidence": 0.71,
+    "input_tokens": 483,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.82,
+      "1": 0.17,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.04,
+      "same_name": 0.07,
+      "same_style": 0.55
+    },
+    "score": 0.19
+  },
+  "score|c215": {
+    "confidence": 0.73,
+    "input_tokens": 490,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.83,
+      "1": 0.16,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.12,
+      "same_name": 0.08,
+      "same_style": 0.7
+    },
+    "score": 0.18
+  },
+  "score|c216": {
+    "confidence": 0.7,
+    "input_tokens": 495,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.81,
+      "1": 0.18,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.13,
+      "same_name": 0.15,
+      "same_style": 0.38
+    },
+    "score": 0.2
+  },
+  "score|c217": {
+    "confidence": 0.52,
+    "input_tokens": 483,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.6799999999999999,
+      "1": 0.31,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.05,
+      "same_name": 0.3,
+      "same_style": 0.17
+    },
+    "score": 0.32
+  },
+  "score|c218": {
+    "confidence": 0.52,
+    "input_tokens": 502,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.7,
+      "1": 0.29,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.44,
+      "same_name": 0.18,
+      "same_style": 0.43
+    },
+    "score": 0.32
+  },
+  "score|c219": {
+    "confidence": 0.62,
+    "input_tokens": 495,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.77,
+      "1": 0.22,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.22,
+      "same_name": 0.04,
+      "same_style": 0.68
+    },
+    "score": 0.25
+  },
+  "score|c220": {
+    "confidence": 0.62,
+    "input_tokens": 490,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.76,
+      "1": 0.22,
+      "2": 0.02
+    },
+    "properties": {
+      "same_brewery": 0.06,
+      "same_name": 0.19,
+      "same_style": 0.39
+    },
+    "score": 0.25
+  },
+  "score|c221": {
+    "confidence": 0.68,
+    "input_tokens": 490,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.8,
+      "1": 0.18,
+      "2": 0.02
+    },
+    "properties": {
+      "same_brewery": 0.05,
+      "same_name": 0.17,
+      "same_style": 0.59
+    },
+    "score": 0.21
+  },
+  "score|c222": {
+    "confidence": 0.55,
+    "input_tokens": 486,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.7,
+      "1": 0.29,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.04,
+      "same_name": 0.14,
+      "same_style": 0.71
+    },
+    "score": 0.3
+  },
+  "score|c223": {
+    "confidence": 0.32,
+    "input_tokens": 489,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.56,
+      "1": 0.43,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.48,
+      "same_name": 0.27,
+      "same_style": 0.76
+    },
+    "score": 0.45
+  },
+  "score|c224": {
+    "confidence": 0.85,
+    "input_tokens": 496,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.91,
+      "1": 0.09,
+      "2": 0.0
+    },
+    "properties": {
+      "same_brewery": 0.07,
+      "same_name": 0.03,
+      "same_style": 0.23
+    },
+    "score": 0.1
+  },
+  "score|c225": {
+    "confidence": 0.75,
+    "input_tokens": 490,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.84,
+      "1": 0.16,
+      "2": 0.0
+    },
+    "properties": {
+      "same_brewery": 0.07,
+      "same_name": 0.04,
+      "same_style": 0.41
+    },
+    "score": 0.17
+  },
+  "score|c226": {
+    "confidence": 0.75,
+    "input_tokens": 490,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.84,
+      "1": 0.15,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.07,
+      "same_name": 0.06,
+      "same_style": 0.36
+    },
+    "score": 0.17
+  },
+  "score|c227": {
+    "confidence": 0.36,
+    "input_tokens": 510,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.62,
+      "1": 0.33,
+      "2": 0.05
+    },
+    "properties": {
+      "same_brewery": 0.18,
+      "same_name": 0.25,
+      "same_style": 0.36
+    },
+    "score": 0.43
+  },
+  "score|c228": {
+    "confidence": 0.68,
+    "input_tokens": 489,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.01,
+      "1": 0.19,
+      "2": 0.8
+    },
+    "properties": {
+      "same_brewery": 0.98,
+      "same_name": 0.83,
+      "same_style": 0.78
+    },
+    "score": 1.79
+  },
+  "score|c229": {
+    "confidence": 0.91,
+    "input_tokens": 481,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.0,
+      "1": 0.05,
+      "2": 0.95
+    },
+    "properties": {
+      "same_brewery": 0.99,
+      "same_name": 0.97,
+      "same_style": 0.83
+    },
+    "score": 1.94
+  },
+  "score|c230": {
+    "confidence": 0.64,
+    "input_tokens": 495,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.79,
+      "1": 0.18,
+      "2": 0.03
+    },
+    "properties": {
+      "same_brewery": 0.54,
+      "same_name": 0.08,
+      "same_style": 0.39
+    },
+    "score": 0.24
+  },
+  "score|c231": {
+    "confidence": 0.71,
+    "input_tokens": 488,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.8099999999999999,
+      "1": 0.18,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.06,
+      "same_name": 0.07,
+      "same_style": 0.74
+    },
+    "score": 0.19
+  },
+  "score|c232": {
+    "confidence": 0.74,
+    "input_tokens": 489,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.83,
+      "1": 0.16,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.15,
+      "same_name": 0.04,
+      "same_style": 0.44
+    },
+    "score": 0.17
+  },
+  "score|c233": {
+    "confidence": 0.51,
+    "input_tokens": 493,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.04,
+      "1": 0.24,
+      "2": 0.72
+    },
+    "properties": {
+      "same_brewery": 0.92,
+      "same_name": 0.76,
+      "same_style": 0.3
+    },
+    "score": 1.68
+  },
+  "score|c234": {
+    "confidence": 0.5,
+    "input_tokens": 480,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.68,
+      "1": 0.31,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.1,
+      "same_name": 0.2,
+      "same_style": 0.67
+    },
+    "score": 0.33
+  },
+  "score|c235": {
+    "confidence": 0.56,
+    "input_tokens": 485,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.73,
+      "1": 0.25,
+      "2": 0.02
+    },
+    "properties": {
+      "same_brewery": 0.08,
+      "same_name": 0.13,
+      "same_style": 0.44
+    },
+    "score": 0.29
+  },
+  "score|c236": {
+    "confidence": 0.38,
+    "input_tokens": 489,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.62,
+      "1": 0.35,
+      "2": 0.03
+    },
+    "properties": {
+      "same_brewery": 0.12,
+      "same_name": 0.09,
+      "same_style": 0.69
+    },
+    "score": 0.41
+  },
+  "score|c237": {
+    "confidence": 0.48,
+    "input_tokens": 489,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.69,
+      "1": 0.28,
+      "2": 0.03
+    },
+    "properties": {
+      "same_brewery": 0.26,
+      "same_name": 0.29,
+      "same_style": 0.34
+    },
+    "score": 0.34
+  },
+  "score|c238": {
+    "confidence": 0.81,
+    "input_tokens": 489,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.88,
+      "1": 0.11,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.05,
+      "same_name": 0.11,
+      "same_style": 0.37
+    },
+    "score": 0.13
+  },
+  "score|c239": {
+    "confidence": 0.66,
+    "input_tokens": 487,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.78,
+      "1": 0.21,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.04,
+      "same_name": 0.12,
+      "same_style": 0.65
+    },
+    "score": 0.22
+  },
+  "score|c240": {
+    "confidence": 0.59,
+    "input_tokens": 485,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.75,
+      "1": 0.24,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.2,
+      "same_name": 0.09,
+      "same_style": 0.72
+    },
+    "score": 0.27
+  },
+  "score|c241": {
+    "confidence": 0.85,
+    "input_tokens": 495,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.91,
+      "1": 0.09,
+      "2": 0.0
+    },
+    "properties": {
+      "same_brewery": 0.05,
+      "same_name": 0.08,
+      "same_style": 0.43
+    },
+    "score": 0.1
+  },
+  "score|c242": {
+    "confidence": 0.88,
+    "input_tokens": 493,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.92,
+      "1": 0.07,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.07,
+      "same_name": 0.06,
+      "same_style": 0.12
+    },
+    "score": 0.08
+  },
+  "score|c243": {
+    "confidence": 0.53,
+    "input_tokens": 505,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.69,
+      "1": 0.3,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.04,
+      "same_name": 0.14,
+      "same_style": 0.79
+    },
+    "score": 0.32
+  },
+  "score|c244": {
+    "confidence": 0.67,
+    "input_tokens": 497,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.79,
+      "1": 0.2,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.04,
+      "same_name": 0.11,
+      "same_style": 0.69
+    },
+    "score": 0.22
+  },
+  "score|c245": {
+    "confidence": 0.88,
+    "input_tokens": 489,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.92,
+      "1": 0.08,
+      "2": 0.0
+    },
+    "properties": {
+      "same_brewery": 0.04,
+      "same_name": 0.08,
+      "same_style": 0.11
+    },
+    "score": 0.08
+  },
+  "score|c246": {
+    "confidence": 0.81,
+    "input_tokens": 495,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.88,
+      "1": 0.11,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.06,
+      "same_name": 0.04,
+      "same_style": 0.33
+    },
+    "score": 0.13
+  },
+  "score|c247": {
+    "confidence": 0.26,
+    "input_tokens": 487,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.53,
+      "1": 0.45,
+      "2": 0.02
+    },
+    "properties": {
+      "same_brewery": 0.02,
+      "same_name": 0.29,
+      "same_style": 0.29
+    },
+    "score": 0.49
+  },
+  "score|c248": {
+    "confidence": 0.74,
+    "input_tokens": 488,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.83,
+      "1": 0.16,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.08,
+      "same_name": 0.06,
+      "same_style": 0.67
+    },
+    "score": 0.17
+  },
+  "score|c249": {
+    "confidence": 0.74,
+    "input_tokens": 497,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.83,
+      "1": 0.16,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.14,
+      "same_name": 0.1,
+      "same_style": 0.72
+    },
+    "score": 0.17
+  },
+  "score|c250": {
+    "confidence": 0.7,
+    "input_tokens": 498,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.81,
+      "1": 0.17,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.27,
+      "same_name": 0.09,
+      "same_style": 0.44
+    },
+    "score": 0.2
+  },
+  "score|c251": {
+    "confidence": 0.51,
+    "input_tokens": 484,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.69,
+      "1": 0.29,
+      "2": 0.02
+    },
+    "properties": {
+      "same_brewery": 0.11,
+      "same_name": 0.18,
+      "same_style": 0.38
+    },
+    "score": 0.32
+  },
+  "score|c252": {
+    "confidence": 0.64,
+    "input_tokens": 493,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.77,
+      "1": 0.22,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.04,
+      "same_name": 0.1,
+      "same_style": 0.37
+    },
+    "score": 0.24
+  },
+  "score|c253": {
+    "confidence": 0.64,
+    "input_tokens": 484,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.76,
+      "1": 0.23,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.05,
+      "same_name": 0.06,
+      "same_style": 0.68
+    },
+    "score": 0.24
+  },
+  "score|c254": {
+    "confidence": 0.53,
+    "input_tokens": 493,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.71,
+      "1": 0.27,
+      "2": 0.02
+    },
+    "properties": {
+      "same_brewery": 0.24,
+      "same_name": 0.05,
+      "same_style": 0.56
+    },
+    "score": 0.31
+  },
+  "score|c255": {
+    "confidence": 0.88,
+    "input_tokens": 497,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.93,
+      "1": 0.07,
+      "2": 0.0
+    },
+    "properties": {
+      "same_brewery": 0.04,
+      "same_name": 0.04,
+      "same_style": 0.09
+    },
+    "score": 0.08
+  },
+  "score|c256": {
+    "confidence": 0.74,
+    "input_tokens": 484,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.01,
+      "1": 0.15,
+      "2": 0.84
+    },
+    "properties": {
+      "same_brewery": 0.93,
+      "same_name": 0.78,
+      "same_style": 0.59
+    },
+    "score": 1.82
+  },
+  "score|c257": {
+    "confidence": 0.67,
+    "input_tokens": 487,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.79,
+      "1": 0.2,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.06,
+      "same_name": 0.11,
+      "same_style": 0.33
+    },
+    "score": 0.22
+  },
+  "score|c258": {
+    "confidence": 0.69,
+    "input_tokens": 495,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.8,
+      "1": 0.19,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.16,
+      "same_name": 0.2,
+      "same_style": 0.36
+    },
+    "score": 0.2
+  },
+  "score|c259": {
+    "confidence": 0.69,
+    "input_tokens": 502,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.8,
+      "1": 0.19,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.16,
+      "same_name": 0.12,
+      "same_style": 0.42
+    },
+    "score": 0.21
+  },
+  "score|c260": {
+    "confidence": 0.53,
+    "input_tokens": 498,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.7,
+      "1": 0.29,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.07,
+      "same_name": 0.25,
+      "same_style": 0.44
+    },
+    "score": 0.32
+  },
+  "score|c261": {
+    "confidence": 0.54,
+    "input_tokens": 497,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.71,
+      "1": 0.28,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.13,
+      "same_name": 0.12,
+      "same_style": 0.35
+    },
+    "score": 0.31
+  },
+  "score|c262": {
+    "confidence": 0.77,
+    "input_tokens": 494,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.86,
+      "1": 0.14,
+      "2": 0.0
+    },
+    "properties": {
+      "same_brewery": 0.05,
+      "same_name": 0.1,
+      "same_style": 0.47
+    },
+    "score": 0.15
+  },
+  "score|c263": {
+    "confidence": 0.31,
+    "input_tokens": 484,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.45,
+      "1": 0.54,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.09,
+      "same_name": 0.17,
+      "same_style": 0.57
+    },
+    "score": 0.57
+  },
+  "score|c264": {
+    "confidence": 0.76,
+    "input_tokens": 484,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.84,
+      "1": 0.16,
+      "2": 0.0
+    },
+    "properties": {
+      "same_brewery": 0.03,
+      "same_name": 0.05,
+      "same_style": 0.65
+    },
+    "score": 0.16
+  },
+  "score|c265": {
+    "confidence": 0.69,
+    "input_tokens": 489,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.8,
+      "1": 0.19,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.36,
+      "same_name": 0.08,
+      "same_style": 0.72
+    },
+    "score": 0.2
+  },
+  "score|c266": {
+    "confidence": 0.63,
+    "input_tokens": 489,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.76,
+      "1": 0.23,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.1,
+      "same_name": 0.1,
+      "same_style": 0.41
+    },
+    "score": 0.25
+  },
+  "score|c267": {
+    "confidence": 0.89,
+    "input_tokens": 496,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.93,
+      "1": 0.07,
+      "2": 0.0
+    },
+    "properties": {
+      "same_brewery": 0.16,
+      "same_name": 0.06,
+      "same_style": 0.12
+    },
+    "score": 0.07
+  },
+  "score|c268": {
+    "confidence": 0.73,
+    "input_tokens": 490,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.83,
+      "1": 0.16,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.17,
+      "same_name": 0.06,
+      "same_style": 0.66
+    },
+    "score": 0.18
+  },
+  "score|c269": {
+    "confidence": 0.44,
+    "input_tokens": 488,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.64,
+      "1": 0.34,
+      "2": 0.02
+    },
+    "properties": {
+      "same_brewery": 0.11,
+      "same_name": 0.12,
+      "same_style": 0.69
+    },
+    "score": 0.37
+  },
+  "score|c270": {
+    "confidence": 0.25,
+    "input_tokens": 490,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.48,
+      "1": 0.5,
+      "2": 0.02
+    },
+    "properties": {
+      "same_brewery": 0.15,
+      "same_name": 0.09,
+      "same_style": 0.72
+    },
+    "score": 0.54
+  },
+  "score|c271": {
+    "confidence": 0.93,
+    "input_tokens": 502,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.96,
+      "1": 0.04,
+      "2": 0.0
+    },
+    "properties": {
+      "same_brewery": 0.14,
+      "same_name": 0.04,
+      "same_style": 0.24
+    },
+    "score": 0.04
+  },
+  "score|c272": {
+    "confidence": 0.56,
+    "input_tokens": 488,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.72,
+      "1": 0.26,
+      "2": 0.02
+    },
+    "properties": {
+      "same_brewery": 0.25,
+      "same_name": 0.1,
+      "same_style": 0.76
+    },
+    "score": 0.3
+  },
+  "score|c273": {
+    "confidence": 0.42,
+    "input_tokens": 489,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.63,
+      "1": 0.36,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.07,
+      "same_name": 0.18,
+      "same_style": 0.71
+    },
+    "score": 0.39
+  },
+  "score|c274": {
+    "confidence": 0.53,
+    "input_tokens": 484,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.22,
+      "1": 0.69,
+      "2": 0.09
+    },
+    "properties": {
+      "same_brewery": 0.23,
+      "same_name": 0.94,
+      "same_style": 0.15
+    },
+    "score": 0.87
+  },
+  "score|c275": {
+    "confidence": 0.43,
+    "input_tokens": 493,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.63,
+      "1": 0.36,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.11,
+      "same_name": 0.11,
+      "same_style": 0.24
+    },
+    "score": 0.38
+  },
+  "score|c276": {
+    "confidence": 0.79,
+    "input_tokens": 487,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.87,
+      "1": 0.13,
+      "2": 0.0
+    },
+    "properties": {
+      "same_brewery": 0.05,
+      "same_name": 0.09,
+      "same_style": 0.32
+    },
+    "score": 0.14
+  },
+  "score|c277": {
+    "confidence": 0.67,
+    "input_tokens": 489,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.8,
+      "1": 0.19,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.07,
+      "same_name": 0.11,
+      "same_style": 0.47
+    },
+    "score": 0.22
+  },
+  "score|c278": {
+    "confidence": 0.23,
+    "input_tokens": 489,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.08,
+      "1": 0.49,
+      "2": 0.43
+    },
+    "properties": {
+      "same_brewery": 0.64,
+      "same_name": 0.5,
+      "same_style": 0.74
+    },
+    "score": 1.35
+  },
+  "score|c279": {
+    "confidence": 0.64,
+    "input_tokens": 488,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.78,
+      "1": 0.2,
+      "2": 0.02
+    },
+    "properties": {
+      "same_brewery": 0.22,
+      "same_name": 0.12,
+      "same_style": 0.34
+    },
+    "score": 0.24
+  },
+  "score|c280": {
+    "confidence": 0.59,
+    "input_tokens": 488,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.76,
+      "1": 0.22,
+      "2": 0.02
+    },
+    "properties": {
+      "same_brewery": 0.08,
+      "same_name": 0.08,
+      "same_style": 0.78
+    },
+    "score": 0.27
+  },
+  "score|c281": {
+    "confidence": 0.59,
+    "input_tokens": 485,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.74,
+      "1": 0.24,
+      "2": 0.02
+    },
+    "properties": {
+      "same_brewery": 0.06,
+      "same_name": 0.1,
+      "same_style": 0.41
+    },
+    "score": 0.28
+  },
+  "score|c282": {
+    "confidence": 0.72,
+    "input_tokens": 483,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.82,
+      "1": 0.17,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.05,
+      "same_name": 0.09,
+      "same_style": 0.46
+    },
+    "score": 0.18
+  },
+  "score|c283": {
+    "confidence": 0.35,
+    "input_tokens": 487,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.04,
+      "1": 0.35,
+      "2": 0.61
+    },
+    "properties": {
+      "same_brewery": 0.96,
+      "same_name": 0.74,
+      "same_style": 0.37
+    },
+    "score": 1.57
+  },
+  "score|c284": {
+    "confidence": 0.87,
+    "input_tokens": 499,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.92,
+      "1": 0.08,
+      "2": 0.0
+    },
+    "properties": {
+      "same_brewery": 0.1,
+      "same_name": 0.08,
+      "same_style": 0.18
+    },
+    "score": 0.09
+  },
+  "score|c285": {
+    "confidence": 0.18,
+    "input_tokens": 487,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.51,
+      "1": 0.44,
+      "2": 0.05
+    },
+    "properties": {
+      "same_brewery": 0.08,
+      "same_name": 0.26,
+      "same_style": 0.55
+    },
+    "score": 0.55
+  },
+  "score|c286": {
+    "confidence": 0.78,
+    "input_tokens": 484,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.86,
+      "1": 0.14,
+      "2": 0.0
+    },
+    "properties": {
+      "same_brewery": 0.12,
+      "same_name": 0.08,
+      "same_style": 0.25
+    },
+    "score": 0.15
+  },
+  "score|c287": {
+    "confidence": 0.65,
+    "input_tokens": 490,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.78,
+      "1": 0.22,
+      "2": 0.0
+    },
+    "properties": {
+      "same_brewery": 0.11,
+      "same_name": 0.11,
+      "same_style": 0.36
+    },
+    "score": 0.23
+  },
+  "score|c288": {
+    "confidence": 0.37,
+    "input_tokens": 489,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.6,
+      "1": 0.38,
+      "2": 0.02
+    },
+    "properties": {
+      "same_brewery": 0.12,
+      "same_name": 0.22,
+      "same_style": 0.46
+    },
+    "score": 0.42
+  },
+  "score|c289": {
+    "confidence": 0.32,
+    "input_tokens": 488,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.58,
+      "1": 0.4,
+      "2": 0.02
+    },
+    "properties": {
+      "same_brewery": 0.05,
+      "same_name": 0.15,
+      "same_style": 0.37
+    },
+    "score": 0.45
+  },
+  "score|c290": {
+    "confidence": 0.81,
+    "input_tokens": 497,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.88,
+      "1": 0.12,
+      "2": 0.0
+    },
+    "properties": {
+      "same_brewery": 0.25,
+      "same_name": 0.12,
+      "same_style": 0.77
+    },
+    "score": 0.12
+  },
+  "score|c291": {
+    "confidence": 0.37,
+    "input_tokens": 486,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.6,
+      "1": 0.38,
+      "2": 0.02
+    },
+    "properties": {
+      "same_brewery": 0.08,
+      "same_name": 0.15,
+      "same_style": 0.59
+    },
+    "score": 0.42
+  },
+  "score|c292": {
+    "confidence": 0.46,
+    "input_tokens": 497,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.65,
+      "1": 0.34,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.05,
+      "same_name": 0.14,
+      "same_style": 0.6
+    },
+    "score": 0.36
+  },
+  "score|c293": {
+    "confidence": 0.75,
+    "input_tokens": 490,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.84,
+      "1": 0.15,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.13,
+      "same_name": 0.08,
+      "same_style": 0.75
+    },
+    "score": 0.17
+  },
+  "score|c294": {
+    "confidence": 0.25,
+    "input_tokens": 494,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.54,
+      "1": 0.42,
+      "2": 0.04
+    },
+    "properties": {
+      "same_brewery": 0.07,
+      "same_name": 0.28,
+      "same_style": 0.36
+    },
+    "score": 0.5
+  },
+  "score|c295": {
+    "confidence": 0.48,
+    "input_tokens": 487,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.01,
+      "1": 0.33,
+      "2": 0.66
+    },
+    "properties": {
+      "same_brewery": 0.98,
+      "same_name": 0.53,
+      "same_style": 0.83
+    },
+    "score": 1.65
+  },
+  "score|c296": {
+    "confidence": 0.67,
+    "input_tokens": 482,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.8,
+      "1": 0.19,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.21,
+      "same_name": 0.11,
+      "same_style": 0.76
+    },
+    "score": 0.22
+  },
+  "score|c297": {
+    "confidence": 0.76,
+    "input_tokens": 493,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.84,
+      "1": 0.15,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.08,
+      "same_name": 0.07,
+      "same_style": 0.43
+    },
+    "score": 0.16
+  },
+  "score|c298": {
+    "confidence": 0.55,
+    "input_tokens": 496,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.7,
+      "1": 0.29,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.16,
+      "same_name": 0.24,
+      "same_style": 0.47
+    },
+    "score": 0.3
+  },
+  "score|c299": {
+    "confidence": 0.81,
+    "input_tokens": 483,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.88,
+      "1": 0.12,
+      "2": 0.0
+    },
+    "properties": {
+      "same_brewery": 0.19,
+      "same_name": 0.04,
+      "same_style": 0.23
+    },
+    "score": 0.13
+  },
+  "score|c300": {
+    "confidence": 0.82,
+    "input_tokens": 489,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.89,
+      "1": 0.11,
+      "2": 0.0
+    },
+    "properties": {
+      "same_brewery": 0.07,
+      "same_name": 0.14,
+      "same_style": 0.76
+    },
+    "score": 0.12
+  },
+  "score|c301": {
+    "confidence": 0.36,
+    "input_tokens": 486,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.58,
+      "1": 0.41,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.05,
+      "same_name": 0.35,
+      "same_style": 0.16
+    },
+    "score": 0.43
+  },
+  "score|c302": {
+    "confidence": 0.76,
+    "input_tokens": 490,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.85,
+      "1": 0.14,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.05,
+      "same_name": 0.05,
+      "same_style": 0.42
+    },
+    "score": 0.16
+  },
+  "score|c303": {
+    "confidence": 0.54,
+    "input_tokens": 491,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.69,
+      "1": 0.3,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.08,
+      "same_name": 0.09,
+      "same_style": 0.44
+    },
+    "score": 0.31
+  },
+  "score|c304": {
+    "confidence": 0.77,
+    "input_tokens": 506,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.86,
+      "1": 0.13,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.17,
+      "same_name": 0.14,
+      "same_style": 0.75
+    },
+    "score": 0.15
+  },
+  "score|c305": {
+    "confidence": 0.68,
+    "input_tokens": 496,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.79,
+      "1": 0.2,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.05,
+      "same_name": 0.09,
+      "same_style": 0.43
+    },
+    "score": 0.21
+  },
+  "score|c306": {
+    "confidence": 0.65,
+    "input_tokens": 490,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.78,
+      "1": 0.21,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.07,
+      "same_name": 0.05,
+      "same_style": 0.57
+    },
+    "score": 0.23
+  },
+  "score|c307": {
+    "confidence": 0.26,
+    "input_tokens": 489,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.45,
+      "1": 0.51,
+      "2": 0.04
+    },
+    "properties": {
+      "same_brewery": 0.08,
+      "same_name": 0.24,
+      "same_style": 0.79
+    },
+    "score": 0.59
+  },
+  "score|c308": {
+    "confidence": 0.75,
+    "input_tokens": 481,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.83,
+      "1": 0.16,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.05,
+      "same_name": 0.06,
+      "same_style": 0.67
+    },
+    "score": 0.17
+  },
+  "score|c309": {
+    "confidence": 0.43,
+    "input_tokens": 497,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.63,
+      "1": 0.35,
+      "2": 0.02
+    },
+    "properties": {
+      "same_brewery": 0.03,
+      "same_name": 0.16,
+      "same_style": 0.75
+    },
+    "score": 0.38
+  },
+  "score|c310": {
+    "confidence": 0.58,
+    "input_tokens": 489,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.04,
+      "1": 0.21,
+      "2": 0.75
+    },
+    "properties": {
+      "same_brewery": 0.96,
+      "same_name": 0.86,
+      "same_style": 0.36
+    },
+    "score": 1.72
+  },
+  "score|c311": {
+    "confidence": 0.41,
+    "input_tokens": 495,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.63,
+      "1": 0.35,
+      "2": 0.02
+    },
+    "properties": {
+      "same_brewery": 0.1,
+      "same_name": 0.15,
+      "same_style": 0.37
+    },
+    "score": 0.39
+  },
+  "score|c312": {
+    "confidence": 0.21,
+    "input_tokens": 494,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.53,
+      "1": 0.41,
+      "2": 0.06
+    },
+    "properties": {
+      "same_brewery": 0.15,
+      "same_name": 0.3,
+      "same_style": 0.35
+    },
+    "score": 0.53
+  },
+  "score|c313": {
+    "confidence": 0.55,
+    "input_tokens": 490,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.03,
+      "1": 0.25,
+      "2": 0.72
+    },
+    "properties": {
+      "same_brewery": 0.97,
+      "same_name": 0.76,
+      "same_style": 0.37
+    },
+    "score": 1.7
+  },
+  "score|c314": {
+    "confidence": 0.62,
+    "input_tokens": 493,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.76,
+      "1": 0.23,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.09,
+      "same_name": 0.1,
+      "same_style": 0.4
+    },
+    "score": 0.25
+  },
+  "score|c315": {
+    "confidence": 0.8,
+    "input_tokens": 497,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.88,
+      "1": 0.12,
+      "2": 0.0
+    },
+    "properties": {
+      "same_brewery": 0.03,
+      "same_name": 0.05,
+      "same_style": 0.32
+    },
+    "score": 0.13
+  },
+  "score|c316": {
+    "confidence": 0.82,
+    "input_tokens": 484,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.89,
+      "1": 0.11,
+      "2": 0.0
+    },
+    "properties": {
+      "same_brewery": 0.24,
+      "same_name": 0.05,
+      "same_style": 0.78
+    },
+    "score": 0.12
+  },
+  "score|c317": {
+    "confidence": 0.65,
+    "input_tokens": 497,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.78,
+      "1": 0.2,
+      "2": 0.02
+    },
+    "properties": {
+      "same_brewery": 0.12,
+      "same_name": 0.16,
+      "same_style": 0.41
+    },
+    "score": 0.23
+  },
+  "score|c318": {
+    "confidence": 0.31,
+    "input_tokens": 501,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.57,
+      "1": 0.41,
+      "2": 0.02
+    },
+    "properties": {
+      "same_brewery": 0.21,
+      "same_name": 0.47,
+      "same_style": 0.35
+    },
+    "score": 0.46
+  },
+  "score|c319": {
+    "confidence": 0.65,
+    "input_tokens": 488,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.77,
+      "1": 0.22,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.09,
+      "same_name": 0.1,
+      "same_style": 0.57
+    },
+    "score": 0.23
+  },
+  "score|c320": {
+    "confidence": 0.59,
+    "input_tokens": 481,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.06,
+      "1": 0.73,
+      "2": 0.21
+    },
+    "properties": {
+      "same_brewery": 0.6,
+      "same_name": 0.57,
+      "same_style": 0.76
+    },
+    "score": 1.15
+  },
+  "score|c321": {
+    "confidence": 0.21,
+    "input_tokens": 505,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.51,
+      "1": 0.44,
+      "2": 0.05
+    },
+    "properties": {
+      "same_brewery": 0.18,
+      "same_name": 0.13,
+      "same_style": 0.76
+    },
+    "score": 0.53
+  },
+  "score|c322": {
+    "confidence": 0.64,
+    "input_tokens": 487,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.76,
+      "1": 0.23,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.07,
+      "same_name": 0.06,
+      "same_style": 0.7
+    },
+    "score": 0.24
+  },
+  "score|c323": {
+    "confidence": 0.66,
+    "input_tokens": 489,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.79,
+      "1": 0.19,
+      "2": 0.02
+    },
+    "properties": {
+      "same_brewery": 0.21,
+      "same_name": 0.16,
+      "same_style": 0.42
+    },
+    "score": 0.23
+  },
+  "score|c324": {
+    "confidence": 0.21,
+    "input_tokens": 499,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.06,
+      "1": 0.47,
+      "2": 0.47
+    },
+    "properties": {
+      "same_brewery": 0.6,
+      "same_name": 0.84,
+      "same_style": 0.79
+    },
+    "score": 1.41
+  },
+  "score|c325": {
+    "confidence": 0.81,
+    "input_tokens": 493,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.88,
+      "1": 0.11,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.07,
+      "same_name": 0.06,
+      "same_style": 0.25
+    },
+    "score": 0.13
+  },
+  "score|c326": {
+    "confidence": 0.44,
+    "input_tokens": 491,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.64,
+      "1": 0.34,
+      "2": 0.02
+    },
+    "properties": {
+      "same_brewery": 0.03,
+      "same_name": 0.16,
+      "same_style": 0.2
+    },
+    "score": 0.38
+  },
+  "score|c327": {
+    "confidence": 0.5,
+    "input_tokens": 495,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.13,
+      "1": 0.67,
+      "2": 0.2
+    },
+    "properties": {
+      "same_brewery": 0.62,
+      "same_name": 0.52,
+      "same_style": 0.3
+    },
+    "score": 1.08
+  },
+  "score|c328": {
+    "confidence": 0.68,
+    "input_tokens": 492,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.8,
+      "1": 0.19,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.26,
+      "same_name": 0.04,
+      "same_style": 0.23
+    },
+    "score": 0.21
+  },
+  "score|c329": {
+    "confidence": 0.46,
+    "input_tokens": 489,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.29,
+      "1": 0.65,
+      "2": 0.06
+    },
+    "properties": {
+      "same_brewery": 0.08,
+      "same_name": 0.54,
+      "same_style": 0.78
+    },
+    "score": 0.77
+  },
+  "score|c330": {
+    "confidence": 0.76,
+    "input_tokens": 488,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.84,
+      "1": 0.15,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.17,
+      "same_name": 0.09,
+      "same_style": 0.46
+    },
+    "score": 0.16
+  },
+  "score|c331": {
+    "confidence": 0.67,
+    "input_tokens": 488,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.8,
+      "1": 0.19,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.12,
+      "same_name": 0.12,
+      "same_style": 0.35
+    },
+    "score": 0.22
+  },
+  "score|c332": {
+    "confidence": 0.47,
+    "input_tokens": 482,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.66,
+      "1": 0.33,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.11,
+      "same_name": 0.16,
+      "same_style": 0.72
+    },
+    "score": 0.35
+  },
+  "score|c333": {
+    "confidence": 0.43,
+    "input_tokens": 495,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.65,
+      "1": 0.32,
+      "2": 0.03
+    },
+    "properties": {
+      "same_brewery": 0.36,
+      "same_name": 0.33,
+      "same_style": 0.58
+    },
+    "score": 0.38
+  },
+  "score|c334": {
+    "confidence": 0.64,
+    "input_tokens": 486,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.77,
+      "1": 0.23,
+      "2": 0.0
+    },
+    "properties": {
+      "same_brewery": 0.04,
+      "same_name": 0.09,
+      "same_style": 0.73
+    },
+    "score": 0.24
+  },
+  "score|c335": {
+    "confidence": 0.66,
+    "input_tokens": 487,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.79,
+      "1": 0.2,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.13,
+      "same_name": 0.06,
+      "same_style": 0.65
+    },
+    "score": 0.23
+  },
+  "score|c336": {
+    "confidence": 0.78,
+    "input_tokens": 483,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.01,
+      "1": 0.12,
+      "2": 0.87
+    },
+    "properties": {
+      "same_brewery": 0.97,
+      "same_name": 0.81,
+      "same_style": 0.77
+    },
+    "score": 1.85
+  },
+  "score|c337": {
+    "confidence": 0.9,
+    "input_tokens": 492,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.0,
+      "1": 0.06,
+      "2": 0.94
+    },
+    "properties": {
+      "same_brewery": 0.89,
+      "same_name": 0.88,
+      "same_style": 0.84
+    },
+    "score": 1.93
+  },
+  "score|c338": {
+    "confidence": 0.69,
+    "input_tokens": 490,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.8,
+      "1": 0.19,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.08,
+      "same_name": 0.12,
+      "same_style": 0.53
+    },
+    "score": 0.21
+  },
+  "score|c339": {
+    "confidence": 0.7,
+    "input_tokens": 498,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.81,
+      "1": 0.18,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.03,
+      "same_name": 0.07,
+      "same_style": 0.66
+    },
+    "score": 0.2
+  },
+  "score|c340": {
+    "confidence": 0.59,
+    "input_tokens": 497,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.74,
+      "1": 0.25,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.07,
+      "same_name": 0.08,
+      "same_style": 0.51
+    },
+    "score": 0.28
+  },
+  "score|c341": {
+    "confidence": 0.87,
+    "input_tokens": 487,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.92,
+      "1": 0.07,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.05,
+      "same_name": 0.13,
+      "same_style": 0.14
+    },
+    "score": 0.09
+  },
+  "score|c342": {
+    "confidence": 0.75,
+    "input_tokens": 483,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.85,
+      "1": 0.14,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.05,
+      "same_name": 0.08,
+      "same_style": 0.76
+    },
+    "score": 0.17
+  },
+  "score|c343": {
+    "confidence": 0.76,
+    "input_tokens": 483,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.01,
+      "1": 0.13,
+      "2": 0.86
+    },
+    "properties": {
+      "same_brewery": 0.99,
+      "same_name": 0.79,
+      "same_style": 0.67
+    },
+    "score": 1.84
+  },
+  "score|c344": {
+    "confidence": 0.65,
+    "input_tokens": 488,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.77,
+      "1": 0.23,
+      "2": 0.0
+    },
+    "properties": {
+      "same_brewery": 0.08,
+      "same_name": 0.12,
+      "same_style": 0.77
+    },
+    "score": 0.23
+  },
+  "score|c345": {
+    "confidence": 0.6,
+    "input_tokens": 489,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.75,
+      "1": 0.24,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.06,
+      "same_name": 0.14,
+      "same_style": 0.68
+    },
+    "score": 0.27
+  },
+  "score|c346": {
+    "confidence": 0.82,
+    "input_tokens": 490,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.01,
+      "1": 0.1,
+      "2": 0.89
+    },
+    "properties": {
+      "same_brewery": 0.97,
+      "same_name": 0.87,
+      "same_style": 0.77
+    },
+    "score": 1.88
+  },
+  "score|c347": {
+    "confidence": 0.65,
+    "input_tokens": 488,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.78,
+      "1": 0.21,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.15,
+      "same_name": 0.07,
+      "same_style": 0.56
+    },
+    "score": 0.23
+  },
+  "score|c348": {
+    "confidence": 0.43,
+    "input_tokens": 487,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.63,
+      "1": 0.36,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.04,
+      "same_name": 0.07,
+      "same_style": 0.69
+    },
+    "score": 0.38
+  },
+  "score|c349": {
+    "confidence": 0.73,
+    "input_tokens": 488,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.82,
+      "1": 0.17,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.05,
+      "same_name": 0.07,
+      "same_style": 0.74
+    },
+    "score": 0.18
+  },
+  "score|c350": {
+    "confidence": 0.36,
+    "input_tokens": 499,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.6,
+      "1": 0.37,
+      "2": 0.03
+    },
+    "properties": {
+      "same_brewery": 0.05,
+      "same_name": 0.19,
+      "same_style": 0.16
+    },
+    "score": 0.43
+  },
+  "score|c351": {
+    "confidence": 0.42,
+    "input_tokens": 496,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.36,
+      "1": 0.62,
+      "2": 0.02
+    },
+    "properties": {
+      "same_brewery": 0.08,
+      "same_name": 0.43,
+      "same_style": 0.27
+    },
+    "score": 0.66
+  },
+  "score|c352": {
+    "confidence": 0.48,
+    "input_tokens": 486,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.68,
+      "1": 0.3,
+      "2": 0.02
+    },
+    "properties": {
+      "same_brewery": 0.08,
+      "same_name": 0.09,
+      "same_style": 0.24
+    },
+    "score": 0.35
+  },
+  "score|c353": {
+    "confidence": 0.32,
+    "input_tokens": 492,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.43,
+      "1": 0.55,
+      "2": 0.02
+    },
+    "properties": {
+      "same_brewery": 0.43,
+      "same_name": 0.31,
+      "same_style": 0.55
+    },
+    "score": 0.59
+  },
+  "score|c354": {
+    "confidence": 0.66,
+    "input_tokens": 479,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.02,
+      "1": 0.2,
+      "2": 0.78
+    },
+    "properties": {
+      "same_brewery": 0.93,
+      "same_name": 0.86,
+      "same_style": 0.54
+    },
+    "score": 1.77
+  },
+  "score|c355": {
+    "confidence": 0.55,
+    "input_tokens": 481,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.71,
+      "1": 0.28,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.1,
+      "same_name": 0.18,
+      "same_style": 0.63
+    },
+    "score": 0.3
+  },
+  "score|c356": {
+    "confidence": 0.45,
+    "input_tokens": 498,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.66,
+      "1": 0.33,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.07,
+      "same_name": 0.1,
+      "same_style": 0.76
+    },
+    "score": 0.36
+  },
+  "score|c357": {
+    "confidence": 0.67,
+    "input_tokens": 492,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.79,
+      "1": 0.2,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.07,
+      "same_name": 0.2,
+      "same_style": 0.4
+    },
+    "score": 0.22
+  },
+  "score|c358": {
+    "confidence": 0.41,
+    "input_tokens": 499,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.34,
+      "1": 0.61,
+      "2": 0.05
+    },
+    "properties": {
+      "same_brewery": 0.91,
+      "same_name": 0.25,
+      "same_style": 0.62
+    },
+    "score": 0.71
+  },
+  "score|c359": {
+    "confidence": 0.84,
+    "input_tokens": 490,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.91,
+      "1": 0.08,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.08,
+      "same_name": 0.05,
+      "same_style": 0.12
+    },
+    "score": 0.11
+  },
+  "score|c360": {
+    "confidence": 0.64,
+    "input_tokens": 493,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.78,
+      "1": 0.2,
+      "2": 0.02
+    },
+    "properties": {
+      "same_brewery": 0.14,
+      "same_name": 0.16,
+      "same_style": 0.42
+    },
+    "score": 0.24
+  },
+  "score|c361": {
+    "confidence": 0.26,
+    "input_tokens": 485,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.11,
+      "1": 0.5,
+      "2": 0.39
+    },
+    "properties": {
+      "same_brewery": 0.39,
+      "same_name": 0.78,
+      "same_style": 0.75
+    },
+    "score": 1.28
+  },
+  "score|c362": {
+    "confidence": 0.86,
+    "input_tokens": 487,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.91,
+      "1": 0.09,
+      "2": 0.0
+    },
+    "properties": {
+      "same_brewery": 0.16,
+      "same_name": 0.06,
+      "same_style": 0.3
+    },
+    "score": 0.09
+  },
+  "score|c363": {
+    "confidence": 0.15,
+    "input_tokens": 488,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.06,
+      "1": 0.45,
+      "2": 0.49
+    },
+    "properties": {
+      "same_brewery": 0.97,
+      "same_name": 0.76,
+      "same_style": 0.21
+    },
+    "score": 1.44
+  },
+  "score|c364": {
+    "confidence": 0.74,
+    "input_tokens": 488,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.83,
+      "1": 0.16,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.08,
+      "same_name": 0.06,
+      "same_style": 0.7
+    },
+    "score": 0.17
+  },
+  "score|c365": {
+    "confidence": 0.87,
+    "input_tokens": 494,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.91,
+      "1": 0.08,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.04,
+      "same_name": 0.13,
+      "same_style": 0.17
+    },
+    "score": 0.09
+  },
+  "score|c366": {
+    "confidence": 0.13,
+    "input_tokens": 491,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.08,
+      "1": 0.43,
+      "2": 0.49
+    },
+    "properties": {
+      "same_brewery": 0.27,
+      "same_name": 0.95,
+      "same_style": 0.77
+    },
+    "score": 1.42
+  },
+  "score|c367": {
+    "confidence": 0.48,
+    "input_tokens": 489,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.67,
+      "1": 0.31,
+      "2": 0.02
+    },
+    "properties": {
+      "same_brewery": 0.06,
+      "same_name": 0.11,
+      "same_style": 0.74
+    },
+    "score": 0.35
+  },
+  "score|c368": {
+    "confidence": 0.28,
+    "input_tokens": 493,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.59,
+      "1": 0.34,
+      "2": 0.07
+    },
+    "properties": {
+      "same_brewery": 0.06,
+      "same_name": 0.26,
+      "same_style": 0.3
+    },
+    "score": 0.48
+  },
+  "score|c369": {
+    "confidence": 0.85,
+    "input_tokens": 493,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.91,
+      "1": 0.09,
+      "2": 0.0
+    },
+    "properties": {
+      "same_brewery": 0.23,
+      "same_name": 0.05,
+      "same_style": 0.31
+    },
+    "score": 0.1
+  },
+  "score|c370": {
+    "confidence": 0.72,
+    "input_tokens": 486,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.82,
+      "1": 0.18,
+      "2": 0.0
+    },
+    "properties": {
+      "same_brewery": 0.15,
+      "same_name": 0.04,
+      "same_style": 0.65
+    },
+    "score": 0.19
+  },
+  "score|c371": {
+    "confidence": 0.7,
+    "input_tokens": 485,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.8,
+      "1": 0.19,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.14,
+      "same_name": 0.03,
+      "same_style": 0.3
+    },
+    "score": 0.2
+  },
+  "score|c372": {
+    "confidence": 0.75,
+    "input_tokens": 494,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.84,
+      "1": 0.16,
+      "2": 0.0
+    },
+    "properties": {
+      "same_brewery": 0.14,
+      "same_name": 0.08,
+      "same_style": 0.72
+    },
+    "score": 0.17
+  },
+  "score|c373": {
+    "confidence": 0.59,
+    "input_tokens": 499,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.74,
+      "1": 0.24,
+      "2": 0.02
+    },
+    "properties": {
+      "same_brewery": 0.04,
+      "same_name": 0.12,
+      "same_style": 0.66
+    },
+    "score": 0.27
+  },
+  "score|c374": {
+    "confidence": 0.87,
+    "input_tokens": 482,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.92,
+      "1": 0.08,
+      "2": 0.0
+    },
+    "properties": {
+      "same_brewery": 0.17,
+      "same_name": 0.07,
+      "same_style": 0.36
+    },
+    "score": 0.09
+  },
+  "score|c375": {
+    "confidence": 0.7,
+    "input_tokens": 483,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.8,
+      "1": 0.19,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.09,
+      "same_name": 0.05,
+      "same_style": 0.3
+    },
+    "score": 0.2
+  },
+  "score|c376": {
+    "confidence": 0.36,
+    "input_tokens": 493,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.59,
+      "1": 0.39,
+      "2": 0.02
+    },
+    "properties": {
+      "same_brewery": 0.09,
+      "same_name": 0.14,
+      "same_style": 0.71
+    },
+    "score": 0.43
+  },
+  "score|c377": {
+    "confidence": 0.66,
+    "input_tokens": 488,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.16,
+      "1": 0.77,
+      "2": 0.07
+    },
+    "properties": {
+      "same_brewery": 0.57,
+      "same_name": 0.3,
+      "same_style": 0.7
+    },
+    "score": 0.92
+  },
+  "score|c378": {
+    "confidence": 0.48,
+    "input_tokens": 483,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.66,
+      "1": 0.33,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.11,
+      "same_name": 0.08,
+      "same_style": 0.42
+    },
+    "score": 0.35
+  },
+  "score|c379": {
+    "confidence": 0.44,
+    "input_tokens": 487,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.64,
+      "1": 0.35,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.07,
+      "same_name": 0.08,
+      "same_style": 0.62
+    },
+    "score": 0.37
+  },
+  "score|c380": {
+    "confidence": 0.82,
+    "input_tokens": 487,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.01,
+      "1": 0.1,
+      "2": 0.89
+    },
+    "properties": {
+      "same_brewery": 0.99,
+      "same_name": 0.76,
+      "same_style": 0.83
+    },
+    "score": 1.88
+  },
+  "score|c381": {
+    "confidence": 0.88,
+    "input_tokens": 497,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.93,
+      "1": 0.07,
+      "2": 0.0
+    },
+    "properties": {
+      "same_brewery": 0.07,
+      "same_name": 0.05,
+      "same_style": 0.16
+    },
+    "score": 0.08
+  },
+  "score|c382": {
+    "confidence": 0.47,
+    "input_tokens": 491,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.66,
+      "1": 0.32,
+      "2": 0.02
+    },
+    "properties": {
+      "same_brewery": 0.04,
+      "same_name": 0.16,
+      "same_style": 0.36
+    },
+    "score": 0.35
+  },
+  "score|c383": {
+    "confidence": 0.46,
+    "input_tokens": 498,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.67,
+      "1": 0.31,
+      "2": 0.02
+    },
+    "properties": {
+      "same_brewery": 0.1,
+      "same_name": 0.3,
+      "same_style": 0.37
+    },
+    "score": 0.36
+  },
+  "score|c384": {
+    "confidence": 0.7,
+    "input_tokens": 503,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.81,
+      "1": 0.19,
+      "2": 0.0
+    },
+    "properties": {
+      "same_brewery": 0.08,
+      "same_name": 0.11,
+      "same_style": 0.39
+    },
+    "score": 0.2
+  },
+  "score|c385": {
+    "confidence": 0.77,
+    "input_tokens": 501,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.86,
+      "1": 0.14,
+      "2": 0.0
+    },
+    "properties": {
+      "same_brewery": 0.33,
+      "same_name": 0.1,
+      "same_style": 0.27
+    },
+    "score": 0.15
+  },
+  "score|c386": {
+    "confidence": 0.61,
+    "input_tokens": 492,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.76,
+      "1": 0.22,
+      "2": 0.02
+    },
+    "properties": {
+      "same_brewery": 0.18,
+      "same_name": 0.09,
+      "same_style": 0.44
+    },
+    "score": 0.26
+  },
+  "score|c387": {
+    "confidence": 0.76,
+    "input_tokens": 500,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.85,
+      "1": 0.15,
+      "2": 0.0
+    },
+    "properties": {
+      "same_brewery": 0.03,
+      "same_name": 0.11,
+      "same_style": 0.46
+    },
+    "score": 0.16
+  },
+  "score|c388": {
+    "confidence": 0.34,
+    "input_tokens": 483,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.02,
+      "1": 0.56,
+      "2": 0.42
+    },
+    "properties": {
+      "same_brewery": 0.94,
+      "same_name": 0.77,
+      "same_style": 0.76
+    },
+    "score": 1.41
+  },
+  "score|c389": {
+    "confidence": 0.31,
+    "input_tokens": 486,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.56,
+      "1": 0.42,
+      "2": 0.02
+    },
+    "properties": {
+      "same_brewery": 0.03,
+      "same_name": 0.15,
+      "same_style": 0.75
+    },
+    "score": 0.46
+  },
+  "score|c390": {
+    "confidence": 0.78,
+    "input_tokens": 500,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.85,
+      "1": 0.14,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.08,
+      "same_name": 0.14,
+      "same_style": 0.34
+    },
+    "score": 0.15
+  },
+  "score|c391": {
+    "confidence": 0.54,
+    "input_tokens": 495,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.71,
+      "1": 0.28,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.09,
+      "same_name": 0.17,
+      "same_style": 0.32
+    },
+    "score": 0.3
+  },
+  "score|c392": {
+    "confidence": 0.53,
+    "input_tokens": 495,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.7,
+      "1": 0.28,
+      "2": 0.02
+    },
+    "properties": {
+      "same_brewery": 0.12,
+      "same_name": 0.13,
+      "same_style": 0.43
+    },
+    "score": 0.32
+  },
+  "score|c393": {
+    "confidence": 0.65,
+    "input_tokens": 486,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.77,
+      "1": 0.22,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.05,
+      "same_name": 0.11,
+      "same_style": 0.68
+    },
+    "score": 0.24
+  },
+  "score|c394": {
+    "confidence": 0.75,
+    "input_tokens": 486,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.84,
+      "1": 0.16,
+      "2": 0.0
+    },
+    "properties": {
+      "same_brewery": 0.16,
+      "same_name": 0.07,
+      "same_style": 0.7
+    },
+    "score": 0.17
+  },
+  "score|c395": {
+    "confidence": 0.39,
+    "input_tokens": 489,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.61,
+      "1": 0.37,
+      "2": 0.02
+    },
+    "properties": {
+      "same_brewery": 0.12,
+      "same_name": 0.13,
+      "same_style": 0.68
+    },
+    "score": 0.41
+  },
+  "score|c396": {
+    "confidence": 0.86,
+    "input_tokens": 491,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.91,
+      "1": 0.08,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.04,
+      "same_name": 0.09,
+      "same_style": 0.23
+    },
+    "score": 0.09
+  },
+  "score|c397": {
+    "confidence": 0.85,
+    "input_tokens": 490,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.9,
+      "1": 0.1,
+      "2": 0.0
+    },
+    "properties": {
+      "same_brewery": 0.02,
+      "same_name": 0.04,
+      "same_style": 0.71
+    },
+    "score": 0.1
+  },
+  "score|c398": {
+    "confidence": 0.84,
+    "input_tokens": 493,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.9,
+      "1": 0.09,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.14,
+      "same_name": 0.09,
+      "same_style": 0.11
+    },
+    "score": 0.11
+  },
+  "score|c399": {
+    "confidence": 0.72,
+    "input_tokens": 487,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.82,
+      "1": 0.18,
+      "2": 0.0
+    },
+    "properties": {
+      "same_brewery": 0.34,
+      "same_name": 0.06,
+      "same_style": 0.7
+    },
+    "score": 0.19
+  },
+  "score|c400": {
+    "confidence": 0.31,
+    "input_tokens": 487,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.06,
+      "1": 0.54,
+      "2": 0.4
+    },
+    "properties": {
+      "same_brewery": 0.97,
+      "same_name": 0.79,
+      "same_style": 0.77
+    },
+    "score": 1.34
+  },
+  "score|c401": {
+    "confidence": 0.63,
+    "input_tokens": 496,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.76,
+      "1": 0.23,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.05,
+      "same_name": 0.2,
+      "same_style": 0.37
+    },
+    "score": 0.24
+  },
+  "score|c402": {
+    "confidence": 0.46,
+    "input_tokens": 495,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.66,
+      "1": 0.33,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.08,
+      "same_name": 0.19,
+      "same_style": 0.41
+    },
+    "score": 0.36
+  },
+  "score|c403": {
+    "confidence": 0.6,
+    "input_tokens": 501,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.74,
+      "1": 0.26,
+      "2": 0.0
+    },
+    "properties": {
+      "same_brewery": 0.11,
+      "same_name": 0.13,
+      "same_style": 0.74
+    },
+    "score": 0.27
+  },
+  "score|c404": {
+    "confidence": 0.69,
+    "input_tokens": 488,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.8,
+      "1": 0.19,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.06,
+      "same_name": 0.09,
+      "same_style": 0.44
+    },
+    "score": 0.2
+  },
+  "score|c405": {
+    "confidence": 0.79,
+    "input_tokens": 487,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.01,
+      "1": 0.12,
+      "2": 0.87
+    },
+    "properties": {
+      "same_brewery": 0.96,
+      "same_name": 0.83,
+      "same_style": 0.79
+    },
+    "score": 1.86
+  },
+  "score|c406": {
+    "confidence": 0.81,
+    "input_tokens": 497,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.88,
+      "1": 0.12,
+      "2": 0.0
+    },
+    "properties": {
+      "same_brewery": 0.16,
+      "same_name": 0.06,
+      "same_style": 0.3
+    },
+    "score": 0.13
+  },
+  "score|c407": {
+    "confidence": 0.83,
+    "input_tokens": 494,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.89,
+      "1": 0.11,
+      "2": 0.0
+    },
+    "properties": {
+      "same_brewery": 0.11,
+      "same_name": 0.11,
+      "same_style": 0.51
+    },
+    "score": 0.11
+  },
+  "score|c408": {
+    "confidence": 0.82,
+    "input_tokens": 493,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.88,
+      "1": 0.11,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.11,
+      "same_name": 0.06,
+      "same_style": 0.29
+    },
+    "score": 0.12
+  },
+  "score|c409": {
+    "confidence": 0.52,
+    "input_tokens": 487,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.7,
+      "1": 0.29,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.14,
+      "same_name": 0.19,
+      "same_style": 0.74
+    },
+    "score": 0.32
+  },
+  "score|c410": {
+    "confidence": 0.79,
+    "input_tokens": 498,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.86,
+      "1": 0.13,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.18,
+      "same_name": 0.05,
+      "same_style": 0.68
+    },
+    "score": 0.14
+  },
+  "score|c411": {
+    "confidence": 0.72,
+    "input_tokens": 488,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.83,
+      "1": 0.16,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.08,
+      "same_name": 0.09,
+      "same_style": 0.49
+    },
+    "score": 0.19
+  },
+  "score|c412": {
+    "confidence": 0.74,
+    "input_tokens": 486,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.14,
+      "1": 0.83,
+      "2": 0.03
+    },
+    "properties": {
+      "same_brewery": 0.98,
+      "same_name": 0.4,
+      "same_style": 0.51
+    },
+    "score": 0.89
+  },
+  "score|c413": {
+    "confidence": 0.6,
+    "input_tokens": 495,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.76,
+      "1": 0.22,
+      "2": 0.02
+    },
+    "properties": {
+      "same_brewery": 0.22,
+      "same_name": 0.09,
+      "same_style": 0.44
+    },
+    "score": 0.27
+  },
+  "score|c414": {
+    "confidence": 0.59,
+    "input_tokens": 494,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.74,
+      "1": 0.24,
+      "2": 0.02
+    },
+    "properties": {
+      "same_brewery": 0.09,
+      "same_name": 0.12,
+      "same_style": 0.25
+    },
+    "score": 0.27
+  },
+  "score|c415": {
+    "confidence": 0.86,
+    "input_tokens": 490,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.91,
+      "1": 0.09,
+      "2": 0.0
+    },
+    "properties": {
+      "same_brewery": 0.03,
+      "same_name": 0.06,
+      "same_style": 0.25
+    },
+    "score": 0.1
+  },
+  "score|c416": {
+    "confidence": 0.35,
+    "input_tokens": 483,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.59,
+      "1": 0.4,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.03,
+      "same_name": 0.2,
+      "same_style": 0.78
+    },
+    "score": 0.43
+  },
+  "score|c417": {
+    "confidence": 0.8,
+    "input_tokens": 497,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.01,
+      "1": 0.11,
+      "2": 0.88
+    },
+    "properties": {
+      "same_brewery": 0.95,
+      "same_name": 0.89,
+      "same_style": 0.75
+    },
+    "score": 1.87
+  },
+  "score|c418": {
+    "confidence": 0.6,
+    "input_tokens": 491,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.74,
+      "1": 0.25,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.06,
+      "same_name": 0.07,
+      "same_style": 0.41
+    },
+    "score": 0.27
+  },
+  "score|c419": {
+    "confidence": 0.77,
+    "input_tokens": 488,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.85,
+      "1": 0.15,
+      "2": 0.0
+    },
+    "properties": {
+      "same_brewery": 0.05,
+      "same_name": 0.05,
+      "same_style": 0.77
+    },
+    "score": 0.16
+  },
+  "score|c420": {
+    "confidence": 0.46,
+    "input_tokens": 490,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.67,
+      "1": 0.3,
+      "2": 0.03
+    },
+    "properties": {
+      "same_brewery": 0.07,
+      "same_name": 0.14,
+      "same_style": 0.3
+    },
+    "score": 0.36
+  },
+  "score|c421": {
+    "confidence": 0.9,
+    "input_tokens": 490,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.05,
+      "1": 0.9299999999999999,
+      "2": 0.02
+    },
+    "properties": {
+      "same_brewery": 0.99,
+      "same_name": 0.34,
+      "same_style": 0.63
+    },
+    "score": 0.97
+  },
+  "score|c422": {
+    "confidence": 0.64,
+    "input_tokens": 488,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.78,
+      "1": 0.21,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.08,
+      "same_name": 0.14,
+      "same_style": 0.33
+    },
+    "score": 0.24
+  },
+  "score|c423": {
+    "confidence": 0.58,
+    "input_tokens": 485,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.73,
+      "1": 0.26,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.11,
+      "same_name": 0.06,
+      "same_style": 0.31
+    },
+    "score": 0.28
+  },
+  "score|c424": {
+    "confidence": 0.48,
+    "input_tokens": 508,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.68,
+      "1": 0.29,
+      "2": 0.03
+    },
+    "properties": {
+      "same_brewery": 0.63,
+      "same_name": 0.11,
+      "same_style": 0.46
+    },
+    "score": 0.34
+  },
+  "score|c425": {
+    "confidence": 0.84,
+    "input_tokens": 493,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.9,
+      "1": 0.1,
+      "2": 0.0
+    },
+    "properties": {
+      "same_brewery": 0.06,
+      "same_name": 0.04,
+      "same_style": 0.37
+    },
+    "score": 0.11
+  },
+  "score|c426": {
+    "confidence": 0.49,
+    "input_tokens": 488,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.03,
+      "1": 0.66,
+      "2": 0.31
+    },
+    "properties": {
+      "same_brewery": 0.93,
+      "same_name": 0.91,
+      "same_style": 0.81
+    },
+    "score": 1.29
+  },
+  "score|c427": {
+    "confidence": 0.95,
+    "input_tokens": 495,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.97,
+      "1": 0.03,
+      "2": 0.0
+    },
+    "properties": {
+      "same_brewery": 0.09,
+      "same_name": 0.02,
+      "same_style": 0.08
+    },
+    "score": 0.03
+  },
+  "score|c428": {
+    "confidence": 0.77,
+    "input_tokens": 490,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.03,
+      "1": 0.84,
+      "2": 0.13
+    },
+    "properties": {
+      "same_brewery": 0.98,
+      "same_name": 0.63,
+      "same_style": 0.74
+    },
+    "score": 1.1
+  },
+  "score|c429": {
+    "confidence": 0.44,
+    "input_tokens": 490,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.65,
+      "1": 0.33,
+      "2": 0.02
+    },
+    "properties": {
+      "same_brewery": 0.2,
+      "same_name": 0.37,
+      "same_style": 0.4
+    },
+    "score": 0.37
+  },
+  "score|c430": {
+    "confidence": 0.81,
+    "input_tokens": 484,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.88,
+      "1": 0.12,
+      "2": 0.0
+    },
+    "properties": {
+      "same_brewery": 0.07,
+      "same_name": 0.11,
+      "same_style": 0.76
+    },
+    "score": 0.13
+  },
+  "score|c431": {
+    "confidence": 0.61,
+    "input_tokens": 491,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.75,
+      "1": 0.23,
+      "2": 0.02
+    },
+    "properties": {
+      "same_brewery": 0.14,
+      "same_name": 0.29,
+      "same_style": 0.41
+    },
+    "score": 0.26
+  },
+  "score|c432": {
+    "confidence": 0.36,
+    "input_tokens": 490,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.59,
+      "1": 0.39,
+      "2": 0.02
+    },
+    "properties": {
+      "same_brewery": 0.03,
+      "same_name": 0.19,
+      "same_style": 0.32
+    },
+    "score": 0.42
+  },
+  "score|c433": {
+    "confidence": 0.95,
+    "input_tokens": 500,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.97,
+      "1": 0.03,
+      "2": 0.0
+    },
+    "properties": {
+      "same_brewery": 0.08,
+      "same_name": 0.03,
+      "same_style": 0.09
+    },
+    "score": 0.04
+  },
+  "score|c434": {
+    "confidence": 0.89,
+    "input_tokens": 489,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.01,
+      "1": 0.06,
+      "2": 0.93
+    },
+    "properties": {
+      "same_brewery": 0.98,
+      "same_name": 0.9,
+      "same_style": 0.77
+    },
+    "score": 1.93
+  },
+  "score|c435": {
+    "confidence": 0.33,
+    "input_tokens": 496,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.43,
+      "1": 0.56,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.03,
+      "same_name": 0.25,
+      "same_style": 0.59
+    },
+    "score": 0.58
+  },
+  "score|c436": {
+    "confidence": 0.6,
+    "input_tokens": 487,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.74,
+      "1": 0.25,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.07,
+      "same_name": 0.18,
+      "same_style": 0.45
+    },
+    "score": 0.27
+  },
+  "score|c437": {
+    "confidence": 0.51,
+    "input_tokens": 494,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.69,
+      "1": 0.29,
+      "2": 0.02
+    },
+    "properties": {
+      "same_brewery": 0.05,
+      "same_name": 0.14,
+      "same_style": 0.41
+    },
+    "score": 0.33
+  },
+  "score|c438": {
+    "confidence": 0.79,
+    "input_tokens": 486,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.87,
+      "1": 0.13,
+      "2": 0.0
+    },
+    "properties": {
+      "same_brewery": 0.05,
+      "same_name": 0.05,
+      "same_style": 0.23
+    },
+    "score": 0.14
+  },
+  "score|c439": {
+    "confidence": 0.57,
+    "input_tokens": 495,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.73,
+      "1": 0.26,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.14,
+      "same_name": 0.17,
+      "same_style": 0.41
+    },
+    "score": 0.28
+  },
+  "score|c440": {
+    "confidence": 0.79,
+    "input_tokens": 481,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.86,
+      "1": 0.13,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.08,
+      "same_name": 0.05,
+      "same_style": 0.76
+    },
+    "score": 0.14
+  },
+  "score|c441": {
+    "confidence": 0.5,
+    "input_tokens": 491,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.69,
+      "1": 0.29,
+      "2": 0.02
+    },
+    "properties": {
+      "same_brewery": 0.08,
+      "same_name": 0.17,
+      "same_style": 0.45
+    },
+    "score": 0.33
+  },
+  "score|c442": {
+    "confidence": 0.63,
+    "input_tokens": 483,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.78,
+      "1": 0.19,
+      "2": 0.03
+    },
+    "properties": {
+      "same_brewery": 0.09,
+      "same_name": 0.11,
+      "same_style": 0.75
+    },
+    "score": 0.25
+  },
+  "score|c443": {
+    "confidence": 0.73,
+    "input_tokens": 490,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.82,
+      "1": 0.17,
+      "2": 0.01
+    },
+    "properties": {
+      "same_brewery": 0.04,
+      "same_name": 0.05,
+      "same_style": 0.28
+    },
+    "score": 0.18
+  },
+  "score|c444": {
+    "confidence": 0.79,
+    "input_tokens": 487,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.87,
+      "1": 0.13,
+      "2": 0.0
+    },
+    "properties": {
+      "same_brewery": 0.35,
+      "same_name": 0.05,
+      "same_style": 0.58
+    },
+    "score": 0.14
+  },
+  "score|c445": {
+    "confidence": 0.46,
+    "input_tokens": 485,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.67,
+      "1": 0.31,
+      "2": 0.02
+    },
+    "properties": {
+      "same_brewery": 0.07,
+      "same_name": 0.12,
+      "same_style": 0.78
+    },
+    "score": 0.36
+  },
+  "score|c446": {
+    "confidence": 0.92,
+    "input_tokens": 489,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.0,
+      "1": 0.05,
+      "2": 0.95
+    },
+    "properties": {
+      "same_brewery": 0.99,
+      "same_name": 0.97,
+      "same_style": 0.81
+    },
+    "score": 1.94
+  },
+  "score|c447": {
+    "confidence": 0.74,
+    "input_tokens": 482,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.01,
+      "1": 0.15,
+      "2": 0.84
+    },
+    "properties": {
+      "same_brewery": 0.98,
+      "same_name": 0.75,
+      "same_style": 0.8
+    },
+    "score": 1.83
+  },
+  "score|c448": {
+    "confidence": 0.34,
+    "input_tokens": 490,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.05,
+      "1": 0.34,
+      "2": 0.61
+    },
+    "properties": {
+      "same_brewery": 0.71,
+      "same_name": 0.67,
+      "same_style": 0.75
+    },
+    "score": 1.56
+  },
+  "score|c449": {
+    "confidence": 0.52,
+    "input_tokens": 480,
+    "output_tokens": 64,
+    "probabilities": {
+      "0": 0.2,
+      "1": 0.68,
+      "2": 0.12
+    },
+    "properties": {
+      "same_brewery": 0.98,
+      "same_name": 0.69,
+      "same_style": 0.26
+    },
+    "score": 0.92
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "read_parts|Heads up - the customer survey closes today at 5pm.|the date the survey closes": {
+    "day": {
+      "choice": "none",
+      "confidence": 0.96
+    },
+    "day_anchor": {
+      "choice": "today",
+      "confidence": 0.96
+    },
+    "mode": {
+      "choice": "relative",
+      "confidence": 0.94
+    },
+    "month": {
+      "choice": "none",
+      "confidence": 0.99
+    },
+    "week_offset": {
+      "choice": "none",
+      "confidence": 0.96
+    },
+    "weekday": {
+      "choice": "none",
+      "confidence": 0.98
+    },
+    "year": {
+      "choice": "none",
+      "confidence": 0.96
+    }
+  },
+  "read_parts|Let's schedule the design review for next Thursday.|the date of the design review": {
+    "day": {
+      "choice": "none",
+      "confidence": 0.86
+    },
+    "day_anchor": {
+      "choice": "weekday",
+      "confidence": 0.92
+    },
+    "mode": {
+      "choice": "relative",
+      "confidence": 1.0
+    },
+    "month": {
+      "choice": "none",
+      "confidence": 0.98
+    },
+    "week_offset": {
+      "choice": "next",
+      "confidence": 0.99
+    },
+    "weekday": {
+      "choice": "Thursday",
+      "confidence": 0.99
+    },
+    "year": {
+      "choice": "none",
+      "confidence": 0.88
+    }
+  },
+  "read_parts|Please return the signed form by August 14.|the date of the kickoff call": {
+    "day": {
+      "choice": "14",
+      "confidence": 0.58
+    },
+    "day_anchor": {
+      "choice": "none",
+      "confidence": 0.97
+    },
+    "mode": {
+      "choice": "absolute",
+      "confidence": 0.8
+    },
+    "month": {
+      "choice": "none",
+      "confidence": 0.46
+    },
+    "week_offset": {
+      "choice": "none",
+      "confidence": 0.99
+    },
+    "weekday": {
+      "choice": "none",
+      "confidence": 0.98
+    },
+    "year": {
+      "choice": "none",
+      "confidence": 0.9
+    }
+  },
+  "read_parts|Please return the signed form by August 14.|the deadline to return the form": {
+    "day": {
+      "choice": "14",
+      "confidence": 0.99
+    },
+    "day_anchor": {
+      "choice": "none",
+      "confidence": 0.75
+    },
+    "mode": {
+      "choice": "absolute",
+      "confidence": 1.0
+    },
+    "month": {
+      "choice": "August",
+      "confidence": 1.0
+    },
+    "week_offset": {
+      "choice": "none",
+      "confidence": 0.94
+    },
+    "weekday": {
+      "choice": "none",
+      "confidence": 0.81
+    },
+    "year": {
+      "choice": "none",
+      "confidence": 0.95
+    }
+  },
+  "read_parts|This agreement is effective January 1, 2025 and expires December 31, 2027.|the date the agreement expires": {
+    "day": {
+      "choice": "31",
+      "confidence": 0.97
+    },
+    "day_anchor": {
+      "choice": "none",
+      "confidence": 0.92
+    },
+    "mode": {
+      "choice": "absolute",
+      "confidence": 1.0
+    },
+    "month": {
+      "choice": "December",
+      "confidence": 0.99
+    },
+    "week_offset": {
+      "choice": "none",
+      "confidence": 0.98
+    },
+    "weekday": {
+      "choice": "none",
+      "confidence": 0.9
+    },
+    "year": {
+      "choice": "2027",
+      "confidence": 0.91
+    }
+  },
+  "read_parts|This agreement is effective January 1, 2025 and expires December 31, 2027.|the date the agreement takes effect": {
+    "day": {
+      "choice": "1",
+      "confidence": 0.98
+    },
+    "day_anchor": {
+      "choice": "none",
+      "confidence": 0.89
+    },
+    "mode": {
+      "choice": "absolute",
+      "confidence": 1.0
+    },
+    "month": {
+      "choice": "January",
+      "confidence": 1.0
+    },
+    "week_offset": {
+      "choice": "none",
+      "confidence": 0.99
+    },
+    "weekday": {
+      "choice": "none",
+      "confidence": 0.86
+    },
+    "year": {
+      "choice": "2025",
+      "confidence": 0.97
+    }
+  }
+}
