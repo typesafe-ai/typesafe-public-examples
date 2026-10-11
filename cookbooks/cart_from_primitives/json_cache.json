@@ -1,0 +1,24 @@
+{
+  "451422075313b253d7593b108e0d94c3d48676a6d9df8ea307b2d76dd84987b2": {
+    "size": {
+      "choice": "large",
+      "confidence": 1.0
+    },
+    "milk": {
+      "choice": "oat",
+      "confidence": 1.0
+    }
+  },
+  "90b2dbddf9245da55883e3780acba2962701aec4e20f8e3127f2d64509b8674e": {
+    "choice": "nothing_else",
+    "confidence": 1.0
+  },
+  "963a3ad59a74ba6ca8ede8e600718521097fd034a41df914f4669b2be0b420f2": {
+    "choice": "latte",
+    "confidence": 1.0
+  },
+  "a20faa64098fba314f0ff4e0080cb0986b14bbf3fcbe8fb10e9999457b48ae27": {
+    "choice": "blueberry_muffin",
+    "confidence": 1.0
+  }
+}
