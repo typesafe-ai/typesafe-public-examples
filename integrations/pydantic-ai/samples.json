@@ -1,0 +1,5038 @@
+{
+ "intents": [
+  "freeze_account",
+  "routing",
+  "pin_change",
+  "bill_due",
+  "pay_bill",
+  "account_blocked",
+  "interest_rate",
+  "min_payment",
+  "bill_balance",
+  "transfer",
+  "order_checks",
+  "balance",
+  "spending_history",
+  "transactions",
+  "report_fraud",
+  "replacement_card_duration",
+  "expiration_date",
+  "damaged_card",
+  "improve_credit_score",
+  "report_lost_card",
+  "card_declined",
+  "credit_limit_change",
+  "apr",
+  "redeem_rewards",
+  "credit_limit",
+  "rewards_balance",
+  "application_status",
+  "credit_score",
+  "new_card",
+  "international_fees"
+ ],
+ "val": [
+  {
+   "text": "how can i get a new card that got melted in the sun",
+   "gold": "damaged_card",
+   "source": "in_scope"
+  },
+  {
+   "text": "tell me how i know when to pay my chase bill",
+   "gold": "bill_due",
+   "source": "in_scope"
+  },
+  {
+   "text": "will my card expire on a certain month",
+   "gold": "expiration_date",
+   "source": "in_scope"
+  },
+  {
+   "text": "can you tell me my credit rating",
+   "gold": "credit_score",
+   "source": "in_scope"
+  },
+  {
+   "text": "tell me why my card was declined",
+   "gold": "card_declined",
+   "source": "in_scope"
+  },
+  {
+   "text": "tell me why my card was declined at auto zone, why",
+   "gold": "card_declined",
+   "source": "in_scope"
+  },
+  {
+   "text": "what is the best way to insure that my credit score doesn't decrease",
+   "gold": "improve_credit_score",
+   "source": "in_scope"
+  },
+  {
+   "text": "i accidentally caught my card on fire",
+   "gold": "damaged_card",
+   "source": "in_scope"
+  },
+  {
+   "text": "is the bill due this week",
+   "gold": "bill_due",
+   "source": "in_scope"
+  },
+  {
+   "text": "i want to report fraudulent activity on my capital one",
+   "gold": "report_fraud",
+   "source": "in_scope"
+  },
+  {
+   "text": "how does cybersecurity work",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "report a card lost for me",
+   "gold": "report_lost_card",
+   "source": "in_scope"
+  },
+  {
+   "text": "what site publishes the most fake news",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "how much money is in all of my bank accounts",
+   "gold": "balance",
+   "source": "in_scope"
+  },
+  {
+   "text": "tell me if you can help pay a bill",
+   "gold": "pay_bill",
+   "source": "in_scope"
+  },
+  {
+   "text": "what is the interest rate at pnc",
+   "gold": "interest_rate",
+   "source": "in_scope"
+  },
+  {
+   "text": "how can i breach a network",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "could you tell me the amount owed on gas and electric",
+   "gold": "bill_balance",
+   "source": "in_scope"
+  },
+  {
+   "text": "please put a block on my us bank account immediately",
+   "gold": "freeze_account",
+   "source": "in_scope"
+  },
+  {
+   "text": "transfer 1000 dollars from my first national bank to my bethpage federal credit union savings",
+   "gold": "transfer",
+   "source": "in_scope"
+  },
+  {
+   "text": "use my savings account to pay xfinity",
+   "gold": "pay_bill",
+   "source": "in_scope"
+  },
+  {
+   "text": "where do i locate my routing number for my premium checking account",
+   "gold": "routing",
+   "source": "in_scope"
+  },
+  {
+   "text": "can you tell me how good my card's apr is",
+   "gold": "apr",
+   "source": "in_scope"
+  },
+  {
+   "text": "could you speed up your speech",
+   "gold": "out_of_scope",
+   "source": "other_domain:change_speed"
+  },
+  {
+   "text": "will i be charged if i use my card in china",
+   "gold": "international_fees",
+   "source": "in_scope"
+  },
+  {
+   "text": "how do i check my rewards for my chase card",
+   "gold": "rewards_balance",
+   "source": "in_scope"
+  },
+  {
+   "text": "how much do i have left to pay on my server and domain",
+   "gold": "bill_balance",
+   "source": "in_scope"
+  },
+  {
+   "text": "what's my credit limit",
+   "gold": "credit_limit",
+   "source": "in_scope"
+  },
+  {
+   "text": "the statement is true",
+   "gold": "out_of_scope",
+   "source": "other_domain:yes"
+  },
+  {
+   "text": "is cnn really fake news",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "how much spending power is on my discover card",
+   "gold": "credit_limit",
+   "source": "in_scope"
+  },
+  {
+   "text": "my card just got declined when i was in home depot buying tile",
+   "gold": "card_declined",
+   "source": "in_scope"
+  },
+  {
+   "text": "please send me more checkbooks",
+   "gold": "order_checks",
+   "source": "in_scope"
+  },
+  {
+   "text": "how much is in my pnc account",
+   "gold": "balance",
+   "source": "in_scope"
+  },
+  {
+   "text": "explain what my credit limit is",
+   "gold": "credit_limit",
+   "source": "in_scope"
+  },
+  {
+   "text": "how can i root an android phone",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "how long does it take to become an architect",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "where do i go to look at my credit score",
+   "gold": "credit_score",
+   "source": "in_scope"
+  },
+  {
+   "text": "will i be charged if i use my card in vietnam",
+   "gold": "international_fees",
+   "source": "in_scope"
+  },
+  {
+   "text": "i would really like to know if my capital one credit card have international transaction fees",
+   "gold": "international_fees",
+   "source": "in_scope"
+  },
+  {
+   "text": "i need to talk to someone about a fraudulent activity on my card",
+   "gold": "report_fraud",
+   "source": "in_scope"
+  },
+  {
+   "text": "what's my current credit rating",
+   "gold": "credit_score",
+   "source": "in_scope"
+  },
+  {
+   "text": "how much money have i recently spent on stuff",
+   "gold": "spending_history",
+   "source": "in_scope"
+  },
+  {
+   "text": "is there a minimum amount accepted",
+   "gold": "min_payment",
+   "source": "in_scope"
+  },
+  {
+   "text": "i keep trying to figure out if i have enough money in my chase account to purchase a new set of tires",
+   "gold": "balance",
+   "source": "in_scope"
+  },
+  {
+   "text": "what do i need to do to apply for a visa card",
+   "gold": "new_card",
+   "source": "in_scope"
+  },
+  {
+   "text": "when was electrical engineering created",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "tell me the points on my delta rewards card",
+   "gold": "rewards_balance",
+   "source": "in_scope"
+  },
+  {
+   "text": "how much food should i feed my cat",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "for going to that country, do i need a visa",
+   "gold": "out_of_scope",
+   "source": "other_domain:international_visa"
+  },
+  {
+   "text": "help me, i don't know where my phone is",
+   "gold": "out_of_scope",
+   "source": "other_domain:find_phone"
+  },
+  {
+   "text": "what's the weather like",
+   "gold": "out_of_scope",
+   "source": "other_domain:weather"
+  },
+  {
+   "text": "i need to know if my capital one credit card have international transaction fees",
+   "gold": "international_fees",
+   "source": "in_scope"
+  },
+  {
+   "text": "what is the total of my repair bill",
+   "gold": "bill_balance",
+   "source": "in_scope"
+  },
+  {
+   "text": "i can't remember my pin for my first national debit account",
+   "gold": "pin_change",
+   "source": "in_scope"
+  },
+  {
+   "text": "why was my card declined just now when i tried to buy a jeep at carmax",
+   "gold": "card_declined",
+   "source": "in_scope"
+  },
+  {
+   "text": "was i spending too much money on doughnuts last week",
+   "gold": "spending_history",
+   "source": "in_scope"
+  },
+  {
+   "text": "how can i cash in my visa rewards",
+   "gold": "redeem_rewards",
+   "source": "in_scope"
+  },
+  {
+   "text": "i would like my credit limit increased to 5000 dollars",
+   "gold": "credit_limit_change",
+   "source": "in_scope"
+  },
+  {
+   "text": "what are my coordinates",
+   "gold": "out_of_scope",
+   "source": "other_domain:current_location"
+  },
+  {
+   "text": "my card was damaged by bleach",
+   "gold": "damaged_card",
+   "source": "in_scope"
+  },
+  {
+   "text": "how many points do i have with my american express",
+   "gold": "rewards_balance",
+   "source": "in_scope"
+  },
+  {
+   "text": "what do you think we are on earth for",
+   "gold": "out_of_scope",
+   "source": "other_domain:meaning_of_life"
+  },
+  {
+   "text": "where do i redeem my credit card points",
+   "gold": "redeem_rewards",
+   "source": "in_scope"
+  },
+  {
+   "text": "what is happening with brexit right nowu",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "how do i find the area of a circle",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "how we stop my account",
+   "gold": "freeze_account",
+   "source": "in_scope"
+  },
+  {
+   "text": "what was that question again",
+   "gold": "out_of_scope",
+   "source": "other_domain:repeat"
+  },
+  {
+   "text": "can i order new checks since i am out",
+   "gold": "order_checks",
+   "source": "in_scope"
+  },
+  {
+   "text": "how do i increse my credit limit",
+   "gold": "credit_limit_change",
+   "source": "in_scope"
+  },
+  {
+   "text": "tell carl that he sucks",
+   "gold": "out_of_scope",
+   "source": "other_domain:text"
+  },
+  {
+   "text": "what's my latest credit score",
+   "gold": "credit_score",
+   "source": "in_scope"
+  },
+  {
+   "text": "tell me the routing number for bluebird",
+   "gold": "routing",
+   "source": "in_scope"
+  },
+  {
+   "text": "pull up my credit card application's current status",
+   "gold": "application_status",
+   "source": "in_scope"
+  },
+  {
+   "text": "what's my interest rate with my capital one account",
+   "gold": "interest_rate",
+   "source": "in_scope"
+  },
+  {
+   "text": "help! i'm a victim of credit card fraud!",
+   "gold": "report_fraud",
+   "source": "in_scope"
+  },
+  {
+   "text": "how good is my card's apr",
+   "gold": "apr",
+   "source": "in_scope"
+  },
+  {
+   "text": "can you tell me the due date for the water bill",
+   "gold": "bill_due",
+   "source": "in_scope"
+  },
+  {
+   "text": "what day were you born",
+   "gold": "out_of_scope",
+   "source": "other_domain:how_old_are_you"
+  },
+  {
+   "text": "who should i apply for a credit card for",
+   "gold": "new_card",
+   "source": "in_scope"
+  },
+  {
+   "text": "where can i apply for a black amex card",
+   "gold": "new_card",
+   "source": "in_scope"
+  },
+  {
+   "text": "what's my bill's minimum payment",
+   "gold": "min_payment",
+   "source": "in_scope"
+  },
+  {
+   "text": "what do my bills look like for amazon and netflix",
+   "gold": "bill_balance",
+   "source": "in_scope"
+  },
+  {
+   "text": "cash in my credit card points",
+   "gold": "redeem_rewards",
+   "source": "in_scope"
+  },
+  {
+   "text": "spirit mastercard card was taken",
+   "gold": "report_lost_card",
+   "source": "in_scope"
+  },
+  {
+   "text": "i want to pay my cable bill directly from my checking account",
+   "gold": "pay_bill",
+   "source": "in_scope"
+  },
+  {
+   "text": "please double check my reservations for six at mani",
+   "gold": "out_of_scope",
+   "source": "other_domain:confirm_reservation"
+  },
+  {
+   "text": "would you translate a phrase into mandarin for me",
+   "gold": "out_of_scope",
+   "source": "other_domain:translate"
+  },
+  {
+   "text": "if i lost my card how do i report it",
+   "gold": "report_lost_card",
+   "source": "in_scope"
+  },
+  {
+   "text": "i need to apply for a new credit card that will match my needs",
+   "gold": "new_card",
+   "source": "in_scope"
+  },
+  {
+   "text": "i have a card that was lost i need to report",
+   "gold": "report_lost_card",
+   "source": "in_scope"
+  },
+  {
+   "text": "i ran out of checks and need more asap",
+   "gold": "order_checks",
+   "source": "in_scope"
+  },
+  {
+   "text": "please immediately block my navy federal credit union account",
+   "gold": "freeze_account",
+   "source": "in_scope"
+  },
+  {
+   "text": "how can i keep my windshield from fogging up in winter",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "will my debit card go bad any time soon",
+   "gold": "expiration_date",
+   "source": "in_scope"
+  },
+  {
+   "text": "i need to report a stolen card",
+   "gold": "report_lost_card",
+   "source": "in_scope"
+  },
+  {
+   "text": "will i get charged extra for using my card while in tulsa",
+   "gold": "international_fees",
+   "source": "in_scope"
+  },
+  {
+   "text": "why do we dream",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "where can i locate the routing number for the bank i bank with",
+   "gold": "routing",
+   "source": "in_scope"
+  },
+  {
+   "text": "transfer funds to the other account",
+   "gold": "transfer",
+   "source": "in_scope"
+  },
+  {
+   "text": "has my visa card application been approved yet",
+   "gold": "application_status",
+   "source": "in_scope"
+  },
+  {
+   "text": "are bad habits closely related with addictions",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "i want to report fraudulent activity on my visa",
+   "gold": "report_fraud",
+   "source": "in_scope"
+  },
+  {
+   "text": "what does it mean if i dream of falling off a building",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "has my card application successfully gone through",
+   "gold": "application_status",
+   "source": "in_scope"
+  },
+  {
+   "text": "send from my bbc money market to my t rowe price money market seven thousand dollars",
+   "gold": "transfer",
+   "source": "in_scope"
+  },
+  {
+   "text": "how much have i spent on make up recently",
+   "gold": "spending_history",
+   "source": "in_scope"
+  },
+  {
+   "text": "how do i get rewards from my visa card",
+   "gold": "redeem_rewards",
+   "source": "in_scope"
+  },
+  {
+   "text": "how is crypto legal",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "can you suggest some of the most popular travel destination",
+   "gold": "out_of_scope",
+   "source": "other_domain:travel_suggestion"
+  },
+  {
+   "text": "on the 22nd of this month, we need to clear our calendar so we can leave it open for mark to visit",
+   "gold": "out_of_scope",
+   "source": "other_domain:calendar_update"
+  },
+  {
+   "text": "who tracks my credit score",
+   "gold": "credit_score",
+   "source": "in_scope"
+  },
+  {
+   "text": "can you tell me how much i need to pay on my bills this month",
+   "gold": "bill_balance",
+   "source": "in_scope"
+  },
+  {
+   "text": "can you give me the standard tuning notes",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "how soon does it take a card new card to get mailed to me",
+   "gold": "replacement_card_duration",
+   "source": "in_scope"
+  },
+  {
+   "text": "my card will work until what month",
+   "gold": "expiration_date",
+   "source": "in_scope"
+  },
+  {
+   "text": "where can i find my voca account's interest rate",
+   "gold": "interest_rate",
+   "source": "in_scope"
+  },
+  {
+   "text": "can you help me increase my credit limit",
+   "gold": "credit_limit_change",
+   "source": "in_scope"
+  },
+  {
+   "text": "do you know my credit rating number",
+   "gold": "credit_score",
+   "source": "in_scope"
+  },
+  {
+   "text": "what's the best crypto to buy in 2019",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "has the apr on my card changed and what is it now",
+   "gold": "apr",
+   "source": "in_scope"
+  },
+  {
+   "text": "how can i safeguard my credit score from dropping",
+   "gold": "improve_credit_score",
+   "source": "in_scope"
+  },
+  {
+   "text": "what is the total amount i am going to have to pay in bills this month",
+   "gold": "bill_balance",
+   "source": "in_scope"
+  },
+  {
+   "text": "send 100 dollars from my vanguard money market to my wells fargo savings",
+   "gold": "transfer",
+   "source": "in_scope"
+  },
+  {
+   "text": "what will help my credit score",
+   "gold": "improve_credit_score",
+   "source": "in_scope"
+  },
+  {
+   "text": "my luggage is lost",
+   "gold": "out_of_scope",
+   "source": "other_domain:lost_luggage"
+  },
+  {
+   "text": "i would love to find a few vegan restaurants in back bay",
+   "gold": "out_of_scope",
+   "source": "other_domain:restaurant_suggestion"
+  },
+  {
+   "text": "how can i build up my credit score",
+   "gold": "improve_credit_score",
+   "source": "in_scope"
+  },
+  {
+   "text": "what'll an education at boulder state college run",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "i get an error message when i try logging in to capital one that says i'm locked out",
+   "gold": "account_blocked",
+   "source": "in_scope"
+  },
+  {
+   "text": "are there any videos on how to repair my credit score",
+   "gold": "improve_credit_score",
+   "source": "in_scope"
+  },
+  {
+   "text": "how many countries in the world are democracies",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "what is the timezone of saigon",
+   "gold": "out_of_scope",
+   "source": "other_domain:timezone"
+  },
+  {
+   "text": "i want to report fraudulent activity on my discover card",
+   "gold": "report_fraud",
+   "source": "in_scope"
+  },
+  {
+   "text": "i need your volume increased",
+   "gold": "out_of_scope",
+   "source": "other_domain:change_volume"
+  },
+  {
+   "text": "how do i prevent my credit score from dropping",
+   "gold": "improve_credit_score",
+   "source": "in_scope"
+  },
+  {
+   "text": "i would like to know the limit for my credit",
+   "gold": "credit_limit",
+   "source": "in_scope"
+  },
+  {
+   "text": "i need my credit limit changed",
+   "gold": "credit_limit_change",
+   "source": "in_scope"
+  },
+  {
+   "text": "do you have any idea why my account may be blocked",
+   "gold": "account_blocked",
+   "source": "in_scope"
+  },
+  {
+   "text": "where do i find the interest rate for my platinum account",
+   "gold": "interest_rate",
+   "source": "in_scope"
+  },
+  {
+   "text": "i need the information on how to report a lost card",
+   "gold": "report_lost_card",
+   "source": "in_scope"
+  },
+  {
+   "text": "is there a routing number for wells fargo",
+   "gold": "routing",
+   "source": "in_scope"
+  },
+  {
+   "text": "how can i find the current interest rate for my account ending in 9012",
+   "gold": "interest_rate",
+   "source": "in_scope"
+  },
+  {
+   "text": "is marijuana addictive",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "i want to know what the routing is for chase",
+   "gold": "routing",
+   "source": "in_scope"
+  },
+  {
+   "text": "my card isn't working because its destroyed",
+   "gold": "damaged_card",
+   "source": "in_scope"
+  },
+  {
+   "text": "can i increase my credit limit",
+   "gold": "credit_limit_change",
+   "source": "in_scope"
+  },
+  {
+   "text": "has my request for vacation time been approved",
+   "gold": "out_of_scope",
+   "source": "other_domain:pto_request_status"
+  },
+  {
+   "text": "does my calendar show anything for thursday the 14th",
+   "gold": "out_of_scope",
+   "source": "other_domain:calendar"
+  },
+  {
+   "text": "where do i locate the routing number for the credit union",
+   "gold": "routing",
+   "source": "in_scope"
+  },
+  {
+   "text": "could be there be a good amount of money in my checking account to go on a vacation",
+   "gold": "balance",
+   "source": "in_scope"
+  },
+  {
+   "text": "is the apr on my card that ends 1234 what it should be based on my credit score",
+   "gold": "apr",
+   "source": "in_scope"
+  },
+  {
+   "text": "i was at walmart trying to buy toilet paper and my card got declined",
+   "gold": "card_declined",
+   "source": "in_scope"
+  },
+  {
+   "text": "how high is my credit score",
+   "gold": "credit_score",
+   "source": "in_scope"
+  },
+  {
+   "text": "cash in my credit card rewards",
+   "gold": "redeem_rewards",
+   "source": "in_scope"
+  },
+  {
+   "text": "what transactions have i made in the last few weeks",
+   "gold": "transactions",
+   "source": "in_scope"
+  },
+  {
+   "text": "how high is my spending limit on my wells fargo card",
+   "gold": "credit_limit",
+   "source": "in_scope"
+  },
+  {
+   "text": "where can i locate the ally routing number",
+   "gold": "routing",
+   "source": "in_scope"
+  },
+  {
+   "text": "schedule an appointment for a tire check for me",
+   "gold": "out_of_scope",
+   "source": "other_domain:schedule_maintenance"
+  },
+  {
+   "text": "do i have more than $100 in my pnc account",
+   "gold": "balance",
+   "source": "in_scope"
+  },
+  {
+   "text": "move a dollar from my checkings to my savings",
+   "gold": "transfer",
+   "source": "in_scope"
+  },
+  {
+   "text": "i need a new pin on my chase account",
+   "gold": "pin_change",
+   "source": "in_scope"
+  },
+  {
+   "text": "i wanna know if my capital one credit card have international transaction fees",
+   "gold": "international_fees",
+   "source": "in_scope"
+  },
+  {
+   "text": "is the pnc bank open",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "what is the definition of the word migrate",
+   "gold": "out_of_scope",
+   "source": "other_domain:definition"
+  },
+  {
+   "text": "target declined my card and i don't know why",
+   "gold": "card_declined",
+   "source": "in_scope"
+  },
+  {
+   "text": "can you check if my mastercard application has been reviewed yet",
+   "gold": "application_status",
+   "source": "in_scope"
+  },
+  {
+   "text": "my card is lost, i would like to report it",
+   "gold": "report_lost_card",
+   "source": "in_scope"
+  },
+  {
+   "text": "great western bank's login screen tells me i'm locked out but not why",
+   "gold": "account_blocked",
+   "source": "in_scope"
+  },
+  {
+   "text": "are white and brown eggs any different",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "when was the last time the president visited floridau",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "can you place a stop on my account",
+   "gold": "freeze_account",
+   "source": "in_scope"
+  },
+  {
+   "text": "i need to report unauthorized activity on my card",
+   "gold": "report_fraud",
+   "source": "in_scope"
+  },
+  {
+   "text": "i broke my card trying to do a magic trick",
+   "gold": "damaged_card",
+   "source": "in_scope"
+  },
+  {
+   "text": "what am i allowed to ask you",
+   "gold": "out_of_scope",
+   "source": "other_domain:what_can_i_ask_you"
+  },
+  {
+   "text": "what day is the cable bill owed on",
+   "gold": "bill_due",
+   "source": "in_scope"
+  },
+  {
+   "text": "your name is",
+   "gold": "out_of_scope",
+   "source": "other_domain:what_is_your_name"
+  },
+  {
+   "text": "i have no checks and need to order new checks",
+   "gold": "order_checks",
+   "source": "in_scope"
+  },
+  {
+   "text": "when is my cards end month",
+   "gold": "expiration_date",
+   "source": "in_scope"
+  },
+  {
+   "text": "list all purchases of video games",
+   "gold": "transactions",
+   "source": "in_scope"
+  },
+  {
+   "text": "i need to know my credit's limit",
+   "gold": "credit_limit",
+   "source": "in_scope"
+  },
+  {
+   "text": "unsync yourself from my phone please",
+   "gold": "out_of_scope",
+   "source": "other_domain:sync_device"
+  },
+  {
+   "text": "tell me the expiration date on my visa credit card please",
+   "gold": "expiration_date",
+   "source": "in_scope"
+  },
+  {
+   "text": "about how long does it usually take a new card to get mailed to me",
+   "gold": "replacement_card_duration",
+   "source": "in_scope"
+  },
+  {
+   "text": "how much can i buy on my discover card",
+   "gold": "credit_limit",
+   "source": "in_scope"
+  },
+  {
+   "text": "what day do i need to pay my internet and phone bill by",
+   "gold": "bill_due",
+   "source": "in_scope"
+  },
+  {
+   "text": "how much money did i spent on grocery recently",
+   "gold": "spending_history",
+   "source": "in_scope"
+  },
+  {
+   "text": "what can i do to get a better credit score",
+   "gold": "improve_credit_score",
+   "source": "in_scope"
+  },
+  {
+   "text": "while in tulsa, if i use my card, would i be charged more",
+   "gold": "international_fees",
+   "source": "in_scope"
+  },
+  {
+   "text": "i need 200 dollars transferred from my long island savings account to my chase checking",
+   "gold": "transfer",
+   "source": "in_scope"
+  },
+  {
+   "text": "how long does it usually take for a new credit card to come",
+   "gold": "replacement_card_duration",
+   "source": "in_scope"
+  },
+  {
+   "text": "what are the top 10 ways to build my credit score",
+   "gold": "improve_credit_score",
+   "source": "in_scope"
+  },
+  {
+   "text": "when is my credit card set to expire",
+   "gold": "expiration_date",
+   "source": "in_scope"
+  },
+  {
+   "text": "what date do i have to pay the phone bill on",
+   "gold": "bill_due",
+   "source": "in_scope"
+  },
+  {
+   "text": "can you show me how to report a lost card",
+   "gold": "report_lost_card",
+   "source": "in_scope"
+  },
+  {
+   "text": "can you tell me how changes on my insurance policy can be made",
+   "gold": "out_of_scope",
+   "source": "other_domain:insurance_change"
+  },
+  {
+   "text": "looks like my card is being used by someone else, report it",
+   "gold": "report_fraud",
+   "source": "in_scope"
+  },
+  {
+   "text": "whats the reward balance for my visa",
+   "gold": "rewards_balance",
+   "source": "in_scope"
+  },
+  {
+   "text": "what are the possible reasons behind frozen bank account",
+   "gold": "account_blocked",
+   "source": "in_scope"
+  },
+  {
+   "text": "what do geese eat",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "what would be the least i could pay on this bill",
+   "gold": "min_payment",
+   "source": "in_scope"
+  },
+  {
+   "text": "where can i find the nearest dollar store",
+   "gold": "out_of_scope",
+   "source": "other_domain:directions"
+  },
+  {
+   "text": "do i have enough gas to get to buffalo",
+   "gold": "out_of_scope",
+   "source": "other_domain:gas"
+  },
+  {
+   "text": "what is the cheapest electric guitar",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "tell me chase's routing number",
+   "gold": "routing",
+   "source": "in_scope"
+  },
+  {
+   "text": "how much time does it take a new card to get mailed to me",
+   "gold": "replacement_card_duration",
+   "source": "in_scope"
+  },
+  {
+   "text": "i need to know how to order checks for my bank of america account",
+   "gold": "order_checks",
+   "source": "in_scope"
+  },
+  {
+   "text": "does my american express card have any international transaction fees",
+   "gold": "international_fees",
+   "source": "in_scope"
+  },
+  {
+   "text": "where do i report if i lost my luggage",
+   "gold": "out_of_scope",
+   "source": "other_domain:lost_luggage"
+  },
+  {
+   "text": "how to cash in visa card rewards",
+   "gold": "redeem_rewards",
+   "source": "in_scope"
+  },
+  {
+   "text": "can you help me figure out my pin number for my visa account",
+   "gold": "pin_change",
+   "source": "in_scope"
+  },
+  {
+   "text": "please put a block on my capital one account immediately",
+   "gold": "freeze_account",
+   "source": "in_scope"
+  },
+  {
+   "text": "what is the route to take to report a lost card",
+   "gold": "report_lost_card",
+   "source": "in_scope"
+  },
+  {
+   "text": "what's the best opening gambit for a game of chess",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "tell me what the interest rate is on my personal loan through chase",
+   "gold": "interest_rate",
+   "source": "in_scope"
+  },
+  {
+   "text": "it looks like my account is blocked but i have no clue why",
+   "gold": "account_blocked",
+   "source": "in_scope"
+  },
+  {
+   "text": "what is the friendliest breed",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "can i apply for a paypal master card",
+   "gold": "new_card",
+   "source": "in_scope"
+  },
+  {
+   "text": "i would like to know if my visa card application has been approved",
+   "gold": "application_status",
+   "source": "in_scope"
+  },
+  {
+   "text": "would you mind telling me how much i have spent recently on grocery shopping",
+   "gold": "spending_history",
+   "source": "in_scope"
+  },
+  {
+   "text": "what is my maurices card's rewards balance",
+   "gold": "rewards_balance",
+   "source": "in_scope"
+  },
+  {
+   "text": "how many points on my chase unlimited card",
+   "gold": "rewards_balance",
+   "source": "in_scope"
+  },
+  {
+   "text": "what is the amount i owe to clay electric",
+   "gold": "bill_balance",
+   "source": "in_scope"
+  },
+  {
+   "text": "how to use credit card points",
+   "gold": "redeem_rewards",
+   "source": "in_scope"
+  },
+  {
+   "text": "use my boa account to pay the cable bill",
+   "gold": "pay_bill",
+   "source": "in_scope"
+  },
+  {
+   "text": "how does one apply for a master card",
+   "gold": "new_card",
+   "source": "in_scope"
+  },
+  {
+   "text": "need help with frozen bank account",
+   "gold": "account_blocked",
+   "source": "in_scope"
+  },
+  {
+   "text": "is it true that nicotine is harder to kick than heroin",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "how long will it take me to pay off my card if i pay an extra $50 a month over the minimum",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "what appointments do i have tomorrow after 1:00pm",
+   "gold": "out_of_scope",
+   "source": "other_domain:calendar"
+  },
+  {
+   "text": "i need to know the credit limit",
+   "gold": "credit_limit",
+   "source": "in_scope"
+  },
+  {
+   "text": "how many miles does this car get per gallon",
+   "gold": "out_of_scope",
+   "source": "other_domain:mpg"
+  },
+  {
+   "text": "i want to report fraud on my american express",
+   "gold": "report_fraud",
+   "source": "in_scope"
+  },
+  {
+   "text": "how much is my bill for capital one",
+   "gold": "bill_balance",
+   "source": "in_scope"
+  },
+  {
+   "text": "set an alarm for 05:00 and one for 16:00",
+   "gold": "out_of_scope",
+   "source": "other_domain:alarm"
+  },
+  {
+   "text": "what interest rate is us bank giving me on my acount",
+   "gold": "interest_rate",
+   "source": "in_scope"
+  },
+  {
+   "text": "place a hold on my chase money market market account at once",
+   "gold": "freeze_account",
+   "source": "in_scope"
+  },
+  {
+   "text": "do ducks sleep",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "how much interest do i get on my citizen's savings account",
+   "gold": "interest_rate",
+   "source": "in_scope"
+  },
+  {
+   "text": "i want assistance with my utility bill",
+   "gold": "pay_bill",
+   "source": "in_scope"
+  },
+  {
+   "text": "what's the average gpa to get into yale",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "please let me know if my discover card application has been approved",
+   "gold": "application_status",
+   "source": "in_scope"
+  },
+  {
+   "text": "where do i find my routing number for my pnc account",
+   "gold": "routing",
+   "source": "in_scope"
+  },
+  {
+   "text": "what's the minimum payment on my bill",
+   "gold": "min_payment",
+   "source": "in_scope"
+  },
+  {
+   "text": "how is my credit looking",
+   "gold": "credit_score",
+   "source": "in_scope"
+  },
+  {
+   "text": "what's the timezone over there",
+   "gold": "out_of_scope",
+   "source": "other_domain:timezone"
+  },
+  {
+   "text": "what is the length of time it takes a new card to get mailed to me",
+   "gold": "replacement_card_duration",
+   "source": "in_scope"
+  },
+  {
+   "text": "what is the minimum payment for comcast",
+   "gold": "min_payment",
+   "source": "in_scope"
+  },
+  {
+   "text": "i accidentally shredded my card",
+   "gold": "damaged_card",
+   "source": "in_scope"
+  },
+  {
+   "text": "what dog breed sold the most in 2018",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "what is a good apr",
+   "gold": "apr",
+   "source": "in_scope"
+  },
+  {
+   "text": "who has the best credit card offering for a college student",
+   "gold": "new_card",
+   "source": "in_scope"
+  },
+  {
+   "text": "where do black holes come from",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "i broke my card scraping snow off the windshield",
+   "gold": "damaged_card",
+   "source": "in_scope"
+  },
+  {
+   "text": "i want the pin on my wells fargo account to be changed",
+   "gold": "pin_change",
+   "source": "in_scope"
+  },
+  {
+   "text": "i forgot my pin number for my credit union bank account, can you help",
+   "gold": "pin_change",
+   "source": "in_scope"
+  },
+  {
+   "text": "does our bank have free notary",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "show me the channel guide",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "what items do i have on my amex card this month",
+   "gold": "transactions",
+   "source": "in_scope"
+  },
+  {
+   "text": "tell me when my mastercard bill should be paid",
+   "gold": "bill_due",
+   "source": "in_scope"
+  },
+  {
+   "text": "i need to know when is the next holiday here",
+   "gold": "out_of_scope",
+   "source": "other_domain:next_holiday"
+  },
+  {
+   "text": "how you are",
+   "gold": "out_of_scope",
+   "source": "other_domain:greeting"
+  },
+  {
+   "text": "i want to update my pin number on my bank of america account",
+   "gold": "pin_change",
+   "source": "in_scope"
+  },
+  {
+   "text": "show me some options for new credit cards that i can apply for, please",
+   "gold": "new_card",
+   "source": "in_scope"
+  },
+  {
+   "text": "what does my commute look like",
+   "gold": "out_of_scope",
+   "source": "other_domain:traffic"
+  },
+  {
+   "text": "lowest amount for cable bill",
+   "gold": "min_payment",
+   "source": "in_scope"
+  },
+  {
+   "text": "i am now out of checks, how do i order new ones",
+   "gold": "order_checks",
+   "source": "in_scope"
+  },
+  {
+   "text": "my card is impaired and i can't use it",
+   "gold": "damaged_card",
+   "source": "in_scope"
+  },
+  {
+   "text": "clear my to do list",
+   "gold": "out_of_scope",
+   "source": "other_domain:todo_list_update"
+  },
+  {
+   "text": "how much money is in my bank accounts",
+   "gold": "balance",
+   "source": "in_scope"
+  },
+  {
+   "text": "is it a short time before i receive my new credit card",
+   "gold": "replacement_card_duration",
+   "source": "in_scope"
+  },
+  {
+   "text": "what's my visa cards balance for rewards",
+   "gold": "rewards_balance",
+   "source": "in_scope"
+  },
+  {
+   "text": "my card was declined at mcdonald's and i want to know why",
+   "gold": "card_declined",
+   "source": "in_scope"
+  },
+  {
+   "text": "i want to start calling you adam",
+   "gold": "out_of_scope",
+   "source": "other_domain:change_ai_name"
+  },
+  {
+   "text": "what is the apr on my citibank card",
+   "gold": "apr",
+   "source": "in_scope"
+  },
+  {
+   "text": "it seems that my account is blocked and i'm not sure why",
+   "gold": "account_blocked",
+   "source": "in_scope"
+  },
+  {
+   "text": "will i be charged if i use my card in russia",
+   "gold": "international_fees",
+   "source": "in_scope"
+  },
+  {
+   "text": "how much have i recently spent",
+   "gold": "spending_history",
+   "source": "in_scope"
+  },
+  {
+   "text": "tell me the highest amount i can spend on my discover card",
+   "gold": "credit_limit",
+   "source": "in_scope"
+  },
+  {
+   "text": "tell me flight dl123's statud",
+   "gold": "out_of_scope",
+   "source": "other_domain:flight_status"
+  },
+  {
+   "text": "can you move my money to my savings",
+   "gold": "transfer",
+   "source": "in_scope"
+  },
+  {
+   "text": "how many points have i earned with my chase card",
+   "gold": "rewards_balance",
+   "source": "in_scope"
+  },
+  {
+   "text": "i want to apply for a wells fargo credit card",
+   "gold": "new_card",
+   "source": "in_scope"
+  },
+  {
+   "text": "i need a block placed right away on my joint checking account",
+   "gold": "freeze_account",
+   "source": "in_scope"
+  },
+  {
+   "text": "help me find the chase routing number",
+   "gold": "routing",
+   "source": "in_scope"
+  },
+  {
+   "text": "how much have i spent on shoes recently",
+   "gold": "spending_history",
+   "source": "in_scope"
+  },
+  {
+   "text": "is the united states a democracy",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "my card has a burn on it",
+   "gold": "damaged_card",
+   "source": "in_scope"
+  },
+  {
+   "text": "is the timezone there different",
+   "gold": "out_of_scope",
+   "source": "other_domain:timezone"
+  },
+  {
+   "text": "take one hundred and fifty bucks from my wells fargo checking account and put it in my wells fargo savings account",
+   "gold": "transfer",
+   "source": "in_scope"
+  },
+  {
+   "text": "how do i check my rewards for my maurices card",
+   "gold": "rewards_balance",
+   "source": "in_scope"
+  },
+  {
+   "text": "i want to know the apr on my capital one card",
+   "gold": "apr",
+   "source": "in_scope"
+  },
+  {
+   "text": "can you assist me on my fradulent activity on my chase card",
+   "gold": "report_fraud",
+   "source": "in_scope"
+  },
+  {
+   "text": "i would like more checks sent to my address",
+   "gold": "order_checks",
+   "source": "in_scope"
+  },
+  {
+   "text": "can you share my credit score with me",
+   "gold": "credit_score",
+   "source": "in_scope"
+  },
+  {
+   "text": "when will i get my replacement card",
+   "gold": "replacement_card_duration",
+   "source": "in_scope"
+  },
+  {
+   "text": "show tracking information on my replacement credit card",
+   "gold": "replacement_card_duration",
+   "source": "in_scope"
+  },
+  {
+   "text": "please order more checks i just used the last one",
+   "gold": "order_checks",
+   "source": "in_scope"
+  },
+  {
+   "text": "add what i am listening to to my road trip playlist",
+   "gold": "out_of_scope",
+   "source": "other_domain:update_playlist"
+  },
+  {
+   "text": "i don't want my current pin for my wells account anymore",
+   "gold": "pin_change",
+   "source": "in_scope"
+  },
+  {
+   "text": "show me all transactions for current statement",
+   "gold": "transactions",
+   "source": "in_scope"
+  },
+  {
+   "text": "what side in chess has the general advantage",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "find out why i can't log in to my bank of america account",
+   "gold": "account_blocked",
+   "source": "in_scope"
+  },
+  {
+   "text": "how much have i spent lately",
+   "gold": "spending_history",
+   "source": "in_scope"
+  },
+  {
+   "text": "what is the current status of my credit card application",
+   "gold": "application_status",
+   "source": "in_scope"
+  },
+  {
+   "text": "i want to change my bank of america account pin number",
+   "gold": "pin_change",
+   "source": "in_scope"
+  },
+  {
+   "text": "how do you know when your dog is ill",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "where would my phone be",
+   "gold": "out_of_scope",
+   "source": "other_domain:find_phone"
+  },
+  {
+   "text": "how can i make a change to my credit limit",
+   "gold": "credit_limit_change",
+   "source": "in_scope"
+  },
+  {
+   "text": "what brand of earphones is the best reviewed of 2019",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "are there any cybersecurity jobs available in pittsburgh",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "can you initiate a block on my bank of america checking asap",
+   "gold": "freeze_account",
+   "source": "in_scope"
+  },
+  {
+   "text": "help with credit card points",
+   "gold": "redeem_rewards",
+   "source": "in_scope"
+  },
+  {
+   "text": "how does a democracy work",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "please get me my wheelchair",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "is there a due date on the bill",
+   "gold": "bill_due",
+   "source": "in_scope"
+  },
+  {
+   "text": "i am not sure if i have enough money in my chase account to buy a new dress",
+   "gold": "balance",
+   "source": "in_scope"
+  },
+  {
+   "text": "how old are you as of today",
+   "gold": "out_of_scope",
+   "source": "other_domain:how_old_are_you"
+  },
+  {
+   "text": "i will require help to take care of my utility bill",
+   "gold": "pay_bill",
+   "source": "in_scope"
+  },
+  {
+   "text": "how many paypal transactions did i have last week",
+   "gold": "transactions",
+   "source": "in_scope"
+  },
+  {
+   "text": "is it possible for you to schedule a meeting for 3:00 on wednesday",
+   "gold": "out_of_scope",
+   "source": "other_domain:schedule_meeting"
+  },
+  {
+   "text": "please put a block on my discover account immediately",
+   "gold": "freeze_account",
+   "source": "in_scope"
+  },
+  {
+   "text": "was my last transaction at walmart",
+   "gold": "transactions",
+   "source": "in_scope"
+  },
+  {
+   "text": "can you tell me some fake news",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "is there a way to increase the limit of my credit to 5000 dollars",
+   "gold": "credit_limit_change",
+   "source": "in_scope"
+  },
+  {
+   "text": "make an eft to my savings from my checking account",
+   "gold": "transfer",
+   "source": "in_scope"
+  },
+  {
+   "text": "i want a new pin on my card of private client account",
+   "gold": "pin_change",
+   "source": "in_scope"
+  },
+  {
+   "text": "i want to report fraudulent activity on my quicksilver card",
+   "gold": "report_fraud",
+   "source": "in_scope"
+  },
+  {
+   "text": "my utility bill is coming due and i need a loan",
+   "gold": "pay_bill",
+   "source": "in_scope"
+  },
+  {
+   "text": "what month does my card stop working",
+   "gold": "expiration_date",
+   "source": "in_scope"
+  },
+  {
+   "text": "how do i check my rewards for my capital one card",
+   "gold": "rewards_balance",
+   "source": "in_scope"
+  },
+  {
+   "text": "will i be charged if i use my card in japan",
+   "gold": "international_fees",
+   "source": "in_scope"
+  },
+  {
+   "text": "what is the name of the 13th president",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "what's my credit rating right now",
+   "gold": "credit_score",
+   "source": "in_scope"
+  },
+  {
+   "text": "what's the least i can pay towards this bill",
+   "gold": "min_payment",
+   "source": "in_scope"
+  },
+  {
+   "text": "i was trying to buy a chainsaw at the tractor store and they said my card was declined",
+   "gold": "card_declined",
+   "source": "in_scope"
+  },
+  {
+   "text": "how much money have i spent on restaurants",
+   "gold": "transactions",
+   "source": "in_scope"
+  },
+  {
+   "text": "can you help me change my credit limit",
+   "gold": "credit_limit_change",
+   "source": "in_scope"
+  },
+  {
+   "text": "what kind of interest am i getting from my bank of america checking",
+   "gold": "interest_rate",
+   "source": "in_scope"
+  },
+  {
+   "text": "what transactions did i put on my visa last month",
+   "gold": "transactions",
+   "source": "in_scope"
+  },
+  {
+   "text": "put one hundred and seventy five bucks in my wells fargo checking account from my citibank savings account",
+   "gold": "transfer",
+   "source": "in_scope"
+  },
+  {
+   "text": "tell me the pin number to my card",
+   "gold": "pin_change",
+   "source": "in_scope"
+  },
+  {
+   "text": "what transactions do i have on my visa from the last 4 weeks",
+   "gold": "transactions",
+   "source": "in_scope"
+  },
+  {
+   "text": "what are my recent purchases",
+   "gold": "transactions",
+   "source": "in_scope"
+  },
+  {
+   "text": "submit payment to duke energy for my electric bill",
+   "gold": "pay_bill",
+   "source": "in_scope"
+  },
+  {
+   "text": "my account appears to be blocked and i don't know why",
+   "gold": "account_blocked",
+   "source": "in_scope"
+  },
+  {
+   "text": "can i get beer within my deposit account",
+   "gold": "balance",
+   "source": "in_scope"
+  },
+  {
+   "text": "can anyone let me know the reason behind my frozen bank account",
+   "gold": "account_blocked",
+   "source": "in_scope"
+  },
+  {
+   "text": "what day do i have to pay my leasing office bill",
+   "gold": "bill_due",
+   "source": "in_scope"
+  },
+  {
+   "text": "has my credit card application processed yet",
+   "gold": "application_status",
+   "source": "in_scope"
+  },
+  {
+   "text": "what's the time of arrival on my new credit card",
+   "gold": "replacement_card_duration",
+   "source": "in_scope"
+  },
+  {
+   "text": "engage whisper mode",
+   "gold": "out_of_scope",
+   "source": "other_domain:whisper_mode"
+  },
+  {
+   "text": "at what point will the review of my credit card application be completed",
+   "gold": "application_status",
+   "source": "in_scope"
+  },
+  {
+   "text": "what is my expiration data for my card",
+   "gold": "expiration_date",
+   "source": "in_scope"
+  },
+  {
+   "text": "i want to report a stolen card",
+   "gold": "report_lost_card",
+   "source": "in_scope"
+  },
+  {
+   "text": "how many firewalls should i have and what type",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "what is the apr on my chase card",
+   "gold": "apr",
+   "source": "in_scope"
+  },
+  {
+   "text": "redeem my credit card rewards into my account",
+   "gold": "redeem_rewards",
+   "source": "in_scope"
+  },
+  {
+   "text": "i would like to know more about getting a new credit card",
+   "gold": "new_card",
+   "source": "in_scope"
+  },
+  {
+   "text": "what is the purpose or benefit of a cash advance",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "i need you to act swiftly and freeze all activity on my capital one checking",
+   "gold": "freeze_account",
+   "source": "in_scope"
+  },
+  {
+   "text": "how do you learn how to play electric violin",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "please pay my utility bill from my wells fargo checking account",
+   "gold": "pay_bill",
+   "source": "in_scope"
+  },
+  {
+   "text": "can you find the expiration date and tell me what it is that is on my visa credit card",
+   "gold": "expiration_date",
+   "source": "in_scope"
+  },
+  {
+   "text": "what is the best way to keep my credit score from going down",
+   "gold": "improve_credit_score",
+   "source": "in_scope"
+  },
+  {
+   "text": "can i order checks online for my checking account",
+   "gold": "order_checks",
+   "source": "in_scope"
+  },
+  {
+   "text": "how can up my credit limit",
+   "gold": "credit_limit_change",
+   "source": "in_scope"
+  },
+  {
+   "text": "my card was destroyed when my house burned down and i need a replacement",
+   "gold": "damaged_card",
+   "source": "in_scope"
+  },
+  {
+   "text": "my card was rejected at shakey's and i am wondering why",
+   "gold": "card_declined",
+   "source": "in_scope"
+  },
+  {
+   "text": "can you check on the status of my credit card application",
+   "gold": "application_status",
+   "source": "in_scope"
+  },
+  {
+   "text": "what is my card's apr and is it good",
+   "gold": "apr",
+   "source": "in_scope"
+  },
+  {
+   "text": "you want to know about current time now",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "how much is due on the gas bill",
+   "gold": "bill_balance",
+   "source": "in_scope"
+  },
+  {
+   "text": "i hope i have enough money in my chase account to buy new clothes",
+   "gold": "balance",
+   "source": "in_scope"
+  },
+  {
+   "text": "repeat that for me",
+   "gold": "out_of_scope",
+   "source": "other_domain:repeat"
+  },
+  {
+   "text": "how much do my bills cost this month",
+   "gold": "bill_balance",
+   "source": "in_scope"
+  },
+  {
+   "text": "what is my credit limit on my discover card",
+   "gold": "credit_limit",
+   "source": "in_scope"
+  },
+  {
+   "text": "i was in target about to buy a chair when my card got declined",
+   "gold": "card_declined",
+   "source": "in_scope"
+  },
+  {
+   "text": "make a quarterly payment on my life insurance premium",
+   "gold": "pay_bill",
+   "source": "in_scope"
+  },
+  {
+   "text": "will i have enough to get a new roku with my savings account",
+   "gold": "balance",
+   "source": "in_scope"
+  },
+  {
+   "text": "where i can use credit card points",
+   "gold": "redeem_rewards",
+   "source": "in_scope"
+  },
+  {
+   "text": "whats the minimum payment on my electric bill",
+   "gold": "min_payment",
+   "source": "in_scope"
+  },
+  {
+   "text": "can you tell me how much i spent on grocery shopping recently",
+   "gold": "spending_history",
+   "source": "in_scope"
+  },
+  {
+   "text": "i'd like to know my minimum payment please",
+   "gold": "min_payment",
+   "source": "in_scope"
+  },
+  {
+   "text": "what are some ways to raise my credit score",
+   "gold": "improve_credit_score",
+   "source": "in_scope"
+  },
+  {
+   "text": "send robert a text from me telling him okay",
+   "gold": "out_of_scope",
+   "source": "other_domain:text"
+  },
+  {
+   "text": "can you roll a dice for me",
+   "gold": "out_of_scope",
+   "source": "other_domain:roll_dice"
+  },
+  {
+   "text": "is autism a genetic disease",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "what is the least i can pay towards my car bill",
+   "gold": "min_payment",
+   "source": "in_scope"
+  },
+  {
+   "text": "where can i locate the pnc account's interest rate",
+   "gold": "interest_rate",
+   "source": "in_scope"
+  },
+  {
+   "text": "how long does it take a new card to arrive in the mail to me",
+   "gold": "replacement_card_duration",
+   "source": "in_scope"
+  },
+  {
+   "text": "can you inform me of my gas amount",
+   "gold": "out_of_scope",
+   "source": "other_domain:gas"
+  },
+  {
+   "text": "i need more checks because i am out",
+   "gold": "order_checks",
+   "source": "in_scope"
+  },
+  {
+   "text": "is android better than iphone",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "i'd like to increase my credit limit",
+   "gold": "credit_limit_change",
+   "source": "in_scope"
+  },
+  {
+   "text": "did i buy too many donuts recently, like last week",
+   "gold": "spending_history",
+   "source": "in_scope"
+  },
+  {
+   "text": "can you play the beatles",
+   "gold": "out_of_scope",
+   "source": "other_domain:play_music"
+  },
+  {
+   "text": "what day is my telephone bill due",
+   "gold": "bill_due",
+   "source": "in_scope"
+  },
+  {
+   "text": "i need to know when my credit card is going to expire",
+   "gold": "expiration_date",
+   "source": "in_scope"
+  },
+  {
+   "text": "what does my credit card charge for their annual percentage rate",
+   "gold": "apr",
+   "source": "in_scope"
+  }
+ ],
+ "test": [
+  {
+   "text": "what are my total bills this month",
+   "gold": "bill_balance",
+   "source": "in_scope"
+  },
+  {
+   "text": "will it cost me anything to use my card in turin",
+   "gold": "international_fees",
+   "source": "in_scope"
+  },
+  {
+   "text": "how do you spell \"montpelier",
+   "gold": "out_of_scope",
+   "source": "other_domain:spelling"
+  },
+  {
+   "text": "access my checking account and update my pin to 1234",
+   "gold": "pin_change",
+   "source": "in_scope"
+  },
+  {
+   "text": "do you know the smallest amount i can pay on my water bill",
+   "gold": "min_payment",
+   "source": "in_scope"
+  },
+  {
+   "text": "send twelve dollars between cabelas and bank of london accounts, please",
+   "gold": "transfer",
+   "source": "in_scope"
+  },
+  {
+   "text": "what is the time frame for sending a customer who lost their credit card a new one",
+   "gold": "replacement_card_duration",
+   "source": "in_scope"
+  },
+  {
+   "text": "what type of industries do innovation managers work in",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "give me my credit rating",
+   "gold": "credit_score",
+   "source": "in_scope"
+  },
+  {
+   "text": "i need to get kalee added to my phone plan",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "i want to know my credit limit",
+   "gold": "credit_limit",
+   "source": "in_scope"
+  },
+  {
+   "text": "does the new york restaurant take reservations",
+   "gold": "out_of_scope",
+   "source": "other_domain:accept_reservations"
+  },
+  {
+   "text": "will you remove the dinner with june on saturday the 4th at 7pm from my calendar",
+   "gold": "out_of_scope",
+   "source": "other_domain:calendar_update"
+  },
+  {
+   "text": "where can i find my routing number",
+   "gold": "routing",
+   "source": "in_scope"
+  },
+  {
+   "text": "what universities are nearby to me and highly rated",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "where can i find when my car payment bill is due",
+   "gold": "bill_due",
+   "source": "in_scope"
+  },
+  {
+   "text": "how much does my bank account have",
+   "gold": "balance",
+   "source": "in_scope"
+  },
+  {
+   "text": "there's a messed up transaction on my account from mcdonald's",
+   "gold": "report_fraud",
+   "source": "in_scope"
+  },
+  {
+   "text": "why did we elect this woman who made amazon leave and take its jobs with it",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "what exactly is my pin",
+   "gold": "pin_change",
+   "source": "in_scope"
+  },
+  {
+   "text": "how much is the car bill this month",
+   "gold": "bill_balance",
+   "source": "in_scope"
+  },
+  {
+   "text": "i think this transaction is bogus",
+   "gold": "report_fraud",
+   "source": "in_scope"
+  },
+  {
+   "text": "can i increase the credit limit on my visa card",
+   "gold": "credit_limit_change",
+   "source": "in_scope"
+  },
+  {
+   "text": "what should i take for nausea",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "will the bank charge transaction fees if i use my american card internationally",
+   "gold": "international_fees",
+   "source": "in_scope"
+  },
+  {
+   "text": "will using a discover card in rome cause transaction fees",
+   "gold": "international_fees",
+   "source": "in_scope"
+  },
+  {
+   "text": "how much money do i have in my various bank accounts",
+   "gold": "balance",
+   "source": "in_scope"
+  },
+  {
+   "text": "how come i got declined",
+   "gold": "card_declined",
+   "source": "in_scope"
+  },
+  {
+   "text": "please block my discover account immediately",
+   "gold": "freeze_account",
+   "source": "in_scope"
+  },
+  {
+   "text": "look up ways for me to advance my job placement",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "how many transactions do i have on flower shops from last wednesday between 2pm and 7pm",
+   "gold": "transactions",
+   "source": "in_scope"
+  },
+  {
+   "text": "is there a minimum payment i can make",
+   "gold": "min_payment",
+   "source": "in_scope"
+  },
+  {
+   "text": "my online bill has some items that i didn't purchase from penneys",
+   "gold": "report_fraud",
+   "source": "in_scope"
+  },
+  {
+   "text": "can my credit limit be increased to $1000",
+   "gold": "credit_limit_change",
+   "source": "in_scope"
+  },
+  {
+   "text": "i have a damaged card that needs replaced because my son dropped it in a blender",
+   "gold": "damaged_card",
+   "source": "in_scope"
+  },
+  {
+   "text": "what's the best way to get a mastercard",
+   "gold": "new_card",
+   "source": "in_scope"
+  },
+  {
+   "text": "i want to report a damaged card",
+   "gold": "damaged_card",
+   "source": "in_scope"
+  },
+  {
+   "text": "what can i get with my mastercard points",
+   "gold": "redeem_rewards",
+   "source": "in_scope"
+  },
+  {
+   "text": "can you call the help desk line for my credit card company",
+   "gold": "replacement_card_duration",
+   "source": "in_scope"
+  },
+  {
+   "text": "i'd like to send a text to jack, say \"hi",
+   "gold": "out_of_scope",
+   "source": "other_domain:text"
+  },
+  {
+   "text": "what's the best make-up to cover a black eye",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "can i use sugar instead of salt",
+   "gold": "out_of_scope",
+   "source": "other_domain:ingredient_substitution"
+  },
+  {
+   "text": "can you tell me how to transfer my 401k",
+   "gold": "out_of_scope",
+   "source": "other_domain:rollover_401k"
+  },
+  {
+   "text": "i want to know if my credit card application has been processed",
+   "gold": "application_status",
+   "source": "in_scope"
+  },
+  {
+   "text": "i have a fraudulent buy from dave's video on my account",
+   "gold": "report_fraud",
+   "source": "in_scope"
+  },
+  {
+   "text": "do i spend too much on beer",
+   "gold": "spending_history",
+   "source": "in_scope"
+  },
+  {
+   "text": "i want to know the status of my credit card application",
+   "gold": "application_status",
+   "source": "in_scope"
+  },
+  {
+   "text": "how do i report my very lost card",
+   "gold": "report_lost_card",
+   "source": "in_scope"
+  },
+  {
+   "text": "what is the expiration month and year on my credit car",
+   "gold": "expiration_date",
+   "source": "in_scope"
+  },
+  {
+   "text": "tell me a dog joke",
+   "gold": "out_of_scope",
+   "source": "other_domain:tell_joke"
+  },
+  {
+   "text": "confirm that there is a reservation at bellagio for thomas",
+   "gold": "out_of_scope",
+   "source": "other_domain:confirm_reservation"
+  },
+  {
+   "text": "how do i apply do get myself a visa",
+   "gold": "new_card",
+   "source": "in_scope"
+  },
+  {
+   "text": "find out how many miles the mississippi waterway runs",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "what's the ultimate day for me to pay the internet bill",
+   "gold": "bill_due",
+   "source": "in_scope"
+  },
+  {
+   "text": "can you help me pay my electricity bill",
+   "gold": "pay_bill",
+   "source": "in_scope"
+  },
+  {
+   "text": "set an alarm for ten tomorrow",
+   "gold": "out_of_scope",
+   "source": "other_domain:alarm"
+  },
+  {
+   "text": "i need $360 transfered from savings to checking account",
+   "gold": "transfer",
+   "source": "in_scope"
+  },
+  {
+   "text": "what interest rate am i getting from sunflower bank",
+   "gold": "interest_rate",
+   "source": "in_scope"
+  },
+  {
+   "text": "what is my credit limit on my discover",
+   "gold": "credit_limit",
+   "source": "in_scope"
+  },
+  {
+   "text": "please notify my bank i'm going to africa between tomorrow and next tuesday",
+   "gold": "out_of_scope",
+   "source": "other_domain:travel_notification"
+  },
+  {
+   "text": "i need to get a new credit card application",
+   "gold": "new_card",
+   "source": "in_scope"
+  },
+  {
+   "text": "why is there a delay on my checking account",
+   "gold": "account_blocked",
+   "source": "in_scope"
+  },
+  {
+   "text": "i want to use my credit rewards now",
+   "gold": "redeem_rewards",
+   "source": "in_scope"
+  },
+  {
+   "text": "when will i know if my visa card application was approved",
+   "gold": "application_status",
+   "source": "in_scope"
+  },
+  {
+   "text": "for my chase account can i order some checkbooks",
+   "gold": "order_checks",
+   "source": "in_scope"
+  },
+  {
+   "text": "has my mastercard application been processed",
+   "gold": "application_status",
+   "source": "in_scope"
+  },
+  {
+   "text": "what's the apr on my savings account",
+   "gold": "interest_rate",
+   "source": "in_scope"
+  },
+  {
+   "text": "start calling me jake from now on",
+   "gold": "out_of_scope",
+   "source": "other_domain:change_user_name"
+  },
+  {
+   "text": "can you order some ointment for me",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "tell me what my savings account routing number is",
+   "gold": "routing",
+   "source": "in_scope"
+  },
+  {
+   "text": "i saw suspicious activity on my bank account",
+   "gold": "report_fraud",
+   "source": "in_scope"
+  },
+  {
+   "text": "can you please help me move $100 from my checking to saving account",
+   "gold": "transfer",
+   "source": "in_scope"
+  },
+  {
+   "text": "how do i pay my electric bill",
+   "gold": "pay_bill",
+   "source": "in_scope"
+  },
+  {
+   "text": "what is up with my account, why is it blocked",
+   "gold": "account_blocked",
+   "source": "in_scope"
+  },
+  {
+   "text": "i want to freeze my bank account",
+   "gold": "freeze_account",
+   "source": "in_scope"
+  },
+  {
+   "text": "so i get charged if i use my card in france",
+   "gold": "international_fees",
+   "source": "in_scope"
+  },
+  {
+   "text": "when it my citi card expired",
+   "gold": "expiration_date",
+   "source": "in_scope"
+  },
+  {
+   "text": "what's my current bank account total",
+   "gold": "balance",
+   "source": "in_scope"
+  },
+  {
+   "text": "can you please tell me about the status of my credit card application",
+   "gold": "application_status",
+   "source": "in_scope"
+  },
+  {
+   "text": "put words on the paper about what you want",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "i want to use my card reward points",
+   "gold": "redeem_rewards",
+   "source": "in_scope"
+  },
+  {
+   "text": "may i order more checks for my well's fargo account",
+   "gold": "order_checks",
+   "source": "in_scope"
+  },
+  {
+   "text": "what is the shipping status of my replacement card",
+   "gold": "replacement_card_duration",
+   "source": "in_scope"
+  },
+  {
+   "text": "why can't i use my money market account",
+   "gold": "account_blocked",
+   "source": "in_scope"
+  },
+  {
+   "text": "how many carry ons can i take on a flight with delta to seattle",
+   "gold": "out_of_scope",
+   "source": "other_domain:carry_on"
+  },
+  {
+   "text": "what are the nutrition facts for carrots",
+   "gold": "out_of_scope",
+   "source": "other_domain:nutrition_info"
+  },
+  {
+   "text": "today my electric bill will be paid, or should be",
+   "gold": "pay_bill",
+   "source": "in_scope"
+  },
+  {
+   "text": "what month does my credit card expire",
+   "gold": "expiration_date",
+   "source": "in_scope"
+  },
+  {
+   "text": "which kinds of pets do you have",
+   "gold": "out_of_scope",
+   "source": "other_domain:do_you_have_pets"
+  },
+  {
+   "text": "i need to know the time it takes to get a new credit card sent to someone who lost theirs",
+   "gold": "replacement_card_duration",
+   "source": "in_scope"
+  },
+  {
+   "text": "will you let me know my bank balance",
+   "gold": "balance",
+   "source": "in_scope"
+  },
+  {
+   "text": "can i get someone to look at my check engine light that is on",
+   "gold": "out_of_scope",
+   "source": "other_domain:schedule_maintenance"
+  },
+  {
+   "text": "how much so far pto have i used",
+   "gold": "out_of_scope",
+   "source": "other_domain:pto_used"
+  },
+  {
+   "text": "how would i say i am lost if i were japanese",
+   "gold": "out_of_scope",
+   "source": "other_domain:translate"
+  },
+  {
+   "text": "will i incur transaction fees if i use my american card internationally",
+   "gold": "international_fees",
+   "source": "in_scope"
+  },
+  {
+   "text": "help me redeem my reward points",
+   "gold": "redeem_rewards",
+   "source": "in_scope"
+  },
+  {
+   "text": "do i have transaction fees if i use my american card internationally",
+   "gold": "international_fees",
+   "source": "in_scope"
+  },
+  {
+   "text": "tell me spaghetti bolognese's nutrition facts",
+   "gold": "out_of_scope",
+   "source": "other_domain:nutrition_info"
+  },
+  {
+   "text": "are there any problems with my bank account",
+   "gold": "account_blocked",
+   "source": "in_scope"
+  },
+  {
+   "text": "my credit rating is what",
+   "gold": "credit_score",
+   "source": "in_scope"
+  },
+  {
+   "text": "when will my citi card expire",
+   "gold": "expiration_date",
+   "source": "in_scope"
+  },
+  {
+   "text": "what should i squirrel away to pay in taxes",
+   "gold": "out_of_scope",
+   "source": "other_domain:taxes"
+  },
+  {
+   "text": "is the bill due today",
+   "gold": "bill_due",
+   "source": "in_scope"
+  },
+  {
+   "text": "how can i raise my credit score",
+   "gold": "improve_credit_score",
+   "source": "in_scope"
+  },
+  {
+   "text": "how can i get my rewards for my master card",
+   "gold": "redeem_rewards",
+   "source": "in_scope"
+  },
+  {
+   "text": "show me examples of cute eyeglass frames",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "as my visa got a high enough limit on it",
+   "gold": "credit_limit",
+   "source": "in_scope"
+  },
+  {
+   "text": "are there transaction fees for discover cards used in rome",
+   "gold": "international_fees",
+   "source": "in_scope"
+  },
+  {
+   "text": "would you consider my apr to be good",
+   "gold": "apr",
+   "source": "in_scope"
+  },
+  {
+   "text": "how expensive is my internet",
+   "gold": "bill_balance",
+   "source": "in_scope"
+  },
+  {
+   "text": "tell me my apr rate",
+   "gold": "apr",
+   "source": "in_scope"
+  },
+  {
+   "text": "transfer ninety dollars between glacier checking and farmers accounts, please",
+   "gold": "transfer",
+   "source": "in_scope"
+  },
+  {
+   "text": "how much money have i spent on fast food lately",
+   "gold": "spending_history",
+   "source": "in_scope"
+  },
+  {
+   "text": "i want to know what my recent transaction was",
+   "gold": "transactions",
+   "source": "in_scope"
+  },
+  {
+   "text": "i need my checking account's interest rate",
+   "gold": "interest_rate",
+   "source": "in_scope"
+  },
+  {
+   "text": "how do i submit an application for a discover card",
+   "gold": "new_card",
+   "source": "in_scope"
+  },
+  {
+   "text": "is this where i apply for a new credit card",
+   "gold": "new_card",
+   "source": "in_scope"
+  },
+  {
+   "text": "do you know when our next day off is",
+   "gold": "out_of_scope",
+   "source": "other_domain:next_holiday"
+  },
+  {
+   "text": "i have points on my capital one card and i'd like to know how many i've earned",
+   "gold": "rewards_balance",
+   "source": "in_scope"
+  },
+  {
+   "text": "i need to tell you about my lost card",
+   "gold": "report_lost_card",
+   "source": "in_scope"
+  },
+  {
+   "text": "i have a bs transaction from ebay on my account",
+   "gold": "report_fraud",
+   "source": "in_scope"
+  },
+  {
+   "text": "who is the start of the movie almost famous",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "today is the day i should pay my electric bill",
+   "gold": "pay_bill",
+   "source": "in_scope"
+  },
+  {
+   "text": "tell me how to go about reporting a damaged card",
+   "gold": "damaged_card",
+   "source": "in_scope"
+  },
+  {
+   "text": "make a list of the top 100 famous quotes",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "this charge is bs",
+   "gold": "report_fraud",
+   "source": "in_scope"
+  },
+  {
+   "text": "i'm travelling to boston on march 2 until march 4 please make a hotel reservation for me",
+   "gold": "out_of_scope",
+   "source": "other_domain:book_hotel"
+  },
+  {
+   "text": "i need to put in a payment towards my phone bill",
+   "gold": "pay_bill",
+   "source": "in_scope"
+  },
+  {
+   "text": "i want a step by step explanation of how to change the oil in my car",
+   "gold": "out_of_scope",
+   "source": "other_domain:oil_change_how"
+  },
+  {
+   "text": "will my fico score decrease if i increase my student loan debt",
+   "gold": "improve_credit_score",
+   "source": "in_scope"
+  },
+  {
+   "text": "am i currently connected to wifi",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "make 1234 the pin on my savings account",
+   "gold": "pin_change",
+   "source": "in_scope"
+  },
+  {
+   "text": "are there any required shots to travel to astana",
+   "gold": "out_of_scope",
+   "source": "other_domain:vaccines"
+  },
+  {
+   "text": "what is my visa credit limit",
+   "gold": "credit_limit",
+   "source": "in_scope"
+  },
+  {
+   "text": "why is there a stop on my deposit account",
+   "gold": "account_blocked",
+   "source": "in_scope"
+  },
+  {
+   "text": "i cannot use my card cuz it's damaged",
+   "gold": "damaged_card",
+   "source": "in_scope"
+  },
+  {
+   "text": "i need to know when my electricity bill is due",
+   "gold": "bill_due",
+   "source": "in_scope"
+  },
+  {
+   "text": "can you mark this note as important",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "is my replacement card due to arrive in the mail today",
+   "gold": "replacement_card_duration",
+   "source": "in_scope"
+  },
+  {
+   "text": "i need to use my credit points",
+   "gold": "redeem_rewards",
+   "source": "in_scope"
+  },
+  {
+   "text": "what battery percentage is my phone at",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "when is my new card expected to arrive",
+   "gold": "replacement_card_duration",
+   "source": "in_scope"
+  },
+  {
+   "text": "i need to get the interest rate of my savings account",
+   "gold": "interest_rate",
+   "source": "in_scope"
+  },
+  {
+   "text": "there's a false charge on my account from mcdonald's",
+   "gold": "report_fraud",
+   "source": "in_scope"
+  },
+  {
+   "text": "i need some assistance paying my utilities bill",
+   "gold": "pay_bill",
+   "source": "in_scope"
+  },
+  {
+   "text": "i would like to distribute some money between my accounts",
+   "gold": "transfer",
+   "source": "in_scope"
+  },
+  {
+   "text": "i can't use my card because i damaged it",
+   "gold": "damaged_card",
+   "source": "in_scope"
+  },
+  {
+   "text": "define antebellum",
+   "gold": "out_of_scope",
+   "source": "other_domain:definition"
+  },
+  {
+   "text": "is my credit score over 700 yet",
+   "gold": "credit_score",
+   "source": "in_scope"
+  },
+  {
+   "text": "what are cars like mine selling for online",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "i want a cancellation of the dinner reservation for phillips at bernardin's",
+   "gold": "out_of_scope",
+   "source": "other_domain:cancel_reservation"
+  },
+  {
+   "text": "i lost my card and need to report it",
+   "gold": "report_lost_card",
+   "source": "in_scope"
+  },
+  {
+   "text": "how much does a nintendo switch cost",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "please tell me how do i change the account pin number",
+   "gold": "pin_change",
+   "source": "in_scope"
+  },
+  {
+   "text": "can i redeem my points for flights",
+   "gold": "redeem_rewards",
+   "source": "in_scope"
+  },
+  {
+   "text": "see if there are any employment agencies hiring managers right now",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "i wish to know my debit card's rewards balance",
+   "gold": "rewards_balance",
+   "source": "in_scope"
+  },
+  {
+   "text": "why can't i use my credit card",
+   "gold": "card_declined",
+   "source": "in_scope"
+  },
+  {
+   "text": "order me a book of stamps and envelopes",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "fill out the paperwork for tonys new daycare center",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "tell me my hsbc card credit limit",
+   "gold": "credit_limit",
+   "source": "in_scope"
+  },
+  {
+   "text": "let me cash my credit rewards",
+   "gold": "redeem_rewards",
+   "source": "in_scope"
+  },
+  {
+   "text": "what did i spend on beer last month",
+   "gold": "spending_history",
+   "source": "in_scope"
+  },
+  {
+   "text": "i would like to know the status of my credit card application",
+   "gold": "application_status",
+   "source": "in_scope"
+  },
+  {
+   "text": "state recent transaction",
+   "gold": "transactions",
+   "source": "in_scope"
+  },
+  {
+   "text": "can i redeem my points by transferring them to someone as a gift",
+   "gold": "redeem_rewards",
+   "source": "in_scope"
+  },
+  {
+   "text": "want to know the weather",
+   "gold": "out_of_scope",
+   "source": "other_domain:weather"
+  },
+  {
+   "text": "how much have i spent on my bank card sine i last paid my bill",
+   "gold": "transactions",
+   "source": "in_scope"
+  },
+  {
+   "text": "can you give me a points update on my rewards plus card",
+   "gold": "rewards_balance",
+   "source": "in_scope"
+  },
+  {
+   "text": "is there enough in my wells fargo account to buy some nike's",
+   "gold": "balance",
+   "source": "in_scope"
+  },
+  {
+   "text": "what did trump do todayu",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "how to take care of the sick",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "tell me what my wells fargo credit card apr is",
+   "gold": "apr",
+   "source": "in_scope"
+  },
+  {
+   "text": "what hobbies do you like to do",
+   "gold": "out_of_scope",
+   "source": "other_domain:what_are_your_hobbies"
+  },
+  {
+   "text": "how much is the pay offered for my work",
+   "gold": "out_of_scope",
+   "source": "other_domain:income"
+  },
+  {
+   "text": "what do i owe to jcp",
+   "gold": "bill_balance",
+   "source": "in_scope"
+  },
+  {
+   "text": "i am going to need help paying my rent bill",
+   "gold": "pay_bill",
+   "source": "in_scope"
+  },
+  {
+   "text": "upload the pictures to the correct album",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "i need to know why my card got declined",
+   "gold": "card_declined",
+   "source": "in_scope"
+  },
+  {
+   "text": "why is my checking account not working",
+   "gold": "account_blocked",
+   "source": "in_scope"
+  },
+  {
+   "text": "show me my recent transactions from account xyz",
+   "gold": "transactions",
+   "source": "in_scope"
+  },
+  {
+   "text": "what is the expiration date on my chase card",
+   "gold": "expiration_date",
+   "source": "in_scope"
+  },
+  {
+   "text": "how long until i get my replacement card",
+   "gold": "replacement_card_duration",
+   "source": "in_scope"
+  },
+  {
+   "text": "pay my light bill",
+   "gold": "pay_bill",
+   "source": "in_scope"
+  },
+  {
+   "text": "what is the largest transaction i have made on video games this month",
+   "gold": "transactions",
+   "source": "in_scope"
+  },
+  {
+   "text": "what are the current prices for mushrooms",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "restart my newspaper delivery for monday",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "it is damaging to my credit score if i miss one credit card payment",
+   "gold": "improve_credit_score",
+   "source": "in_scope"
+  },
+  {
+   "text": "set a reminder for me to let the plumber in tomorrow",
+   "gold": "out_of_scope",
+   "source": "other_domain:reminder_update"
+  },
+  {
+   "text": "about how much did i spend recently",
+   "gold": "spending_history",
+   "source": "in_scope"
+  },
+  {
+   "text": "make an immediate transfer of ten thousand from money market to checking",
+   "gold": "transfer",
+   "source": "in_scope"
+  },
+  {
+   "text": "is anything being newscasted about the threat of famine in chadu",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "i wanna know my credit card's rewards balance",
+   "gold": "rewards_balance",
+   "source": "in_scope"
+  },
+  {
+   "text": "i want to know how is my credit card application going",
+   "gold": "application_status",
+   "source": "in_scope"
+  },
+  {
+   "text": "i need to to know how to report a lost card",
+   "gold": "report_lost_card",
+   "source": "in_scope"
+  },
+  {
+   "text": "how long does it take for a credit card to be reissued and mailed to me",
+   "gold": "replacement_card_duration",
+   "source": "in_scope"
+  },
+  {
+   "text": "many thank",
+   "gold": "out_of_scope",
+   "source": "other_domain:thank_you"
+  },
+  {
+   "text": "what exactly is the status of my application for the credit card",
+   "gold": "application_status",
+   "source": "in_scope"
+  },
+  {
+   "text": "please put a freeze on my banking account",
+   "gold": "freeze_account",
+   "source": "in_scope"
+  },
+  {
+   "text": "i would like to report fraudulent activity on my chase card",
+   "gold": "report_fraud",
+   "source": "in_scope"
+  },
+  {
+   "text": "is flight dl123 going to arrive on time",
+   "gold": "out_of_scope",
+   "source": "other_domain:flight_status"
+  },
+  {
+   "text": "i would like to get a new credt card",
+   "gold": "new_card",
+   "source": "in_scope"
+  },
+  {
+   "text": "how many rewards points do i have on my rewards points i have on my mastercard",
+   "gold": "rewards_balance",
+   "source": "in_scope"
+  },
+  {
+   "text": "what is the total amount i spent last week",
+   "gold": "spending_history",
+   "source": "in_scope"
+  },
+  {
+   "text": "can you book a meeting room for friday at 9:00 am",
+   "gold": "out_of_scope",
+   "source": "other_domain:schedule_meeting"
+  },
+  {
+   "text": "what is global warming",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "let me know what my credit score is today",
+   "gold": "credit_score",
+   "source": "in_scope"
+  },
+  {
+   "text": "what are the symptoms of cancer",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "when is the expiration month for my card",
+   "gold": "expiration_date",
+   "source": "in_scope"
+  },
+  {
+   "text": "can i get some new checks i'm out of mine",
+   "gold": "order_checks",
+   "source": "in_scope"
+  },
+  {
+   "text": "i would like the interest rate for my savings account",
+   "gold": "interest_rate",
+   "source": "in_scope"
+  },
+  {
+   "text": "can you tell me the status of my credit card application",
+   "gold": "application_status",
+   "source": "in_scope"
+  },
+  {
+   "text": "how much will my monthly bill be",
+   "gold": "bill_balance",
+   "source": "in_scope"
+  },
+  {
+   "text": "do women still bare their chests for beads at mardi gras",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "find out where i can by melamine dinner plates",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "how long does it take to cook meal of tuscan",
+   "gold": "out_of_scope",
+   "source": "other_domain:cook_time"
+  },
+  {
+   "text": "reasons that us bank would place a hold on my account",
+   "gold": "account_blocked",
+   "source": "in_scope"
+  },
+  {
+   "text": "when is my electric bill due by",
+   "gold": "bill_due",
+   "source": "in_scope"
+  },
+  {
+   "text": "i want to know how to go about getting a new credit card",
+   "gold": "new_card",
+   "source": "in_scope"
+  },
+  {
+   "text": "how do i apply for american express",
+   "gold": "new_card",
+   "source": "in_scope"
+  },
+  {
+   "text": "show me the most popular nonfiction book currently on the market",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "what is my b of a credit card's apr",
+   "gold": "apr",
+   "source": "in_scope"
+  },
+  {
+   "text": "is there a charge to use my card in croatia",
+   "gold": "international_fees",
+   "source": "in_scope"
+  },
+  {
+   "text": "what have i spent on fast food recently",
+   "gold": "spending_history",
+   "source": "in_scope"
+  },
+  {
+   "text": "what's my savings account interest rate",
+   "gold": "interest_rate",
+   "source": "in_scope"
+  },
+  {
+   "text": "what is my credit rating",
+   "gold": "credit_score",
+   "source": "in_scope"
+  },
+  {
+   "text": "will i get charged for using my credit card in portland",
+   "gold": "international_fees",
+   "source": "in_scope"
+  },
+  {
+   "text": "what does my checking account at chase earn in interest",
+   "gold": "interest_rate",
+   "source": "in_scope"
+  },
+  {
+   "text": "find out where one can get involved in discussing local election issues",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "send me more checkbooks please",
+   "gold": "order_checks",
+   "source": "in_scope"
+  },
+  {
+   "text": "how many points earned do i have with my american express card",
+   "gold": "rewards_balance",
+   "source": "in_scope"
+  },
+  {
+   "text": "let me know the wait on a replacement credit card",
+   "gold": "replacement_card_duration",
+   "source": "in_scope"
+  },
+  {
+   "text": "repeat what the weather will be like",
+   "gold": "transfer",
+   "source": "in_scope"
+  },
+  {
+   "text": "how do i replace a damaged card",
+   "gold": "damaged_card",
+   "source": "in_scope"
+  },
+  {
+   "text": "what transactions do i have on groceries from yesterday",
+   "gold": "transactions",
+   "source": "in_scope"
+  },
+  {
+   "text": "what do i owe this month on all my bills",
+   "gold": "bill_balance",
+   "source": "in_scope"
+  },
+  {
+   "text": "i need a routing number",
+   "gold": "routing",
+   "source": "in_scope"
+  },
+  {
+   "text": "i was in thailand and i could not use my card to buy snacks",
+   "gold": "card_declined",
+   "source": "in_scope"
+  },
+  {
+   "text": "is there more than one occult that a person can join",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "please go though the bullet points on my reminder list",
+   "gold": "out_of_scope",
+   "source": "other_domain:reminder"
+  },
+  {
+   "text": "i would like to change the name on my checking account",
+   "gold": "pin_change",
+   "source": "in_scope"
+  },
+  {
+   "text": "in x, will i be charged to use my card",
+   "gold": "international_fees",
+   "source": "in_scope"
+  },
+  {
+   "text": "when is my electricity due date",
+   "gold": "bill_due",
+   "source": "in_scope"
+  },
+  {
+   "text": "what's the status of my american airlines flight",
+   "gold": "out_of_scope",
+   "source": "other_domain:flight_status"
+  },
+  {
+   "text": "how can i fix my card being declined",
+   "gold": "card_declined",
+   "source": "in_scope"
+  },
+  {
+   "text": "i was trying to use my card to get food at publix but it got declined",
+   "gold": "card_declined",
+   "source": "in_scope"
+  },
+  {
+   "text": "what have i spent things on",
+   "gold": "transactions",
+   "source": "in_scope"
+  },
+  {
+   "text": "can i increase the credit limit on my capital one card",
+   "gold": "credit_limit_change",
+   "source": "in_scope"
+  },
+  {
+   "text": "how do i change the account pin number for me",
+   "gold": "pin_change",
+   "source": "in_scope"
+  },
+  {
+   "text": "does bill gates still have any material participation in the running of microsoft",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "i can't use my card because it\u2019s broken",
+   "gold": "damaged_card",
+   "source": "in_scope"
+  },
+  {
+   "text": "i want to pay my bill",
+   "gold": "pay_bill",
+   "source": "in_scope"
+  },
+  {
+   "text": "where do i report that my card was lost",
+   "gold": "report_lost_card",
+   "source": "in_scope"
+  },
+  {
+   "text": "look up the top 3 selling post modern artists in the united states",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "when will my new credit card arrive",
+   "gold": "expiration_date",
+   "source": "in_scope"
+  },
+  {
+   "text": "put in a request for cashing in credit points",
+   "gold": "redeem_rewards",
+   "source": "in_scope"
+  },
+  {
+   "text": "how soon does my credit card expire",
+   "gold": "expiration_date",
+   "source": "in_scope"
+  },
+  {
+   "text": "what interest rate does my checking account come with",
+   "gold": "interest_rate",
+   "source": "in_scope"
+  },
+  {
+   "text": "timezone currently in mobile",
+   "gold": "out_of_scope",
+   "source": "other_domain:timezone"
+  },
+  {
+   "text": "when is my cell phone due",
+   "gold": "bill_due",
+   "source": "in_scope"
+  },
+  {
+   "text": "what is the date when my visa card will expire",
+   "gold": "expiration_date",
+   "source": "in_scope"
+  },
+  {
+   "text": "how much do i have in my savings account",
+   "gold": "balance",
+   "source": "in_scope"
+  },
+  {
+   "text": "please put my account on hold",
+   "gold": "freeze_account",
+   "source": "in_scope"
+  },
+  {
+   "text": "talk to me about the total of my state taxes",
+   "gold": "out_of_scope",
+   "source": "other_domain:taxes"
+  },
+  {
+   "text": "when can i get a business card printed locally",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "what is my credit max",
+   "gold": "credit_limit",
+   "source": "in_scope"
+  },
+  {
+   "text": "are there transaction fees using my discover if i'm in cuba",
+   "gold": "international_fees",
+   "source": "in_scope"
+  },
+  {
+   "text": "if i lose my job will my credit score go down",
+   "gold": "improve_credit_score",
+   "source": "in_scope"
+  },
+  {
+   "text": "inform me on what my credit card's apr is",
+   "gold": "apr",
+   "source": "in_scope"
+  },
+  {
+   "text": "how much damage did the last earthquake here do",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "where can i see the due date for auto loan bill",
+   "gold": "bill_due",
+   "source": "in_scope"
+  },
+  {
+   "text": "what is the lowest amount i must pay on my verizon bill",
+   "gold": "min_payment",
+   "source": "in_scope"
+  },
+  {
+   "text": "how do i report the card as lost",
+   "gold": "report_lost_card",
+   "source": "in_scope"
+  },
+  {
+   "text": "i need to redeem my visa points",
+   "gold": "redeem_rewards",
+   "source": "in_scope"
+  },
+  {
+   "text": "how much dough do i have in my bank accounts",
+   "gold": "balance",
+   "source": "in_scope"
+  },
+  {
+   "text": "i need to report that someone ran off with my td bank card earlier",
+   "gold": "report_lost_card",
+   "source": "in_scope"
+  },
+  {
+   "text": "i'm trying to raise my credit score can you tell me what it is now",
+   "gold": "credit_score",
+   "source": "in_scope"
+  },
+  {
+   "text": "what kind of credit card apr do i get",
+   "gold": "apr",
+   "source": "in_scope"
+  },
+  {
+   "text": "will only having five late payments really make my credit bad",
+   "gold": "improve_credit_score",
+   "source": "in_scope"
+  },
+  {
+   "text": "i would love to get a new credit card",
+   "gold": "new_card",
+   "source": "in_scope"
+  },
+  {
+   "text": "what's the limit on my discover card",
+   "gold": "credit_limit",
+   "source": "in_scope"
+  },
+  {
+   "text": "what your numerical digit to display as your age",
+   "gold": "out_of_scope",
+   "source": "other_domain:how_old_are_you"
+  },
+  {
+   "text": "play next song",
+   "gold": "out_of_scope",
+   "source": "other_domain:next_song"
+  },
+  {
+   "text": "i have a card that needs replaced because my wine dumped wine on it",
+   "gold": "damaged_card",
+   "source": "in_scope"
+  },
+  {
+   "text": "can you overnight me a few checkbooks",
+   "gold": "order_checks",
+   "source": "in_scope"
+  },
+  {
+   "text": "have i gone over my entertainment budget",
+   "gold": "spending_history",
+   "source": "in_scope"
+  },
+  {
+   "text": "how can i locate my credit score",
+   "gold": "credit_score",
+   "source": "in_scope"
+  },
+  {
+   "text": "can you please provide me with assistance in moving money from one account to another",
+   "gold": "transfer",
+   "source": "in_scope"
+  },
+  {
+   "text": "what's at movies",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "what is the expiration date for those eg",
+   "gold": "out_of_scope",
+   "source": "other_domain:food_last"
+  },
+  {
+   "text": "freeze my account at the bank immediately",
+   "gold": "freeze_account",
+   "source": "in_scope"
+  },
+  {
+   "text": "please clean the car windows",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "i saw a fraudulent transaction",
+   "gold": "report_fraud",
+   "source": "in_scope"
+  },
+  {
+   "text": "save my text on my laptop hard drive",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "could i get some more checkbooks sent to me",
+   "gold": "order_checks",
+   "source": "in_scope"
+  },
+  {
+   "text": "how do i order some more checks for my bank of the west account",
+   "gold": "order_checks",
+   "source": "in_scope"
+  },
+  {
+   "text": "i was at publix trying to buy some food but my card wouldnt work",
+   "gold": "card_declined",
+   "source": "in_scope"
+  },
+  {
+   "text": "i need to find out how to check the due date for the water bill",
+   "gold": "bill_due",
+   "source": "in_scope"
+  },
+  {
+   "text": "find me a flight from seattle to detroit for less than 200 dollars",
+   "gold": "out_of_scope",
+   "source": "other_domain:book_flight"
+  },
+  {
+   "text": "how do i locate the due date for my bug bill",
+   "gold": "bill_due",
+   "source": "in_scope"
+  },
+  {
+   "text": "let me know the credit card application status",
+   "gold": "application_status",
+   "source": "in_scope"
+  },
+  {
+   "text": "display the song lyrics for me",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "correct my account pin to 1234 on my checking account",
+   "gold": "pin_change",
+   "source": "in_scope"
+  },
+  {
+   "text": "do i get charged extra for using my card in portland",
+   "gold": "international_fees",
+   "source": "in_scope"
+  },
+  {
+   "text": "what's wells fargo's routing number",
+   "gold": "routing",
+   "source": "in_scope"
+  },
+  {
+   "text": "how much is my car worth used",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "is it ok to use oil spray instead of canola oil",
+   "gold": "out_of_scope",
+   "source": "other_domain:ingredient_substitution"
+  },
+  {
+   "text": "i must pay verizon what minimum amount on my bill",
+   "gold": "min_payment",
+   "source": "in_scope"
+  },
+  {
+   "text": "how much do i need to pay for my electricity and water bills",
+   "gold": "bill_balance",
+   "source": "in_scope"
+  },
+  {
+   "text": "how do i make a sentence have stylized strike out in microsoft word",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "i want to see all transactions in the past month for all accounts",
+   "gold": "transactions",
+   "source": "in_scope"
+  },
+  {
+   "text": "how can i get a limit increase on my discover card",
+   "gold": "credit_limit_change",
+   "source": "in_scope"
+  },
+  {
+   "text": "i wanna know where the w2 is",
+   "gold": "out_of_scope",
+   "source": "other_domain:w2"
+  },
+  {
+   "text": "how can i control where microsoft word inserts a page break",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "how do i change my oil",
+   "gold": "out_of_scope",
+   "source": "other_domain:oil_change_how"
+  },
+  {
+   "text": "i was trying to buy food at publix but my card got declined",
+   "gold": "card_declined",
+   "source": "in_scope"
+  },
+  {
+   "text": "change the pin on my savings account to 1234",
+   "gold": "pin_change",
+   "source": "in_scope"
+  },
+  {
+   "text": "when is the milk date before used",
+   "gold": "out_of_scope",
+   "source": "other_domain:food_last"
+  },
+  {
+   "text": "cancel my reservation for dinner tonight",
+   "gold": "out_of_scope",
+   "source": "other_domain:cancel_reservation"
+  },
+  {
+   "text": "what movies are playing at my local cinemax",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "charge my internet bill to the corporate account",
+   "gold": "pay_bill",
+   "source": "in_scope"
+  },
+  {
+   "text": "where can i find routing number for pnc",
+   "gold": "routing",
+   "source": "in_scope"
+  },
+  {
+   "text": "where is wells fargo's routing number listed",
+   "gold": "routing",
+   "source": "in_scope"
+  },
+  {
+   "text": "block my bank of america immdediately",
+   "gold": "freeze_account",
+   "source": "in_scope"
+  },
+  {
+   "text": "please tell me how to get a new credit card",
+   "gold": "new_card",
+   "source": "in_scope"
+  },
+  {
+   "text": "how much money is there in my bank accounts",
+   "gold": "balance",
+   "source": "in_scope"
+  },
+  {
+   "text": "can you help me unlock my bank account",
+   "gold": "account_blocked",
+   "source": "in_scope"
+  },
+  {
+   "text": "what's the apr on my credit card",
+   "gold": "apr",
+   "source": "in_scope"
+  },
+  {
+   "text": "what can you do for me",
+   "gold": "out_of_scope",
+   "source": "other_domain:what_can_i_ask_you"
+  },
+  {
+   "text": "i want to know when the deadline is to pay my car loan",
+   "gold": "bill_due",
+   "source": "in_scope"
+  },
+  {
+   "text": "can you find me the apr listed on the statement for my citi mastercard",
+   "gold": "apr",
+   "source": "in_scope"
+  },
+  {
+   "text": "can you please read me the routing number to pnc",
+   "gold": "routing",
+   "source": "in_scope"
+  },
+  {
+   "text": "look up student loan offers on google",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "why does us bank have a hold on my account",
+   "gold": "account_blocked",
+   "source": "in_scope"
+  },
+  {
+   "text": "my bank of america visa platinum was swiped from my belongings",
+   "gold": "report_lost_card",
+   "source": "in_scope"
+  },
+  {
+   "text": "i would like to change the name on my credit card account",
+   "gold": "pin_change",
+   "source": "in_scope"
+  },
+  {
+   "text": "my report card was lost help!",
+   "gold": "report_lost_card",
+   "source": "in_scope"
+  },
+  {
+   "text": "please tell me how to increase credit limit for the chase card",
+   "gold": "credit_limit_change",
+   "source": "in_scope"
+  },
+  {
+   "text": "i need to know all my spending transactions",
+   "gold": "transactions",
+   "source": "in_scope"
+  },
+  {
+   "text": "what's the minimum payment",
+   "gold": "min_payment",
+   "source": "in_scope"
+  },
+  {
+   "text": "am i able to order more checkbooks for my chase account",
+   "gold": "order_checks",
+   "source": "in_scope"
+  },
+  {
+   "text": "please tell me how to go about reporting a lost card",
+   "gold": "report_lost_card",
+   "source": "in_scope"
+  },
+  {
+   "text": "what is the minimum payment on my water bill",
+   "gold": "min_payment",
+   "source": "in_scope"
+  },
+  {
+   "text": "what's my daily spending limit",
+   "gold": "credit_limit",
+   "source": "in_scope"
+  },
+  {
+   "text": "please allow my account to freeze",
+   "gold": "freeze_account",
+   "source": "in_scope"
+  },
+  {
+   "text": "how far has my application for the hsbc card proceeded till now",
+   "gold": "application_status",
+   "source": "in_scope"
+  },
+  {
+   "text": "tell me who makes the best dvd's for movie storage",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "can you tell me what the date of expiry for my visa card is",
+   "gold": "expiration_date",
+   "source": "in_scope"
+  },
+  {
+   "text": "tell me the expiration date for my visa card",
+   "gold": "expiration_date",
+   "source": "in_scope"
+  },
+  {
+   "text": "what steps can i take to build my credit score",
+   "gold": "improve_credit_score",
+   "source": "in_scope"
+  },
+  {
+   "text": "great talk, thanks",
+   "gold": "out_of_scope",
+   "source": "other_domain:goodbye"
+  },
+  {
+   "text": "can i change my credit limit",
+   "gold": "credit_limit_change",
+   "source": "in_scope"
+  },
+  {
+   "text": "how many dollars have i spent on coffee this month",
+   "gold": "spending_history",
+   "source": "in_scope"
+  },
+  {
+   "text": "what does my cable bill look like",
+   "gold": "bill_balance",
+   "source": "in_scope"
+  },
+  {
+   "text": "i could not buy food using my card when i was in vietnam",
+   "gold": "card_declined",
+   "source": "in_scope"
+  },
+  {
+   "text": "whats my bank accounts look like",
+   "gold": "balance",
+   "source": "in_scope"
+  },
+  {
+   "text": "open bank app and show my most recent transactions",
+   "gold": "transactions",
+   "source": "in_scope"
+  },
+  {
+   "text": "what interest rate am i getting from bank of america",
+   "gold": "interest_rate",
+   "source": "in_scope"
+  },
+  {
+   "text": "would you tell me my bank balance",
+   "gold": "balance",
+   "source": "in_scope"
+  },
+  {
+   "text": "i need to get a mastercard somehow",
+   "gold": "new_card",
+   "source": "in_scope"
+  },
+  {
+   "text": "is there somewhere my personal loan displays the interest rate i'm paying on it",
+   "gold": "interest_rate",
+   "source": "in_scope"
+  },
+  {
+   "text": "how much do i owe visa",
+   "gold": "bill_balance",
+   "source": "in_scope"
+  },
+  {
+   "text": "give me the point total on my visa card",
+   "gold": "rewards_balance",
+   "source": "in_scope"
+  },
+  {
+   "text": "can you check and see why us bank put a hold on my account",
+   "gold": "account_blocked",
+   "source": "in_scope"
+  },
+  {
+   "text": "roll those dice once",
+   "gold": "out_of_scope",
+   "source": "other_domain:roll_dice"
+  },
+  {
+   "text": "how much is my credit score",
+   "gold": "credit_score",
+   "source": "in_scope"
+  },
+  {
+   "text": "alter the pin on my savings account to be 1234",
+   "gold": "pin_change",
+   "source": "in_scope"
+  },
+  {
+   "text": "what is the minimum i can pay on my cell phone bill",
+   "gold": "min_payment",
+   "source": "in_scope"
+  },
+  {
+   "text": "please tell me what my credit score is",
+   "gold": "credit_score",
+   "source": "in_scope"
+  },
+  {
+   "text": "how do i order more checkbooks for my well's fargo account",
+   "gold": "order_checks",
+   "source": "in_scope"
+  },
+  {
+   "text": "not right now",
+   "gold": "out_of_scope",
+   "source": "other_domain:no"
+  },
+  {
+   "text": "i have to rollover my 401k",
+   "gold": "out_of_scope",
+   "source": "other_domain:rollover_401k"
+  },
+  {
+   "text": "where can i cash out my card points",
+   "gold": "redeem_rewards",
+   "source": "in_scope"
+  },
+  {
+   "text": "has my application for the hsbc card been approved yet",
+   "gold": "application_status",
+   "source": "in_scope"
+  },
+  {
+   "text": "how do i cash in my amex reward points",
+   "gold": "redeem_rewards",
+   "source": "in_scope"
+  },
+  {
+   "text": "how can i increase my credit score",
+   "gold": "improve_credit_score",
+   "source": "in_scope"
+  },
+  {
+   "text": "can i get my limit increased on my discover card",
+   "gold": "credit_limit_change",
+   "source": "in_scope"
+  },
+  {
+   "text": "how much money can i transfer today",
+   "gold": "transfer",
+   "source": "in_scope"
+  },
+  {
+   "text": "tell me something about linkin park",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "i need you to tell me the credit limit for my republic bank card",
+   "gold": "credit_limit",
+   "source": "in_scope"
+  },
+  {
+   "text": "what kind of paint do makeup artists use",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "where would i get my rewards for my master card",
+   "gold": "redeem_rewards",
+   "source": "in_scope"
+  },
+  {
+   "text": "what are my coffers at",
+   "gold": "balance",
+   "source": "in_scope"
+  },
+  {
+   "text": "pull up my electric bill, i want to pay it",
+   "gold": "pay_bill",
+   "source": "in_scope"
+  },
+  {
+   "text": "what is the bank's routing number",
+   "gold": "routing",
+   "source": "in_scope"
+  },
+  {
+   "text": "tell me what my credit score is",
+   "gold": "credit_score",
+   "source": "in_scope"
+  },
+  {
+   "text": "what is my minimum verizon bill payment",
+   "gold": "min_payment",
+   "source": "in_scope"
+  },
+  {
+   "text": "what size space suit should you get based on your girth",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "help me apply for a visa card",
+   "gold": "new_card",
+   "source": "in_scope"
+  },
+  {
+   "text": "what is my minimum payment and when is it due",
+   "gold": "min_payment",
+   "source": "in_scope"
+  },
+  {
+   "text": "how is my credit score numberwise",
+   "gold": "credit_score",
+   "source": "in_scope"
+  },
+  {
+   "text": "what is the shipping wait for my card",
+   "gold": "replacement_card_duration",
+   "source": "in_scope"
+  },
+  {
+   "text": "consult the gq website to find what men wear to weddings",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "how many points do i have on my visa",
+   "gold": "rewards_balance",
+   "source": "in_scope"
+  },
+  {
+   "text": "what's the best way to build a skyscraper",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "how long before the replacement card is mailed to me",
+   "gold": "replacement_card_duration",
+   "source": "in_scope"
+  },
+  {
+   "text": "check the nanny cam and send the feed to my phone",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "i have a bogus transaction from amazon on my account",
+   "gold": "report_fraud",
+   "source": "in_scope"
+  },
+  {
+   "text": "how much have i spent this week",
+   "gold": "spending_history",
+   "source": "in_scope"
+  },
+  {
+   "text": "block my american saving bank for now",
+   "gold": "freeze_account",
+   "source": "in_scope"
+  },
+  {
+   "text": "how can i keep my credit score from falling",
+   "gold": "improve_credit_score",
+   "source": "in_scope"
+  },
+  {
+   "text": "is there a substantial credit limit on my visa",
+   "gold": "credit_limit",
+   "source": "in_scope"
+  },
+  {
+   "text": "what's the month, year, and day that my card expires",
+   "gold": "expiration_date",
+   "source": "in_scope"
+  },
+  {
+   "text": "did carrots get on my shopping list",
+   "gold": "out_of_scope",
+   "source": "other_domain:shopping_list"
+  },
+  {
+   "text": "how much credit do i have on my discover card",
+   "gold": "credit_limit",
+   "source": "in_scope"
+  },
+  {
+   "text": "are socket converters needed if i'm going to cape town",
+   "gold": "out_of_scope",
+   "source": "other_domain:plug_type"
+  },
+  {
+   "text": "speak spanish please",
+   "gold": "out_of_scope",
+   "source": "other_domain:change_language"
+  },
+  {
+   "text": "i'm out of all my checks can i get some new ones",
+   "gold": "order_checks",
+   "source": "in_scope"
+  },
+  {
+   "text": "what's the definition of idiosyncratic",
+   "gold": "out_of_scope",
+   "source": "other_domain:definition"
+  },
+  {
+   "text": "what do i do to order new checkbooks for my well's fargo account",
+   "gold": "order_checks",
+   "source": "in_scope"
+  },
+  {
+   "text": "can you detect where i placed my wallet",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "can you unlock my bank account",
+   "gold": "account_blocked",
+   "source": "in_scope"
+  },
+  {
+   "text": "what's it take to get a mastercard",
+   "gold": "new_card",
+   "source": "in_scope"
+  },
+  {
+   "text": "i need to report fraudulent activity on my usaa card",
+   "gold": "report_fraud",
+   "source": "in_scope"
+  },
+  {
+   "text": "who do i need to contact to ask for a credit limit increase on my discover card",
+   "gold": "credit_limit_change",
+   "source": "in_scope"
+  },
+  {
+   "text": "show me laptops for sale that are under $2,000",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "i will be glad to know what type of things you can help me with",
+   "gold": "out_of_scope",
+   "source": "other_domain:what_can_i_ask_you"
+  },
+  {
+   "text": "i need to change the credit limit i have",
+   "gold": "credit_limit_change",
+   "source": "in_scope"
+  },
+  {
+   "text": "why my card stop working",
+   "gold": "card_declined",
+   "source": "in_scope"
+  },
+  {
+   "text": "could you find out if my bank charges transaction fees on my american card if use internationally",
+   "gold": "international_fees",
+   "source": "in_scope"
+  },
+  {
+   "text": "what amount of interest does my checking account earn",
+   "gold": "interest_rate",
+   "source": "in_scope"
+  },
+  {
+   "text": "what are the best jeans in my size",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "help me get my gas bill paid",
+   "gold": "pay_bill",
+   "source": "in_scope"
+  },
+  {
+   "text": "what amount of interest does my checking account at chase earn",
+   "gold": "interest_rate",
+   "source": "in_scope"
+  },
+  {
+   "text": "what's the annual percentage rate for my credit card",
+   "gold": "apr",
+   "source": "in_scope"
+  },
+  {
+   "text": "give me some ideas for boosting my credit score",
+   "gold": "improve_credit_score",
+   "source": "in_scope"
+  },
+  {
+   "text": "look up the name of this song",
+   "gold": "out_of_scope",
+   "source": "other_domain:what_song"
+  },
+  {
+   "text": "i need my account frozen!",
+   "gold": "freeze_account",
+   "source": "in_scope"
+  },
+  {
+   "text": "what's the due date for my comcast bill",
+   "gold": "bill_due",
+   "source": "in_scope"
+  },
+  {
+   "text": "can you tell me the credit card application status",
+   "gold": "application_status",
+   "source": "in_scope"
+  },
+  {
+   "text": "where do i go if i am seeking the routing number of dallas capital",
+   "gold": "routing",
+   "source": "in_scope"
+  },
+  {
+   "text": "look up recipe time for this",
+   "gold": "out_of_scope",
+   "source": "other_domain:cook_time"
+  },
+  {
+   "text": "what is the cost of my rent and water bills",
+   "gold": "bill_balance",
+   "source": "in_scope"
+  },
+  {
+   "text": "how do i find the interest rate for my checking account",
+   "gold": "interest_rate",
+   "source": "in_scope"
+  },
+  {
+   "text": "what transactions did i make on electronics this morning after 6am",
+   "gold": "transactions",
+   "source": "in_scope"
+  },
+  {
+   "text": "my account needs to be frozen",
+   "gold": "freeze_account",
+   "source": "in_scope"
+  },
+  {
+   "text": "\"what's the method to improve credit score",
+   "gold": "improve_credit_score",
+   "source": "in_scope"
+  },
+  {
+   "text": "i would like to change the name on my first hawaiian bank account",
+   "gold": "pin_change",
+   "source": "in_scope"
+  },
+  {
+   "text": "what is chase bank's routing number",
+   "gold": "routing",
+   "source": "in_scope"
+  },
+  {
+   "text": "put a freeze on my account",
+   "gold": "freeze_account",
+   "source": "in_scope"
+  },
+  {
+   "text": "what were indians like 100 years ago",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "how much is my water and sewer",
+   "gold": "bill_balance",
+   "source": "in_scope"
+  },
+  {
+   "text": "let me know when my credit card expire",
+   "gold": "expiration_date",
+   "source": "in_scope"
+  },
+  {
+   "text": "tell me my debit card's rewards balance",
+   "gold": "rewards_balance",
+   "source": "in_scope"
+  },
+  {
+   "text": "i spilled wine on my credit card and now its all mushy and needs to be replaced",
+   "gold": "damaged_card",
+   "source": "in_scope"
+  },
+  {
+   "text": "how do i fix my card, it was declined",
+   "gold": "card_declined",
+   "source": "in_scope"
+  },
+  {
+   "text": "how can i request a new credit card",
+   "gold": "replacement_card_duration",
+   "source": "in_scope"
+  },
+  {
+   "text": "who do i speak with about my card that was lost",
+   "gold": "report_lost_card",
+   "source": "in_scope"
+  },
+  {
+   "text": "how long will it take to make an omelet",
+   "gold": "out_of_scope",
+   "source": "other_domain:cook_time"
+  },
+  {
+   "text": "why was my card not working at target",
+   "gold": "card_declined",
+   "source": "in_scope"
+  },
+  {
+   "text": "how much cash do i have in my various bank accounts",
+   "gold": "balance",
+   "source": "in_scope"
+  },
+  {
+   "text": "can you report a lost card for me",
+   "gold": "report_lost_card",
+   "source": "in_scope"
+  },
+  {
+   "text": "tell me how to apply for a credit card",
+   "gold": "new_card",
+   "source": "in_scope"
+  },
+  {
+   "text": "i need to know the apr on my wells fargo credit card",
+   "gold": "apr",
+   "source": "in_scope"
+  },
+  {
+   "text": "i want to know what my routing number is",
+   "gold": "routing",
+   "source": "in_scope"
+  },
+  {
+   "text": "put a block on bank of amerian immediately",
+   "gold": "freeze_account",
+   "source": "in_scope"
+  },
+  {
+   "text": "i would like to transfer $100 from my checking to saving account",
+   "gold": "transfer",
+   "source": "in_scope"
+  },
+  {
+   "text": "i need to know what my credit score is",
+   "gold": "credit_score",
+   "source": "in_scope"
+  },
+  {
+   "text": "how much was my last target trip",
+   "gold": "transactions",
+   "source": "in_scope"
+  },
+  {
+   "text": "i need to make a transfer of my money",
+   "gold": "transfer",
+   "source": "in_scope"
+  },
+  {
+   "text": "i need to know the status of my credit card application",
+   "gold": "application_status",
+   "source": "in_scope"
+  },
+  {
+   "text": "what is my apr rate",
+   "gold": "apr",
+   "source": "in_scope"
+  },
+  {
+   "text": "is there a fee if i use my card in france",
+   "gold": "international_fees",
+   "source": "in_scope"
+  },
+  {
+   "text": "i need a hand getting this gas bill paid",
+   "gold": "pay_bill",
+   "source": "in_scope"
+  },
+  {
+   "text": "do the romans still use the colosseum for anything today",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "can you make 1234 the pin for my savings account",
+   "gold": "pin_change",
+   "source": "in_scope"
+  },
+  {
+   "text": "please assist me in looking for my phone",
+   "gold": "out_of_scope",
+   "source": "other_domain:find_phone"
+  },
+  {
+   "text": "what is amount of time it takes to get a new credit card i lost mine recently",
+   "gold": "replacement_card_duration",
+   "source": "in_scope"
+  },
+  {
+   "text": "how come my chase account has a hold on it",
+   "gold": "account_blocked",
+   "source": "in_scope"
+  },
+  {
+   "text": "what is my credit card spending limit",
+   "gold": "credit_limit",
+   "source": "in_scope"
+  },
+  {
+   "text": "what price is my credit card and my water bill at",
+   "gold": "bill_balance",
+   "source": "in_scope"
+  },
+  {
+   "text": "i would like to know my credit score",
+   "gold": "credit_score",
+   "source": "in_scope"
+  },
+  {
+   "text": "i need to lock my account right now!",
+   "gold": "freeze_account",
+   "source": "in_scope"
+  },
+  {
+   "text": "what location were you born",
+   "gold": "out_of_scope",
+   "source": "other_domain:where_are_you_from"
+  },
+  {
+   "text": "where are most homeless people",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "i would like to upgrade to full coverage for my car",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "is there a list of good credit cards i can choose from to apply for",
+   "gold": "new_card",
+   "source": "in_scope"
+  },
+  {
+   "text": "could i perhaps increase by credit limit by 500 dollars",
+   "gold": "credit_limit_change",
+   "source": "in_scope"
+  },
+  {
+   "text": "looking at the past month, what did i spend total",
+   "gold": "spending_history",
+   "source": "in_scope"
+  },
+  {
+   "text": "where do i see what interest my mortgage has",
+   "gold": "interest_rate",
+   "source": "in_scope"
+  },
+  {
+   "text": "can you dim the brightness of my screen",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "my credit card was turned down at target and i'd like to know why",
+   "gold": "card_declined",
+   "source": "in_scope"
+  },
+  {
+   "text": "i need more checkbooks mailed as soon as possible",
+   "gold": "order_checks",
+   "source": "in_scope"
+  },
+  {
+   "text": "please help me report my lost card",
+   "gold": "report_lost_card",
+   "source": "in_scope"
+  },
+  {
+   "text": "i have to report fraudulent activity on my bank of the west card",
+   "gold": "report_fraud",
+   "source": "in_scope"
+  },
+  {
+   "text": "what is the minimum payable amount for my rent bill this month",
+   "gold": "min_payment",
+   "source": "in_scope"
+  },
+  {
+   "text": "how can i prevent my credit score from dropping",
+   "gold": "improve_credit_score",
+   "source": "in_scope"
+  },
+  {
+   "text": "how much money have i spent recently",
+   "gold": "spending_history",
+   "source": "in_scope"
+  },
+  {
+   "text": "who should i talk to about the fact that i inadvertently split my card almost in half",
+   "gold": "damaged_card",
+   "source": "in_scope"
+  },
+  {
+   "text": "tell me the last day i can pay my gas bill",
+   "gold": "bill_due",
+   "source": "in_scope"
+  },
+  {
+   "text": "can i get some more checkbooks mailed to me, please",
+   "gold": "order_checks",
+   "source": "in_scope"
+  },
+  {
+   "text": "what've i spent on gas this month",
+   "gold": "spending_history",
+   "source": "in_scope"
+  },
+  {
+   "text": "how do i report that i lost my card",
+   "gold": "report_lost_card",
+   "source": "in_scope"
+  },
+  {
+   "text": "how do i make money",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "what's my routing number",
+   "gold": "routing",
+   "source": "in_scope"
+  },
+  {
+   "text": "how do i freeze my bank account",
+   "gold": "freeze_account",
+   "source": "in_scope"
+  },
+  {
+   "text": "what is the routing number of my checking account at first national bankj",
+   "gold": "routing",
+   "source": "in_scope"
+  },
+  {
+   "text": "can you tell me the apr of my target credit card",
+   "gold": "apr",
+   "source": "in_scope"
+  },
+  {
+   "text": "why was my card not accepted",
+   "gold": "card_declined",
+   "source": "in_scope"
+  },
+  {
+   "text": "what is the minimum i can pay on my electric bill",
+   "gold": "min_payment",
+   "source": "in_scope"
+  },
+  {
+   "text": "when is the expiration date of my credit card",
+   "gold": "expiration_date",
+   "source": "in_scope"
+  },
+  {
+   "text": "find out who the best appliance repairman is for the downtown area",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "what is my bank routing number",
+   "gold": "routing",
+   "source": "in_scope"
+  },
+  {
+   "text": "please help me set up a vacation request",
+   "gold": "out_of_scope",
+   "source": "other_domain:pto_request"
+  },
+  {
+   "text": "what time do i have to go to work today",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "my card is damaged",
+   "gold": "damaged_card",
+   "source": "in_scope"
+  },
+  {
+   "text": "who has the best record in the nba",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "i have some charges on my account from old navy that aren't mine",
+   "gold": "report_fraud",
+   "source": "in_scope"
+  },
+  {
+   "text": "what time is it in phoenix",
+   "gold": "out_of_scope",
+   "source": "other_domain:timezone"
+  },
+  {
+   "text": "may i increase my credit limit by 500 dollars",
+   "gold": "credit_limit_change",
+   "source": "in_scope"
+  },
+  {
+   "text": "i'd like to transfer $400 from household to savings account",
+   "gold": "transfer",
+   "source": "in_scope"
+  },
+  {
+   "text": "i'm out of my checks i need some new ones",
+   "gold": "order_checks",
+   "source": "in_scope"
+  },
+  {
+   "text": "look up daily dog kennels in my area",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "what's the pin number for my checking account",
+   "gold": "pin_change",
+   "source": "in_scope"
+  },
+  {
+   "text": "i need my bank account frozen",
+   "gold": "freeze_account",
+   "source": "in_scope"
+  },
+  {
+   "text": "can i get more credit",
+   "gold": "credit_limit_change",
+   "source": "in_scope"
+  },
+  {
+   "text": "need to increase credit limit for chase card",
+   "gold": "credit_limit_change",
+   "source": "in_scope"
+  },
+  {
+   "text": "i accidentally deactivated the magnetic stripe on my visa debit card and i need to report it",
+   "gold": "damaged_card",
+   "source": "in_scope"
+  },
+  {
+   "text": "why won't you let me pay with my credit card",
+   "gold": "card_declined",
+   "source": "in_scope"
+  },
+  {
+   "text": "what is money used for",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "how much fast food have i bought recently",
+   "gold": "spending_history",
+   "source": "in_scope"
+  },
+  {
+   "text": "how much time before my new card is mailed to me",
+   "gold": "replacement_card_duration",
+   "source": "in_scope"
+  },
+  {
+   "text": "how safe is it to consume the substance h2o",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "how do i unlock my bank account",
+   "gold": "account_blocked",
+   "source": "in_scope"
+  },
+  {
+   "text": "how high is the apr on my credit card",
+   "gold": "apr",
+   "source": "in_scope"
+  },
+  {
+   "text": "please answer the phone and put it on speaker on the tv",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "can i make a transfer between my accounts",
+   "gold": "transfer",
+   "source": "in_scope"
+  },
+  {
+   "text": "i wanna know how many points have i earned with my credit card",
+   "gold": "rewards_balance",
+   "source": "in_scope"
+  },
+  {
+   "text": "what do my visa points look like",
+   "gold": "rewards_balance",
+   "source": "in_scope"
+  },
+  {
+   "text": "how can i contribute to my credit score",
+   "gold": "improve_credit_score",
+   "source": "in_scope"
+  },
+  {
+   "text": "what is the updated points that i earned with synovus card",
+   "gold": "rewards_balance",
+   "source": "in_scope"
+  },
+  {
+   "text": "check the status of my credit card application for me",
+   "gold": "application_status",
+   "source": "in_scope"
+  },
+  {
+   "text": "can you see if the octopus eggs have hatched yet",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "what must i pay, at a minimum, on my verizon bill",
+   "gold": "min_payment",
+   "source": "in_scope"
+  },
+  {
+   "text": "what is the price to buy more data on my phone",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "set up a new reminder to alert me when it's time to put the trash out",
+   "gold": "out_of_scope",
+   "source": "other_domain:reminder_update"
+  },
+  {
+   "text": "how much can i use on my visa",
+   "gold": "credit_limit",
+   "source": "in_scope"
+  },
+  {
+   "text": "what day of the month do i have to pay my mortgage",
+   "gold": "bill_due",
+   "source": "in_scope"
+  },
+  {
+   "text": "what is the lowest amount i can pay for my medical bill",
+   "gold": "min_payment",
+   "source": "in_scope"
+  },
+  {
+   "text": "\"where is improve the credit score",
+   "gold": "improve_credit_score",
+   "source": "in_scope"
+  },
+  {
+   "text": "i want some nike's, is there enough in my wells fargo account",
+   "gold": "balance",
+   "source": "in_scope"
+  },
+  {
+   "text": "x card has earned how many points",
+   "gold": "rewards_balance",
+   "source": "in_scope"
+  },
+  {
+   "text": "tell me my chase credit card's apr",
+   "gold": "apr",
+   "source": "in_scope"
+  },
+  {
+   "text": "can i hurt my credit rating if i open several credit cards in a short time frame",
+   "gold": "improve_credit_score",
+   "source": "in_scope"
+  },
+  {
+   "text": "how much moola is in my bank accounts",
+   "gold": "balance",
+   "source": "in_scope"
+  },
+  {
+   "text": "can you check my credit score for me",
+   "gold": "credit_score",
+   "source": "in_scope"
+  },
+  {
+   "text": "how much have i spent on tires this month",
+   "gold": "spending_history",
+   "source": "in_scope"
+  },
+  {
+   "text": "is my visa bill over my limit this month",
+   "gold": "transactions",
+   "source": "in_scope"
+  },
+  {
+   "text": "i do not recall the pin number to my card",
+   "gold": "pin_change",
+   "source": "in_scope"
+  },
+  {
+   "text": "tell me the number of points on my visa card",
+   "gold": "rewards_balance",
+   "source": "in_scope"
+  },
+  {
+   "text": "can my credit limit be increased by 500 dollars",
+   "gold": "credit_limit_change",
+   "source": "in_scope"
+  },
+  {
+   "text": "does my card ending in 1234, or any of my cards, expire soon",
+   "gold": "expiration_date",
+   "source": "in_scope"
+  },
+  {
+   "text": "what steps should i take if i think my car battery is dead",
+   "gold": "out_of_scope",
+   "source": "other_domain:jump_start"
+  },
+  {
+   "text": "what do i do about a card that's too messed up to be properly scanned",
+   "gold": "damaged_card",
+   "source": "in_scope"
+  },
+  {
+   "text": "i seem to have a purchase that i didn't make from olive garden on my account",
+   "gold": "report_fraud",
+   "source": "in_scope"
+  },
+  {
+   "text": "how does one go about putting in a vacation request",
+   "gold": "out_of_scope",
+   "source": "other_domain:pto_request"
+  },
+  {
+   "text": "add the song rap god to the motivational playlist",
+   "gold": "out_of_scope",
+   "source": "other_domain:update_playlist"
+  },
+  {
+   "text": "i would like to report my card damaged since i accidentally spilled gorilla glue all over it and the numbers are now obscured",
+   "gold": "damaged_card",
+   "source": "in_scope"
+  },
+  {
+   "text": "i would like help moving money between accounts",
+   "gold": "transfer",
+   "source": "in_scope"
+  },
+  {
+   "text": "put on some metallica music",
+   "gold": "out_of_scope",
+   "source": "other_domain:play_music"
+  },
+  {
+   "text": "\"which is the best way to improve the credit score",
+   "gold": "improve_credit_score",
+   "source": "in_scope"
+  },
+  {
+   "text": "is my apr rate above average",
+   "gold": "apr",
+   "source": "in_scope"
+  },
+  {
+   "text": "where do i go to order more checks for my well's fargo account",
+   "gold": "order_checks",
+   "source": "in_scope"
+  },
+  {
+   "text": "my card became damaged when i dropped it in the parking lot and it got ran over",
+   "gold": "damaged_card",
+   "source": "in_scope"
+  },
+  {
+   "text": "how can i claim my rewards for my visa card",
+   "gold": "redeem_rewards",
+   "source": "in_scope"
+  },
+  {
+   "text": "find an article on celebrities who made it out of poverty",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "i recently lost my credit card and need to know how long it takes to get a new one mailed to me",
+   "gold": "replacement_card_duration",
+   "source": "in_scope"
+  },
+  {
+   "text": "can you tell me my bank balance",
+   "gold": "balance",
+   "source": "in_scope"
+  },
+  {
+   "text": "search steps for how to report a card lost",
+   "gold": "report_lost_card",
+   "source": "in_scope"
+  },
+  {
+   "text": "i must know who programmed you",
+   "gold": "out_of_scope",
+   "source": "other_domain:who_made_you"
+  },
+  {
+   "text": "how much is due for my water bill",
+   "gold": "bill_balance",
+   "source": "in_scope"
+  },
+  {
+   "text": "when did i last make a purchase",
+   "gold": "transactions",
+   "source": "in_scope"
+  },
+  {
+   "text": "what is the minimum i can pay on my heating bill",
+   "gold": "min_payment",
+   "source": "in_scope"
+  },
+  {
+   "text": "use my navy federal account and pay this month's verizon bill, please",
+   "gold": "pay_bill",
+   "source": "in_scope"
+  },
+  {
+   "text": "tell me my routing number at my bank, community trust",
+   "gold": "routing",
+   "source": "in_scope"
+  },
+  {
+   "text": "transfer seventeen dollars from rbs to woodforest account, please",
+   "gold": "transfer",
+   "source": "in_scope"
+  },
+  {
+   "text": "i wanna check my rewards for my credit card",
+   "gold": "rewards_balance",
+   "source": "in_scope"
+  },
+  {
+   "text": "give me a list of the top 10 tennis players in the world",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "is the bill due",
+   "gold": "bill_due",
+   "source": "in_scope"
+  },
+  {
+   "text": "why is my bank account locked",
+   "gold": "account_blocked",
+   "source": "in_scope"
+  },
+  {
+   "text": "how many milliliters are in 2 gallons",
+   "gold": "out_of_scope",
+   "source": "other_domain:measurement_conversion"
+  },
+  {
+   "text": "can you get my credit limit increased to $1000",
+   "gold": "credit_limit_change",
+   "source": "in_scope"
+  },
+  {
+   "text": "can you help me unblock my account",
+   "gold": "account_blocked",
+   "source": "in_scope"
+  },
+  {
+   "text": "i think i owe about 100 left on my bills, am i forgetting anything",
+   "gold": "bill_balance",
+   "source": "in_scope"
+  },
+  {
+   "text": "what are the new player rankings for the nhl",
+   "gold": "out_of_scope",
+   "source": "clinc_oos"
+  },
+  {
+   "text": "the pin number to my card has been forgotten",
+   "gold": "pin_change",
+   "source": "in_scope"
+  },
+  {
+   "text": "how would one make a vacation request",
+   "gold": "out_of_scope",
+   "source": "other_domain:pto_request"
+  },
+  {
+   "text": "that isn't correct",
+   "gold": "out_of_scope",
+   "source": "other_domain:no"
+  },
+  {
+   "text": "cross grocery shopping off the todo list",
+   "gold": "out_of_scope",
+   "source": "other_domain:todo_list_update"
+  },
+  {
+   "text": "what interest rate am i getting from nfcu",
+   "gold": "interest_rate",
+   "source": "in_scope"
+  },
+  {
+   "text": "calculate the limit i have available for spending on my natwest card",
+   "gold": "credit_limit",
+   "source": "in_scope"
+  },
+  {
+   "text": "is there a fee to use my card in france",
+   "gold": "international_fees",
+   "source": "in_scope"
+  },
+  {
+   "text": "tell me my credit limit",
+   "gold": "credit_limit",
+   "source": "in_scope"
+  },
+  {
+   "text": "has my electricity bill increased this month how much",
+   "gold": "bill_balance",
+   "source": "in_scope"
+  },
+  {
+   "text": "pay my gas bill with my checking account",
+   "gold": "pay_bill",
+   "source": "in_scope"
+  },
+  {
+   "text": "what is the lowest amount i can pay for my hospital bill",
+   "gold": "min_payment",
+   "source": "in_scope"
+  },
+  {
+   "text": "i want to know my credit rating",
+   "gold": "credit_score",
+   "source": "in_scope"
+  },
+  {
+   "text": "at the moment what song is playing on the speaker",
+   "gold": "out_of_scope",
+   "source": "other_domain:what_song"
+  },
+  {
+   "text": "check how much i spent this week",
+   "gold": "spending_history",
+   "source": "in_scope"
+  },
+  {
+   "text": "will someone please look at my check engine light that is on",
+   "gold": "out_of_scope",
+   "source": "other_domain:schedule_maintenance"
+  }
+ ]
+}
