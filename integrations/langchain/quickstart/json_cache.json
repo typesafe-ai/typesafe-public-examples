@@ -1,0 +1,82 @@
+{
+  "23011923c545c07f6af0b2b0c2f0f27da597f71ae5a8bd6a41d8ac7ebd042bf6": {
+    "model": "jev-1.13.0",
+    "answers": {
+      "action": {
+        "type": "choice",
+        "choice": "ask",
+        "probabilities": {
+          "run": 0.0,
+          "ask": 1.0,
+          "refuse": 0.0
+        },
+        "confidence": 1.0
+      }
+    },
+    "usage": {
+      "input_tokens": 757,
+      "output_tokens": 39
+    },
+    "request_id": "req_01a131ae003b7f6aaa160673d432d7dc"
+  },
+  "272ca42a2b904adb7d48629dc5686b06bcf4757f9c471d0aaa3edb7ed232fd29": {
+    "model": "jev-1.13.0",
+    "answers": {
+      "action": {
+        "type": "choice",
+        "choice": "refuse",
+        "probabilities": {
+          "run": 0.0,
+          "ask": 0.0,
+          "refuse": 1.0
+        },
+        "confidence": 1.0
+      }
+    },
+    "usage": {
+      "input_tokens": 748,
+      "output_tokens": 40
+    },
+    "request_id": "req_01a131ae03b57700bd16365c3f464510"
+  },
+  "79bb60a8fbb688f943ac3011ea63eadcc2abf88824179d20677c3d3dd6439d04": {
+    "model": "jev-1.13.0",
+    "answers": {
+      "action": {
+        "type": "choice",
+        "choice": "run",
+        "probabilities": {
+          "run": 0.98,
+          "ask": 0.0,
+          "refuse": 0.02
+        },
+        "confidence": 0.97
+      }
+    },
+    "usage": {
+      "input_tokens": 769,
+      "output_tokens": 39
+    },
+    "request_id": "req_01a131ae01e5767ca645741e531d26c3"
+  },
+  "dd4caa1c951022aa457a2b326a1fd1e6fa24ec1f6fdffddf13a9b1feef8bd877": {
+    "model": "jev-1.13.0",
+    "answers": {
+      "action": {
+        "type": "choice",
+        "choice": "refuse",
+        "probabilities": {
+          "run": 0.1,
+          "ask": 0.0,
+          "refuse": 0.9
+        },
+        "confidence": 0.85
+      }
+    },
+    "usage": {
+      "input_tokens": 758,
+      "output_tokens": 40
+    },
+    "request_id": "req_01a131ae05637a94b208bef2ee838e60"
+  }
+}

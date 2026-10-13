@@ -1,0 +1,956 @@
+{
+  "bc300fe76cb7ae2ea829d786c58f3f94ac652afe289e4a82ee92bfc94913a739": {
+    "seconds": 0.41,
+    "model": "jev-1.13.0",
+    "answers": {
+      "action": {
+        "type": "choice",
+        "choice": "ask",
+        "probabilities": {
+          "run": 0.0,
+          "ask": 1.0,
+          "refuse": 0.0
+        },
+        "confidence": 1.0
+      }
+    },
+    "usage": {
+      "input_tokens": 757,
+      "output_tokens": 39
+    },
+    "request_id": "req_01a131a7ec0f73f0a70ff1184bb33529"
+  },
+  "9c9f36f754990aa2b044566a0a71ff226ec3c708bef3c4edb24a6f982e4af0fa": {
+    "seconds": 0.416,
+    "model": "jev-1.13.0",
+    "answers": {
+      "action": {
+        "type": "choice",
+        "choice": "refuse",
+        "probabilities": {
+          "run": 0.0,
+          "ask": 0.23,
+          "refuse": 0.77
+        },
+        "confidence": 0.66
+      }
+    },
+    "usage": {
+      "input_tokens": 737,
+      "output_tokens": 40
+    },
+    "request_id": "req_01a131a8001f7d1b8e12b6fd98a5be03"
+  },
+  "dd4b2d4f1ad8610dbd596e91d36eaf0e40d448458d0f13e1d3d3e154a465783c": {
+    "seconds": 0.422,
+    "model": "jev-1.13.0",
+    "answers": {
+      "action": {
+        "type": "choice",
+        "choice": "refuse",
+        "probabilities": {
+          "run": 0.09,
+          "ask": 0.01,
+          "refuse": 0.9
+        },
+        "confidence": 0.85
+      }
+    },
+    "usage": {
+      "input_tokens": 766,
+      "output_tokens": 40
+    },
+    "request_id": "req_01a131a7f8df7463bcfa9a25c1516506"
+  },
+  "1ac72a30c3b0ecde65929909a39b2f624ab483049ba7ef277329dca69c14bc3e": {
+    "seconds": 0.417,
+    "model": "jev-1.13.0",
+    "answers": {
+      "action": {
+        "type": "choice",
+        "choice": "run",
+        "probabilities": {
+          "run": 1.0,
+          "ask": 0.0,
+          "refuse": 0.0
+        },
+        "confidence": 1.0
+      }
+    },
+    "usage": {
+      "input_tokens": 747,
+      "output_tokens": 39
+    },
+    "request_id": "req_01a131a7e018793cb8d82ccbe6977ad9"
+  },
+  "2e6b206aaaf4abecf5d1a850617aa0f600e33c591f5b741bf089e87089c1d23d": {
+    "seconds": 0.426,
+    "model": "jev-1.13.0",
+    "answers": {
+      "action": {
+        "type": "choice",
+        "choice": "ask",
+        "probabilities": {
+          "run": 0.0,
+          "ask": 1.0,
+          "refuse": 0.0
+        },
+        "confidence": 1.0
+      }
+    },
+    "usage": {
+      "input_tokens": 759,
+      "output_tokens": 39
+    },
+    "request_id": "req_01a131a7edb778269fd94408fdb3a5d7"
+  },
+  "c26b9c91425c84d42f0fe65b0f880016897c3015b3871d2372c20b967f41f1c3": {
+    "seconds": 0.534,
+    "model": "jev-1.13.0",
+    "answers": {
+      "action": {
+        "type": "choice",
+        "choice": "run",
+        "probabilities": {
+          "run": 1.0,
+          "ask": 0.0,
+          "refuse": 0.0
+        },
+        "confidence": 1.0
+      }
+    },
+    "usage": {
+      "input_tokens": 755,
+      "output_tokens": 39
+    },
+    "request_id": "req_01a131a7dac77195a2cc5430eb994912"
+  },
+  "e08e603272d3d38d24352c7b4fcb13b2f74a11768d27dddd351b9f295be146f8": {
+    "seconds": 0.411,
+    "model": "jev-1.13.0",
+    "answers": {
+      "action": {
+        "type": "choice",
+        "choice": "run",
+        "probabilities": {
+          "run": 1.0,
+          "ask": 0.0,
+          "refuse": 0.0
+        },
+        "confidence": 1.0
+      }
+    },
+    "usage": {
+      "input_tokens": 761,
+      "output_tokens": 39
+    },
+    "request_id": "req_01a131a7dcd876cba2ea2b43b740c1f1"
+  },
+  "aed8dbd89a5d2be7eeb80d34975dea7f0967c62ac6470505476b4a7392924df8": {
+    "seconds": 1.184,
+    "model": "jev-1.13.0",
+    "answers": {
+      "action": {
+        "type": "choice",
+        "choice": "ask",
+        "probabilities": {
+          "run": 0.0,
+          "ask": 1.0,
+          "refuse": 0.0
+        },
+        "confidence": 1.0
+      }
+    },
+    "usage": {
+      "input_tokens": 757,
+      "output_tokens": 39
+    },
+    "request_id": "req_01a131a7cf0e7b8795e916ef891e6fe5"
+  },
+  "0af6b72138acd143d0085f133cd3af8fc9ebbfeea3a301afdfb470ada7b05332": {
+    "seconds": 0.424,
+    "model": "jev-1.13.0",
+    "answers": {
+      "action": {
+        "type": "choice",
+        "choice": "ask",
+        "probabilities": {
+          "run": 0.0,
+          "ask": 0.98,
+          "refuse": 0.02
+        },
+        "confidence": 0.97
+      }
+    },
+    "usage": {
+      "input_tokens": 742,
+      "output_tokens": 39
+    },
+    "request_id": "req_01a131a7e8cf7bb08dffc2c528484dc4"
+  },
+  "2201b659fbc1db03b9944b4c298faec863ec7f4e7ae82a9eaafd6417da10d85b": {
+    "seconds": 0.421,
+    "model": "jev-1.13.0",
+    "answers": {
+      "action": {
+        "type": "choice",
+        "choice": "run",
+        "probabilities": {
+          "run": 1.0,
+          "ask": 0.0,
+          "refuse": 0.0
+        },
+        "confidence": 1.0
+      }
+    },
+    "usage": {
+      "input_tokens": 773,
+      "output_tokens": 39
+    },
+    "request_id": "req_01a131a7de7b7fb2a89711d7d31a9265"
+  },
+  "33895798a35b80522bdab6bf7e65060b18262f8c172491ce38f59b85578efd2d": {
+    "seconds": 0.463,
+    "model": "jev-1.13.0",
+    "answers": {
+      "action": {
+        "type": "choice",
+        "choice": "run",
+        "probabilities": {
+          "run": 1.0,
+          "ask": 0.0,
+          "refuse": 0.0
+        },
+        "confidence": 1.0
+      }
+    },
+    "usage": {
+      "input_tokens": 747,
+      "output_tokens": 39
+    },
+    "request_id": "req_01a131a7d8ee7e2d998e58a807ec574d"
+  },
+  "2540aa1065b7b668fd587969d633a04a5c3be5611828e37298e030c52d1c0fb7": {
+    "seconds": 1.091,
+    "model": "jev-1.13.0",
+    "answers": {
+      "action": {
+        "type": "choice",
+        "choice": "ask",
+        "probabilities": {
+          "run": 0.0,
+          "ask": 1.0,
+          "refuse": 0.0
+        },
+        "confidence": 1.0
+      }
+    },
+    "usage": {
+      "input_tokens": 745,
+      "output_tokens": 39
+    },
+    "request_id": "req_01a131a7f1dc71f093a9acc16629cdf5"
+  },
+  "10da431431c58d4d93c0d428bf0b924b0ea4ddfca7622610b1b229188a85fb9a": {
+    "seconds": 0.407,
+    "model": "jev-1.13.0",
+    "answers": {
+      "action": {
+        "type": "choice",
+        "choice": "refuse",
+        "probabilities": {
+          "run": 0.13,
+          "ask": 0.0,
+          "refuse": 0.87
+        },
+        "confidence": 0.8
+      }
+    },
+    "usage": {
+      "input_tokens": 758,
+      "output_tokens": 40
+    },
+    "request_id": "req_01a131a8a5ff747ead3b97b0a7c3b50f"
+  },
+  "63f672781968b1f3ffdaa548f6d26f925b29151ee30686304c54d27c152f1e49": {
+    "seconds": 0.447,
+    "model": "jev-1.13.0",
+    "answers": {
+      "action": {
+        "type": "choice",
+        "choice": "refuse",
+        "probabilities": {
+          "run": 0.0,
+          "ask": 0.25,
+          "refuse": 0.75
+        },
+        "confidence": 0.62
+      }
+    },
+    "usage": {
+      "input_tokens": 757,
+      "output_tokens": 40
+    },
+    "request_id": "req_01a131a7f72b7033a4ea32d442c68ff4"
+  },
+  "8a777e6c673e57406f29d833989b61d3429da6545e2e0c99a2902c1b4ad3d601": {
+    "seconds": 0.717,
+    "model": "jev-1.13.0",
+    "answers": {
+      "action": {
+        "type": "choice",
+        "choice": "run",
+        "probabilities": {
+          "run": 0.99,
+          "ask": 0.0,
+          "refuse": 0.01
+        },
+        "confidence": 0.98
+      }
+    },
+    "usage": {
+      "input_tokens": 769,
+      "output_tokens": 39
+    },
+    "request_id": "req_01a131a7a07a751385ef27b39f099617"
+  },
+  "15712e61be6c101547843de1693a33e0e0fd32763bdcdacd81753614f836cde2": {
+    "seconds": 0.443,
+    "model": "jev-1.13.0",
+    "answers": {
+      "action": {
+        "type": "choice",
+        "choice": "refuse",
+        "probabilities": {
+          "run": 0.0,
+          "ask": 0.15,
+          "refuse": 0.85
+        },
+        "confidence": 0.77
+      }
+    },
+    "usage": {
+      "input_tokens": 740,
+      "output_tokens": 40
+    },
+    "request_id": "req_01a131a7f39e70e5bf0c7022ed24d022"
+  },
+  "878cb0329a54bc5dd457c9adf798c4543d2091f4a45a51e7b3b95385a782e690": {
+    "seconds": 0.413,
+    "model": "jev-1.13.0",
+    "answers": {
+      "action": {
+        "type": "choice",
+        "choice": "ask",
+        "probabilities": {
+          "run": 0.0,
+          "ask": 1.0,
+          "refuse": 0.0
+        },
+        "confidence": 1.0
+      }
+    },
+    "usage": {
+      "input_tokens": 746,
+      "output_tokens": 39
+    },
+    "request_id": "req_01a131a7ea7d78d4a8c3dae5e568927d"
+  },
+  "2d7e757daba3054e286cab48e0a36baf5da1451b2f8a3f614302b9b64664b487": {
+    "seconds": 0.447,
+    "model": "jev-1.13.0",
+    "answers": {
+      "action": {
+        "type": "choice",
+        "choice": "refuse",
+        "probabilities": {
+          "run": 0.0,
+          "ask": 0.0,
+          "refuse": 1.0
+        },
+        "confidence": 1.0
+      }
+    },
+    "usage": {
+      "input_tokens": 748,
+      "output_tokens": 40
+    },
+    "request_id": "req_01a131a7f56879ee9c7cd4902dff252a"
+  },
+  "d9dbe12700528742d2951e167fa4c6d3b87138fac32f3e3df75158111463e3a7": {
+    "seconds": 0.421,
+    "model": "jev-1.13.0",
+    "answers": {
+      "action": {
+        "type": "choice",
+        "choice": "run",
+        "probabilities": {
+          "run": 0.96,
+          "ask": 0.0,
+          "refuse": 0.04
+        },
+        "confidence": 0.94
+      }
+    },
+    "usage": {
+      "input_tokens": 746,
+      "output_tokens": 39
+    },
+    "request_id": "req_01a131a7e35e717299e60a98dede9abc"
+  },
+  "1a406fd891d5114dcf9aec094cdad008de71ea225792a6f7554e5c978b99c038": {
+    "seconds": 0.409,
+    "model": "jev-1.13.0",
+    "answers": {
+      "action": {
+        "type": "choice",
+        "choice": "run",
+        "probabilities": {
+          "run": 1.0,
+          "ask": 0.0,
+          "refuse": 0.0
+        },
+        "confidence": 1.0
+      }
+    },
+    "usage": {
+      "input_tokens": 696,
+      "output_tokens": 39
+    },
+    "request_id": "req_01a131a8a79978b2a051b640d55d7165"
+  },
+  "b05bebfe2eccbb860b35afae3fd4a7d1fa28924c63d15ccd2b46c1e3207f307f": {
+    "seconds": 0.419,
+    "model": "jev-1.13.0",
+    "answers": {
+      "action": {
+        "type": "choice",
+        "choice": "run",
+        "probabilities": {
+          "run": 1.0,
+          "ask": 0.0,
+          "refuse": 0.0
+        },
+        "confidence": 1.0
+      }
+    },
+    "usage": {
+      "input_tokens": 760,
+      "output_tokens": 39
+    },
+    "request_id": "req_01a131a7e1b275d1b0e9b5fcfd509f89"
+  },
+  "aaa99c06fd7172ffc1065e3214d4813354da5d365554d41397ad2c6ecb42b005": {
+    "seconds": 0.45,
+    "model": "jev-1.13.0",
+    "answers": {
+      "action": {
+        "type": "choice",
+        "choice": "refuse",
+        "probabilities": {
+          "run": 0.0,
+          "ask": 0.0,
+          "refuse": 1.0
+        },
+        "confidence": 1.0
+      }
+    },
+    "usage": {
+      "input_tokens": 910,
+      "output_tokens": 40
+    },
+    "request_id": "req_01a131a7fa9e7392996f7aa9c12055ca"
+  },
+  "86cd6bf40908a3c147211fe9339620914d53b2cfa44b82a1602db441b2c08959": {
+    "seconds": 0.473,
+    "model": "jev-1.13.0",
+    "answers": {
+      "action": {
+        "type": "choice",
+        "choice": "ask",
+        "probabilities": {
+          "run": 0.0,
+          "ask": 1.0,
+          "refuse": 0.0
+        },
+        "confidence": 1.0
+      }
+    },
+    "usage": {
+      "input_tokens": 746,
+      "output_tokens": 39
+    },
+    "request_id": "req_01a131a7e5167e3fb5f832c25eb8bc83"
+  },
+  "60f183cb0c0c616550d341390c1324ec791e1bdb56e7859ddb6d92e09b463351": {
+    "seconds": 0.535,
+    "model": "jev-1.13.0",
+    "answers": {
+      "action": {
+        "type": "choice",
+        "choice": "refuse",
+        "probabilities": {
+          "run": 0.0,
+          "ask": 0.0,
+          "refuse": 1.0
+        },
+        "confidence": 1.0
+      }
+    },
+    "usage": {
+      "input_tokens": 746,
+      "output_tokens": 40
+    },
+    "request_id": "req_01a131a7fc5274a8baea5981f3efaa64"
+  },
+  "1f980418e729975407cd15eb80608f1ba24eb52f8f64ca9ac3817481140d9058": {
+    "seconds": 0.43,
+    "model": "jev-1.13.0",
+    "answers": {
+      "action": {
+        "type": "choice",
+        "choice": "refuse",
+        "probabilities": {
+          "run": 0.02,
+          "ask": 0.0,
+          "refuse": 0.98
+        },
+        "confidence": 0.97
+      }
+    },
+    "usage": {
+      "input_tokens": 760,
+      "output_tokens": 40
+    },
+    "request_id": "req_01a131a7fe727d33b7bc1484725ff3c2"
+  },
+  "88c2558e19d346d5a6fe6ca6ceb64db72c1e9ddbe31d8d9c8085c1c2559badf5": {
+    "seconds": 0.485,
+    "model": "jev-1.13.0",
+    "answers": {
+      "action": {
+        "type": "choice",
+        "choice": "ask",
+        "probabilities": {
+          "run": 0.0,
+          "ask": 1.0,
+          "refuse": 0.0
+        },
+        "confidence": 1.0
+      }
+    },
+    "usage": {
+      "input_tokens": 745,
+      "output_tokens": 39
+    },
+    "request_id": "req_01a131a7e6eb76b381204a05ced3ebb0"
+  },
+  "0902a6a9c9a7c8152671efed111f8816b657dfc917407d04627d79954c8873fa": {
+    "label": "run",
+    "seconds": 2.925,
+    "usage": {
+      "input_tokens": 407,
+      "output_tokens": 31,
+      "total_tokens": 438,
+      "input_token_details": {
+        "audio": 0,
+        "cache_read": 0
+      },
+      "output_token_details": {
+        "audio": 0,
+        "reasoning": 21
+      }
+    }
+  },
+  "0bed6168e092800d8311bb2db80a7dd10a92be872aae58b0f24e826bab6b4eb9": {
+    "label": "refuse",
+    "seconds": 1.399,
+    "usage": {
+      "input_tokens": 416,
+      "output_tokens": 37,
+      "total_tokens": 453,
+      "input_token_details": {
+        "audio": 0,
+        "cache_read": 0
+      },
+      "output_token_details": {
+        "audio": 0,
+        "reasoning": 26
+      }
+    }
+  },
+  "0d37d0e48196883f0a4cf5e6d4a7b93460584d039027655a001f4ef695cd6492": {
+    "label": "run",
+    "seconds": 1.249,
+    "usage": {
+      "input_tokens": 429,
+      "output_tokens": 27,
+      "total_tokens": 456,
+      "input_token_details": {
+        "audio": 0,
+        "cache_read": 0
+      },
+      "output_token_details": {
+        "audio": 0,
+        "reasoning": 17
+      }
+    }
+  },
+  "145e9d164b7186816bad7cb33f8c68b30cc9663fa2e51720b9175d22feb13410": {
+    "label": "run",
+    "seconds": 1.254,
+    "usage": {
+      "input_tokens": 420,
+      "output_tokens": 28,
+      "total_tokens": 448,
+      "input_token_details": {
+        "audio": 0,
+        "cache_read": 0
+      },
+      "output_token_details": {
+        "audio": 0,
+        "reasoning": 18
+      }
+    }
+  },
+  "2cc81625ce19a35d805fc576d46cc2d26d8166e60b614eea9b0d09430b5cfc50": {
+    "label": "ask",
+    "seconds": 1.283,
+    "usage": {
+      "input_tokens": 405,
+      "output_tokens": 36,
+      "total_tokens": 441,
+      "input_token_details": {
+        "audio": 0,
+        "cache_read": 0
+      },
+      "output_token_details": {
+        "audio": 0,
+        "reasoning": 26
+      }
+    }
+  },
+  "405a0844c284706bf0dade498b12efb65efd4d2b07596d520e082c5fdf9d5dcb": {
+    "label": "refuse",
+    "seconds": 1.613,
+    "usage": {
+      "input_tokens": 528,
+      "output_tokens": 65,
+      "total_tokens": 593,
+      "input_token_details": {
+        "audio": 0,
+        "cache_read": 0
+      },
+      "output_token_details": {
+        "audio": 0,
+        "reasoning": 54
+      }
+    }
+  },
+  "434323b929c0757d348eb48b1d0837f6436a4810a8565a0efb9fa72c5a9afc17": {
+    "label": "run",
+    "seconds": 1.596,
+    "usage": {
+      "input_tokens": 417,
+      "output_tokens": 29,
+      "total_tokens": 446,
+      "input_token_details": {
+        "audio": 0,
+        "cache_read": 0
+      },
+      "output_token_details": {
+        "audio": 0,
+        "reasoning": 19
+      }
+    }
+  },
+  "45921321ff5b931817ba458dffe07714d51fabc245dd66a1496dce872d1d23c2": {
+    "label": "run",
+    "seconds": 1.298,
+    "usage": {
+      "input_tokens": 414,
+      "output_tokens": 30,
+      "total_tokens": 444,
+      "input_token_details": {
+        "audio": 0,
+        "cache_read": 0
+      },
+      "output_token_details": {
+        "audio": 0,
+        "reasoning": 20
+      }
+    }
+  },
+  "50b4283dd5e80fc7f81f5e387333179dd9798b8f8880433125d43580267ea2f2": {
+    "label": "ask",
+    "seconds": 2.806,
+    "usage": {
+      "input_tokens": 403,
+      "output_tokens": 120,
+      "total_tokens": 523,
+      "input_token_details": {
+        "audio": 0,
+        "cache_read": 0
+      },
+      "output_token_details": {
+        "audio": 0,
+        "reasoning": 110
+      }
+    }
+  },
+  "5b245e8f6cef6adc329cde3284c417a031be251f5a754f4f553cd3f380c1fa1c": {
+    "label": "ask",
+    "seconds": 1.678,
+    "usage": {
+      "input_tokens": 406,
+      "output_tokens": 37,
+      "total_tokens": 443,
+      "input_token_details": {
+        "audio": 0,
+        "cache_read": 0
+      },
+      "output_token_details": {
+        "audio": 0,
+        "reasoning": 27
+      }
+    }
+  },
+  "6d8428ac10365d89b2d5cba81e55b0b02e081d23546a47c70d5b8fb43fb9e1d6": {
+    "label": "ask",
+    "seconds": 1.299,
+    "usage": {
+      "input_tokens": 415,
+      "output_tokens": 32,
+      "total_tokens": 447,
+      "input_token_details": {
+        "audio": 0,
+        "cache_read": 0
+      },
+      "output_token_details": {
+        "audio": 0,
+        "reasoning": 22
+      }
+    }
+  },
+  "7127abf3bba109f8909f711871867334a03d6cdc52b28bbcc6ff640000ec62c4": {
+    "label": "run",
+    "seconds": 1.631,
+    "usage": {
+      "input_tokens": 424,
+      "output_tokens": 31,
+      "total_tokens": 455,
+      "input_token_details": {
+        "audio": 0,
+        "cache_read": 0
+      },
+      "output_token_details": {
+        "audio": 0,
+        "reasoning": 21
+      }
+    }
+  },
+  "75d674401017bec8dc1eddd8837fa9e15764f068aad3f3624869e95c3d02c122": {
+    "label": "run",
+    "seconds": 1.347,
+    "usage": {
+      "input_tokens": 408,
+      "output_tokens": 38,
+      "total_tokens": 446,
+      "input_token_details": {
+        "audio": 0,
+        "cache_read": 0
+      },
+      "output_token_details": {
+        "audio": 0,
+        "reasoning": 28
+      }
+    }
+  },
+  "77c108f0f1219c6effa1ef3878a76fb5b2dbd8f0ee4a2412f4216bfc9e91758e": {
+    "label": "ask",
+    "seconds": 1.629,
+    "usage": {
+      "input_tokens": 413,
+      "output_tokens": 30,
+      "total_tokens": 443,
+      "input_token_details": {
+        "audio": 0,
+        "cache_read": 0
+      },
+      "output_token_details": {
+        "audio": 0,
+        "reasoning": 20
+      }
+    }
+  },
+  "78099f587fb221b930885db79934bdd0c305126756170c68295409cbeaae9edf": {
+    "label": "refuse",
+    "seconds": 1.537,
+    "usage": {
+      "input_tokens": 407,
+      "output_tokens": 34,
+      "total_tokens": 441,
+      "input_token_details": {
+        "audio": 0,
+        "cache_read": 0
+      },
+      "output_token_details": {
+        "audio": 0,
+        "reasoning": 23
+      }
+    }
+  },
+  "86747a24080f018baa4d0b1eb62b60bf35ef8044cf4599ed3df9dfb1d3d67756": {
+    "label": "run",
+    "seconds": 1.373,
+    "usage": {
+      "input_tokens": 407,
+      "output_tokens": 35,
+      "total_tokens": 442,
+      "input_token_details": {
+        "audio": 0,
+        "cache_read": 0
+      },
+      "output_token_details": {
+        "audio": 0,
+        "reasoning": 25
+      }
+    }
+  },
+  "86d489121dd8f1d2cb86ecbf0a4802a23aa7d9fec9e560e32411abfaa112bf28": {
+    "label": "refuse",
+    "seconds": 1.264,
+    "usage": {
+      "input_tokens": 404,
+      "output_tokens": 37,
+      "total_tokens": 441,
+      "input_token_details": {
+        "audio": 0,
+        "cache_read": 0
+      },
+      "output_token_details": {
+        "audio": 0,
+        "reasoning": 26
+      }
+    }
+  },
+  "9a5943de35c52a1d75eca6abb7a7b24c1d9843db06b9589a3bf7b0b58bdc2a71": {
+    "label": "ask",
+    "seconds": 1.433,
+    "usage": {
+      "input_tokens": 406,
+      "output_tokens": 36,
+      "total_tokens": 442,
+      "input_token_details": {
+        "audio": 0,
+        "cache_read": 0
+      },
+      "output_token_details": {
+        "audio": 0,
+        "reasoning": 26
+      }
+    }
+  },
+  "a56657cc67b381e913062a942d283ba2d75ed0cb80450ed31ab5e5fd7137ba75": {
+    "label": "ask",
+    "seconds": 1.731,
+    "usage": {
+      "input_tokens": 404,
+      "output_tokens": 33,
+      "total_tokens": 437,
+      "input_token_details": {
+        "audio": 0,
+        "cache_read": 0
+      },
+      "output_token_details": {
+        "audio": 0,
+        "reasoning": 23
+      }
+    }
+  },
+  "bcc8633bb10c11f206699d178327bb378e5cd244729dd337dfff3ba39c434be4": {
+    "label": "refuse",
+    "seconds": 1.697,
+    "usage": {
+      "input_tokens": 400,
+      "output_tokens": 35,
+      "total_tokens": 435,
+      "input_token_details": {
+        "audio": 0,
+        "cache_read": 0
+      },
+      "output_token_details": {
+        "audio": 0,
+        "reasoning": 24
+      }
+    }
+  },
+  "c82c665915d76d898f0c6687aa03c4832e1c96f9d99c370ddb56f96ed45694f2": {
+    "label": "refuse",
+    "seconds": 1.591,
+    "usage": {
+      "input_tokens": 412,
+      "output_tokens": 57,
+      "total_tokens": 469,
+      "input_token_details": {
+        "audio": 0,
+        "cache_read": 0
+      },
+      "output_token_details": {
+        "audio": 0,
+        "reasoning": 46
+      }
+    }
+  },
+  "f01bb1fb2ab046e2d5229edb87a711ee1931842629b935a60f42ee64edc93e48": {
+    "label": "refuse",
+    "seconds": 1.412,
+    "usage": {
+      "input_tokens": 422,
+      "output_tokens": 38,
+      "total_tokens": 460,
+      "input_token_details": {
+        "audio": 0,
+        "cache_read": 0
+      },
+      "output_token_details": {
+        "audio": 0,
+        "reasoning": 27
+      }
+    }
+  },
+  "f08e1c834a43a83a3157a5dce55ea7527fa827928ef82ea0b504c7c29d2eb64f": {
+    "label": "refuse",
+    "seconds": 1.39,
+    "usage": {
+      "input_tokens": 397,
+      "output_tokens": 51,
+      "total_tokens": 448,
+      "input_token_details": {
+        "audio": 0,
+        "cache_read": 0
+      },
+      "output_token_details": {
+        "audio": 0,
+        "reasoning": 40
+      }
+    }
+  },
+  "fd3b3038427f1bf1377654d63000543f316c33b7d53ffc7217100fcf83da4910": {
+    "label": "ask",
+    "seconds": 1.385,
+    "usage": {
+      "input_tokens": 412,
+      "output_tokens": 31,
+      "total_tokens": 443,
+      "input_token_details": {
+        "audio": 0,
+        "cache_read": 0
+      },
+      "output_token_details": {
+        "audio": 0,
+        "reasoning": 21
+      }
+    }
+  }
+}
