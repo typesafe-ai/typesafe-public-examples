@@ -1,0 +1,506 @@
+{
+  "cea0eba7db16949e3522275bb3a7fb3945a3ff2f6c0f9565e59e5dd56bae90ea": [
+    {
+      "lc": 1,
+      "type": "constructor",
+      "id": [
+        "langchain",
+        "schema",
+        "output",
+        "ChatGeneration"
+      ],
+      "kwargs": {
+        "generation_info": {
+          "finish_reason": "tool_calls",
+          "logprobs": null
+        },
+        "type": "ChatGeneration",
+        "message": {
+          "lc": 1,
+          "type": "constructor",
+          "id": [
+            "langchain",
+            "schema",
+            "messages",
+            "AIMessage"
+          ],
+          "kwargs": {
+            "content": "",
+            "additional_kwargs": {
+              "refusal": null
+            },
+            "response_metadata": {
+              "token_usage": {
+                "completion_tokens": 139,
+                "prompt_tokens": 450,
+                "total_tokens": 589,
+                "completion_tokens_details": {
+                  "accepted_prediction_tokens": 0,
+                  "audio_tokens": 0,
+                  "reasoning_tokens": 105,
+                  "rejected_prediction_tokens": 0,
+                  "text_tokens": null
+                },
+                "prompt_tokens_details": {
+                  "audio_tokens": 0,
+                  "cache_write_tokens": null,
+                  "cached_tokens": 0,
+                  "image_tokens": null,
+                  "text_tokens": null
+                }
+              },
+              "model_provider": "openai",
+              "model_name": "gpt-5.5-2026-04-23",
+              "system_fingerprint": null,
+              "id": "chatcmpl-EYGHKbcwc96CD2Nf9xLwNYh1ejECR",
+              "service_tier": "default",
+              "finish_reason": "tool_calls",
+              "logprobs": null
+            },
+            "type": "ai",
+            "id": "lc_run--01a131a7-a200-71c0-943c-a2d1769e2380-0",
+            "tool_calls": [
+              {
+                "name": "issue_refund",
+                "args": {
+                  "order_id": "O-7781",
+                  "amount": 24.5
+                },
+                "id": "call_eaRlb8txvmmTw9Dq38aEbgul",
+                "type": "tool_call"
+              }
+            ],
+            "usage_metadata": {
+              "input_tokens": 450,
+              "output_tokens": 139,
+              "total_tokens": 589,
+              "input_token_details": {
+                "audio": 0,
+                "cache_read": 0
+              },
+              "output_token_details": {
+                "audio": 0,
+                "reasoning": 105
+              }
+            },
+            "invalid_tool_calls": []
+          }
+        }
+      }
+    }
+  ],
+  "040b7e156ad11d38730a6676e2f2d28fcc4d79ea879f9069dc67f2203910fa18": [
+    {
+      "lc": 1,
+      "type": "constructor",
+      "id": [
+        "langchain",
+        "schema",
+        "output",
+        "ChatGeneration"
+      ],
+      "kwargs": {
+        "text": "I\u2019m sorry the mug arrived chipped \u2014 I\u2019ve refunded 24.50 to your card for order O-7781.",
+        "generation_info": {
+          "finish_reason": "stop",
+          "logprobs": null
+        },
+        "type": "ChatGeneration",
+        "message": {
+          "lc": 1,
+          "type": "constructor",
+          "id": [
+            "langchain",
+            "schema",
+            "messages",
+            "AIMessage"
+          ],
+          "kwargs": {
+            "content": "I\u2019m sorry the mug arrived chipped \u2014 I\u2019ve refunded 24.50 to your card for order O-7781.",
+            "additional_kwargs": {
+              "refusal": null
+            },
+            "response_metadata": {
+              "token_usage": {
+                "completion_tokens": 28,
+                "prompt_tokens": 502,
+                "total_tokens": 530,
+                "completion_tokens_details": {
+                  "accepted_prediction_tokens": 0,
+                  "audio_tokens": 0,
+                  "reasoning_tokens": 0,
+                  "rejected_prediction_tokens": 0,
+                  "text_tokens": null
+                },
+                "prompt_tokens_details": {
+                  "audio_tokens": 0,
+                  "cache_write_tokens": null,
+                  "cached_tokens": 0,
+                  "image_tokens": null,
+                  "text_tokens": null
+                }
+              },
+              "model_provider": "openai",
+              "model_name": "gpt-5.5-2026-04-23",
+              "system_fingerprint": null,
+              "id": "chatcmpl-EYGHOlG0HHxZfpp9ePXvgKrUtO5z2",
+              "service_tier": "default",
+              "finish_reason": "stop",
+              "logprobs": null
+            },
+            "type": "ai",
+            "id": "lc_run--01a131a7-b62f-7923-8eb0-6740ee069748-0",
+            "usage_metadata": {
+              "input_tokens": 502,
+              "output_tokens": 28,
+              "total_tokens": 530,
+              "input_token_details": {
+                "audio": 0,
+                "cache_read": 0
+              },
+              "output_token_details": {
+                "audio": 0,
+                "reasoning": 0
+              }
+            },
+            "tool_calls": [],
+            "invalid_tool_calls": []
+          }
+        }
+      }
+    }
+  ],
+  "c457a8cd1cc523a5b21f8e2dce7ed5907b38b3426a90ce0c9b3790f561a9aad6": [
+    {
+      "lc": 1,
+      "type": "constructor",
+      "id": [
+        "langchain",
+        "schema",
+        "output",
+        "ChatGeneration"
+      ],
+      "kwargs": {
+        "generation_info": {
+          "finish_reason": "tool_calls",
+          "logprobs": null
+        },
+        "type": "ChatGeneration",
+        "message": {
+          "lc": 1,
+          "type": "constructor",
+          "id": [
+            "langchain",
+            "schema",
+            "messages",
+            "AIMessage"
+          ],
+          "kwargs": {
+            "content": "",
+            "additional_kwargs": {
+              "refusal": null
+            },
+            "response_metadata": {
+              "token_usage": {
+                "completion_tokens": 115,
+                "prompt_tokens": 441,
+                "total_tokens": 556,
+                "completion_tokens_details": {
+                  "accepted_prediction_tokens": 0,
+                  "audio_tokens": 0,
+                  "reasoning_tokens": 83,
+                  "rejected_prediction_tokens": 0,
+                  "text_tokens": null
+                },
+                "prompt_tokens_details": {
+                  "audio_tokens": 0,
+                  "cache_write_tokens": null,
+                  "cached_tokens": 0,
+                  "image_tokens": null,
+                  "text_tokens": null
+                }
+              },
+              "model_provider": "openai",
+              "model_name": "gpt-5.5-2026-04-23",
+              "system_fingerprint": null,
+              "id": "chatcmpl-EYGHQ2qKnU47eJ1n7hwV7tNTwiMzz",
+              "service_tier": "default",
+              "finish_reason": "tool_calls",
+              "logprobs": null
+            },
+            "type": "ai",
+            "id": "lc_run--01a131a7-be2c-74c2-ab2e-099ca8b84840-0",
+            "tool_calls": [
+              {
+                "name": "issue_refund",
+                "args": {
+                  "order_id": "O-7790",
+                  "amount": 450
+                },
+                "id": "call_1wHlBVEKRYyqVyseH9TqA9rF",
+                "type": "tool_call"
+              }
+            ],
+            "usage_metadata": {
+              "input_tokens": 441,
+              "output_tokens": 115,
+              "total_tokens": 556,
+              "input_token_details": {
+                "audio": 0,
+                "cache_read": 0
+              },
+              "output_token_details": {
+                "audio": 0,
+                "reasoning": 83
+              }
+            },
+            "invalid_tool_calls": []
+          }
+        }
+      }
+    }
+  ],
+  "514a5da809c1da213990d0df740820066d361d32fd6f2c876d3e2aa534a32088": [
+    {
+      "lc": 1,
+      "type": "constructor",
+      "id": [
+        "langchain",
+        "schema",
+        "output",
+        "ChatGeneration"
+      ],
+      "kwargs": {
+        "text": "I\u2019m sorry O-7790 arrived damaged; I\u2019ve refunded the full 450 to your card.",
+        "generation_info": {
+          "finish_reason": "stop",
+          "logprobs": null
+        },
+        "type": "ChatGeneration",
+        "message": {
+          "lc": 1,
+          "type": "constructor",
+          "id": [
+            "langchain",
+            "schema",
+            "messages",
+            "AIMessage"
+          ],
+          "kwargs": {
+            "content": "I\u2019m sorry O-7790 arrived damaged; I\u2019ve refunded the full 450 to your card.",
+            "additional_kwargs": {
+              "refusal": null
+            },
+            "response_metadata": {
+              "token_usage": {
+                "completion_tokens": 24,
+                "prompt_tokens": 491,
+                "total_tokens": 515,
+                "completion_tokens_details": {
+                  "accepted_prediction_tokens": 0,
+                  "audio_tokens": 0,
+                  "reasoning_tokens": 0,
+                  "rejected_prediction_tokens": 0,
+                  "text_tokens": null
+                },
+                "prompt_tokens_details": {
+                  "audio_tokens": 0,
+                  "cache_write_tokens": null,
+                  "cached_tokens": 0,
+                  "image_tokens": null,
+                  "text_tokens": null
+                }
+              },
+              "model_provider": "openai",
+              "model_name": "gpt-5.5-2026-04-23",
+              "system_fingerprint": null,
+              "id": "chatcmpl-EYGHUI4M1OKhHtT017Edlmfay6g0k",
+              "service_tier": "default",
+              "finish_reason": "stop",
+              "logprobs": null
+            },
+            "type": "ai",
+            "id": "lc_run--01a131a7-cf4e-70c3-b2fe-bec9a9b3cc26-0",
+            "usage_metadata": {
+              "input_tokens": 491,
+              "output_tokens": 24,
+              "total_tokens": 515,
+              "input_token_details": {
+                "audio": 0,
+                "cache_read": 0
+              },
+              "output_token_details": {
+                "audio": 0,
+                "reasoning": 0
+              }
+            },
+            "tool_calls": [],
+            "invalid_tool_calls": []
+          }
+        }
+      }
+    }
+  ],
+  "1143c2a4830be57138b1f239e70d1c37aaf86ce9fde00462a8fd8f8b55cacb97": [
+    {
+      "lc": 1,
+      "type": "constructor",
+      "id": [
+        "langchain",
+        "schema",
+        "output",
+        "ChatGeneration"
+      ],
+      "kwargs": {
+        "text": "I\u2019m sorry the mug arrived chipped \u2014 I\u2019ve refunded 24.50 to your card for order O-7781.",
+        "generation_info": {
+          "finish_reason": "stop",
+          "logprobs": null
+        },
+        "type": "ChatGeneration",
+        "message": {
+          "lc": 1,
+          "type": "constructor",
+          "id": [
+            "langchain",
+            "schema",
+            "messages",
+            "AIMessage"
+          ],
+          "kwargs": {
+            "content": "I\u2019m sorry the mug arrived chipped \u2014 I\u2019ve refunded 24.50 to your card for order O-7781.",
+            "additional_kwargs": {
+              "refusal": null
+            },
+            "response_metadata": {
+              "token_usage": {
+                "completion_tokens": 28,
+                "prompt_tokens": 502,
+                "total_tokens": 530,
+                "completion_tokens_details": {
+                  "accepted_prediction_tokens": 0,
+                  "audio_tokens": 0,
+                  "reasoning_tokens": 0,
+                  "rejected_prediction_tokens": 0,
+                  "text_tokens": null
+                },
+                "prompt_tokens_details": {
+                  "audio_tokens": 0,
+                  "cache_write_tokens": null,
+                  "cached_tokens": 0,
+                  "image_tokens": null,
+                  "text_tokens": null
+                }
+              },
+              "model_provider": "openai",
+              "model_name": "gpt-5.5-2026-04-23",
+              "system_fingerprint": null,
+              "id": "chatcmpl-EYGIIXq94DQcbMfkKNjVjyqA1AjC2",
+              "service_tier": "default",
+              "finish_reason": "stop",
+              "logprobs": null
+            },
+            "type": "ai",
+            "id": "lc_run--01a131a8-9183-7300-9157-09f642f22a6a-0",
+            "usage_metadata": {
+              "input_tokens": 502,
+              "output_tokens": 28,
+              "total_tokens": 530,
+              "input_token_details": {
+                "audio": 0,
+                "cache_read": 0
+              },
+              "output_token_details": {
+                "audio": 0,
+                "reasoning": 0
+              }
+            },
+            "tool_calls": [],
+            "invalid_tool_calls": []
+          }
+        }
+      }
+    }
+  ],
+  "89df043805b3754ce87050fea087df0c9d8f28d7d93feb7893efecae62aae8de": [
+    {
+      "lc": 1,
+      "type": "constructor",
+      "id": [
+        "langchain",
+        "schema",
+        "output",
+        "ChatGeneration"
+      ],
+      "kwargs": {
+        "text": "I\u2019m sorry your order arrived damaged. I\u2019ve refunded the full $450 for order O-7790 to your card.",
+        "generation_info": {
+          "finish_reason": "stop",
+          "logprobs": null
+        },
+        "type": "ChatGeneration",
+        "message": {
+          "lc": 1,
+          "type": "constructor",
+          "id": [
+            "langchain",
+            "schema",
+            "messages",
+            "AIMessage"
+          ],
+          "kwargs": {
+            "content": "I\u2019m sorry your order arrived damaged. I\u2019ve refunded the full $450 for order O-7790 to your card.",
+            "additional_kwargs": {
+              "refusal": null
+            },
+            "response_metadata": {
+              "token_usage": {
+                "completion_tokens": 28,
+                "prompt_tokens": 491,
+                "total_tokens": 519,
+                "completion_tokens_details": {
+                  "accepted_prediction_tokens": 0,
+                  "audio_tokens": 0,
+                  "reasoning_tokens": 0,
+                  "rejected_prediction_tokens": 0,
+                  "text_tokens": null
+                },
+                "prompt_tokens_details": {
+                  "audio_tokens": 0,
+                  "cache_write_tokens": null,
+                  "cached_tokens": 0,
+                  "image_tokens": null,
+                  "text_tokens": null
+                }
+              },
+              "model_provider": "openai",
+              "model_name": "gpt-5.5-2026-04-23",
+              "system_fingerprint": null,
+              "id": "chatcmpl-EYGIKKjiZBaQtRVWRS0CSCH9BnsTA",
+              "service_tier": "default",
+              "finish_reason": "stop",
+              "logprobs": null
+            },
+            "type": "ai",
+            "id": "lc_run--01a131a8-9ac7-7521-87f1-da548f24d38a-0",
+            "usage_metadata": {
+              "input_tokens": 491,
+              "output_tokens": 28,
+              "total_tokens": 519,
+              "input_token_details": {
+                "audio": 0,
+                "cache_read": 0
+              },
+              "output_token_details": {
+                "audio": 0,
+                "reasoning": 0
+              }
+            },
+            "tool_calls": [],
+            "invalid_tool_calls": []
+          }
+        }
+      }
+    }
+  ]
+}
