@@ -1,0 +1,470 @@
+{
+  "name": "Support inbox triage",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "support-triage",
+        "responseMode": "responseNode",
+        "options": {}
+      },
+      "name": "Message received",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2.2,
+      "position": [
+        0,
+        300
+      ],
+      "webhookId": "support-triage"
+    },
+    {
+      "parameters": {
+        "operation": "route",
+        "model": {
+          "__rl": true,
+          "mode": "id",
+          "value": "jev-1.13.0"
+        },
+        "stateFormat": "text",
+        "stateText": "={{ $json.body.message }}",
+        "routeInstructions": "Which team should handle this message from a customer of an online store?",
+        "routes": {
+          "route": [
+            {
+              "name": "orders",
+              "description": "Placing, changing, or cancelling an order, a missing confirmation, or a charge for an order."
+            },
+            {
+              "name": "returns",
+              "description": "Sending an item back, exchanging it, or a refund for a return."
+            },
+            {
+              "name": "shipping",
+              "description": "Delivery times, tracking, a parcel that is late, lost, or damaged in transit, or the delivery address."
+            },
+            {
+              "name": "account",
+              "description": "Logging in, passwords, personal details, saved cards, marketing emails, loyalty points, or closing the account."
+            },
+            {
+              "name": "product",
+              "description": "A question about a product itself: sizes, materials, compatibility, stock, or how to use it."
+            }
+          ]
+        },
+        "confidenceHandling": "separateOutput",
+        "confidenceThreshold": 0.8,
+        "options": {
+          "simplify": false
+        }
+      },
+      "name": "Pick a team",
+      "type": "@typesafe-ai/n8n-nodes-typesafe-ai.typeSafeAi",
+      "typeVersion": 1,
+      "position": [
+        260,
+        300
+      ],
+      "credentials": {
+        "typeSafeAiApi": {
+          "id": "jfU0OFkzld18hkGV",
+          "name": "TypeSafe AI account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "route",
+        "model": {
+          "__rl": true,
+          "mode": "id",
+          "value": "jev-1.13.0"
+        },
+        "stateFormat": "text",
+        "stateText": "={{ $json.body.message }}",
+        "routeQuestionType": "noul",
+        "routeInstructions": "Is the customer's money or access to their account at risk until someone acts? For example a charge they did not make, a payment taken twice, or someone else in their account.",
+        "routeTrueMeans": "At risk",
+        "trueThreshold": 0.7,
+        "routeFalseMeans": "Not at risk",
+        "falseThreshold": 0.3,
+        "options": {
+          "simplify": false
+        }
+      },
+      "name": "Money or access at risk?",
+      "type": "@typesafe-ai/n8n-nodes-typesafe-ai.typeSafeAi",
+      "typeVersion": 1,
+      "position": [
+        620,
+        760
+      ],
+      "credentials": {
+        "typeSafeAiApi": {
+          "id": "jfU0OFkzld18hkGV",
+          "name": "TypeSafe AI account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "Orders team-queue",
+              "name": "queue",
+              "value": "orders",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "name": "Orders team",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.5,
+      "position": [
+        620,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "Returns team-queue",
+              "name": "queue",
+              "value": "returns",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "name": "Returns team",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.5,
+      "position": [
+        620,
+        140
+      ]
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "Shipping team-queue",
+              "name": "queue",
+              "value": "shipping",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "name": "Shipping team",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.5,
+      "position": [
+        620,
+        280
+      ]
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "Account team-queue",
+              "name": "queue",
+              "value": "account",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "name": "Account team",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.5,
+      "position": [
+        620,
+        420
+      ]
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "Product team-queue",
+              "name": "queue",
+              "value": "product",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "name": "Product team",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.5,
+      "position": [
+        620,
+        560
+      ]
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "Urgent review-queue",
+              "name": "queue",
+              "value": "urgent-review",
+              "type": "string"
+            },
+            {
+              "id": "Urgent review-risk",
+              "name": "risk",
+              "value": "={{ $json.route.noul }}",
+              "type": "number"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "name": "Urgent review",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.5,
+      "position": [
+        900,
+        700
+      ]
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "Review-queue",
+              "name": "queue",
+              "value": "review",
+              "type": "string"
+            },
+            {
+              "id": "Review-risk",
+              "name": "risk",
+              "value": "={{ $json.route.noul }}",
+              "type": "number"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "name": "Review",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.5,
+      "position": [
+        900,
+        840
+      ]
+    },
+    {
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "={{ JSON.stringify({ queue: $json.queue, route: $('Pick a team').item.json.route, risk: $json.risk ?? null }) }}",
+        "options": {}
+      },
+      "name": "Return result",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.5,
+      "position": [
+        1200,
+        420
+      ]
+    }
+  ],
+  "connections": {
+    "Message received": {
+      "main": [
+        [
+          {
+            "node": "Pick a team",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Pick a team": {
+      "main": [
+        [
+          {
+            "node": "Orders team",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Returns team",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Shipping team",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Account team",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Product team",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Money or access at risk?",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Money or access at risk?": {
+      "main": [
+        [
+          {
+            "node": "Urgent review",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Review",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Review",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Orders team": {
+      "main": [
+        [
+          {
+            "node": "Return result",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Returns team": {
+      "main": [
+        [
+          {
+            "node": "Return result",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Shipping team": {
+      "main": [
+        [
+          {
+            "node": "Return result",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Account team": {
+      "main": [
+        [
+          {
+            "node": "Return result",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Product team": {
+      "main": [
+        [
+          {
+            "node": "Return result",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Urgent review": {
+      "main": [
+        [
+          {
+            "node": "Return result",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Review": {
+      "main": [
+        [
+          {
+            "node": "Return result",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "pinData": {
+    "Message received": [
+      {
+        "json": {
+          "headers": {
+            "content-type": "application/json"
+          },
+          "params": {},
+          "query": {},
+          "body": {
+            "message": "Hi, I placed order 48213 about an hour ago and realised I ordered two of the desk lamp instead of one. Can you change the quantity before it ships?"
+          }
+        }
+      }
+    ]
+  }
+}
