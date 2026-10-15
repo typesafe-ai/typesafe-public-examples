@@ -1,0 +1,252 @@
+{
+  "135008dfeb9fe5282c379c0d82e6f1d8d3c140afdd11febb42560e9998d75894": {
+    "boxes": {
+      "account_holder": {
+        "left": 0.167475,
+        "top": 0.7460000000000001,
+        "right": 0.31102500000000005,
+        "bottom": 0.7714074074074074
+      },
+      "account_number": {
+        "left": 0.35640000000000005,
+        "top": 0.7450824742268042,
+        "right": 0.4644000000000001,
+        "bottom": 0.7784226804123712
+      },
+      "amount_due": {
+        "left": 0.8634999999999999,
+        "top": 0.8092000000000001,
+        "right": 0.9445,
+        "bottom": 0.8344000000000001
+      },
+      "bank_name": {
+        "left": 0.24300000000000005,
+        "top": 0.744962962962963,
+        "right": 0.405,
+        "bottom": 0.7776296296296297
+      },
+      "invoice_date": {
+        "left": 0.22775000000000006,
+        "top": 0.3033,
+        "right": 0.34925000000000006,
+        "bottom": 0.34320000000000006
+      },
+      "invoice_number": {
+        "left": 0.6849999999999999,
+        "top": 0.31667999999999996,
+        "right": 0.8290000000000001,
+        "bottom": 0.34691999999999995
+      },
+      "supplier_name": {
+        "left": 0.345,
+        "top": 0.016799999999999995,
+        "right": 0.615,
+        "bottom": 0.10079999999999999
+      }
+    },
+    "seconds": 0.43,
+    "input_tokens": 9043
+  },
+  "478ab7a33019c782a86567f38aab9ff7d0126a1727edc14ff14d54e4f2da3a54": {
+    "boxes": {
+      "account_holder": {
+        "left": 0.0,
+        "top": 0.7150000000000001,
+        "right": 0.1925,
+        "bottom": 0.736
+      },
+      "account_number": {
+        "left": 0.37,
+        "top": 0.7131000000000001,
+        "right": 0.55,
+        "bottom": 0.7404000000000001
+      },
+      "amount_due": {
+        "left": 0.823525,
+        "top": 0.7642000000000001,
+        "right": 0.946375,
+        "bottom": 0.7873000000000001
+      },
+      "bank_name": {
+        "left": 0.12,
+        "top": 0.7186,
+        "right": 0.30000000000000004,
+        "bottom": 0.7354
+      },
+      "branch_code": {
+        "left": 0.27499999999999997,
+        "top": 0.7170000000000001,
+        "right": 0.365,
+        "bottom": 0.738
+      },
+      "invoice_date": {
+        "left": 0.8664999999999999,
+        "top": 0.17600000000000002,
+        "right": 0.9655,
+        "bottom": 0.1865
+      },
+      "invoice_number": {
+        "left": 0.87325,
+        "top": 0.1658,
+        "right": 0.96775,
+        "bottom": 0.17420000000000002
+      },
+      "supplier_name": {
+        "left": 0.0,
+        "top": 0.1542,
+        "right": 0.535,
+        "bottom": 0.1668
+      }
+    },
+    "seconds": 0.43,
+    "input_tokens": 15252
+  },
+  "67a409a68d3705910f38625ea49fc2dd86a22cc56a28f51697bb82a9beb2986d": {
+    "shows": {
+      "account_holder": 0.96,
+      "account_number": 0.78,
+      "amount_due": 0.84,
+      "bank_name": 0.98,
+      "branch_code": 0.94,
+      "invoice_date": 0.66,
+      "invoice_number": 0.04,
+      "supplier_name": 0.31
+    },
+    "seconds": 0.53,
+    "input_tokens": 7178
+  },
+  "78ea0718e0acc00d9808e53de04e16149c1676f5202f7d85a4e40e64c6b9198b": {
+    "shows": {
+      "account_holder": 0.57,
+      "account_number": 0.92,
+      "amount_due": 0.8,
+      "bank_name": 0.53,
+      "invoice_date": 0.82,
+      "invoice_number": 0.18,
+      "supplier_name": 0.95
+    },
+    "seconds": 0.25,
+    "input_tokens": 4980
+  },
+  "b4aad2a91e3f7ade571be7b257caa83c408074f6ac0867237adf8e3e789844ee": {
+    "boxes": {
+      "account_holder": {
+        "top": 0.71,
+        "bottom": 0.75,
+        "left": 0.04,
+        "right": 0.51
+      },
+      "account_number": {
+        "top": 0.72,
+        "bottom": 0.75,
+        "left": 0.05,
+        "right": 0.52
+      },
+      "amount_due": {
+        "top": 0.76,
+        "bottom": 0.79,
+        "left": 0.77,
+        "right": 0.9
+      },
+      "bank_name": {
+        "top": 0.71,
+        "bottom": 0.75,
+        "left": 0.05,
+        "right": 0.51
+      },
+      "branch_code": {
+        "top": 0.72,
+        "bottom": 0.75,
+        "left": 0.05,
+        "right": 0.52
+      },
+      "invoice_date": {
+        "top": 0.17,
+        "bottom": 0.2,
+        "left": 0.87,
+        "right": 0.93
+      },
+      "invoice_number": {
+        "top": 0.15,
+        "bottom": 0.19,
+        "left": 0.87,
+        "right": 0.96
+      },
+      "supplier_name": {
+        "top": 0.16,
+        "bottom": 0.2,
+        "left": 0.07,
+        "right": 0.43
+      }
+    },
+    "fits": {
+      "account_holder": 0.93,
+      "account_number": 0.96,
+      "amount_due": 0.97,
+      "bank_name": 0.97,
+      "branch_code": 0.97,
+      "invoice_date": 0.17,
+      "invoice_number": 0.02,
+      "supplier_name": 0.96
+    },
+    "seconds": 0.29,
+    "input_tokens": 4485
+  },
+  "ed6c860a8bc0c1138e685ed5b7facb36e2776f839d5a75590b6ac59f44b29362": {
+    "boxes": {
+      "account_holder": {
+        "top": 0.74,
+        "bottom": 0.78,
+        "left": 0.15,
+        "right": 0.44
+      },
+      "account_number": {
+        "top": 0.75,
+        "bottom": 0.78,
+        "left": 0.21,
+        "right": 0.45
+      },
+      "amount_due": {
+        "top": 0.79,
+        "bottom": 0.85,
+        "left": 0.84,
+        "right": 0.92
+      },
+      "bank_name": {
+        "top": 0.74,
+        "bottom": 0.78,
+        "left": 0.15,
+        "right": 0.45
+      },
+      "invoice_date": {
+        "top": 0.29,
+        "bottom": 0.34,
+        "left": 0.2,
+        "right": 0.35
+      },
+      "invoice_number": {
+        "top": 0.3,
+        "bottom": 0.36,
+        "left": 0.71,
+        "right": 0.81
+      },
+      "supplier_name": {
+        "top": 0.04,
+        "bottom": 0.12,
+        "left": 0.38,
+        "right": 0.58
+      }
+    },
+    "fits": {
+      "account_holder": 0.9,
+      "account_number": 0.35,
+      "amount_due": 0.95,
+      "bank_name": 0.98,
+      "invoice_date": 0.53,
+      "invoice_number": 0.88,
+      "supplier_name": 0.98
+    },
+    "seconds": 0.35,
+    "input_tokens": 4697
+  }
+}
