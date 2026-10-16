@@ -1,0 +1,142 @@
+{
+  "1eed667425d50959f18d77dab970175a4b471cc49d07ea04d9ca5056141f4e9c": {
+    "function": {
+      "choice": "set_custom_countdown",
+      "confidence": 1.0
+    },
+    "hours": {
+      "choice": "1",
+      "confidence": 0.98
+    },
+    "minutes": {
+      "choice": "15",
+      "confidence": 0.93
+    }
+  },
+  "3b203eac602adb93edfd94b474aac08a55f61cc95f4cbb8d5cebc0a9c30ed7c7": {
+    "case_0.description": {
+      "choice": "bring in the laundry",
+      "confidence": 0.94
+    },
+    "case_0.year": {
+      "choice": "2026",
+      "confidence": 1.0
+    },
+    "case_0.month": {
+      "choice": "12",
+      "confidence": 0.99
+    },
+    "case_0.day": {
+      "choice": "2",
+      "confidence": 0.98
+    },
+    "case_0.hour": {
+      "choice": "13",
+      "confidence": 0.99
+    },
+    "case_0.minute": {
+      "choice": "0",
+      "confidence": 0.98
+    },
+    "case_0.second": {
+      "choice": "0",
+      "confidence": 1.0
+    },
+    "case_1.description": {
+      "choice": "Call John",
+      "confidence": 0.99
+    },
+    "case_1.year": {
+      "choice": "2026",
+      "confidence": 0.94
+    },
+    "case_1.month": {
+      "choice": "12",
+      "confidence": 0.69
+    },
+    "case_1.day": {
+      "choice": "3",
+      "confidence": 0.97
+    },
+    "case_1.hour": {
+      "choice": "14",
+      "confidence": 0.98
+    },
+    "case_1.minute": {
+      "choice": "0",
+      "confidence": 0.98
+    },
+    "case_1.second": {
+      "choice": "0",
+      "confidence": 1.0
+    },
+    "case_2.description": {
+      "choice": "Book a table for our anniversary",
+      "confidence": 0.64
+    },
+    "case_2.year": {
+      "choice": "2031",
+      "confidence": 0.5
+    },
+    "case_2.month": {
+      "choice": "7",
+      "confidence": 0.68
+    },
+    "case_2.day": {
+      "choice": "4",
+      "confidence": 0.72
+    },
+    "case_2.hour": {
+      "choice": "0",
+      "confidence": 0.55
+    },
+    "case_2.minute": {
+      "choice": "0",
+      "confidence": 0.96
+    },
+    "case_2.second": {
+      "choice": "0",
+      "confidence": 0.98
+    },
+    "case_3.description": {
+      "choice": "pay rent",
+      "confidence": 0.92
+    },
+    "case_3.year": {
+      "choice": "2027",
+      "confidence": 0.82
+    },
+    "case_3.month": {
+      "choice": "1",
+      "confidence": 0.6
+    },
+    "case_3.day": {
+      "choice": "3",
+      "confidence": 0.43
+    },
+    "case_3.hour": {
+      "choice": "10",
+      "confidence": 0.75
+    },
+    "case_3.minute": {
+      "choice": "0",
+      "confidence": 0.9
+    },
+    "case_3.second": {
+      "choice": "0",
+      "confidence": 0.98
+    },
+    "case_0.too_far": {
+      "noul": 0.08
+    },
+    "case_1.too_far": {
+      "noul": 0.07
+    },
+    "case_2.too_far": {
+      "noul": 0.98
+    },
+    "case_3.too_far": {
+      "noul": 0.15
+    }
+  }
+}

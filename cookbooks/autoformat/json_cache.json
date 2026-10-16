@@ -1,0 +1,342 @@
+{
+  "5dec9cc591c0308c417839f8f10148bd451fcfa4bb0be050d99b279c9f089329": {
+    "judgments": [
+      {
+        "callout": "note",
+        "confidence": 0.99,
+        "hlevel": "title",
+        "probabilities": {
+          "callout": 0.0,
+          "code": 0.0,
+          "heading": 0.99,
+          "list_item": 0.01,
+          "paragraph": 0.0,
+          "quote": 0.0
+        },
+        "step": 0.13,
+        "type": "heading"
+      },
+      {
+        "callout": "note",
+        "confidence": 0.98,
+        "hlevel": "section",
+        "probabilities": {
+          "callout": 0.01,
+          "code": 0.0,
+          "heading": 0.0,
+          "list_item": 0.0,
+          "paragraph": 0.99,
+          "quote": 0.0
+        },
+        "step": 0.09,
+        "type": "paragraph"
+      },
+      {
+        "callout": "note",
+        "confidence": 0.75,
+        "hlevel": "section",
+        "probabilities": {
+          "callout": 0.05,
+          "code": 0.0,
+          "heading": 0.79,
+          "list_item": 0.03,
+          "paragraph": 0.13,
+          "quote": 0.0
+        },
+        "step": 0.08,
+        "type": "heading"
+      },
+      {
+        "callout": "note",
+        "confidence": 0.89,
+        "hlevel": "section",
+        "probabilities": {
+          "callout": 0.01,
+          "code": 0.0,
+          "heading": 0.01,
+          "list_item": 0.08,
+          "paragraph": 0.9,
+          "quote": 0.0
+        },
+        "step": 0.17,
+        "type": "paragraph"
+      },
+      {
+        "callout": "tip",
+        "confidence": 1.0,
+        "hlevel": "subsection",
+        "probabilities": {
+          "callout": 0.0,
+          "code": 1.0,
+          "heading": 0.0,
+          "list_item": 0.0,
+          "paragraph": 0.0,
+          "quote": 0.0
+        },
+        "step": 0.4,
+        "type": "code"
+      },
+      {
+        "callout": "warning",
+        "confidence": 0.9,
+        "hlevel": "section",
+        "probabilities": {
+          "callout": 0.06,
+          "code": 0.01,
+          "heading": 0.0,
+          "list_item": 0.02,
+          "paragraph": 0.91,
+          "quote": 0.0
+        },
+        "step": 0.28,
+        "type": "paragraph"
+      },
+      {
+        "callout": "note",
+        "confidence": 0.43,
+        "hlevel": "section",
+        "probabilities": {
+          "callout": 0.19,
+          "code": 0.0,
+          "heading": 0.03,
+          "list_item": 0.24,
+          "paragraph": 0.53,
+          "quote": 0.01
+        },
+        "step": 0.14,
+        "type": "paragraph"
+      },
+      {
+        "callout": "note",
+        "confidence": 0.99,
+        "hlevel": "subsection",
+        "probabilities": {
+          "callout": 0.0,
+          "code": 0.0,
+          "heading": 0.0,
+          "list_item": 1.0,
+          "paragraph": 0.0,
+          "quote": 0.0
+        },
+        "step": 0.15,
+        "type": "list_item"
+      },
+      {
+        "callout": "note",
+        "confidence": 1.0,
+        "hlevel": "subsection",
+        "probabilities": {
+          "callout": 0.0,
+          "code": 0.0,
+          "heading": 0.0,
+          "list_item": 1.0,
+          "paragraph": 0.0,
+          "quote": 0.0
+        },
+        "step": 0.16,
+        "type": "list_item"
+      },
+      {
+        "callout": "note",
+        "confidence": 0.99,
+        "hlevel": "subsection",
+        "probabilities": {
+          "callout": 0.0,
+          "code": 0.0,
+          "heading": 0.0,
+          "list_item": 1.0,
+          "paragraph": 0.0,
+          "quote": 0.0
+        },
+        "step": 0.12,
+        "type": "list_item"
+      },
+      {
+        "callout": "note",
+        "confidence": 0.96,
+        "hlevel": "section",
+        "probabilities": {
+          "callout": 0.01,
+          "code": 0.0,
+          "heading": 0.97,
+          "list_item": 0.01,
+          "paragraph": 0.01,
+          "quote": 0.0
+        },
+        "step": 0.47,
+        "type": "heading"
+      },
+      {
+        "callout": "note",
+        "confidence": 0.98,
+        "hlevel": "subsection",
+        "probabilities": {
+          "callout": 0.0,
+          "code": 0.0,
+          "heading": 0.01,
+          "list_item": 0.99,
+          "paragraph": 0.0,
+          "quote": 0.0
+        },
+        "step": 0.86,
+        "type": "list_item"
+      },
+      {
+        "callout": "tip",
+        "confidence": 0.99,
+        "hlevel": "subsection",
+        "probabilities": {
+          "callout": 0.01,
+          "code": 0.0,
+          "heading": 0.0,
+          "list_item": 0.99,
+          "paragraph": 0.0,
+          "quote": 0.0
+        },
+        "step": 0.87,
+        "type": "list_item"
+      },
+      {
+        "callout": "tip",
+        "confidence": 0.92,
+        "hlevel": "subsection",
+        "probabilities": {
+          "callout": 0.05,
+          "code": 0.0,
+          "heading": 0.0,
+          "list_item": 0.93,
+          "paragraph": 0.01,
+          "quote": 0.0
+        },
+        "step": 0.9,
+        "type": "list_item"
+      },
+      {
+        "callout": "warning",
+        "confidence": 0.65,
+        "hlevel": "section",
+        "probabilities": {
+          "callout": 0.7,
+          "code": 0.0,
+          "heading": 0.0,
+          "list_item": 0.04,
+          "paragraph": 0.25,
+          "quote": 0.01
+        },
+        "step": 0.75,
+        "type": "callout"
+      },
+      {
+        "callout": "note",
+        "confidence": 0.99,
+        "hlevel": "section",
+        "probabilities": {
+          "callout": 0.0,
+          "code": 0.0,
+          "heading": 0.0,
+          "list_item": 0.0,
+          "paragraph": 0.01,
+          "quote": 0.99
+        },
+        "step": 0.03,
+        "type": "quote"
+      },
+      {
+        "callout": "note",
+        "confidence": 0.92,
+        "hlevel": "subsection",
+        "probabilities": {
+          "callout": 0.05,
+          "code": 0.0,
+          "heading": 0.0,
+          "list_item": 0.01,
+          "paragraph": 0.93,
+          "quote": 0.01
+        },
+        "step": 0.06,
+        "type": "paragraph"
+      }
+    ],
+    "n_questions": 62,
+    "seconds": 0.51,
+    "usage": [
+      6103,
+      2154
+    ]
+  },
+  "fetch_document|https://raw.githubusercontent.com/typesafe-ai/typesafe-public-examples/main/cookbooks/autoformat/build-memo.txt": "Migration to the new build system\n\nHi everyone, quick heads up about the build system migration that is\nhappening next week. We have been running the new pipeline in shadow\nmode for three weeks and the results look solid, so it is time to\nmake the switch for real.\n\nWhat changes for you\n\nThe old make targets keep working until the end of the month. The new\nentrypoint is a single command that wraps everything, including the\ndocs build that used to be separate.\n\nbun run build\n\nGenerated artifacts no longer need to be committed. The new pipeline\nuploads them to the registry automatically, and checking them in\njust creates merge conflicts.\n\nThe cutover touches three teams, so check whether you are on this\nlist before you plan anything for Monday:\nThe platform team\nThe web client team\nWhoever still owns the release tooling\n\nThings to do before Monday\n\nUpdate your local toolchain to version 2.4 or later\nDelete the old build cache directory\nRun the doctor script and fix anything it flags\n\nIf the doctor script reports a red result on the toolchain check, do\nnot proceed with the migration. Ping the infra channel first and we\nwill sort it out together.\n\nAs Dana put it in the kickoff, \"a migration nobody notices is the\nonly kind worth shipping.\"\n\nThanks, and shout if anything looks off.\n",
+  "stitch": {
+    "joins": [
+      0.0,
+      0.0,
+      0.77,
+      0.62,
+      0.39,
+      0.0,
+      0.0,
+      0.42,
+      0.59,
+      0.0,
+      0.0,
+      0.48,
+      0.4,
+      0.0,
+      0.5,
+      0.22,
+      0.11,
+      0.12,
+      0.0,
+      0.0,
+      0.08,
+      0.05,
+      0.0,
+      0.7,
+      0.59,
+      0.0,
+      0.49,
+      0.0
+    ],
+    "seconds": 0.32,
+    "usage": [
+      1710,
+      244
+    ]
+  },
+  "stitch|same-paragraph": {
+    "joins": [
+      0.0,
+      0.0,
+      0.97,
+      0.98,
+      0.97,
+      0.0,
+      0.0,
+      0.96,
+      0.97,
+      0.0,
+      0.0,
+      0.95,
+      0.96,
+      0.0,
+      0.89,
+      0.77,
+      0.81,
+      0.78,
+      0.0,
+      0.0,
+      0.88,
+      0.91,
+      0.0,
+      0.95,
+      0.95,
+      0.0,
+      0.93,
+      0.0
+    ],
+    "seconds": 0.14,
+    "usage": [
+      1294,
+      244
+    ]
+  }
+}

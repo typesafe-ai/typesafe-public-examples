@@ -1,0 +1,86 @@
+{
+  "0371efac1e60479de779e6aafd3bcafa4183e5881ebde772662ebc2c438bb254": {
+    "choice": "says_nothing",
+    "confidence": 0.56,
+    "input_tokens": 434,
+    "output_tokens": 42,
+    "probabilities": {
+      "contradicts": 0.28,
+      "says_nothing": 0.71,
+      "supports": 0.01
+    },
+    "seconds": 0.09
+  },
+  "443f18acc894edd151dd29b16000912a62d4a54c3c3dbbcc391d12e56b4dac19": {
+    "choice": "supports",
+    "confidence": 0.99,
+    "input_tokens": 490,
+    "output_tokens": 39,
+    "probabilities": {
+      "contradicts": 0.0,
+      "says_nothing": 0.0,
+      "supports": 1.0
+    },
+    "seconds": 0.08
+  },
+  "89f5292d83010a84e7a54729a613fb2dad824f43919df93932c9d16b1b651ef3": {
+    "choice": "supports",
+    "confidence": 0.95,
+    "input_tokens": 544,
+    "output_tokens": 39,
+    "probabilities": {
+      "contradicts": 0.03,
+      "says_nothing": 0.01,
+      "supports": 0.96
+    },
+    "seconds": 0.09
+  },
+  "910571458e809f6924fd2dbe0e9456ea09146ebc1bb887973e57ead19918b79f": {
+    "choice": "supports",
+    "confidence": 0.99,
+    "input_tokens": 569,
+    "output_tokens": 39,
+    "probabilities": {
+      "contradicts": 0.0,
+      "says_nothing": 0.0,
+      "supports": 1.0
+    },
+    "seconds": 0.17
+  },
+  "afa9d1afca05604bc4ace4bdef6a8005ceec76a4ce36309badade4f22ebf7e55": {
+    "choice": "says_nothing",
+    "confidence": 0.27,
+    "input_tokens": 762,
+    "output_tokens": 42,
+    "probabilities": {
+      "contradicts": 0.17,
+      "says_nothing": 0.52,
+      "supports": 0.31
+    },
+    "seconds": 0.09
+  },
+  "b57bd91d0ab9db651b6c8921811a87949d3472e56eb4f5e95c77ac0407d6d362": {
+    "choice": "supports",
+    "confidence": 0.93,
+    "input_tokens": 1133,
+    "output_tokens": 39,
+    "probabilities": {
+      "contradicts": 0.01,
+      "says_nothing": 0.04,
+      "supports": 0.95
+    },
+    "seconds": 0.25
+  },
+  "f23decef6fb0f93ec93197179de63d5fca2b9fd40f50ed74fe33e333315b6c8c": {
+    "choice": "contradicts",
+    "confidence": 0.99,
+    "input_tokens": 488,
+    "output_tokens": 41,
+    "probabilities": {
+      "contradicts": 1.0,
+      "says_nothing": 0.0,
+      "supports": 0.0
+    },
+    "seconds": 0.08
+  }
+}
