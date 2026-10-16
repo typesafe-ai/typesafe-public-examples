@@ -1,0 +1,431 @@
+{
+  "2f73e467e591b8ed60733e98a73aaf74695ede2cf8c799cdc3136428d1e0e361": {
+    "answers": {
+      "row-1": 0.94,
+      "row-2": 0.83,
+      "row-3": 0.38,
+      "row-4": 0.95,
+      "row-5": 0.93
+    },
+    "seconds": 0.35,
+    "input_tokens": 1007,
+    "output_tokens": 94
+  },
+  "7504f7394876fbe13f8522ab77a6007d69be2a1ed5d4c6bfbf556ea62fce8c69": {
+    "answers": {
+      "unlisted": {
+        "type": "noul",
+        "noul": 0.02
+      },
+      "vac_00": {
+        "type": "noul",
+        "noul": 0.98
+      },
+      "vac_00|box": {
+        "type": "box",
+        "box": {
+          "top": 0.33,
+          "bottom": 0.38,
+          "left": 0.06,
+          "right": 0.94
+        },
+        "confidence": 0.89
+      },
+      "vac_01": {
+        "type": "noul",
+        "noul": 0.98
+      },
+      "vac_01|box": {
+        "type": "box",
+        "box": {
+          "top": 0.4,
+          "bottom": 0.45,
+          "left": 0.06,
+          "right": 0.94
+        },
+        "confidence": 0.93
+      },
+      "vac_02": {
+        "type": "noul",
+        "noul": 0.02
+      },
+      "vac_02|box": {
+        "type": "box",
+        "box": {
+          "top": 0.36,
+          "bottom": 0.45,
+          "left": 0.06,
+          "right": 0.94
+        },
+        "confidence": 0.74
+      },
+      "vac_03": {
+        "type": "noul",
+        "noul": 0.98
+      },
+      "vac_03|box": {
+        "type": "box",
+        "box": {
+          "top": 0.48,
+          "bottom": 0.53,
+          "left": 0.06,
+          "right": 0.94
+        },
+        "confidence": 0.88
+      },
+      "vac_04": {
+        "type": "noul",
+        "noul": 0.01
+      },
+      "vac_04|box": {
+        "type": "box",
+        "box": {
+          "top": 0.34,
+          "bottom": 0.52,
+          "left": 0.06,
+          "right": 0.94
+        },
+        "confidence": 0.7
+      },
+      "vac_05": {
+        "type": "noul",
+        "noul": 0.98
+      },
+      "vac_05|box": {
+        "type": "box",
+        "box": {
+          "top": 0.55,
+          "bottom": 0.61,
+          "left": 0.06,
+          "right": 0.94
+        },
+        "confidence": 0.88
+      },
+      "vac_06": {
+        "type": "noul",
+        "noul": 0.97
+      },
+      "vac_06|box": {
+        "type": "box",
+        "box": {
+          "top": 0.69,
+          "bottom": 0.75,
+          "left": 0.04,
+          "right": 0.94
+        },
+        "confidence": 0.77
+      },
+      "vac_07": {
+        "type": "noul",
+        "noul": 0.01
+      },
+      "vac_07|box": {
+        "type": "box",
+        "box": {
+          "top": 0.35,
+          "bottom": 0.45,
+          "left": 0.04,
+          "right": 0.96
+        },
+        "confidence": 0.14
+      },
+      "vac_08": {
+        "type": "noul",
+        "noul": 0.01
+      },
+      "vac_08|box": {
+        "type": "box",
+        "box": {
+          "top": 0.34,
+          "bottom": 0.44,
+          "left": 0.04,
+          "right": 0.95
+        },
+        "confidence": 0.14
+      },
+      "vac_09": {
+        "type": "noul",
+        "noul": 0.01
+      },
+      "vac_09|box": {
+        "type": "box",
+        "box": {
+          "top": 0.34,
+          "bottom": 0.67,
+          "left": 0.04,
+          "right": 0.95
+        },
+        "confidence": 0.13
+      },
+      "vac_10": {
+        "type": "noul",
+        "noul": 0.0
+      },
+      "vac_10|box": {
+        "type": "box",
+        "box": {
+          "top": 0.34,
+          "bottom": 0.45,
+          "left": 0.04,
+          "right": 0.95
+        },
+        "confidence": 0.14
+      },
+      "vac_11": {
+        "type": "noul",
+        "noul": 0.01
+      },
+      "vac_11|box": {
+        "type": "box",
+        "box": {
+          "top": 0.35,
+          "bottom": 0.46,
+          "left": 0.03,
+          "right": 0.96
+        },
+        "confidence": 0.13
+      },
+      "vac_12": {
+        "type": "noul",
+        "noul": 0.98
+      },
+      "vac_12|box": {
+        "type": "box",
+        "box": {
+          "top": 0.62,
+          "bottom": 0.69,
+          "left": 0.06,
+          "right": 0.94
+        },
+        "confidence": 0.82
+      },
+      "vac_13": {
+        "type": "noul",
+        "noul": 0.01
+      },
+      "vac_13|box": {
+        "type": "box",
+        "box": {
+          "top": 0.33,
+          "bottom": 0.44,
+          "left": 0.03,
+          "right": 0.95
+        },
+        "confidence": 0.1
+      },
+      "vac_14": {
+        "type": "noul",
+        "noul": 0.01
+      },
+      "vac_14|box": {
+        "type": "box",
+        "box": {
+          "top": 0.34,
+          "bottom": 0.45,
+          "left": 0.03,
+          "right": 0.96
+        },
+        "confidence": 0.1
+      },
+      "vac_15": {
+        "type": "noul",
+        "noul": 0.01
+      },
+      "vac_15|box": {
+        "type": "box",
+        "box": {
+          "top": 0.34,
+          "bottom": 0.67,
+          "left": 0.03,
+          "right": 0.95
+        },
+        "confidence": 0.11
+      }
+    },
+    "seconds": 0.89,
+    "input_tokens": 5698,
+    "output_tokens": 661
+  },
+  "fada799b239e8cb1846dbd5bea6ba22f86baf93e2e2b4d8d1fe24e2accebec71": {
+    "answers": {
+      "row-1|legible": {
+        "type": "noul",
+        "noul": 0.96
+      },
+      "row-1|year": {
+        "type": "choice",
+        "choice": "y2026",
+        "confidence": 1.0,
+        "probabilities": {
+          "other": 0.0,
+          "unreadable": 0.0,
+          "y2016": 0.0,
+          "y2017": 0.0,
+          "y2018": 0.0,
+          "y2019": 0.0,
+          "y2020": 0.0,
+          "y2021": 0.0,
+          "y2022": 0.0,
+          "y2023": 0.0,
+          "y2024": 0.0,
+          "y2025": 0.0,
+          "y2026": 1.0
+        }
+      },
+      "row-2|legible": {
+        "type": "noul",
+        "noul": 0.86
+      },
+      "row-2|year": {
+        "type": "choice",
+        "choice": "y2026",
+        "confidence": 1.0,
+        "probabilities": {
+          "other": 0.0,
+          "unreadable": 0.0,
+          "y2016": 0.0,
+          "y2017": 0.0,
+          "y2018": 0.0,
+          "y2019": 0.0,
+          "y2020": 0.0,
+          "y2021": 0.0,
+          "y2022": 0.0,
+          "y2023": 0.0,
+          "y2024": 0.0,
+          "y2025": 0.0,
+          "y2026": 1.0
+        }
+      },
+      "row-3|legible": {
+        "type": "noul",
+        "noul": 0.96
+      },
+      "row-3|year": {
+        "type": "choice",
+        "choice": "y2021",
+        "confidence": 1.0,
+        "probabilities": {
+          "other": 0.0,
+          "unreadable": 0.0,
+          "y2016": 0.0,
+          "y2017": 0.0,
+          "y2018": 0.0,
+          "y2019": 0.0,
+          "y2020": 0.0,
+          "y2021": 1.0,
+          "y2022": 0.0,
+          "y2023": 0.0,
+          "y2024": 0.0,
+          "y2025": 0.0,
+          "y2026": 0.0
+        }
+      },
+      "row-4|legible": {
+        "type": "noul",
+        "noul": 0.96
+      },
+      "row-4|year": {
+        "type": "choice",
+        "choice": "y2025",
+        "confidence": 1.0,
+        "probabilities": {
+          "other": 0.0,
+          "unreadable": 0.0,
+          "y2016": 0.0,
+          "y2017": 0.0,
+          "y2018": 0.0,
+          "y2019": 0.0,
+          "y2020": 0.0,
+          "y2021": 0.0,
+          "y2022": 0.0,
+          "y2023": 0.0,
+          "y2024": 0.0,
+          "y2025": 1.0,
+          "y2026": 0.0
+        }
+      },
+      "row-5|legible": {
+        "type": "noul",
+        "noul": 0.96
+      },
+      "row-5|year": {
+        "type": "choice",
+        "choice": "y2024",
+        "confidence": 1.0,
+        "probabilities": {
+          "other": 0.0,
+          "unreadable": 0.0,
+          "y2016": 0.0,
+          "y2017": 0.0,
+          "y2018": 0.0,
+          "y2019": 0.0,
+          "y2020": 0.0,
+          "y2021": 0.0,
+          "y2022": 0.0,
+          "y2023": 0.0,
+          "y2024": 1.0,
+          "y2025": 0.0,
+          "y2026": 0.0
+        }
+      },
+      "row-6|legible": {
+        "type": "noul",
+        "noul": 0.05
+      },
+      "row-6|year": {
+        "type": "choice",
+        "choice": "unreadable",
+        "confidence": 0.97,
+        "probabilities": {
+          "other": 0.0,
+          "unreadable": 0.97,
+          "y2016": 0.0,
+          "y2017": 0.0,
+          "y2018": 0.0,
+          "y2019": 0.0,
+          "y2020": 0.0,
+          "y2021": 0.0,
+          "y2022": 0.0,
+          "y2023": 0.0,
+          "y2024": 0.0,
+          "y2025": 0.0,
+          "y2026": 0.03
+        }
+      }
+    },
+    "seconds": 0.88,
+    "input_tokens": 7020,
+    "output_tokens": 1087
+  },
+  "ff186f07bb5bef8b35dcfd828cc069248d0b7b879858b28c7e50f7ab27067730": {
+    "answers": {
+      "row-1": {
+        "type": "noul",
+        "noul": 0.88
+      },
+      "row-2": {
+        "type": "noul",
+        "noul": 0.85
+      },
+      "row-3": {
+        "type": "noul",
+        "noul": 0.5
+      },
+      "row-4": {
+        "type": "noul",
+        "noul": 0.96
+      },
+      "row-5": {
+        "type": "noul",
+        "noul": 0.84
+      },
+      "row-6": {
+        "type": "noul",
+        "noul": 0.88
+      }
+    },
+    "seconds": 0.62,
+    "input_tokens": 5372,
+    "output_tokens": 112
+  }
+}
