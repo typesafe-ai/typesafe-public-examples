@@ -1,0 +1,2777 @@
+{
+  "_call_typesafe|0|4097f7732246|jev-latest": [
+    {
+      "covered": 0.46,
+      "exclusion": 0.57,
+      "on_circuit": 0.02,
+      "deductible": 0.79,
+      "docs_sufficient": 0.31,
+      "within_limit": 0.98,
+      "within_window": 0.96,
+      "reported_timely": 0.95,
+      "rental_eligible": 0.05,
+      "fraud_flag": 0.45,
+      "human_review": 0.88,
+      "manual_review": 0.83,
+      "line_items_sum": 0.93,
+      "subrogation": 0.84
+    },
+    1013,
+    222,
+    0.21316649997606874,
+    {
+      "requested_model": "jev-latest",
+      "response_model": "jev-1.13.0"
+    }
+  ],
+  "_call_typesafe|10|4097f7732246|jev-latest": [
+    {
+      "covered": 0.46,
+      "exclusion": 0.62,
+      "on_circuit": 0.03,
+      "deductible": 0.78,
+      "docs_sufficient": 0.3,
+      "within_limit": 0.98,
+      "within_window": 0.97,
+      "reported_timely": 0.95,
+      "rental_eligible": 0.05,
+      "fraud_flag": 0.49,
+      "human_review": 0.87,
+      "manual_review": 0.86,
+      "line_items_sum": 0.91,
+      "subrogation": 0.85
+    },
+    1014,
+    222,
+    0.1102095409296453,
+    {
+      "requested_model": "jev-latest",
+      "response_model": "jev-1.13.0"
+    }
+  ],
+  "_call_typesafe|11|4097f7732246|jev-latest": [
+    {
+      "covered": 0.43,
+      "exclusion": 0.59,
+      "on_circuit": 0.03,
+      "deductible": 0.78,
+      "docs_sufficient": 0.29,
+      "within_limit": 0.98,
+      "within_window": 0.97,
+      "reported_timely": 0.95,
+      "rental_eligible": 0.05,
+      "fraud_flag": 0.44,
+      "human_review": 0.88,
+      "manual_review": 0.86,
+      "line_items_sum": 0.94,
+      "subrogation": 0.84
+    },
+    1013,
+    222,
+    0.10295804217457771,
+    {
+      "requested_model": "jev-latest",
+      "response_model": "jev-1.13.0"
+    }
+  ],
+  "_call_typesafe|12|4097f7732246|jev-latest": [
+    {
+      "covered": 0.46,
+      "exclusion": 0.56,
+      "on_circuit": 0.03,
+      "deductible": 0.8,
+      "docs_sufficient": 0.3,
+      "within_limit": 0.98,
+      "within_window": 0.97,
+      "reported_timely": 0.95,
+      "rental_eligible": 0.05,
+      "fraud_flag": 0.47,
+      "human_review": 0.87,
+      "manual_review": 0.84,
+      "line_items_sum": 0.91,
+      "subrogation": 0.84
+    },
+    1014,
+    222,
+    0.10782445897348225,
+    {
+      "requested_model": "jev-latest",
+      "response_model": "jev-1.13.0"
+    }
+  ],
+  "_call_typesafe|13|4097f7732246|jev-latest": [
+    {
+      "covered": 0.51,
+      "exclusion": 0.55,
+      "on_circuit": 0.03,
+      "deductible": 0.83,
+      "docs_sufficient": 0.33,
+      "within_limit": 0.98,
+      "within_window": 0.96,
+      "reported_timely": 0.95,
+      "rental_eligible": 0.05,
+      "fraud_flag": 0.45,
+      "human_review": 0.87,
+      "manual_review": 0.84,
+      "line_items_sum": 0.93,
+      "subrogation": 0.84
+    },
+    1013,
+    222,
+    0.09964279201813042,
+    {
+      "requested_model": "jev-latest",
+      "response_model": "jev-1.13.0"
+    }
+  ],
+  "_call_typesafe|14|4097f7732246|jev-latest": [
+    {
+      "covered": 0.5,
+      "exclusion": 0.58,
+      "on_circuit": 0.03,
+      "deductible": 0.79,
+      "docs_sufficient": 0.33,
+      "within_limit": 0.98,
+      "within_window": 0.97,
+      "reported_timely": 0.95,
+      "rental_eligible": 0.05,
+      "fraud_flag": 0.47,
+      "human_review": 0.88,
+      "manual_review": 0.85,
+      "line_items_sum": 0.91,
+      "subrogation": 0.84
+    },
+    1013,
+    222,
+    0.10068962490186095,
+    {
+      "requested_model": "jev-latest",
+      "response_model": "jev-1.13.0"
+    }
+  ],
+  "_call_typesafe|1|4097f7732246|jev-latest": [
+    {
+      "covered": 0.53,
+      "exclusion": 0.53,
+      "on_circuit": 0.02,
+      "deductible": 0.79,
+      "docs_sufficient": 0.36,
+      "within_limit": 0.99,
+      "within_window": 0.97,
+      "reported_timely": 0.95,
+      "rental_eligible": 0.05,
+      "fraud_flag": 0.44,
+      "human_review": 0.86,
+      "manual_review": 0.83,
+      "line_items_sum": 0.92,
+      "subrogation": 0.85
+    },
+    1012,
+    222,
+    0.10563845792785287,
+    {
+      "requested_model": "jev-latest",
+      "response_model": "jev-1.13.0"
+    }
+  ],
+  "_call_typesafe|2|4097f7732246|jev-latest": [
+    {
+      "covered": 0.53,
+      "exclusion": 0.54,
+      "on_circuit": 0.03,
+      "deductible": 0.8,
+      "docs_sufficient": 0.3,
+      "within_limit": 0.98,
+      "within_window": 0.97,
+      "reported_timely": 0.95,
+      "rental_eligible": 0.05,
+      "fraud_flag": 0.47,
+      "human_review": 0.87,
+      "manual_review": 0.84,
+      "line_items_sum": 0.92,
+      "subrogation": 0.85
+    },
+    1014,
+    222,
+    0.09594720904715359,
+    {
+      "requested_model": "jev-latest",
+      "response_model": "jev-1.13.0"
+    }
+  ],
+  "_call_typesafe|3|4097f7732246|jev-latest": [
+    {
+      "covered": 0.47,
+      "exclusion": 0.58,
+      "on_circuit": 0.03,
+      "deductible": 0.8,
+      "docs_sufficient": 0.33,
+      "within_limit": 0.98,
+      "within_window": 0.97,
+      "reported_timely": 0.95,
+      "rental_eligible": 0.05,
+      "fraud_flag": 0.46,
+      "human_review": 0.88,
+      "manual_review": 0.85,
+      "line_items_sum": 0.91,
+      "subrogation": 0.85
+    },
+    1014,
+    222,
+    0.09986449987627566,
+    {
+      "requested_model": "jev-latest",
+      "response_model": "jev-1.13.0"
+    }
+  ],
+  "_call_typesafe|4|4097f7732246|jev-latest": [
+    {
+      "covered": 0.5,
+      "exclusion": 0.53,
+      "on_circuit": 0.03,
+      "deductible": 0.8,
+      "docs_sufficient": 0.3,
+      "within_limit": 0.98,
+      "within_window": 0.97,
+      "reported_timely": 0.95,
+      "rental_eligible": 0.05,
+      "fraud_flag": 0.47,
+      "human_review": 0.87,
+      "manual_review": 0.84,
+      "line_items_sum": 0.94,
+      "subrogation": 0.84
+    },
+    1015,
+    222,
+    0.11496016709133983,
+    {
+      "requested_model": "jev-latest",
+      "response_model": "jev-1.13.0"
+    }
+  ],
+  "_call_typesafe|5|4097f7732246|jev-latest": [
+    {
+      "covered": 0.47,
+      "exclusion": 0.54,
+      "on_circuit": 0.03,
+      "deductible": 0.79,
+      "docs_sufficient": 0.32,
+      "within_limit": 0.98,
+      "within_window": 0.97,
+      "reported_timely": 0.95,
+      "rental_eligible": 0.05,
+      "fraud_flag": 0.46,
+      "human_review": 0.88,
+      "manual_review": 0.84,
+      "line_items_sum": 0.95,
+      "subrogation": 0.85
+    },
+    1014,
+    222,
+    0.10409562499262393,
+    {
+      "requested_model": "jev-latest",
+      "response_model": "jev-1.13.0"
+    }
+  ],
+  "_call_typesafe|6|4097f7732246|jev-latest": [
+    {
+      "covered": 0.5,
+      "exclusion": 0.59,
+      "on_circuit": 0.03,
+      "deductible": 0.81,
+      "docs_sufficient": 0.3,
+      "within_limit": 0.98,
+      "within_window": 0.96,
+      "reported_timely": 0.95,
+      "rental_eligible": 0.05,
+      "fraud_flag": 0.46,
+      "human_review": 0.87,
+      "manual_review": 0.85,
+      "line_items_sum": 0.92,
+      "subrogation": 0.84
+    },
+    1013,
+    222,
+    0.09818070917390287,
+    {
+      "requested_model": "jev-latest",
+      "response_model": "jev-1.13.0"
+    }
+  ],
+  "_call_typesafe|7|4097f7732246|jev-latest": [
+    {
+      "covered": 0.48,
+      "exclusion": 0.57,
+      "on_circuit": 0.03,
+      "deductible": 0.81,
+      "docs_sufficient": 0.29,
+      "within_limit": 0.98,
+      "within_window": 0.97,
+      "reported_timely": 0.95,
+      "rental_eligible": 0.05,
+      "fraud_flag": 0.45,
+      "human_review": 0.87,
+      "manual_review": 0.85,
+      "line_items_sum": 0.93,
+      "subrogation": 0.84
+    },
+    1016,
+    222,
+    0.1017067909706384,
+    {
+      "requested_model": "jev-latest",
+      "response_model": "jev-1.13.0"
+    }
+  ],
+  "_call_typesafe|8|4097f7732246|jev-latest": [
+    {
+      "covered": 0.49,
+      "exclusion": 0.54,
+      "on_circuit": 0.03,
+      "deductible": 0.81,
+      "docs_sufficient": 0.29,
+      "within_limit": 0.98,
+      "within_window": 0.97,
+      "reported_timely": 0.95,
+      "rental_eligible": 0.05,
+      "fraud_flag": 0.46,
+      "human_review": 0.86,
+      "manual_review": 0.84,
+      "line_items_sum": 0.93,
+      "subrogation": 0.84
+    },
+    1013,
+    222,
+    0.10502058290876448,
+    {
+      "requested_model": "jev-latest",
+      "response_model": "jev-1.13.0"
+    }
+  ],
+  "_call_typesafe|9|4097f7732246|jev-latest": [
+    {
+      "covered": 0.48,
+      "exclusion": 0.61,
+      "on_circuit": 0.03,
+      "deductible": 0.81,
+      "docs_sufficient": 0.32,
+      "within_limit": 0.98,
+      "within_window": 0.97,
+      "reported_timely": 0.95,
+      "rental_eligible": 0.05,
+      "fraud_flag": 0.45,
+      "human_review": 0.88,
+      "manual_review": 0.85,
+      "line_items_sum": 0.93,
+      "subrogation": 0.86
+    },
+    1013,
+    222,
+    0.10617662500590086,
+    {
+      "requested_model": "jev-latest",
+      "response_model": "jev-1.13.0"
+    }
+  ],
+  "ask_llm_rubric|claude-haiku-4-5|prob|0|0|4097f7732246": [
+    {
+      "covered": 0.95,
+      "exclusion": 0.15,
+      "on_circuit": 0.05,
+      "deductible": 0.85,
+      "docs_sufficient": 0.75,
+      "within_limit": 0.99,
+      "within_window": 0.99,
+      "reported_timely": 0.95,
+      "rental_eligible": 0.1,
+      "fraud_flag": 0.08,
+      "human_review": 0.92,
+      "manual_review": 0.7,
+      "line_items_sum": 0.98,
+      "subrogation": 0.8
+    },
+    0.001798,
+    1.7802175420802087
+  ],
+  "ask_llm_rubric|claude-haiku-4-5|prob|0|10|4097f7732246": [
+    {
+      "covered": 0.95,
+      "exclusion": 0.15,
+      "on_circuit": 0.05,
+      "deductible": 0.85,
+      "docs_sufficient": 0.7,
+      "within_limit": 0.99,
+      "within_window": 0.99,
+      "reported_timely": 0.95,
+      "rental_eligible": 0.1,
+      "fraud_flag": 0.08,
+      "human_review": 0.92,
+      "manual_review": 0.75,
+      "line_items_sum": 0.98,
+      "subrogation": 0.8
+    },
+    0.001797,
+    1.724453416885808
+  ],
+  "ask_llm_rubric|claude-haiku-4-5|prob|0|11|4097f7732246": [
+    {
+      "covered": 0.95,
+      "exclusion": 0.15,
+      "on_circuit": 0.05,
+      "deductible": 0.75,
+      "docs_sufficient": 0.7,
+      "within_limit": 0.99,
+      "within_window": 0.99,
+      "reported_timely": 0.95,
+      "rental_eligible": 0.1,
+      "fraud_flag": 0.08,
+      "human_review": 0.92,
+      "manual_review": 0.7,
+      "line_items_sum": 0.98,
+      "subrogation": 0.85
+    },
+    0.001797,
+    1.7747819588985294
+  ],
+  "ask_llm_rubric|claude-haiku-4-5|prob|0|12|4097f7732246": [
+    {
+      "covered": 0.95,
+      "exclusion": 0.15,
+      "on_circuit": 0.05,
+      "deductible": 0.75,
+      "docs_sufficient": 0.7,
+      "within_limit": 0.99,
+      "within_window": 0.99,
+      "reported_timely": 0.95,
+      "rental_eligible": 0.1,
+      "fraud_flag": 0.08,
+      "human_review": 0.92,
+      "manual_review": 0.7,
+      "line_items_sum": 0.98,
+      "subrogation": 0.85
+    },
+    0.0017989999999999998,
+    1.7089694999158382
+  ],
+  "ask_llm_rubric|claude-haiku-4-5|prob|0|13|4097f7732246": [
+    {
+      "covered": 0.95,
+      "exclusion": 0.15,
+      "on_circuit": 0.05,
+      "deductible": 0.85,
+      "docs_sufficient": 0.75,
+      "within_limit": 0.99,
+      "within_window": 0.99,
+      "reported_timely": 0.95,
+      "rental_eligible": 0.1,
+      "fraud_flag": 0.08,
+      "human_review": 0.92,
+      "manual_review": 0.7,
+      "line_items_sum": 0.98,
+      "subrogation": 0.8
+    },
+    0.001798,
+    1.7579815001226962
+  ],
+  "ask_llm_rubric|claude-haiku-4-5|prob|0|14|4097f7732246": [
+    {
+      "covered": 0.95,
+      "exclusion": 0.15,
+      "on_circuit": 0.05,
+      "deductible": 0.75,
+      "docs_sufficient": 0.7,
+      "within_limit": 0.99,
+      "within_window": 0.99,
+      "reported_timely": 0.95,
+      "rental_eligible": 0.1,
+      "fraud_flag": 0.08,
+      "human_review": 0.92,
+      "manual_review": 0.7,
+      "line_items_sum": 0.98,
+      "subrogation": 0.85
+    },
+    0.001797,
+    1.678707709070295
+  ],
+  "ask_llm_rubric|claude-haiku-4-5|prob|0|1|4097f7732246": [
+    {
+      "covered": 0.95,
+      "exclusion": 0.15,
+      "on_circuit": 0.05,
+      "deductible": 0.75,
+      "docs_sufficient": 0.7,
+      "within_limit": 0.99,
+      "within_window": 0.99,
+      "reported_timely": 0.95,
+      "rental_eligible": 0.1,
+      "fraud_flag": 0.15,
+      "human_review": 0.95,
+      "manual_review": 0.7,
+      "line_items_sum": 0.98,
+      "subrogation": 0.85
+    },
+    0.001797,
+    1.7014732921961695
+  ],
+  "ask_llm_rubric|claude-haiku-4-5|prob|0|2|4097f7732246": [
+    {
+      "covered": 0.95,
+      "exclusion": 0.15,
+      "on_circuit": 0.05,
+      "deductible": 0.85,
+      "docs_sufficient": 0.75,
+      "within_limit": 0.99,
+      "within_window": 0.99,
+      "reported_timely": 0.95,
+      "rental_eligible": 0.1,
+      "fraud_flag": 0.08,
+      "human_review": 0.92,
+      "manual_review": 0.7,
+      "line_items_sum": 0.98,
+      "subrogation": 0.8
+    },
+    0.001798,
+    1.8373081248719245
+  ],
+  "ask_llm_rubric|claude-haiku-4-5|prob|0|3|4097f7732246": [
+    {
+      "covered": 0.95,
+      "exclusion": 0.15,
+      "on_circuit": 0.05,
+      "deductible": 0.85,
+      "docs_sufficient": 0.75,
+      "within_limit": 0.99,
+      "within_window": 0.99,
+      "reported_timely": 0.95,
+      "rental_eligible": 0.1,
+      "fraud_flag": 0.08,
+      "human_review": 0.92,
+      "manual_review": 0.7,
+      "line_items_sum": 0.98,
+      "subrogation": 0.8
+    },
+    0.001797,
+    1.8361801661085337
+  ],
+  "ask_llm_rubric|claude-haiku-4-5|prob|0|4|4097f7732246": [
+    {
+      "covered": 0.95,
+      "exclusion": 0.15,
+      "on_circuit": 0.05,
+      "deductible": 0.85,
+      "docs_sufficient": 0.75,
+      "within_limit": 0.99,
+      "within_window": 0.99,
+      "reported_timely": 0.95,
+      "rental_eligible": 0.1,
+      "fraud_flag": 0.08,
+      "human_review": 0.92,
+      "manual_review": 0.7,
+      "line_items_sum": 0.98,
+      "subrogation": 0.8
+    },
+    0.001798,
+    1.8108188339974731
+  ],
+  "ask_llm_rubric|claude-haiku-4-5|prob|0|5|4097f7732246": [
+    {
+      "covered": 0.95,
+      "exclusion": 0.15,
+      "on_circuit": 0.05,
+      "deductible": 0.85,
+      "docs_sufficient": 0.75,
+      "within_limit": 0.99,
+      "within_window": 0.99,
+      "reported_timely": 0.95,
+      "rental_eligible": 0.1,
+      "fraud_flag": 0.2,
+      "human_review": 0.95,
+      "manual_review": 0.7,
+      "line_items_sum": 0.98,
+      "subrogation": 0.8
+    },
+    0.0017989999999999998,
+    1.7965541249141097
+  ],
+  "ask_llm_rubric|claude-haiku-4-5|prob|0|6|4097f7732246": [
+    {
+      "covered": 0.95,
+      "exclusion": 0.15,
+      "on_circuit": 0.05,
+      "deductible": 0.75,
+      "docs_sufficient": 0.7,
+      "within_limit": 0.99,
+      "within_window": 0.99,
+      "reported_timely": 0.95,
+      "rental_eligible": 0.1,
+      "fraud_flag": 0.08,
+      "human_review": 0.92,
+      "manual_review": 0.7,
+      "line_items_sum": 0.98,
+      "subrogation": 0.85
+    },
+    0.001797,
+    1.8303255829960108
+  ],
+  "ask_llm_rubric|claude-haiku-4-5|prob|0|7|4097f7732246": [
+    {
+      "covered": 0.95,
+      "exclusion": 0.15,
+      "on_circuit": 0.05,
+      "deductible": 0.75,
+      "docs_sufficient": 0.7,
+      "within_limit": 0.99,
+      "within_window": 0.99,
+      "reported_timely": 0.95,
+      "rental_eligible": 0.1,
+      "fraud_flag": 0.08,
+      "human_review": 0.92,
+      "manual_review": 0.7,
+      "line_items_sum": 0.98,
+      "subrogation": 0.85
+    },
+    0.001797,
+    1.8014503750018775
+  ],
+  "ask_llm_rubric|claude-haiku-4-5|prob|0|8|4097f7732246": [
+    {
+      "covered": 0.95,
+      "exclusion": 0.15,
+      "on_circuit": 0.05,
+      "deductible": 0.85,
+      "docs_sufficient": 0.75,
+      "within_limit": 0.99,
+      "within_window": 0.99,
+      "reported_timely": 0.95,
+      "rental_eligible": 0.1,
+      "fraud_flag": 0.08,
+      "human_review": 0.92,
+      "manual_review": 0.7,
+      "line_items_sum": 0.98,
+      "subrogation": 0.8
+    },
+    0.0017989999999999998,
+    1.7729341671802104
+  ],
+  "ask_llm_rubric|claude-haiku-4-5|prob|0|9|4097f7732246": [
+    {
+      "covered": 0.95,
+      "exclusion": 0.15,
+      "on_circuit": 0.05,
+      "deductible": 0.75,
+      "docs_sufficient": 0.7,
+      "within_limit": 0.99,
+      "within_window": 0.99,
+      "reported_timely": 0.95,
+      "rental_eligible": 0.1,
+      "fraud_flag": 0.08,
+      "human_review": 0.92,
+      "manual_review": 0.7,
+      "line_items_sum": 0.98,
+      "subrogation": 0.85
+    },
+    0.001797,
+    1.88191158301197
+  ],
+  "ask_llm_rubric|claude-haiku-4-5|prob|None|0|4097f7732246": [
+    {
+      "covered": 0.95,
+      "exclusion": 0.15,
+      "on_circuit": 0.05,
+      "deductible": 0.85,
+      "docs_sufficient": 0.75,
+      "within_limit": 0.99,
+      "within_window": 0.99,
+      "reported_timely": 0.95,
+      "rental_eligible": 0.1,
+      "fraud_flag": 0.1,
+      "human_review": 0.75,
+      "manual_review": 0.65,
+      "line_items_sum": 0.98,
+      "subrogation": 0.8
+    },
+    0.001797,
+    1.7562132079619914
+  ],
+  "ask_llm_rubric|claude-haiku-4-5|prob|None|10|4097f7732246": [
+    {
+      "covered": 0.95,
+      "exclusion": 0.15,
+      "on_circuit": 0.05,
+      "deductible": 0.75,
+      "docs_sufficient": 0.7,
+      "within_limit": 0.98,
+      "within_window": 0.98,
+      "reported_timely": 0.95,
+      "rental_eligible": 0.1,
+      "fraud_flag": 0.15,
+      "human_review": 0.9,
+      "manual_review": 0.7,
+      "line_items_sum": 0.98,
+      "subrogation": 0.75
+    },
+    0.001797,
+    1.255551417125389
+  ],
+  "ask_llm_rubric|claude-haiku-4-5|prob|None|11|4097f7732246": [
+    {
+      "covered": 0.95,
+      "exclusion": 0.15,
+      "on_circuit": 0.05,
+      "deductible": 0.75,
+      "docs_sufficient": 0.7,
+      "within_limit": 0.99,
+      "within_window": 0.99,
+      "reported_timely": 0.95,
+      "rental_eligible": 0.1,
+      "fraud_flag": 0.1,
+      "human_review": 0.95,
+      "manual_review": 0.6,
+      "line_items_sum": 0.99,
+      "subrogation": 0.8
+    },
+    0.001798,
+    1.7078929168637842
+  ],
+  "ask_llm_rubric|claude-haiku-4-5|prob|None|12|4097f7732246": [
+    {
+      "covered": 0.95,
+      "exclusion": 0.15,
+      "on_circuit": 0.05,
+      "deductible": 0.75,
+      "docs_sufficient": 0.7,
+      "within_limit": 0.99,
+      "within_window": 0.99,
+      "reported_timely": 0.95,
+      "rental_eligible": 0.1,
+      "fraud_flag": 0.15,
+      "human_review": 0.95,
+      "manual_review": 0.7,
+      "line_items_sum": 0.98,
+      "subrogation": 0.8
+    },
+    0.0018,
+    1.7142314170487225
+  ],
+  "ask_llm_rubric|claude-haiku-4-5|prob|None|13|4097f7732246": [
+    {
+      "covered": 0.95,
+      "exclusion": 0.15,
+      "on_circuit": 0.05,
+      "deductible": 0.85,
+      "docs_sufficient": 0.7,
+      "within_limit": 0.99,
+      "within_window": 0.99,
+      "reported_timely": 0.95,
+      "rental_eligible": 0.1,
+      "fraud_flag": 0.12,
+      "human_review": 0.92,
+      "manual_review": 0.75,
+      "line_items_sum": 0.98,
+      "subrogation": 0.8
+    },
+    0.001797,
+    1.7113320832140744
+  ],
+  "ask_llm_rubric|claude-haiku-4-5|prob|None|14|4097f7732246": [
+    {
+      "covered": 0.95,
+      "exclusion": 0.15,
+      "on_circuit": 0.05,
+      "deductible": 0.75,
+      "docs_sufficient": 0.7,
+      "within_limit": 0.98,
+      "within_window": 0.98,
+      "reported_timely": 0.95,
+      "rental_eligible": 0.1,
+      "fraud_flag": 0.12,
+      "human_review": 0.92,
+      "manual_review": 0.65,
+      "line_items_sum": 0.98,
+      "subrogation": 0.8
+    },
+    0.001798,
+    1.7312674168497324
+  ],
+  "ask_llm_rubric|claude-haiku-4-5|prob|None|1|4097f7732246": [
+    {
+      "covered": 0.95,
+      "exclusion": 0.15,
+      "on_circuit": 0.05,
+      "deductible": 0.85,
+      "docs_sufficient": 0.75,
+      "within_limit": 0.98,
+      "within_window": 0.99,
+      "reported_timely": 0.95,
+      "rental_eligible": 0.1,
+      "fraud_flag": 0.08,
+      "human_review": 0.92,
+      "manual_review": 0.7,
+      "line_items_sum": 0.99,
+      "subrogation": 0.8
+    },
+    0.001798,
+    1.415465584024787
+  ],
+  "ask_llm_rubric|claude-haiku-4-5|prob|None|2|4097f7732246": [
+    {
+      "covered": 0.95,
+      "exclusion": 0.15,
+      "on_circuit": 0.05,
+      "deductible": 0.75,
+      "docs_sufficient": 0.7,
+      "within_limit": 0.99,
+      "within_window": 0.99,
+      "reported_timely": 0.95,
+      "rental_eligible": 0.15,
+      "fraud_flag": 0.1,
+      "human_review": 0.85,
+      "manual_review": 0.7,
+      "line_items_sum": 0.98,
+      "subrogation": 0.8
+    },
+    0.001798,
+    1.667141541838646
+  ],
+  "ask_llm_rubric|claude-haiku-4-5|prob|None|3|4097f7732246": [
+    {
+      "covered": 0.95,
+      "exclusion": 0.15,
+      "on_circuit": 0.05,
+      "deductible": 0.85,
+      "docs_sufficient": 0.7,
+      "within_limit": 0.99,
+      "within_window": 0.99,
+      "reported_timely": 0.95,
+      "rental_eligible": 0.05,
+      "fraud_flag": 0.1,
+      "human_review": 0.92,
+      "manual_review": 0.75,
+      "line_items_sum": 0.98,
+      "subrogation": 0.8
+    },
+    0.001797,
+    1.6944187919143587
+  ],
+  "ask_llm_rubric|claude-haiku-4-5|prob|None|4|4097f7732246": [
+    {
+      "covered": 0.95,
+      "exclusion": 0.15,
+      "on_circuit": 0.05,
+      "deductible": 0.75,
+      "docs_sufficient": 0.7,
+      "within_limit": 0.99,
+      "within_window": 0.99,
+      "reported_timely": 0.95,
+      "rental_eligible": 0.1,
+      "fraud_flag": 0.1,
+      "human_review": 0.9,
+      "manual_review": 0.75,
+      "line_items_sum": 0.99,
+      "subrogation": 0.8
+    },
+    0.001797,
+    1.6877141669392586
+  ],
+  "ask_llm_rubric|claude-haiku-4-5|prob|None|5|4097f7732246": [
+    {
+      "covered": 0.95,
+      "exclusion": 0.15,
+      "on_circuit": 0.05,
+      "deductible": 0.85,
+      "docs_sufficient": 0.7,
+      "within_limit": 0.98,
+      "within_window": 0.98,
+      "reported_timely": 0.95,
+      "rental_eligible": 0.05,
+      "fraud_flag": 0.1,
+      "human_review": 0.9,
+      "manual_review": 0.75,
+      "line_items_sum": 0.98,
+      "subrogation": 0.85
+    },
+    0.001798,
+    1.6295638750307262
+  ],
+  "ask_llm_rubric|claude-haiku-4-5|prob|None|6|4097f7732246": [
+    {
+      "covered": 0.95,
+      "exclusion": 0.15,
+      "on_circuit": 0.05,
+      "deductible": 0.85,
+      "docs_sufficient": 0.7,
+      "within_limit": 0.99,
+      "within_window": 0.99,
+      "reported_timely": 0.95,
+      "rental_eligible": 0.1,
+      "fraud_flag": 0.15,
+      "human_review": 0.95,
+      "manual_review": 0.75,
+      "line_items_sum": 0.98,
+      "subrogation": 0.85
+    },
+    0.001797,
+    1.7020611250773072
+  ],
+  "ask_llm_rubric|claude-haiku-4-5|prob|None|7|4097f7732246": [
+    {
+      "covered": 0.95,
+      "exclusion": 0.15,
+      "on_circuit": 0.05,
+      "deductible": 0.85,
+      "docs_sufficient": 0.75,
+      "within_limit": 0.99,
+      "within_window": 0.99,
+      "reported_timely": 0.95,
+      "rental_eligible": 0.05,
+      "fraud_flag": 0.1,
+      "human_review": 0.9,
+      "manual_review": 0.7,
+      "line_items_sum": 0.99,
+      "subrogation": 0.85
+    },
+    0.001798,
+    1.6091653751209378
+  ],
+  "ask_llm_rubric|claude-haiku-4-5|prob|None|8|4097f7732246": [
+    {
+      "covered": 0.95,
+      "exclusion": 0.15,
+      "on_circuit": 0.05,
+      "deductible": 0.85,
+      "docs_sufficient": 0.7,
+      "within_limit": 0.99,
+      "within_window": 0.99,
+      "reported_timely": 0.95,
+      "rental_eligible": 0.1,
+      "fraud_flag": 0.12,
+      "human_review": 0.92,
+      "manual_review": 0.75,
+      "line_items_sum": 0.99,
+      "subrogation": 0.8
+    },
+    0.001798,
+    1.6893722908571362
+  ],
+  "ask_llm_rubric|claude-haiku-4-5|prob|None|9|4097f7732246": [
+    {
+      "covered": 0.95,
+      "exclusion": 0.15,
+      "on_circuit": 0.05,
+      "deductible": 0.75,
+      "docs_sufficient": 0.7,
+      "within_limit": 0.98,
+      "within_window": 0.99,
+      "reported_timely": 0.95,
+      "rental_eligible": 0.1,
+      "fraud_flag": 0.15,
+      "human_review": 0.9,
+      "manual_review": 0.7,
+      "line_items_sum": 0.98,
+      "subrogation": 0.85
+    },
+    0.0017989999999999998,
+    1.6905015830416232
+  ],
+  "ask_llm_rubric|claude-haiku-4-5|yesno|0|0|4097f7732246": [
+    {
+      "covered": 1.0,
+      "exclusion": 0.0,
+      "on_circuit": 0.0,
+      "deductible": 1.0,
+      "docs_sufficient": 1.0,
+      "within_limit": 1.0,
+      "within_window": 1.0,
+      "reported_timely": 1.0,
+      "rental_eligible": 0.0,
+      "fraud_flag": 0.0,
+      "human_review": 1.0,
+      "manual_review": 1.0,
+      "line_items_sum": 1.0,
+      "subrogation": 1.0
+    },
+    0.001649,
+    1.520901332842186
+  ],
+  "ask_llm_rubric|claude-haiku-4-5|yesno|0|10|4097f7732246": [
+    {
+      "covered": 1.0,
+      "exclusion": 0.0,
+      "on_circuit": 0.0,
+      "deductible": 1.0,
+      "docs_sufficient": 1.0,
+      "within_limit": 1.0,
+      "within_window": 1.0,
+      "reported_timely": 1.0,
+      "rental_eligible": 0.0,
+      "fraud_flag": 0.0,
+      "human_review": 1.0,
+      "manual_review": 1.0,
+      "line_items_sum": 1.0,
+      "subrogation": 1.0
+    },
+    0.00165,
+    1.5075204169843346
+  ],
+  "ask_llm_rubric|claude-haiku-4-5|yesno|0|11|4097f7732246": [
+    {
+      "covered": 1.0,
+      "exclusion": 0.0,
+      "on_circuit": 0.0,
+      "deductible": 1.0,
+      "docs_sufficient": 1.0,
+      "within_limit": 1.0,
+      "within_window": 1.0,
+      "reported_timely": 1.0,
+      "rental_eligible": 0.0,
+      "fraud_flag": 0.0,
+      "human_review": 1.0,
+      "manual_review": 1.0,
+      "line_items_sum": 1.0,
+      "subrogation": 1.0
+    },
+    0.00165,
+    1.5492282079067081
+  ],
+  "ask_llm_rubric|claude-haiku-4-5|yesno|0|12|4097f7732246": [
+    {
+      "covered": 1.0,
+      "exclusion": 0.0,
+      "on_circuit": 0.0,
+      "deductible": 1.0,
+      "docs_sufficient": 0.0,
+      "within_limit": 1.0,
+      "within_window": 1.0,
+      "reported_timely": 1.0,
+      "rental_eligible": 0.0,
+      "fraud_flag": 0.0,
+      "human_review": 1.0,
+      "manual_review": 1.0,
+      "line_items_sum": 1.0,
+      "subrogation": 1.0
+    },
+    0.0016480000000000002,
+    1.5079774169716984
+  ],
+  "ask_llm_rubric|claude-haiku-4-5|yesno|0|13|4097f7732246": [
+    {
+      "covered": 1.0,
+      "exclusion": 0.0,
+      "on_circuit": 0.0,
+      "deductible": 0.0,
+      "docs_sufficient": 1.0,
+      "within_limit": 1.0,
+      "within_window": 1.0,
+      "reported_timely": 1.0,
+      "rental_eligible": 0.0,
+      "fraud_flag": 0.0,
+      "human_review": 1.0,
+      "manual_review": 1.0,
+      "line_items_sum": 1.0,
+      "subrogation": 1.0
+    },
+    0.001649,
+    1.4809522910509259
+  ],
+  "ask_llm_rubric|claude-haiku-4-5|yesno|0|14|4097f7732246": [
+    {
+      "covered": 1.0,
+      "exclusion": 0.0,
+      "on_circuit": 0.0,
+      "deductible": 1.0,
+      "docs_sufficient": 1.0,
+      "within_limit": 1.0,
+      "within_window": 1.0,
+      "reported_timely": 1.0,
+      "rental_eligible": 0.0,
+      "fraud_flag": 0.0,
+      "human_review": 1.0,
+      "manual_review": 1.0,
+      "line_items_sum": 1.0,
+      "subrogation": 1.0
+    },
+    0.0016480000000000002,
+    1.4602745838928968
+  ],
+  "ask_llm_rubric|claude-haiku-4-5|yesno|0|1|4097f7732246": [
+    {
+      "covered": 1.0,
+      "exclusion": 0.0,
+      "on_circuit": 0.0,
+      "deductible": 1.0,
+      "docs_sufficient": 1.0,
+      "within_limit": 1.0,
+      "within_window": 1.0,
+      "reported_timely": 1.0,
+      "rental_eligible": 0.0,
+      "fraud_flag": 0.0,
+      "human_review": 1.0,
+      "manual_review": 1.0,
+      "line_items_sum": 1.0,
+      "subrogation": 1.0
+    },
+    0.001649,
+    1.5095043340697885
+  ],
+  "ask_llm_rubric|claude-haiku-4-5|yesno|0|2|4097f7732246": [
+    {
+      "covered": 1.0,
+      "exclusion": 0.0,
+      "on_circuit": 0.0,
+      "deductible": 1.0,
+      "docs_sufficient": 1.0,
+      "within_limit": 1.0,
+      "within_window": 1.0,
+      "reported_timely": 1.0,
+      "rental_eligible": 0.0,
+      "fraud_flag": 0.0,
+      "human_review": 1.0,
+      "manual_review": 1.0,
+      "line_items_sum": 1.0,
+      "subrogation": 1.0
+    },
+    0.0016510000000000001,
+    1.5288698750082403
+  ],
+  "ask_llm_rubric|claude-haiku-4-5|yesno|0|3|4097f7732246": [
+    {
+      "covered": 1.0,
+      "exclusion": 0.0,
+      "on_circuit": 0.0,
+      "deductible": 0.0,
+      "docs_sufficient": 1.0,
+      "within_limit": 1.0,
+      "within_window": 1.0,
+      "reported_timely": 1.0,
+      "rental_eligible": 0.0,
+      "fraud_flag": 0.0,
+      "human_review": 1.0,
+      "manual_review": 1.0,
+      "line_items_sum": 1.0,
+      "subrogation": 1.0
+    },
+    0.00165,
+    1.5100330419372767
+  ],
+  "ask_llm_rubric|claude-haiku-4-5|yesno|0|4|4097f7732246": [
+    {
+      "covered": 1.0,
+      "exclusion": 0.0,
+      "on_circuit": 0.0,
+      "deductible": 1.0,
+      "docs_sufficient": 1.0,
+      "within_limit": 1.0,
+      "within_window": 1.0,
+      "reported_timely": 1.0,
+      "rental_eligible": 0.0,
+      "fraud_flag": 0.0,
+      "human_review": 1.0,
+      "manual_review": 1.0,
+      "line_items_sum": 1.0,
+      "subrogation": 1.0
+    },
+    0.001652,
+    1.4658605828881264
+  ],
+  "ask_llm_rubric|claude-haiku-4-5|yesno|0|5|4097f7732246": [
+    {
+      "covered": 1.0,
+      "exclusion": 0.0,
+      "on_circuit": 0.0,
+      "deductible": 1.0,
+      "docs_sufficient": 0.0,
+      "within_limit": 1.0,
+      "within_window": 1.0,
+      "reported_timely": 1.0,
+      "rental_eligible": 0.0,
+      "fraud_flag": 0.0,
+      "human_review": 1.0,
+      "manual_review": 1.0,
+      "line_items_sum": 1.0,
+      "subrogation": 1.0
+    },
+    0.00165,
+    1.512993374839425
+  ],
+  "ask_llm_rubric|claude-haiku-4-5|yesno|0|6|4097f7732246": [
+    {
+      "covered": 1.0,
+      "exclusion": 0.0,
+      "on_circuit": 0.0,
+      "deductible": 0.0,
+      "docs_sufficient": 1.0,
+      "within_limit": 1.0,
+      "within_window": 1.0,
+      "reported_timely": 1.0,
+      "rental_eligible": 0.0,
+      "fraud_flag": 0.0,
+      "human_review": 1.0,
+      "manual_review": 1.0,
+      "line_items_sum": 1.0,
+      "subrogation": 1.0
+    },
+    0.001653,
+    1.1197405410930514
+  ],
+  "ask_llm_rubric|claude-haiku-4-5|yesno|0|7|4097f7732246": [
+    {
+      "covered": 1.0,
+      "exclusion": 0.0,
+      "on_circuit": 0.0,
+      "deductible": 1.0,
+      "docs_sufficient": 1.0,
+      "within_limit": 1.0,
+      "within_window": 1.0,
+      "reported_timely": 1.0,
+      "rental_eligible": 0.0,
+      "fraud_flag": 0.0,
+      "human_review": 1.0,
+      "manual_review": 1.0,
+      "line_items_sum": 1.0,
+      "subrogation": 1.0
+    },
+    0.001649,
+    1.540398791898042
+  ],
+  "ask_llm_rubric|claude-haiku-4-5|yesno|0|8|4097f7732246": [
+    {
+      "covered": 1.0,
+      "exclusion": 0.0,
+      "on_circuit": 0.0,
+      "deductible": 1.0,
+      "docs_sufficient": 1.0,
+      "within_limit": 1.0,
+      "within_window": 1.0,
+      "reported_timely": 1.0,
+      "rental_eligible": 0.0,
+      "fraud_flag": 0.0,
+      "human_review": 1.0,
+      "manual_review": 1.0,
+      "line_items_sum": 1.0,
+      "subrogation": 1.0
+    },
+    0.00165,
+    1.5035059999208897
+  ],
+  "ask_llm_rubric|claude-haiku-4-5|yesno|0|9|4097f7732246": [
+    {
+      "covered": 1.0,
+      "exclusion": 0.0,
+      "on_circuit": 0.0,
+      "deductible": 1.0,
+      "docs_sufficient": 1.0,
+      "within_limit": 1.0,
+      "within_window": 1.0,
+      "reported_timely": 1.0,
+      "rental_eligible": 0.0,
+      "fraud_flag": 0.0,
+      "human_review": 1.0,
+      "manual_review": 1.0,
+      "line_items_sum": 1.0,
+      "subrogation": 1.0
+    },
+    0.0016510000000000001,
+    1.5568400411866605
+  ],
+  "ask_llm_rubric|claude-opus-4-8|prob|None|0|4097f7732246": [
+    {
+      "covered": 0.85,
+      "exclusion": 0.3,
+      "on_circuit": 0.04,
+      "deductible": 0.12,
+      "docs_sufficient": 0.1,
+      "within_limit": 0.98,
+      "within_window": 0.98,
+      "reported_timely": 0.97,
+      "rental_eligible": 0.03,
+      "fraud_flag": 0.55,
+      "human_review": 0.95,
+      "manual_review": 0.93,
+      "line_items_sum": 0.99,
+      "subrogation": 0.94
+    },
+    0.033485,
+    13.698492499999702
+  ],
+  "ask_llm_rubric|claude-opus-4-8|prob|None|10|4097f7732246": [
+    {
+      "covered": 0.6,
+      "exclusion": 0.4,
+      "on_circuit": 0.03,
+      "deductible": 0.85,
+      "docs_sufficient": 0.12,
+      "within_limit": 0.98,
+      "within_window": 0.98,
+      "reported_timely": 0.95,
+      "rental_eligible": 0.03,
+      "fraud_flag": 0.5,
+      "human_review": 0.95,
+      "manual_review": 0.92,
+      "line_items_sum": 0.98,
+      "subrogation": 0.9
+    },
+    0.031275,
+    12.506091832881793
+  ],
+  "ask_llm_rubric|claude-opus-4-8|prob|None|11|4097f7732246": [
+    {
+      "covered": 0.7,
+      "exclusion": 0.35,
+      "on_circuit": 0.03,
+      "deductible": 0.18,
+      "docs_sufficient": 0.3,
+      "within_limit": 0.98,
+      "within_window": 0.99,
+      "reported_timely": 0.95,
+      "rental_eligible": 0.03,
+      "fraud_flag": 0.5,
+      "human_review": 0.95,
+      "manual_review": 0.92,
+      "line_items_sum": 0.98,
+      "subrogation": 0.9
+    },
+    0.032744999999999996,
+    13.152556833112612
+  ],
+  "ask_llm_rubric|claude-opus-4-8|prob|None|12|4097f7732246": [
+    {
+      "covered": 0.72,
+      "exclusion": 0.32,
+      "on_circuit": 0.04,
+      "deductible": 0.9,
+      "docs_sufficient": 0.15,
+      "within_limit": 0.98,
+      "within_window": 0.99,
+      "reported_timely": 0.97,
+      "rental_eligible": 0.03,
+      "fraud_flag": 0.4,
+      "human_review": 0.97,
+      "manual_review": 0.95,
+      "line_items_sum": 0.99,
+      "subrogation": 0.9
+    },
+    0.031,
+    11.765893749892712
+  ],
+  "ask_llm_rubric|claude-opus-4-8|prob|None|13|4097f7732246": [
+    {
+      "covered": 0.75,
+      "exclusion": 0.3,
+      "on_circuit": 0.04,
+      "deductible": 0.2,
+      "docs_sufficient": 0.25,
+      "within_limit": 0.98,
+      "within_window": 0.98,
+      "reported_timely": 0.96,
+      "rental_eligible": 0.04,
+      "fraud_flag": 0.5,
+      "human_review": 0.97,
+      "manual_review": 0.92,
+      "line_items_sum": 0.98,
+      "subrogation": 0.9
+    },
+    0.032909999999999995,
+    12.978639208013192
+  ],
+  "ask_llm_rubric|claude-opus-4-8|prob|None|14|4097f7732246": [
+    {
+      "covered": 0.72,
+      "exclusion": 0.3,
+      "on_circuit": 0.03,
+      "deductible": 0.12,
+      "docs_sufficient": 0.15,
+      "within_limit": 0.98,
+      "within_window": 0.98,
+      "reported_timely": 0.95,
+      "rental_eligible": 0.03,
+      "fraud_flag": 0.42,
+      "human_review": 0.95,
+      "manual_review": 0.92,
+      "line_items_sum": 0.98,
+      "subrogation": 0.9
+    },
+    0.033725,
+    13.7482628331054
+  ],
+  "ask_llm_rubric|claude-opus-4-8|prob|None|1|4097f7732246": [
+    {
+      "covered": 0.82,
+      "exclusion": 0.28,
+      "on_circuit": 0.03,
+      "deductible": 0.25,
+      "docs_sufficient": 0.12,
+      "within_limit": 0.98,
+      "within_window": 0.99,
+      "reported_timely": 0.95,
+      "rental_eligible": 0.03,
+      "fraud_flag": 0.45,
+      "human_review": 0.95,
+      "manual_review": 0.92,
+      "line_items_sum": 0.98,
+      "subrogation": 0.92
+    },
+    0.03873,
+    15.408195415977389
+  ],
+  "ask_llm_rubric|claude-opus-4-8|prob|None|2|4097f7732246": [
+    {
+      "covered": 0.68,
+      "exclusion": 0.35,
+      "on_circuit": 0.04,
+      "deductible": 0.9,
+      "docs_sufficient": 0.12,
+      "within_limit": 0.98,
+      "within_window": 0.98,
+      "reported_timely": 0.95,
+      "rental_eligible": 0.03,
+      "fraud_flag": 0.4,
+      "human_review": 0.95,
+      "manual_review": 0.92,
+      "line_items_sum": 0.98,
+      "subrogation": 0.9
+    },
+    0.03232,
+    12.346454708836973
+  ],
+  "ask_llm_rubric|claude-opus-4-8|prob|None|3|4097f7732246": [
+    {
+      "covered": 0.72,
+      "exclusion": 0.35,
+      "on_circuit": 0.04,
+      "deductible": 0.88,
+      "docs_sufficient": 0.15,
+      "within_limit": 0.98,
+      "within_window": 0.98,
+      "reported_timely": 0.95,
+      "rental_eligible": 0.03,
+      "fraud_flag": 0.5,
+      "human_review": 0.95,
+      "manual_review": 0.92,
+      "line_items_sum": 0.98,
+      "subrogation": 0.9
+    },
+    0.03597,
+    14.23440399998799
+  ],
+  "ask_llm_rubric|claude-opus-4-8|prob|None|4|4097f7732246": [
+    {
+      "covered": 0.85,
+      "exclusion": 0.28,
+      "on_circuit": 0.04,
+      "deductible": 0.2,
+      "docs_sufficient": 0.15,
+      "within_limit": 0.98,
+      "within_window": 0.98,
+      "reported_timely": 0.96,
+      "rental_eligible": 0.03,
+      "fraud_flag": 0.5,
+      "human_review": 0.95,
+      "manual_review": 0.92,
+      "line_items_sum": 0.98,
+      "subrogation": 0.9
+    },
+    0.03705,
+    15.722624125191942
+  ],
+  "ask_llm_rubric|claude-opus-4-8|prob|None|5|4097f7732246": [
+    {
+      "covered": 0.68,
+      "exclusion": 0.35,
+      "on_circuit": 0.04,
+      "deductible": 0.6,
+      "docs_sufficient": 0.15,
+      "within_limit": 0.98,
+      "within_window": 0.98,
+      "reported_timely": 0.95,
+      "rental_eligible": 0.03,
+      "fraud_flag": 0.5,
+      "human_review": 0.95,
+      "manual_review": 0.92,
+      "line_items_sum": 0.98,
+      "subrogation": 0.9
+    },
+    0.036,
+    14.364291416946799
+  ],
+  "ask_llm_rubric|claude-opus-4-8|prob|None|6|4097f7732246": [
+    {
+      "covered": 0.8,
+      "exclusion": 0.25,
+      "on_circuit": 0.03,
+      "deductible": 0.12,
+      "docs_sufficient": 0.12,
+      "within_limit": 0.98,
+      "within_window": 0.97,
+      "reported_timely": 0.96,
+      "rental_eligible": 0.03,
+      "fraud_flag": 0.45,
+      "human_review": 0.95,
+      "manual_review": 0.9,
+      "line_items_sum": 0.98,
+      "subrogation": 0.92
+    },
+    0.036675,
+    16.77569654188119
+  ],
+  "ask_llm_rubric|claude-opus-4-8|prob|None|7|4097f7732246": [
+    {
+      "covered": 0.72,
+      "exclusion": 0.3,
+      "on_circuit": 0.03,
+      "deductible": 0.8,
+      "docs_sufficient": 0.15,
+      "within_limit": 0.98,
+      "within_window": 0.98,
+      "reported_timely": 0.95,
+      "rental_eligible": 0.03,
+      "fraud_flag": 0.4,
+      "human_review": 0.97,
+      "manual_review": 0.92,
+      "line_items_sum": 0.98,
+      "subrogation": 0.9
+    },
+    0.03038,
+    11.884999916888773
+  ],
+  "ask_llm_rubric|claude-opus-4-8|prob|None|8|4097f7732246": [
+    {
+      "covered": 0.85,
+      "exclusion": 0.3,
+      "on_circuit": 0.04,
+      "deductible": 0.12,
+      "docs_sufficient": 0.15,
+      "within_limit": 0.98,
+      "within_window": 0.99,
+      "reported_timely": 0.96,
+      "rental_eligible": 0.03,
+      "fraud_flag": 0.45,
+      "human_review": 0.97,
+      "manual_review": 0.92,
+      "line_items_sum": 0.99,
+      "subrogation": 0.9
+    },
+    0.033225,
+    12.821555291069672
+  ],
+  "ask_llm_rubric|claude-opus-4-8|prob|None|9|4097f7732246": [
+    {
+      "covered": 0.72,
+      "exclusion": 0.3,
+      "on_circuit": 0.03,
+      "deductible": 0.15,
+      "docs_sufficient": 0.12,
+      "within_limit": 0.98,
+      "within_window": 0.97,
+      "reported_timely": 0.95,
+      "rental_eligible": 0.04,
+      "fraud_flag": 0.4,
+      "human_review": 0.95,
+      "manual_review": 0.92,
+      "line_items_sum": 0.97,
+      "subrogation": 0.9
+    },
+    0.03863,
+    16.877944166073576
+  ],
+  "ask_llm_rubric|gpt-5.4-mini|prob|0|0|4097f7732246": [
+    {
+      "covered": 0.72,
+      "exclusion": 0.58,
+      "on_circuit": 0.08,
+      "deductible": 0.97,
+      "docs_sufficient": 0.84,
+      "within_limit": 0.99,
+      "within_window": 1.0,
+      "reported_timely": 1.0,
+      "rental_eligible": 0.06,
+      "fraud_flag": 0.22,
+      "human_review": 0.12,
+      "manual_review": 0.74,
+      "line_items_sum": 1.0,
+      "subrogation": 0.91
+    },
+    0.0010755,
+    1.6569720418192446
+  ],
+  "ask_llm_rubric|gpt-5.4-mini|prob|0|10|4097f7732246": [
+    {
+      "covered": 0.72,
+      "exclusion": 0.58,
+      "on_circuit": 0.08,
+      "deductible": 0.97,
+      "docs_sufficient": 0.84,
+      "within_limit": 0.99,
+      "within_window": 1.0,
+      "reported_timely": 0.99,
+      "rental_eligible": 0.05,
+      "fraud_flag": 0.22,
+      "human_review": 0.12,
+      "manual_review": 0.74,
+      "line_items_sum": 1.0,
+      "subrogation": 0.88
+    },
+    0.0010755,
+    1.6381905830930918
+  ],
+  "ask_llm_rubric|gpt-5.4-mini|prob|0|11|4097f7732246": [
+    {
+      "covered": 0.78,
+      "exclusion": 0.42,
+      "on_circuit": 0.06,
+      "deductible": 0.97,
+      "docs_sufficient": 0.84,
+      "within_limit": 0.99,
+      "within_window": 1.0,
+      "reported_timely": 1.0,
+      "rental_eligible": 0.03,
+      "fraud_flag": 0.18,
+      "human_review": 0.12,
+      "manual_review": 0.74,
+      "line_items_sum": 1.0,
+      "subrogation": 0.91
+    },
+    0.001077,
+    1.227149249985814
+  ],
+  "ask_llm_rubric|gpt-5.4-mini|prob|0|12|4097f7732246": [
+    {
+      "covered": 0.78,
+      "exclusion": 0.22,
+      "on_circuit": 0.05,
+      "deductible": 0.97,
+      "docs_sufficient": 0.72,
+      "within_limit": 0.99,
+      "within_window": 1.0,
+      "reported_timely": 0.99,
+      "rental_eligible": 0.03,
+      "fraud_flag": 0.18,
+      "human_review": 0.08,
+      "manual_review": 0.74,
+      "line_items_sum": 1.0,
+      "subrogation": 0.86
+    },
+    0.00107475,
+    1.2447062919382006
+  ],
+  "ask_llm_rubric|gpt-5.4-mini|prob|0|13|4097f7732246": [
+    {
+      "covered": 0.78,
+      "exclusion": 0.72,
+      "on_circuit": 0.08,
+      "deductible": 0.97,
+      "docs_sufficient": 0.84,
+      "within_limit": 1.0,
+      "within_window": 1.0,
+      "reported_timely": 0.95,
+      "rental_eligible": 0.03,
+      "fraud_flag": 0.41,
+      "human_review": 0.12,
+      "manual_review": 0.88,
+      "line_items_sum": 1.0,
+      "subrogation": 0.86
+    },
+    0.00107625,
+    1.2242135831620544
+  ],
+  "ask_llm_rubric|gpt-5.4-mini|prob|0|14|4097f7732246": [
+    {
+      "covered": 0.72,
+      "exclusion": 0.28,
+      "on_circuit": 0.08,
+      "deductible": 0.98,
+      "docs_sufficient": 0.86,
+      "within_limit": 1.0,
+      "within_window": 1.0,
+      "reported_timely": 1.0,
+      "rental_eligible": 0.03,
+      "fraud_flag": 0.22,
+      "human_review": 0.12,
+      "manual_review": 0.74,
+      "line_items_sum": 1.0,
+      "subrogation": 0.91
+    },
+    0.0010755,
+    1.126920250011608
+  ],
+  "ask_llm_rubric|gpt-5.4-mini|prob|0|1|4097f7732246": [
+    {
+      "covered": 0.78,
+      "exclusion": 0.42,
+      "on_circuit": 0.08,
+      "deductible": 0.97,
+      "docs_sufficient": 0.72,
+      "within_limit": 1.0,
+      "within_window": 1.0,
+      "reported_timely": 1.0,
+      "rental_eligible": 0.03,
+      "fraud_flag": 0.31,
+      "human_review": 0.12,
+      "manual_review": 0.74,
+      "line_items_sum": 1.0,
+      "subrogation": 0.88
+    },
+    0.0010755,
+    3.2684748750180006
+  ],
+  "ask_llm_rubric|gpt-5.4-mini|prob|0|2|4097f7732246": [
+    {
+      "covered": 0.72,
+      "exclusion": 0.18,
+      "on_circuit": 0.08,
+      "deductible": 0.97,
+      "docs_sufficient": 0.86,
+      "within_limit": 0.99,
+      "within_window": 1.0,
+      "reported_timely": 1.0,
+      "rental_eligible": 0.05,
+      "fraud_flag": 0.22,
+      "human_review": 0.12,
+      "manual_review": 0.74,
+      "line_items_sum": 1.0,
+      "subrogation": 0.88
+    },
+    0.0010777500000000001,
+    1.252605666872114
+  ],
+  "ask_llm_rubric|gpt-5.4-mini|prob|0|3|4097f7732246": [
+    {
+      "covered": 0.78,
+      "exclusion": 0.42,
+      "on_circuit": 0.08,
+      "deductible": 0.97,
+      "docs_sufficient": 0.72,
+      "within_limit": 0.99,
+      "within_window": 1.0,
+      "reported_timely": 1.0,
+      "rental_eligible": 0.06,
+      "fraud_flag": 0.18,
+      "human_review": 0.12,
+      "manual_review": 0.74,
+      "line_items_sum": 1.0,
+      "subrogation": 0.91
+    },
+    0.00107475,
+    1.0112724169157445
+  ],
+  "ask_llm_rubric|gpt-5.4-mini|prob|0|4|4097f7732246": [
+    {
+      "covered": 0.86,
+      "exclusion": 0.18,
+      "on_circuit": 0.04,
+      "deductible": 0.97,
+      "docs_sufficient": 0.78,
+      "within_limit": 0.99,
+      "within_window": 1.0,
+      "reported_timely": 1.0,
+      "rental_eligible": 0.03,
+      "fraud_flag": 0.22,
+      "human_review": 0.08,
+      "manual_review": 0.74,
+      "line_items_sum": 1.0,
+      "subrogation": 0.91
+    },
+    0.001077,
+    1.279018959030509
+  ],
+  "ask_llm_rubric|gpt-5.4-mini|prob|0|5|4097f7732246": [
+    {
+      "covered": 0.78,
+      "exclusion": 0.42,
+      "on_circuit": 0.03,
+      "deductible": 0.97,
+      "docs_sufficient": 0.72,
+      "within_limit": 0.99,
+      "within_window": 1.0,
+      "reported_timely": 0.99,
+      "rental_eligible": 0.02,
+      "fraud_flag": 0.31,
+      "human_review": 0.08,
+      "manual_review": 0.74,
+      "line_items_sum": 1.0,
+      "subrogation": 0.88
+    },
+    0.00107625,
+    1.1668219999410212
+  ],
+  "ask_llm_rubric|gpt-5.4-mini|prob|0|6|4097f7732246": [
+    {
+      "covered": 0.78,
+      "exclusion": 0.22,
+      "on_circuit": 0.05,
+      "deductible": 0.92,
+      "docs_sufficient": 0.84,
+      "within_limit": 0.99,
+      "within_window": 1.0,
+      "reported_timely": 0.99,
+      "rental_eligible": 0.08,
+      "fraud_flag": 0.18,
+      "human_review": 0.12,
+      "manual_review": 0.74,
+      "line_items_sum": 0.98,
+      "subrogation": 0.91
+    },
+    0.00127125,
+    1.1933740840759128
+  ],
+  "ask_llm_rubric|gpt-5.4-mini|prob|0|7|4097f7732246": [
+    {
+      "covered": 0.78,
+      "exclusion": 0.42,
+      "on_circuit": 0.08,
+      "deductible": 0.99,
+      "docs_sufficient": 0.72,
+      "within_limit": 1.0,
+      "within_window": 1.0,
+      "reported_timely": 1.0,
+      "rental_eligible": 0.03,
+      "fraud_flag": 0.31,
+      "human_review": 0.12,
+      "manual_review": 0.74,
+      "line_items_sum": 1.0,
+      "subrogation": 0.88
+    },
+    0.0010755,
+    1.2062384579330683
+  ],
+  "ask_llm_rubric|gpt-5.4-mini|prob|0|8|4097f7732246": [
+    {
+      "covered": 0.78,
+      "exclusion": 0.22,
+      "on_circuit": 0.08,
+      "deductible": 0.97,
+      "docs_sufficient": 0.86,
+      "within_limit": 0.99,
+      "within_window": 1.0,
+      "reported_timely": 1.0,
+      "rental_eligible": 0.05,
+      "fraud_flag": 0.18,
+      "human_review": 0.12,
+      "manual_review": 0.74,
+      "line_items_sum": 1.0,
+      "subrogation": 0.91
+    },
+    0.0010755,
+    1.315552124986425
+  ],
+  "ask_llm_rubric|gpt-5.4-mini|prob|0|9|4097f7732246": [
+    {
+      "covered": 0.72,
+      "exclusion": 0.41,
+      "on_circuit": 0.03,
+      "deductible": 0.98,
+      "docs_sufficient": 0.84,
+      "within_limit": 0.99,
+      "within_window": 1.0,
+      "reported_timely": 0.99,
+      "rental_eligible": 0.02,
+      "fraud_flag": 0.18,
+      "human_review": 0.12,
+      "manual_review": 0.76,
+      "line_items_sum": 1.0,
+      "subrogation": 0.91
+    },
+    0.001077,
+    1.2645408329553902
+  ],
+  "ask_llm_rubric|gpt-5.4-mini|prob|None|0|4097f7732246": [
+    {
+      "covered": 0.78,
+      "exclusion": 0.34,
+      "on_circuit": 0.07,
+      "deductible": 0.92,
+      "docs_sufficient": 0.84,
+      "within_limit": 0.99,
+      "within_window": 0.99,
+      "reported_timely": 0.91,
+      "rental_eligible": 0.1,
+      "fraud_flag": 0.22,
+      "human_review": 0.05,
+      "manual_review": 0.73,
+      "line_items_sum": 1.0,
+      "subrogation": 0.88
+    },
+    0.001269,
+    1.2376156658865511
+  ],
+  "ask_llm_rubric|gpt-5.4-mini|prob|None|10|4097f7732246": [
+    {
+      "covered": 0.86,
+      "exclusion": 0.42,
+      "on_circuit": 0.08,
+      "deductible": 0.97,
+      "docs_sufficient": 0.62,
+      "within_limit": 0.99,
+      "within_window": 1.0,
+      "reported_timely": 1.0,
+      "rental_eligible": 0.06,
+      "fraud_flag": 0.38,
+      "human_review": 0.18,
+      "manual_review": 0.74,
+      "line_items_sum": 1.0,
+      "subrogation": 0.91
+    },
+    0.001269,
+    1.2236962909810245
+  ],
+  "ask_llm_rubric|gpt-5.4-mini|prob|None|11|4097f7732246": [
+    {
+      "covered": 0.41,
+      "exclusion": 0.58,
+      "on_circuit": 0.07,
+      "deductible": 0.97,
+      "docs_sufficient": 0.66,
+      "within_limit": 1.0,
+      "within_window": 1.0,
+      "reported_timely": 0.8,
+      "rental_eligible": 0.04,
+      "fraud_flag": 0.46,
+      "human_review": 0.12,
+      "manual_review": 0.89,
+      "line_items_sum": 1.0,
+      "subrogation": 0.85
+    },
+    0.001077,
+    1.0381251671351492
+  ],
+  "ask_llm_rubric|gpt-5.4-mini|prob|None|12|4097f7732246": [
+    {
+      "covered": 0.72,
+      "exclusion": 0.18,
+      "on_circuit": 0.06,
+      "deductible": 0.91,
+      "docs_sufficient": 0.74,
+      "within_limit": 0.99,
+      "within_window": 0.99,
+      "reported_timely": 0.91,
+      "rental_eligible": 0.08,
+      "fraud_flag": 0.34,
+      "human_review": 0.22,
+      "manual_review": 0.68,
+      "line_items_sum": 1.0,
+      "subrogation": 0.87
+    },
+    0.001269,
+    1.327074500033632
+  ],
+  "ask_llm_rubric|gpt-5.4-mini|prob|None|13|4097f7732246": [
+    {
+      "covered": 0.84,
+      "exclusion": 0.42,
+      "on_circuit": 0.04,
+      "deductible": 0.96,
+      "docs_sufficient": 0.9,
+      "within_limit": 0.99,
+      "within_window": 1.0,
+      "reported_timely": 0.8,
+      "rental_eligible": 0.08,
+      "fraud_flag": 0.28,
+      "human_review": 0.1,
+      "manual_review": 0.73,
+      "line_items_sum": 1.0,
+      "subrogation": 0.91
+    },
+    0.001269,
+    1.2049004160799086
+  ],
+  "ask_llm_rubric|gpt-5.4-mini|prob|None|14|4097f7732246": [
+    {
+      "covered": 0.74,
+      "exclusion": 0.62,
+      "on_circuit": 0.03,
+      "deductible": 0.98,
+      "docs_sufficient": 0.78,
+      "within_limit": 0.99,
+      "within_window": 1.0,
+      "reported_timely": 1.0,
+      "rental_eligible": 0.06,
+      "fraud_flag": 0.18,
+      "human_review": 0.0,
+      "manual_review": 0.83,
+      "line_items_sum": 1.0,
+      "subrogation": 0.81
+    },
+    0.001077,
+    1.0226939579006284
+  ],
+  "ask_llm_rubric|gpt-5.4-mini|prob|None|1|4097f7732246": [
+    {
+      "covered": 0.72,
+      "exclusion": 0.68,
+      "on_circuit": 0.08,
+      "deductible": 0.96,
+      "docs_sufficient": 0.78,
+      "within_limit": 0.99,
+      "within_window": 1.0,
+      "reported_timely": 0.92,
+      "rental_eligible": 0.04,
+      "fraud_flag": 0.22,
+      "human_review": 0.18,
+      "manual_review": 0.81,
+      "line_items_sum": 1.0,
+      "subrogation": 0.89
+    },
+    0.0010755,
+    1.2054623749572784
+  ],
+  "ask_llm_rubric|gpt-5.4-mini|prob|None|2|4097f7732246": [
+    {
+      "covered": 0.82,
+      "exclusion": 0.71,
+      "on_circuit": 0.06,
+      "deductible": 0.97,
+      "docs_sufficient": 0.86,
+      "within_limit": 0.99,
+      "within_window": 1.0,
+      "reported_timely": 0.79,
+      "rental_eligible": 0.03,
+      "fraud_flag": 0.22,
+      "human_review": 0.14,
+      "manual_review": 0.88,
+      "line_items_sum": 1.0,
+      "subrogation": 0.93
+    },
+    0.0012705,
+    1.2642094159964472
+  ],
+  "ask_llm_rubric|gpt-5.4-mini|prob|None|3|4097f7732246": [
+    {
+      "covered": 0.35,
+      "exclusion": 0.45,
+      "on_circuit": 0.08,
+      "deductible": 0.92,
+      "docs_sufficient": 0.68,
+      "within_limit": 0.99,
+      "within_window": 1.0,
+      "reported_timely": 0.8,
+      "rental_eligible": 0.05,
+      "fraud_flag": 0.38,
+      "human_review": 0.12,
+      "manual_review": 0.82,
+      "line_items_sum": 0.99,
+      "subrogation": 0.9
+    },
+    0.001269,
+    1.2966830828227103
+  ],
+  "ask_llm_rubric|gpt-5.4-mini|prob|None|4|4097f7732246": [
+    {
+      "covered": 0.48,
+      "exclusion": 0.42,
+      "on_circuit": 0.08,
+      "deductible": 0.96,
+      "docs_sufficient": 0.83,
+      "within_limit": 0.99,
+      "within_window": 1.0,
+      "reported_timely": 0.98,
+      "rental_eligible": 0.07,
+      "fraud_flag": 0.24,
+      "human_review": 0.06,
+      "manual_review": 0.72,
+      "line_items_sum": 0.04,
+      "subrogation": 0.88
+    },
+    0.0010755,
+    1.1157768329139799
+  ],
+  "ask_llm_rubric|gpt-5.4-mini|prob|None|5|4097f7732246": [
+    {
+      "covered": 0.28,
+      "exclusion": 0.82,
+      "on_circuit": 0.05,
+      "deductible": 0.97,
+      "docs_sufficient": 0.88,
+      "within_limit": 1.0,
+      "within_window": 1.0,
+      "reported_timely": 0.87,
+      "rental_eligible": 0.02,
+      "fraud_flag": 0.14,
+      "human_review": 0.08,
+      "manual_review": 0.79,
+      "line_items_sum": 0.99,
+      "subrogation": 0.91
+    },
+    0.00107475,
+    0.938055417034775
+  ],
+  "ask_llm_rubric|gpt-5.4-mini|prob|None|6|4097f7732246": [
+    {
+      "covered": 0.84,
+      "exclusion": 0.42,
+      "on_circuit": 0.06,
+      "deductible": 0.98,
+      "docs_sufficient": 0.86,
+      "within_limit": 0.94,
+      "within_window": 1.0,
+      "reported_timely": 1.0,
+      "rental_eligible": 0.08,
+      "fraud_flag": 0.31,
+      "human_review": 0.18,
+      "manual_review": 0.89,
+      "line_items_sum": 1.0,
+      "subrogation": 0.87
+    },
+    0.00107625,
+    1.0933420839719474
+  ],
+  "ask_llm_rubric|gpt-5.4-mini|prob|None|7|4097f7732246": [
+    {
+      "covered": 0.82,
+      "exclusion": 0.61,
+      "on_circuit": 0.04,
+      "deductible": 0.93,
+      "docs_sufficient": 0.78,
+      "within_limit": 0.99,
+      "within_window": 1.0,
+      "reported_timely": 0.97,
+      "rental_eligible": 0.05,
+      "fraud_flag": 0.33,
+      "human_review": 0.14,
+      "manual_review": 0.66,
+      "line_items_sum": 1.0,
+      "subrogation": 0.94
+    },
+    0.00126975,
+    1.2932474999688566
+  ],
+  "ask_llm_rubric|gpt-5.4-mini|prob|None|8|4097f7732246": [
+    {
+      "covered": 0.42,
+      "exclusion": 0.78,
+      "on_circuit": 0.03,
+      "deductible": 0.61,
+      "docs_sufficient": 0.58,
+      "within_limit": 0.99,
+      "within_window": 0.99,
+      "reported_timely": 0.95,
+      "rental_eligible": 0.06,
+      "fraud_flag": 0.22,
+      "human_review": 0.07,
+      "manual_review": 0.88,
+      "line_items_sum": 0.02,
+      "subrogation": 0.81
+    },
+    0.00127125,
+    1.3326224170159549
+  ],
+  "ask_llm_rubric|gpt-5.4-mini|prob|None|9|4097f7732246": [
+    {
+      "covered": 0.86,
+      "exclusion": 0.82,
+      "on_circuit": 0.05,
+      "deductible": 0.97,
+      "docs_sufficient": 0.84,
+      "within_limit": 1.0,
+      "within_window": 1.0,
+      "reported_timely": 0.72,
+      "rental_eligible": 0.08,
+      "fraud_flag": 0.17,
+      "human_review": 0.12,
+      "manual_review": 0.64,
+      "line_items_sum": 1.0,
+      "subrogation": 0.88
+    },
+    0.00107625,
+    1.065706375055015
+  ],
+  "ask_llm_rubric|gpt-5.4-mini|yesno|0|0|4097f7732246": [
+    {
+      "covered": 1.0,
+      "exclusion": 0.0,
+      "on_circuit": 0.0,
+      "deductible": 1.0,
+      "docs_sufficient": 1.0,
+      "within_limit": 1.0,
+      "within_window": 1.0,
+      "reported_timely": 1.0,
+      "rental_eligible": 0.0,
+      "fraud_flag": 1.0,
+      "human_review": 1.0,
+      "manual_review": 1.0,
+      "line_items_sum": 1.0,
+      "subrogation": 1.0
+    },
+    0.0009404999999999999,
+    0.8407389170024544
+  ],
+  "ask_llm_rubric|gpt-5.4-mini|yesno|0|10|4097f7732246": [
+    {
+      "covered": 1.0,
+      "exclusion": 0.0,
+      "on_circuit": 0.0,
+      "deductible": 1.0,
+      "docs_sufficient": 1.0,
+      "within_limit": 1.0,
+      "within_window": 1.0,
+      "reported_timely": 1.0,
+      "rental_eligible": 0.0,
+      "fraud_flag": 1.0,
+      "human_review": 0.0,
+      "manual_review": 1.0,
+      "line_items_sum": 1.0,
+      "subrogation": 1.0
+    },
+    0.000969,
+    1.1737297498621047
+  ],
+  "ask_llm_rubric|gpt-5.4-mini|yesno|0|11|4097f7732246": [
+    {
+      "covered": 1.0,
+      "exclusion": 0.0,
+      "on_circuit": 0.0,
+      "deductible": 1.0,
+      "docs_sufficient": 1.0,
+      "within_limit": 1.0,
+      "within_window": 1.0,
+      "reported_timely": 1.0,
+      "rental_eligible": 0.0,
+      "fraud_flag": 0.0,
+      "human_review": 0.0,
+      "manual_review": 1.0,
+      "line_items_sum": 1.0,
+      "subrogation": 1.0
+    },
+    0.00096825,
+    2.8003623329568654
+  ],
+  "ask_llm_rubric|gpt-5.4-mini|yesno|0|12|4097f7732246": [
+    {
+      "covered": 1.0,
+      "exclusion": 1.0,
+      "on_circuit": 0.0,
+      "deductible": 1.0,
+      "docs_sufficient": 1.0,
+      "within_limit": 1.0,
+      "within_window": 1.0,
+      "reported_timely": 1.0,
+      "rental_eligible": 0.0,
+      "fraud_flag": 1.0,
+      "human_review": 1.0,
+      "manual_review": 1.0,
+      "line_items_sum": 1.0,
+      "subrogation": 1.0
+    },
+    0.0009404999999999999,
+    1.1427919999696314
+  ],
+  "ask_llm_rubric|gpt-5.4-mini|yesno|0|13|4097f7732246": [
+    {
+      "covered": 1.0,
+      "exclusion": 0.0,
+      "on_circuit": 0.0,
+      "deductible": 1.0,
+      "docs_sufficient": 1.0,
+      "within_limit": 1.0,
+      "within_window": 1.0,
+      "reported_timely": 1.0,
+      "rental_eligible": 0.0,
+      "fraud_flag": 1.0,
+      "human_review": 0.0,
+      "manual_review": 1.0,
+      "line_items_sum": 1.0,
+      "subrogation": 1.0
+    },
+    0.00094125,
+    0.8548814998939633
+  ],
+  "ask_llm_rubric|gpt-5.4-mini|yesno|0|14|4097f7732246": [
+    {
+      "covered": 1.0,
+      "exclusion": 0.0,
+      "on_circuit": 0.0,
+      "deductible": 1.0,
+      "docs_sufficient": 1.0,
+      "within_limit": 1.0,
+      "within_window": 1.0,
+      "reported_timely": 1.0,
+      "rental_eligible": 0.0,
+      "fraud_flag": 1.0,
+      "human_review": 1.0,
+      "manual_review": 1.0,
+      "line_items_sum": 1.0,
+      "subrogation": 1.0
+    },
+    0.00094125,
+    0.8930734167806804
+  ],
+  "ask_llm_rubric|gpt-5.4-mini|yesno|0|1|4097f7732246": [
+    {
+      "covered": 1.0,
+      "exclusion": 0.0,
+      "on_circuit": 0.0,
+      "deductible": 1.0,
+      "docs_sufficient": 1.0,
+      "within_limit": 1.0,
+      "within_window": 1.0,
+      "reported_timely": 1.0,
+      "rental_eligible": 0.0,
+      "fraud_flag": 1.0,
+      "human_review": 1.0,
+      "manual_review": 1.0,
+      "line_items_sum": 1.0,
+      "subrogation": 1.0
+    },
+    0.00094125,
+    0.9085126670543104
+  ],
+  "ask_llm_rubric|gpt-5.4-mini|yesno|0|2|4097f7732246": [
+    {
+      "covered": 1.0,
+      "exclusion": 0.0,
+      "on_circuit": 0.0,
+      "deductible": 1.0,
+      "docs_sufficient": 1.0,
+      "within_limit": 1.0,
+      "within_window": 1.0,
+      "reported_timely": 1.0,
+      "rental_eligible": 0.0,
+      "fraud_flag": 1.0,
+      "human_review": 0.0,
+      "manual_review": 1.0,
+      "line_items_sum": 1.0,
+      "subrogation": 1.0
+    },
+    0.0009404999999999999,
+    0.8803215408697724
+  ],
+  "ask_llm_rubric|gpt-5.4-mini|yesno|0|3|4097f7732246": [
+    {
+      "covered": 1.0,
+      "exclusion": 1.0,
+      "on_circuit": 0.0,
+      "deductible": 1.0,
+      "docs_sufficient": 1.0,
+      "within_limit": 1.0,
+      "within_window": 1.0,
+      "reported_timely": 1.0,
+      "rental_eligible": 0.0,
+      "fraud_flag": 1.0,
+      "human_review": 1.0,
+      "manual_review": 1.0,
+      "line_items_sum": 1.0,
+      "subrogation": 1.0
+    },
+    0.0009697499999999999,
+    1.0713922919239849
+  ],
+  "ask_llm_rubric|gpt-5.4-mini|yesno|0|4|4097f7732246": [
+    {
+      "covered": 1.0,
+      "exclusion": 0.0,
+      "on_circuit": 0.0,
+      "deductible": 1.0,
+      "docs_sufficient": 1.0,
+      "within_limit": 1.0,
+      "within_window": 1.0,
+      "reported_timely": 1.0,
+      "rental_eligible": 0.0,
+      "fraud_flag": 1.0,
+      "human_review": 1.0,
+      "manual_review": 1.0,
+      "line_items_sum": 1.0,
+      "subrogation": 1.0
+    },
+    0.0009404999999999999,
+    0.9666044157929718
+  ],
+  "ask_llm_rubric|gpt-5.4-mini|yesno|0|5|4097f7732246": [
+    {
+      "covered": 1.0,
+      "exclusion": 0.0,
+      "on_circuit": 0.0,
+      "deductible": 1.0,
+      "docs_sufficient": 1.0,
+      "within_limit": 1.0,
+      "within_window": 1.0,
+      "reported_timely": 1.0,
+      "rental_eligible": 0.0,
+      "fraud_flag": 1.0,
+      "human_review": 0.0,
+      "manual_review": 1.0,
+      "line_items_sum": 1.0,
+      "subrogation": 1.0
+    },
+    0.0009420000000000001,
+    0.8952866250183433
+  ],
+  "ask_llm_rubric|gpt-5.4-mini|yesno|0|6|4097f7732246": [
+    {
+      "covered": 1.0,
+      "exclusion": 0.0,
+      "on_circuit": 0.0,
+      "deductible": 1.0,
+      "docs_sufficient": 1.0,
+      "within_limit": 1.0,
+      "within_window": 1.0,
+      "reported_timely": 1.0,
+      "rental_eligible": 0.0,
+      "fraud_flag": 1.0,
+      "human_review": 0.0,
+      "manual_review": 1.0,
+      "line_items_sum": 1.0,
+      "subrogation": 1.0
+    },
+    0.0009674999999999999,
+    1.1080937080550939
+  ],
+  "ask_llm_rubric|gpt-5.4-mini|yesno|0|7|4097f7732246": [
+    {
+      "covered": 1.0,
+      "exclusion": 0.0,
+      "on_circuit": 0.0,
+      "deductible": 1.0,
+      "docs_sufficient": 1.0,
+      "within_limit": 1.0,
+      "within_window": 1.0,
+      "reported_timely": 1.0,
+      "rental_eligible": 0.0,
+      "fraud_flag": 1.0,
+      "human_review": 1.0,
+      "manual_review": 1.0,
+      "line_items_sum": 1.0,
+      "subrogation": 1.0
+    },
+    0.0009404999999999999,
+    0.9245005410630256
+  ],
+  "ask_llm_rubric|gpt-5.4-mini|yesno|0|8|4097f7732246": [
+    {
+      "covered": 1.0,
+      "exclusion": 0.0,
+      "on_circuit": 0.0,
+      "deductible": 1.0,
+      "docs_sufficient": 1.0,
+      "within_limit": 1.0,
+      "within_window": 1.0,
+      "reported_timely": 1.0,
+      "rental_eligible": 0.0,
+      "fraud_flag": 1.0,
+      "human_review": 0.0,
+      "manual_review": 1.0,
+      "line_items_sum": 1.0,
+      "subrogation": 1.0
+    },
+    0.00093975,
+    1.1550910000223666
+  ],
+  "ask_llm_rubric|gpt-5.4-mini|yesno|0|9|4097f7732246": [
+    {
+      "covered": 1.0,
+      "exclusion": 1.0,
+      "on_circuit": 0.0,
+      "deductible": 1.0,
+      "docs_sufficient": 1.0,
+      "within_limit": 1.0,
+      "within_window": 1.0,
+      "reported_timely": 1.0,
+      "rental_eligible": 0.0,
+      "fraud_flag": 1.0,
+      "human_review": 0.0,
+      "manual_review": 1.0,
+      "line_items_sum": 1.0,
+      "subrogation": 1.0
+    },
+    0.00096825,
+    1.0770710420329124
+  ],
+  "ask_llm_rubric|gpt-5.5|prob|None|0|4097f7732246": [
+    {
+      "covered": 0.9,
+      "exclusion": 0.08,
+      "on_circuit": 0.02,
+      "deductible": 0.95,
+      "docs_sufficient": 0.15,
+      "within_limit": 0.99,
+      "within_window": 0.99,
+      "reported_timely": 0.99,
+      "rental_eligible": 0.02,
+      "fraud_flag": 0.2,
+      "human_review": 0.95,
+      "manual_review": 0.9,
+      "line_items_sum": 1.0,
+      "subrogation": 0.95
+    },
+    0.022709999999999998,
+    7.434596583014354
+  ],
+  "ask_llm_rubric|gpt-5.5|prob|None|10|4097f7732246": [
+    {
+      "covered": 0.88,
+      "exclusion": 0.15,
+      "on_circuit": 0.02,
+      "deductible": 0.98,
+      "docs_sufficient": 0.08,
+      "within_limit": 0.99,
+      "within_window": 1.0,
+      "reported_timely": 0.99,
+      "rental_eligible": 0.02,
+      "fraud_flag": 0.35,
+      "human_review": 0.95,
+      "manual_review": 0.9,
+      "line_items_sum": 1.0,
+      "subrogation": 0.95
+    },
+    0.022715,
+    8.501061375020072
+  ],
+  "ask_llm_rubric|gpt-5.5|prob|None|11|4097f7732246": [
+    {
+      "covered": 0.93,
+      "exclusion": 0.04,
+      "on_circuit": 0.01,
+      "deductible": 0.99,
+      "docs_sufficient": 0.08,
+      "within_limit": 1.0,
+      "within_window": 1.0,
+      "reported_timely": 1.0,
+      "rental_eligible": 0.02,
+      "fraud_flag": 0.22,
+      "human_review": 0.98,
+      "manual_review": 0.97,
+      "line_items_sum": 1.0,
+      "subrogation": 0.95
+    },
+    0.038255,
+    12.68260566610843
+  ],
+  "ask_llm_rubric|gpt-5.5|prob|None|12|4097f7732246": [
+    {
+      "covered": 0.92,
+      "exclusion": 0.08,
+      "on_circuit": 0.01,
+      "deductible": 0.98,
+      "docs_sufficient": 0.05,
+      "within_limit": 1.0,
+      "within_window": 1.0,
+      "reported_timely": 1.0,
+      "rental_eligible": 0.02,
+      "fraud_flag": 0.15,
+      "human_review": 0.95,
+      "manual_review": 0.95,
+      "line_items_sum": 1.0,
+      "subrogation": 0.95
+    },
+    0.038255,
+    12.536346541019157
+  ],
+  "ask_llm_rubric|gpt-5.5|prob|None|13|4097f7732246": [
+    {
+      "covered": 0.9,
+      "exclusion": 0.15,
+      "on_circuit": 0.02,
+      "deductible": 0.98,
+      "docs_sufficient": 0.1,
+      "within_limit": 1.0,
+      "within_window": 1.0,
+      "reported_timely": 1.0,
+      "rental_eligible": 0.0,
+      "fraud_flag": 0.35,
+      "human_review": 0.95,
+      "manual_review": 0.95,
+      "line_items_sum": 1.0,
+      "subrogation": 0.95
+    },
+    0.022709999999999998,
+    7.3875001249834895
+  ],
+  "ask_llm_rubric|gpt-5.5|prob|None|14|4097f7732246": [
+    {
+      "covered": 0.9,
+      "exclusion": 0.08,
+      "on_circuit": 0.01,
+      "deductible": 0.99,
+      "docs_sufficient": 0.1,
+      "within_limit": 1.0,
+      "within_window": 1.0,
+      "reported_timely": 1.0,
+      "rental_eligible": 0.01,
+      "fraud_flag": 0.2,
+      "human_review": 0.99,
+      "manual_review": 0.99,
+      "line_items_sum": 1.0,
+      "subrogation": 0.95
+    },
+    0.038265,
+    13.247838667128235
+  ],
+  "ask_llm_rubric|gpt-5.5|prob|None|1|4097f7732246": [
+    {
+      "covered": 0.92,
+      "exclusion": 0.12,
+      "on_circuit": 0.01,
+      "deductible": 0.98,
+      "docs_sufficient": 0.06,
+      "within_limit": 1.0,
+      "within_window": 1.0,
+      "reported_timely": 1.0,
+      "rental_eligible": 0.01,
+      "fraud_flag": 0.35,
+      "human_review": 0.98,
+      "manual_review": 0.98,
+      "line_items_sum": 1.0,
+      "subrogation": 0.96
+    },
+    0.038245,
+    12.43067800020799
+  ],
+  "ask_llm_rubric|gpt-5.5|prob|None|2|4097f7732246": [
+    {
+      "covered": 0.86,
+      "exclusion": 0.12,
+      "on_circuit": 0.02,
+      "deductible": 0.98,
+      "docs_sufficient": 0.15,
+      "within_limit": 0.99,
+      "within_window": 0.99,
+      "reported_timely": 0.99,
+      "rental_eligible": 0.02,
+      "fraud_flag": 0.35,
+      "human_review": 0.95,
+      "manual_review": 0.92,
+      "line_items_sum": 1.0,
+      "subrogation": 0.93
+    },
+    0.022705,
+    7.669866084121168
+  ],
+  "ask_llm_rubric|gpt-5.5|prob|None|3|4097f7732246": [
+    {
+      "covered": 0.82,
+      "exclusion": 0.1,
+      "on_circuit": 0.01,
+      "deductible": 0.97,
+      "docs_sufficient": 0.12,
+      "within_limit": 0.99,
+      "within_window": 0.99,
+      "reported_timely": 0.99,
+      "rental_eligible": 0.02,
+      "fraud_flag": 0.25,
+      "human_review": 0.98,
+      "manual_review": 0.96,
+      "line_items_sum": 1.0,
+      "subrogation": 0.95
+    },
+    0.022715,
+    7.861974665895104
+  ],
+  "ask_llm_rubric|gpt-5.5|prob|None|4|4097f7732246": [
+    {
+      "covered": 0.95,
+      "exclusion": 0.05,
+      "on_circuit": 0.01,
+      "deductible": 0.99,
+      "docs_sufficient": 0.05,
+      "within_limit": 1.0,
+      "within_window": 1.0,
+      "reported_timely": 1.0,
+      "rental_eligible": 0.0,
+      "fraud_flag": 0.55,
+      "human_review": 0.98,
+      "manual_review": 0.99,
+      "line_items_sum": 1.0,
+      "subrogation": 0.95
+    },
+    0.039535,
+    12.655645000049844
+  ],
+  "ask_llm_rubric|gpt-5.5|prob|None|5|4097f7732246": [
+    {
+      "covered": 0.9,
+      "exclusion": 0.08,
+      "on_circuit": 0.01,
+      "deductible": 0.99,
+      "docs_sufficient": 0.05,
+      "within_limit": 1.0,
+      "within_window": 1.0,
+      "reported_timely": 1.0,
+      "rental_eligible": 0.01,
+      "fraud_flag": 0.25,
+      "human_review": 0.98,
+      "manual_review": 0.97,
+      "line_items_sum": 1.0,
+      "subrogation": 0.95
+    },
+    0.03825,
+    13.700933541869745
+  ],
+  "ask_llm_rubric|gpt-5.5|prob|None|6|4097f7732246": [
+    {
+      "covered": 0.9,
+      "exclusion": 0.05,
+      "on_circuit": 0.01,
+      "deductible": 0.99,
+      "docs_sufficient": 0.03,
+      "within_limit": 1.0,
+      "within_window": 1.0,
+      "reported_timely": 0.99,
+      "rental_eligible": 0.01,
+      "fraud_flag": 0.3,
+      "human_review": 0.98,
+      "manual_review": 0.96,
+      "line_items_sum": 1.0,
+      "subrogation": 0.95
+    },
+    0.05379,
+    17.445332875009626
+  ],
+  "ask_llm_rubric|gpt-5.5|prob|None|7|4097f7732246": [
+    {
+      "covered": 0.9,
+      "exclusion": 0.1,
+      "on_circuit": 0.02,
+      "deductible": 0.98,
+      "docs_sufficient": 0.15,
+      "within_limit": 0.99,
+      "within_window": 1.0,
+      "reported_timely": 0.99,
+      "rental_eligible": 0.02,
+      "fraud_flag": 0.25,
+      "human_review": 0.98,
+      "manual_review": 0.95,
+      "line_items_sum": 1.0,
+      "subrogation": 0.95
+    },
+    0.022715,
+    7.078783416887745
+  ],
+  "ask_llm_rubric|gpt-5.5|prob|None|8|4097f7732246": [
+    {
+      "covered": 0.92,
+      "exclusion": 0.08,
+      "on_circuit": 0.01,
+      "deductible": 0.99,
+      "docs_sufficient": 0.04,
+      "within_limit": 1.0,
+      "within_window": 1.0,
+      "reported_timely": 0.99,
+      "rental_eligible": 0.01,
+      "fraud_flag": 0.22,
+      "human_review": 0.98,
+      "manual_review": 0.99,
+      "line_items_sum": 1.0,
+      "subrogation": 0.96
+    },
+    0.03825,
+    13.531668375013396
+  ],
+  "ask_llm_rubric|gpt-5.5|prob|None|9|4097f7732246": [
+    {
+      "covered": 0.9,
+      "exclusion": 0.05,
+      "on_circuit": 0.01,
+      "deductible": 0.99,
+      "docs_sufficient": 0.1,
+      "within_limit": 1.0,
+      "within_window": 1.0,
+      "reported_timely": 1.0,
+      "rental_eligible": 0.0,
+      "fraud_flag": 0.3,
+      "human_review": 0.99,
+      "manual_review": 0.96,
+      "line_items_sum": 1.0,
+      "subrogation": 0.95
+    },
+    0.038245,
+    12.716494749998674
+  ]
+}
