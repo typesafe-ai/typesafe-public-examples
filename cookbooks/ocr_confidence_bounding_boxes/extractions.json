@@ -1,0 +1,21 @@
+{
+  "milkwood.jpg": {
+    "supplier_name": "MILKWOOD mushrooms",
+    "invoice_number": "AN400074",
+    "invoice_date": "01/09/2026",
+    "amount_due": "504.70",
+    "bank_name": "Standard Bank",
+    "account_holder": "MILKWOOD",
+    "account_number": "080 11 4941"
+  },
+  "siyakhula.jpg": {
+    "supplier_name": "Siyakhula Trading Services (Pty) Ltd ta Siyakhula Trading",
+    "invoice_number": "INV03070",
+    "invoice_date": "16/09/2028",
+    "amount_due": "R1,305.65",
+    "bank_name": "Standard Bank",
+    "account_holder": "Siyakhula Trading",
+    "account_number": "10 13 205 260 5",
+    "branch_code": "051001"
+  }
+}
