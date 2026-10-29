@@ -1,0 +1,6414 @@
+{
+  "d163e79bf46c002490425f227dc40ace17af9af6f6f80dc7db69cf579c2731bf": {
+    "answers": {
+      "__tool__": {
+        "choice": "volatility",
+        "confidence": 1.0,
+        "probabilities": {
+          "compare_returns": 0.0,
+          "drawdown": 0.0,
+          "intraday_pattern": 0.0,
+          "list_symbols": 0.0,
+          "market_summary": 0.0,
+          "plot_price": 0.0,
+          "rolling_correlation": 0.0,
+          "summary_stats": 0.0,
+          "top_movers": 0.0,
+          "volatility": 1.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "compare_returns.normalize": {
+        "noul": 0.45,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.normalize?": {
+        "noul": 0.04,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.symbols.AAPL": {
+        "noul": 0.03,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.symbols.AMD": {
+        "noul": 0.02,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.symbols.MSFT": {
+        "noul": 0.03,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.symbols.NVDA": {
+        "noul": 0.03,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.symbols.SPY": {
+        "noul": 0.12,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.symbols.TSLA": {
+        "noul": 0.8,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.window": {
+        "choice": "3mo",
+        "confidence": 0.53,
+        "probabilities": {
+          "1d": 0.25,
+          "1mo": 0.08,
+          "1w": 0.03,
+          "3mo": 0.64
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "compare_returns.window?": {
+        "noul": 0.02,
+        "stats": {},
+        "type": "noul"
+      },
+      "drawdown.plot": {
+        "noul": 0.05,
+        "stats": {},
+        "type": "noul"
+      },
+      "drawdown.plot?": {
+        "noul": 0.13,
+        "stats": {},
+        "type": "noul"
+      },
+      "drawdown.symbol": {
+        "choice": "TSLA",
+        "confidence": 1.0,
+        "probabilities": {
+          "AAPL": 0.0,
+          "AMD": 0.0,
+          "MSFT": 0.0,
+          "NVDA": 0.0,
+          "SPY": 0.0,
+          "TSLA": 1.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "drawdown.window": {
+        "choice": "3mo",
+        "confidence": 0.47,
+        "probabilities": {
+          "1d": 0.3,
+          "1mo": 0.07,
+          "1w": 0.03,
+          "3mo": 0.6
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "drawdown.window?": {
+        "noul": 0.03,
+        "stats": {},
+        "type": "noul"
+      },
+      "intraday_pattern.metric": {
+        "choice": "volatility",
+        "confidence": 1.0,
+        "probabilities": {
+          "return": 0.0,
+          "volatility": 1.0,
+          "volume": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "intraday_pattern.metric?": {
+        "noul": 0.22,
+        "stats": {},
+        "type": "noul"
+      },
+      "intraday_pattern.symbol": {
+        "choice": "TSLA",
+        "confidence": 1.0,
+        "probabilities": {
+          "AAPL": 0.0,
+          "AMD": 0.0,
+          "MSFT": 0.0,
+          "NVDA": 0.0,
+          "SPY": 0.0,
+          "TSLA": 1.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "intraday_pattern.window": {
+        "choice": "3mo",
+        "confidence": 0.42,
+        "probabilities": {
+          "1d": 0.34,
+          "1mo": 0.06,
+          "1w": 0.03,
+          "3mo": 0.56
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "intraday_pattern.window?": {
+        "noul": 0.02,
+        "stats": {},
+        "type": "noul"
+      },
+      "market_summary.window": {
+        "choice": "3mo",
+        "confidence": 0.52,
+        "probabilities": {
+          "1d": 0.26,
+          "1mo": 0.07,
+          "1w": 0.03,
+          "3mo": 0.64
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "market_summary.window?": {
+        "noul": 0.02,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.include_volume": {
+        "noul": 0.02,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.include_volume?": {
+        "noul": 0.09,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.log_scale": {
+        "noul": 0.01,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.log_scale?": {
+        "noul": 0.01,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.moving_average": {
+        "choice": "20",
+        "confidence": 0.14,
+        "probabilities": {
+          "20": 0.43,
+          "50": 0.18,
+          "9": 0.39
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "plot_price.moving_average?": {
+        "noul": 0.01,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.resolution": {
+        "choice": "1d",
+        "confidence": 0.59,
+        "probabilities": {
+          "15m": 0.07,
+          "1d": 0.67,
+          "1h": 0.1,
+          "1m": 0.06,
+          "5m": 0.1
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "plot_price.resolution?": {
+        "noul": 0.01,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.style": {
+        "choice": "line",
+        "confidence": 0.08,
+        "probabilities": {
+          "candles": 0.46,
+          "line": 0.54
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "plot_price.style?": {
+        "noul": 0.01,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.symbol": {
+        "choice": "TSLA",
+        "confidence": 1.0,
+        "probabilities": {
+          "AAPL": 0.0,
+          "AMD": 0.0,
+          "MSFT": 0.0,
+          "NVDA": 0.0,
+          "SPY": 0.0,
+          "TSLA": 1.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "plot_price.window": {
+        "choice": "3mo",
+        "confidence": 0.48,
+        "probabilities": {
+          "1d": 0.3,
+          "1mo": 0.06,
+          "1w": 0.03,
+          "3mo": 0.61
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "plot_price.window?": {
+        "noul": 0.03,
+        "stats": {},
+        "type": "noul"
+      },
+      "rolling_correlation.benchmark": {
+        "choice": "SPY",
+        "confidence": 0.56,
+        "probabilities": {
+          "AAPL": 0.01,
+          "AMD": 0.0,
+          "MSFT": 0.01,
+          "NVDA": 0.01,
+          "SPY": 0.64,
+          "TSLA": 0.33
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "rolling_correlation.benchmark?": {
+        "noul": 0.01,
+        "stats": {},
+        "type": "noul"
+      },
+      "rolling_correlation.resolution": {
+        "choice": "1d",
+        "confidence": 0.85,
+        "probabilities": {
+          "15m": 0.02,
+          "1d": 0.88,
+          "1h": 0.03,
+          "1m": 0.04,
+          "5m": 0.03
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "rolling_correlation.resolution?": {
+        "noul": 0.02,
+        "stats": {},
+        "type": "noul"
+      },
+      "rolling_correlation.symbol": {
+        "choice": "TSLA",
+        "confidence": 1.0,
+        "probabilities": {
+          "AAPL": 0.0,
+          "AMD": 0.0,
+          "MSFT": 0.0,
+          "NVDA": 0.0,
+          "SPY": 0.0,
+          "TSLA": 1.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "rolling_correlation.window": {
+        "choice": "3mo",
+        "confidence": 0.46,
+        "probabilities": {
+          "1d": 0.31,
+          "1mo": 0.07,
+          "1w": 0.03,
+          "3mo": 0.59
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "rolling_correlation.window?": {
+        "noul": 0.02,
+        "stats": {},
+        "type": "noul"
+      },
+      "summary_stats.symbol": {
+        "choice": "TSLA",
+        "confidence": 1.0,
+        "probabilities": {
+          "AAPL": 0.0,
+          "AMD": 0.0,
+          "MSFT": 0.0,
+          "NVDA": 0.0,
+          "SPY": 0.0,
+          "TSLA": 1.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "summary_stats.window": {
+        "choice": "3mo",
+        "confidence": 0.5,
+        "probabilities": {
+          "1d": 0.27,
+          "1mo": 0.07,
+          "1w": 0.03,
+          "3mo": 0.63
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "summary_stats.window?": {
+        "noul": 0.03,
+        "stats": {},
+        "type": "noul"
+      },
+      "top_movers.direction": {
+        "choice": "gainers",
+        "confidence": 0.28,
+        "probabilities": {
+          "gainers": 0.64,
+          "losers": 0.36
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "top_movers.window": {
+        "choice": "3mo",
+        "confidence": 0.48,
+        "probabilities": {
+          "1d": 0.28,
+          "1mo": 0.07,
+          "1w": 0.03,
+          "3mo": 0.62
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "top_movers.window?": {
+        "noul": 0.02,
+        "stats": {},
+        "type": "noul"
+      },
+      "volatility.annualized": {
+        "noul": 0.35,
+        "stats": {},
+        "type": "noul"
+      },
+      "volatility.annualized?": {
+        "noul": 0.04,
+        "stats": {},
+        "type": "noul"
+      },
+      "volatility.symbol": {
+        "choice": "TSLA",
+        "confidence": 1.0,
+        "probabilities": {
+          "AAPL": 0.0,
+          "AMD": 0.0,
+          "MSFT": 0.0,
+          "NVDA": 0.0,
+          "SPY": 0.0,
+          "TSLA": 1.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "volatility.window": {
+        "choice": "3mo",
+        "confidence": 0.47,
+        "probabilities": {
+          "1d": 0.3,
+          "1mo": 0.07,
+          "1w": 0.03,
+          "3mo": 0.6
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "volatility.window?": {
+        "noul": 0.02,
+        "stats": {},
+        "type": "noul"
+      }
+    },
+    "assets_used": null,
+    "model": "toxic_mango_loco",
+    "seconds": 0.53,
+    "usage": {
+      "input_tokens": 3214,
+      "output_tokens": 1686
+    }
+  },
+  "540aa63ab6a36e8989edadd9ea38ba6f62cc4c097a56ab94e62176d623f360dc": {
+    "answers": {
+      "__tool__": {
+        "choice": "plot_price",
+        "confidence": 0.82,
+        "probabilities": {
+          "compare_returns": 0.0,
+          "drawdown": 0.0,
+          "intraday_pattern": 0.14,
+          "list_symbols": 0.0,
+          "market_summary": 0.0,
+          "plot_price": 0.85,
+          "rolling_correlation": 0.0,
+          "summary_stats": 0.01,
+          "top_movers": 0.0,
+          "volatility": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "compare_returns.normalize": {
+        "noul": 0.21,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.normalize?": {
+        "noul": 0.17,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.symbols.AAPL": {
+        "noul": 0.82,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.symbols.AMD": {
+        "noul": 0.01,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.symbols.MSFT": {
+        "noul": 0.02,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.symbols.NVDA": {
+        "noul": 0.01,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.symbols.SPY": {
+        "noul": 0.03,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.symbols.TSLA": {
+        "noul": 0.02,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.window": {
+        "choice": "1d",
+        "confidence": 0.89,
+        "probabilities": {
+          "1d": 0.92,
+          "1mo": 0.02,
+          "1w": 0.03,
+          "3mo": 0.03
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "compare_returns.window?": {
+        "noul": 0.28,
+        "stats": {},
+        "type": "noul"
+      },
+      "drawdown.plot": {
+        "noul": 0.19,
+        "stats": {},
+        "type": "noul"
+      },
+      "drawdown.plot?": {
+        "noul": 0.29,
+        "stats": {},
+        "type": "noul"
+      },
+      "drawdown.symbol": {
+        "choice": "AAPL",
+        "confidence": 1.0,
+        "probabilities": {
+          "AAPL": 1.0,
+          "AMD": 0.0,
+          "MSFT": 0.0,
+          "NVDA": 0.0,
+          "SPY": 0.0,
+          "TSLA": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "drawdown.window": {
+        "choice": "1d",
+        "confidence": 0.91,
+        "probabilities": {
+          "1d": 0.93,
+          "1mo": 0.02,
+          "1w": 0.03,
+          "3mo": 0.02
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "drawdown.window?": {
+        "noul": 0.25,
+        "stats": {},
+        "type": "noul"
+      },
+      "intraday_pattern.metric": {
+        "choice": "volume",
+        "confidence": 1.0,
+        "probabilities": {
+          "return": 0.0,
+          "volatility": 0.0,
+          "volume": 1.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "intraday_pattern.metric?": {
+        "noul": 0.23,
+        "stats": {},
+        "type": "noul"
+      },
+      "intraday_pattern.symbol": {
+        "choice": "AAPL",
+        "confidence": 1.0,
+        "probabilities": {
+          "AAPL": 1.0,
+          "AMD": 0.0,
+          "MSFT": 0.0,
+          "NVDA": 0.0,
+          "SPY": 0.0,
+          "TSLA": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "intraday_pattern.window": {
+        "choice": "1d",
+        "confidence": 0.9,
+        "probabilities": {
+          "1d": 0.93,
+          "1mo": 0.01,
+          "1w": 0.04,
+          "3mo": 0.02
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "intraday_pattern.window?": {
+        "noul": 0.3,
+        "stats": {},
+        "type": "noul"
+      },
+      "market_summary.window": {
+        "choice": "1d",
+        "confidence": 0.91,
+        "probabilities": {
+          "1d": 0.93,
+          "1mo": 0.02,
+          "1w": 0.03,
+          "3mo": 0.02
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "market_summary.window?": {
+        "noul": 0.29,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.include_volume": {
+        "noul": 0.99,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.include_volume?": {
+        "noul": 0.99,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.log_scale": {
+        "noul": 0.05,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.log_scale?": {
+        "noul": 0.03,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.moving_average": {
+        "choice": "9",
+        "confidence": 0.26,
+        "probabilities": {
+          "20": 0.39,
+          "50": 0.1,
+          "9": 0.51
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "plot_price.moving_average?": {
+        "noul": 0.08,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.resolution": {
+        "choice": "1d",
+        "confidence": 1.0,
+        "probabilities": {
+          "15m": 0.0,
+          "1d": 1.0,
+          "1h": 0.0,
+          "1m": 0.0,
+          "5m": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "plot_price.resolution?": {
+        "noul": 0.91,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.style": {
+        "choice": "line",
+        "confidence": 0.13,
+        "probabilities": {
+          "candles": 0.43,
+          "line": 0.57
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "plot_price.style?": {
+        "noul": 0.11,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.symbol": {
+        "choice": "AAPL",
+        "confidence": 1.0,
+        "probabilities": {
+          "AAPL": 1.0,
+          "AMD": 0.0,
+          "MSFT": 0.0,
+          "NVDA": 0.0,
+          "SPY": 0.0,
+          "TSLA": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "plot_price.window": {
+        "choice": "1d",
+        "confidence": 0.89,
+        "probabilities": {
+          "1d": 0.91,
+          "1mo": 0.02,
+          "1w": 0.04,
+          "3mo": 0.03
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "plot_price.window?": {
+        "noul": 0.25,
+        "stats": {},
+        "type": "noul"
+      },
+      "rolling_correlation.benchmark": {
+        "choice": "SPY",
+        "confidence": 0.43,
+        "probabilities": {
+          "AAPL": 0.43,
+          "AMD": 0.01,
+          "MSFT": 0.01,
+          "NVDA": 0.01,
+          "SPY": 0.53,
+          "TSLA": 0.01
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "rolling_correlation.benchmark?": {
+        "noul": 0.01,
+        "stats": {},
+        "type": "noul"
+      },
+      "rolling_correlation.resolution": {
+        "choice": "1d",
+        "confidence": 0.99,
+        "probabilities": {
+          "15m": 0.0,
+          "1d": 1.0,
+          "1h": 0.0,
+          "1m": 0.0,
+          "5m": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "rolling_correlation.resolution?": {
+        "noul": 0.07,
+        "stats": {},
+        "type": "noul"
+      },
+      "rolling_correlation.symbol": {
+        "choice": "AAPL",
+        "confidence": 1.0,
+        "probabilities": {
+          "AAPL": 1.0,
+          "AMD": 0.0,
+          "MSFT": 0.0,
+          "NVDA": 0.0,
+          "SPY": 0.0,
+          "TSLA": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "rolling_correlation.window": {
+        "choice": "1d",
+        "confidence": 0.92,
+        "probabilities": {
+          "1d": 0.94,
+          "1mo": 0.01,
+          "1w": 0.03,
+          "3mo": 0.02
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "rolling_correlation.window?": {
+        "noul": 0.25,
+        "stats": {},
+        "type": "noul"
+      },
+      "summary_stats.symbol": {
+        "choice": "AAPL",
+        "confidence": 1.0,
+        "probabilities": {
+          "AAPL": 1.0,
+          "AMD": 0.0,
+          "MSFT": 0.0,
+          "NVDA": 0.0,
+          "SPY": 0.0,
+          "TSLA": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "summary_stats.window": {
+        "choice": "1d",
+        "confidence": 0.9,
+        "probabilities": {
+          "1d": 0.92,
+          "1mo": 0.02,
+          "1w": 0.04,
+          "3mo": 0.02
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "summary_stats.window?": {
+        "noul": 0.25,
+        "stats": {},
+        "type": "noul"
+      },
+      "top_movers.direction": {
+        "choice": "gainers",
+        "confidence": 0.73,
+        "probabilities": {
+          "gainers": 0.86,
+          "losers": 0.14
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "top_movers.window": {
+        "choice": "1d",
+        "confidence": 0.88,
+        "probabilities": {
+          "1d": 0.91,
+          "1mo": 0.02,
+          "1w": 0.05,
+          "3mo": 0.02
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "top_movers.window?": {
+        "noul": 0.26,
+        "stats": {},
+        "type": "noul"
+      },
+      "volatility.annualized": {
+        "noul": 0.1,
+        "stats": {},
+        "type": "noul"
+      },
+      "volatility.annualized?": {
+        "noul": 0.03,
+        "stats": {},
+        "type": "noul"
+      },
+      "volatility.symbol": {
+        "choice": "AAPL",
+        "confidence": 1.0,
+        "probabilities": {
+          "AAPL": 1.0,
+          "AMD": 0.0,
+          "MSFT": 0.0,
+          "NVDA": 0.0,
+          "SPY": 0.0,
+          "TSLA": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "volatility.window": {
+        "choice": "1d",
+        "confidence": 0.9,
+        "probabilities": {
+          "1d": 0.93,
+          "1mo": 0.02,
+          "1w": 0.03,
+          "3mo": 0.02
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "volatility.window?": {
+        "noul": 0.29,
+        "stats": {},
+        "type": "noul"
+      }
+    },
+    "assets_used": null,
+    "model": "toxic_mango_loco",
+    "seconds": 0.52,
+    "usage": {
+      "input_tokens": 3215,
+      "output_tokens": 1685
+    }
+  },
+  "df9e512c4158a4d7607ab8015c5b9c0ea88103522fbae367b34efc2cb6928b79": {
+    "answers": {
+      "__tool__": {
+        "choice": "plot_price",
+        "confidence": 1.0,
+        "probabilities": {
+          "compare_returns": 0.0,
+          "drawdown": 0.0,
+          "intraday_pattern": 0.0,
+          "list_symbols": 0.0,
+          "market_summary": 0.0,
+          "plot_price": 1.0,
+          "rolling_correlation": 0.0,
+          "summary_stats": 0.0,
+          "top_movers": 0.0,
+          "volatility": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "compare_returns.normalize": {
+        "noul": 0.32,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.normalize?": {
+        "noul": 0.06,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.symbols.AAPL": {
+        "noul": 0.02,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.symbols.AMD": {
+        "noul": 0.04,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.symbols.MSFT": {
+        "noul": 0.02,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.symbols.NVDA": {
+        "noul": 0.56,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.symbols.SPY": {
+        "noul": 0.05,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.symbols.TSLA": {
+        "noul": 0.03,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.window": {
+        "choice": "1d",
+        "confidence": 0.48,
+        "probabilities": {
+          "1d": 0.61,
+          "1mo": 0.13,
+          "1w": 0.2,
+          "3mo": 0.06
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "compare_returns.window?": {
+        "noul": 0.22,
+        "stats": {},
+        "type": "noul"
+      },
+      "drawdown.plot": {
+        "noul": 0.24,
+        "stats": {},
+        "type": "noul"
+      },
+      "drawdown.plot?": {
+        "noul": 0.27,
+        "stats": {},
+        "type": "noul"
+      },
+      "drawdown.symbol": {
+        "choice": "NVDA",
+        "confidence": 1.0,
+        "probabilities": {
+          "AAPL": 0.0,
+          "AMD": 0.0,
+          "MSFT": 0.0,
+          "NVDA": 1.0,
+          "SPY": 0.0,
+          "TSLA": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "drawdown.window": {
+        "choice": "1d",
+        "confidence": 0.45,
+        "probabilities": {
+          "1d": 0.58,
+          "1mo": 0.16,
+          "1w": 0.2,
+          "3mo": 0.06
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "drawdown.window?": {
+        "noul": 0.22,
+        "stats": {},
+        "type": "noul"
+      },
+      "intraday_pattern.metric": {
+        "choice": "return",
+        "confidence": 0.35,
+        "probabilities": {
+          "return": 0.5700000000000001,
+          "volatility": 0.35,
+          "volume": 0.08
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "intraday_pattern.metric?": {
+        "noul": 0.06,
+        "stats": {},
+        "type": "noul"
+      },
+      "intraday_pattern.symbol": {
+        "choice": "NVDA",
+        "confidence": 1.0,
+        "probabilities": {
+          "AAPL": 0.0,
+          "AMD": 0.0,
+          "MSFT": 0.0,
+          "NVDA": 1.0,
+          "SPY": 0.0,
+          "TSLA": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "intraday_pattern.window": {
+        "choice": "1d",
+        "confidence": 0.45,
+        "probabilities": {
+          "1d": 0.6,
+          "1mo": 0.16,
+          "1w": 0.18,
+          "3mo": 0.06
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "intraday_pattern.window?": {
+        "noul": 0.22,
+        "stats": {},
+        "type": "noul"
+      },
+      "market_summary.window": {
+        "choice": "1d",
+        "confidence": 0.47,
+        "probabilities": {
+          "1d": 0.6,
+          "1mo": 0.13,
+          "1w": 0.21,
+          "3mo": 0.06
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "market_summary.window?": {
+        "noul": 0.22,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.include_volume": {
+        "noul": 0.13,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.include_volume?": {
+        "noul": 0.03,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.log_scale": {
+        "noul": 0.03,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.log_scale?": {
+        "noul": 0.02,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.moving_average": {
+        "choice": "9",
+        "confidence": 0.34,
+        "probabilities": {
+          "20": 0.29,
+          "50": 0.15,
+          "9": 0.56
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "plot_price.moving_average?": {
+        "noul": 0.07,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.resolution": {
+        "choice": "1h",
+        "confidence": 1.0,
+        "probabilities": {
+          "15m": 0.0,
+          "1d": 0.0,
+          "1h": 1.0,
+          "1m": 0.0,
+          "5m": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "plot_price.resolution?": {
+        "noul": 0.99,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.style": {
+        "choice": "candles",
+        "confidence": 0.37,
+        "probabilities": {
+          "candles": 0.68,
+          "line": 0.32
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "plot_price.style?": {
+        "noul": 0.19,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.symbol": {
+        "choice": "NVDA",
+        "confidence": 1.0,
+        "probabilities": {
+          "AAPL": 0.0,
+          "AMD": 0.0,
+          "MSFT": 0.0,
+          "NVDA": 1.0,
+          "SPY": 0.0,
+          "TSLA": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "plot_price.window": {
+        "choice": "1d",
+        "confidence": 0.38,
+        "probabilities": {
+          "1d": 0.53,
+          "1mo": 0.16,
+          "1w": 0.23,
+          "3mo": 0.08
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "plot_price.window?": {
+        "noul": 0.22,
+        "stats": {},
+        "type": "noul"
+      },
+      "rolling_correlation.benchmark": {
+        "choice": "SPY",
+        "confidence": 0.42,
+        "probabilities": {
+          "AAPL": 0.01,
+          "AMD": 0.03,
+          "MSFT": 0.01,
+          "NVDA": 0.42,
+          "SPY": 0.52,
+          "TSLA": 0.01
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "rolling_correlation.benchmark?": {
+        "noul": 0.01,
+        "stats": {},
+        "type": "noul"
+      },
+      "rolling_correlation.resolution": {
+        "choice": "1h",
+        "confidence": 1.0,
+        "probabilities": {
+          "15m": 0.0,
+          "1d": 0.0,
+          "1h": 1.0,
+          "1m": 0.0,
+          "5m": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "rolling_correlation.resolution?": {
+        "noul": 0.91,
+        "stats": {},
+        "type": "noul"
+      },
+      "rolling_correlation.symbol": {
+        "choice": "NVDA",
+        "confidence": 1.0,
+        "probabilities": {
+          "AAPL": 0.0,
+          "AMD": 0.0,
+          "MSFT": 0.0,
+          "NVDA": 1.0,
+          "SPY": 0.0,
+          "TSLA": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "rolling_correlation.window": {
+        "choice": "1d",
+        "confidence": 0.39,
+        "probabilities": {
+          "1d": 0.55,
+          "1mo": 0.15,
+          "1w": 0.23,
+          "3mo": 0.07
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "rolling_correlation.window?": {
+        "noul": 0.21,
+        "stats": {},
+        "type": "noul"
+      },
+      "summary_stats.symbol": {
+        "choice": "NVDA",
+        "confidence": 1.0,
+        "probabilities": {
+          "AAPL": 0.0,
+          "AMD": 0.0,
+          "MSFT": 0.0,
+          "NVDA": 1.0,
+          "SPY": 0.0,
+          "TSLA": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "summary_stats.window": {
+        "choice": "1d",
+        "confidence": 0.46,
+        "probabilities": {
+          "1d": 0.6,
+          "1mo": 0.14,
+          "1w": 0.19,
+          "3mo": 0.07
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "summary_stats.window?": {
+        "noul": 0.22,
+        "stats": {},
+        "type": "noul"
+      },
+      "top_movers.direction": {
+        "choice": "gainers",
+        "confidence": 0.72,
+        "probabilities": {
+          "gainers": 0.86,
+          "losers": 0.14
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "top_movers.window": {
+        "choice": "1d",
+        "confidence": 0.47,
+        "probabilities": {
+          "1d": 0.6,
+          "1mo": 0.13,
+          "1w": 0.2,
+          "3mo": 0.07
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "top_movers.window?": {
+        "noul": 0.24,
+        "stats": {},
+        "type": "noul"
+      },
+      "volatility.annualized": {
+        "noul": 0.06,
+        "stats": {},
+        "type": "noul"
+      },
+      "volatility.annualized?": {
+        "noul": 0.03,
+        "stats": {},
+        "type": "noul"
+      },
+      "volatility.symbol": {
+        "choice": "NVDA",
+        "confidence": 1.0,
+        "probabilities": {
+          "AAPL": 0.0,
+          "AMD": 0.0,
+          "MSFT": 0.0,
+          "NVDA": 1.0,
+          "SPY": 0.0,
+          "TSLA": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "volatility.window": {
+        "choice": "1d",
+        "confidence": 0.44,
+        "probabilities": {
+          "1d": 0.58,
+          "1mo": 0.12,
+          "1w": 0.23,
+          "3mo": 0.07
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "volatility.window?": {
+        "noul": 0.22,
+        "stats": {},
+        "type": "noul"
+      }
+    },
+    "assets_used": null,
+    "model": "toxic_mango_loco",
+    "seconds": 0.94,
+    "usage": {
+      "input_tokens": 3215,
+      "output_tokens": 1686
+    }
+  },
+  "1eaff9094de390f2a29e5008b721984eaa6d55cec5cbbaedc171e3bc687b292c": {
+    "answers": {
+      "__tool__": {
+        "choice": "market_summary",
+        "confidence": 0.99,
+        "probabilities": {
+          "compare_returns": 0.0,
+          "drawdown": 0.0,
+          "intraday_pattern": 0.0,
+          "list_symbols": 0.0,
+          "market_summary": 0.99,
+          "plot_price": 0.0,
+          "rolling_correlation": 0.0,
+          "summary_stats": 0.01,
+          "top_movers": 0.0,
+          "volatility": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "compare_returns.normalize": {
+        "noul": 0.46,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.normalize?": {
+        "noul": 0.04,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.symbols.AAPL": {
+        "noul": 0.09,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.symbols.AMD": {
+        "noul": 0.04,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.symbols.MSFT": {
+        "noul": 0.07,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.symbols.NVDA": {
+        "noul": 0.07,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.symbols.SPY": {
+        "noul": 0.42,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.symbols.TSLA": {
+        "noul": 0.09,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.window": {
+        "choice": "1w",
+        "confidence": 1.0,
+        "probabilities": {
+          "1d": 0.0,
+          "1mo": 0.0,
+          "1w": 1.0,
+          "3mo": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "compare_returns.window?": {
+        "noul": 0.96,
+        "stats": {},
+        "type": "noul"
+      },
+      "drawdown.plot": {
+        "noul": 0.04,
+        "stats": {},
+        "type": "noul"
+      },
+      "drawdown.plot?": {
+        "noul": 0.08,
+        "stats": {},
+        "type": "noul"
+      },
+      "drawdown.symbol": {
+        "choice": "SPY",
+        "confidence": 1.0,
+        "probabilities": {
+          "AAPL": 0.0,
+          "AMD": 0.0,
+          "MSFT": 0.0,
+          "NVDA": 0.0,
+          "SPY": 1.0,
+          "TSLA": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "drawdown.window": {
+        "choice": "1w",
+        "confidence": 1.0,
+        "probabilities": {
+          "1d": 0.0,
+          "1mo": 0.0,
+          "1w": 1.0,
+          "3mo": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "drawdown.window?": {
+        "noul": 0.97,
+        "stats": {},
+        "type": "noul"
+      },
+      "intraday_pattern.metric": {
+        "choice": "return",
+        "confidence": 0.96,
+        "probabilities": {
+          "return": 0.97,
+          "volatility": 0.02,
+          "volume": 0.01
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "intraday_pattern.metric?": {
+        "noul": 0.13,
+        "stats": {},
+        "type": "noul"
+      },
+      "intraday_pattern.symbol": {
+        "choice": "SPY",
+        "confidence": 1.0,
+        "probabilities": {
+          "AAPL": 0.0,
+          "AMD": 0.0,
+          "MSFT": 0.0,
+          "NVDA": 0.0,
+          "SPY": 1.0,
+          "TSLA": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "intraday_pattern.window": {
+        "choice": "1w",
+        "confidence": 1.0,
+        "probabilities": {
+          "1d": 0.0,
+          "1mo": 0.0,
+          "1w": 1.0,
+          "3mo": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "intraday_pattern.window?": {
+        "noul": 0.96,
+        "stats": {},
+        "type": "noul"
+      },
+      "market_summary.window": {
+        "choice": "1w",
+        "confidence": 1.0,
+        "probabilities": {
+          "1d": 0.0,
+          "1mo": 0.0,
+          "1w": 1.0,
+          "3mo": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "market_summary.window?": {
+        "noul": 0.96,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.include_volume": {
+        "noul": 0.06,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.include_volume?": {
+        "noul": 0.03,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.log_scale": {
+        "noul": 0.0,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.log_scale?": {
+        "noul": 0.01,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.moving_average": {
+        "choice": "9",
+        "confidence": 0.23,
+        "probabilities": {
+          "20": 0.45,
+          "50": 0.07,
+          "9": 0.48
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "plot_price.moving_average?": {
+        "noul": 0.02,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.resolution": {
+        "choice": "1d",
+        "confidence": 0.98,
+        "probabilities": {
+          "15m": 0.0,
+          "1d": 0.99,
+          "1h": 0.01,
+          "1m": 0.0,
+          "5m": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "plot_price.resolution?": {
+        "noul": 0.04,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.style": {
+        "choice": "line",
+        "confidence": 0.26,
+        "probabilities": {
+          "candles": 0.37,
+          "line": 0.63
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "plot_price.style?": {
+        "noul": 0.01,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.symbol": {
+        "choice": "SPY",
+        "confidence": 1.0,
+        "probabilities": {
+          "AAPL": 0.0,
+          "AMD": 0.0,
+          "MSFT": 0.0,
+          "NVDA": 0.0,
+          "SPY": 1.0,
+          "TSLA": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "plot_price.window": {
+        "choice": "1w",
+        "confidence": 1.0,
+        "probabilities": {
+          "1d": 0.0,
+          "1mo": 0.0,
+          "1w": 1.0,
+          "3mo": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "plot_price.window?": {
+        "noul": 0.97,
+        "stats": {},
+        "type": "noul"
+      },
+      "rolling_correlation.benchmark": {
+        "choice": "SPY",
+        "confidence": 0.98,
+        "probabilities": {
+          "AAPL": 0.0,
+          "AMD": 0.0,
+          "MSFT": 0.0,
+          "NVDA": 0.0,
+          "SPY": 0.99,
+          "TSLA": 0.01
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "rolling_correlation.benchmark?": {
+        "noul": 0.01,
+        "stats": {},
+        "type": "noul"
+      },
+      "rolling_correlation.resolution": {
+        "choice": "1d",
+        "confidence": 0.99,
+        "probabilities": {
+          "15m": 0.0,
+          "1d": 1.0,
+          "1h": 0.0,
+          "1m": 0.0,
+          "5m": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "rolling_correlation.resolution?": {
+        "noul": 0.05,
+        "stats": {},
+        "type": "noul"
+      },
+      "rolling_correlation.symbol": {
+        "choice": "SPY",
+        "confidence": 0.99,
+        "probabilities": {
+          "AAPL": 0.0,
+          "AMD": 0.0,
+          "MSFT": 0.0,
+          "NVDA": 0.0,
+          "SPY": 1.0,
+          "TSLA": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "rolling_correlation.window": {
+        "choice": "1w",
+        "confidence": 1.0,
+        "probabilities": {
+          "1d": 0.0,
+          "1mo": 0.0,
+          "1w": 1.0,
+          "3mo": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "rolling_correlation.window?": {
+        "noul": 0.97,
+        "stats": {},
+        "type": "noul"
+      },
+      "summary_stats.symbol": {
+        "choice": "SPY",
+        "confidence": 1.0,
+        "probabilities": {
+          "AAPL": 0.0,
+          "AMD": 0.0,
+          "MSFT": 0.0,
+          "NVDA": 0.0,
+          "SPY": 1.0,
+          "TSLA": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "summary_stats.window": {
+        "choice": "1w",
+        "confidence": 1.0,
+        "probabilities": {
+          "1d": 0.0,
+          "1mo": 0.0,
+          "1w": 1.0,
+          "3mo": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "summary_stats.window?": {
+        "noul": 0.97,
+        "stats": {},
+        "type": "noul"
+      },
+      "top_movers.direction": {
+        "choice": "gainers",
+        "confidence": 0.53,
+        "probabilities": {
+          "gainers": 0.77,
+          "losers": 0.23
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "top_movers.window": {
+        "choice": "1w",
+        "confidence": 1.0,
+        "probabilities": {
+          "1d": 0.0,
+          "1mo": 0.0,
+          "1w": 1.0,
+          "3mo": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "top_movers.window?": {
+        "noul": 0.94,
+        "stats": {},
+        "type": "noul"
+      },
+      "volatility.annualized": {
+        "noul": 0.11,
+        "stats": {},
+        "type": "noul"
+      },
+      "volatility.annualized?": {
+        "noul": 0.01,
+        "stats": {},
+        "type": "noul"
+      },
+      "volatility.symbol": {
+        "choice": "SPY",
+        "confidence": 1.0,
+        "probabilities": {
+          "AAPL": 0.0,
+          "AMD": 0.0,
+          "MSFT": 0.0,
+          "NVDA": 0.0,
+          "SPY": 1.0,
+          "TSLA": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "volatility.window": {
+        "choice": "1w",
+        "confidence": 1.0,
+        "probabilities": {
+          "1d": 0.0,
+          "1mo": 0.0,
+          "1w": 1.0,
+          "3mo": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "volatility.window?": {
+        "noul": 0.96,
+        "stats": {},
+        "type": "noul"
+      }
+    },
+    "assets_used": null,
+    "model": "toxic_mango_loco",
+    "seconds": 0.43,
+    "usage": {
+      "input_tokens": 3216,
+      "output_tokens": 1685
+    }
+  },
+  "7d696a9048fe24da4fd21e0c364f11524392ee5175afdb33d12843b04f966a89": {
+    "answers": {
+      "__tool__": {
+        "choice": "rolling_correlation",
+        "confidence": 0.79,
+        "probabilities": {
+          "compare_returns": 0.01,
+          "drawdown": 0.0,
+          "intraday_pattern": 0.0,
+          "list_symbols": 0.14,
+          "market_summary": 0.01,
+          "plot_price": 0.0,
+          "rolling_correlation": 0.8200000000000001,
+          "summary_stats": 0.0,
+          "top_movers": 0.01,
+          "volatility": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "compare_returns.normalize": {
+        "noul": 0.14,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.normalize?": {
+        "noul": 0.03,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.symbols.AAPL": {
+        "noul": 0.03,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.symbols.AMD": {
+        "noul": 0.92,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.symbols.MSFT": {
+        "noul": 0.05,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.symbols.NVDA": {
+        "noul": 0.82,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.symbols.SPY": {
+        "noul": 0.1,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.symbols.TSLA": {
+        "noul": 0.01,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.window": {
+        "choice": "3mo",
+        "confidence": 0.37,
+        "probabilities": {
+          "1d": 0.22,
+          "1mo": 0.12,
+          "1w": 0.13,
+          "3mo": 0.53
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "compare_returns.window?": {
+        "noul": 0.03,
+        "stats": {},
+        "type": "noul"
+      },
+      "drawdown.plot": {
+        "noul": 0.03,
+        "stats": {},
+        "type": "noul"
+      },
+      "drawdown.plot?": {
+        "noul": 0.05,
+        "stats": {},
+        "type": "noul"
+      },
+      "drawdown.symbol": {
+        "choice": "AMD",
+        "confidence": 0.74,
+        "probabilities": {
+          "AAPL": 0.0,
+          "AMD": 0.79,
+          "MSFT": 0.0,
+          "NVDA": 0.21,
+          "SPY": 0.0,
+          "TSLA": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "drawdown.window": {
+        "choice": "3mo",
+        "confidence": 0.27,
+        "probabilities": {
+          "1d": 0.22,
+          "1mo": 0.11,
+          "1w": 0.22,
+          "3mo": 0.45
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "drawdown.window?": {
+        "noul": 0.04,
+        "stats": {},
+        "type": "noul"
+      },
+      "intraday_pattern.metric": {
+        "choice": "return",
+        "confidence": 0.37,
+        "probabilities": {
+          "return": 0.58,
+          "volatility": 0.07,
+          "volume": 0.35
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "intraday_pattern.metric?": {
+        "noul": 0.06,
+        "stats": {},
+        "type": "noul"
+      },
+      "intraday_pattern.symbol": {
+        "choice": "AMD",
+        "confidence": 0.79,
+        "probabilities": {
+          "AAPL": 0.0,
+          "AMD": 0.83,
+          "MSFT": 0.0,
+          "NVDA": 0.17,
+          "SPY": 0.0,
+          "TSLA": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "intraday_pattern.window": {
+        "choice": "3mo",
+        "confidence": 0.26,
+        "probabilities": {
+          "1d": 0.24,
+          "1mo": 0.12,
+          "1w": 0.2,
+          "3mo": 0.44
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "intraday_pattern.window?": {
+        "noul": 0.04,
+        "stats": {},
+        "type": "noul"
+      },
+      "market_summary.window": {
+        "choice": "3mo",
+        "confidence": 0.25,
+        "probabilities": {
+          "1d": 0.22,
+          "1mo": 0.13,
+          "1w": 0.21,
+          "3mo": 0.44
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "market_summary.window?": {
+        "noul": 0.04,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.include_volume": {
+        "noul": 0.02,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.include_volume?": {
+        "noul": 0.03,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.log_scale": {
+        "noul": 0.0,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.log_scale?": {
+        "noul": 0.01,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.moving_average": {
+        "choice": "20",
+        "confidence": 0.16,
+        "probabilities": {
+          "20": 0.44,
+          "50": 0.17,
+          "9": 0.39
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "plot_price.moving_average?": {
+        "noul": 0.01,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.resolution": {
+        "choice": "1d",
+        "confidence": 0.27,
+        "probabilities": {
+          "15m": 0.12,
+          "1d": 0.41,
+          "1h": 0.1,
+          "1m": 0.24,
+          "5m": 0.13
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "plot_price.resolution?": {
+        "noul": 0.01,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.style": {
+        "choice": "line",
+        "confidence": 0.56,
+        "probabilities": {
+          "candles": 0.22,
+          "line": 0.78
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "plot_price.style?": {
+        "noul": 0.01,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.symbol": {
+        "choice": "AMD",
+        "confidence": 0.74,
+        "probabilities": {
+          "AAPL": 0.0,
+          "AMD": 0.8,
+          "MSFT": 0.0,
+          "NVDA": 0.2,
+          "SPY": 0.0,
+          "TSLA": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "plot_price.window": {
+        "choice": "3mo",
+        "confidence": 0.28,
+        "probabilities": {
+          "1d": 0.21,
+          "1mo": 0.12,
+          "1w": 0.21,
+          "3mo": 0.46
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "plot_price.window?": {
+        "noul": 0.04,
+        "stats": {},
+        "type": "noul"
+      },
+      "rolling_correlation.benchmark": {
+        "choice": "NVDA",
+        "confidence": 0.9,
+        "probabilities": {
+          "AAPL": 0.0,
+          "AMD": 0.08,
+          "MSFT": 0.0,
+          "NVDA": 0.92,
+          "SPY": 0.0,
+          "TSLA": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "rolling_correlation.benchmark?": {
+        "noul": 0.85,
+        "stats": {},
+        "type": "noul"
+      },
+      "rolling_correlation.resolution": {
+        "choice": "1d",
+        "confidence": 0.66,
+        "probabilities": {
+          "15m": 0.05,
+          "1d": 0.73,
+          "1h": 0.04,
+          "1m": 0.13,
+          "5m": 0.05
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "rolling_correlation.resolution?": {
+        "noul": 0.01,
+        "stats": {},
+        "type": "noul"
+      },
+      "rolling_correlation.symbol": {
+        "choice": "AMD",
+        "confidence": 0.84,
+        "probabilities": {
+          "AAPL": 0.0,
+          "AMD": 0.87,
+          "MSFT": 0.0,
+          "NVDA": 0.13,
+          "SPY": 0.0,
+          "TSLA": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "rolling_correlation.window": {
+        "choice": "3mo",
+        "confidence": 0.28,
+        "probabilities": {
+          "1d": 0.26,
+          "1mo": 0.11,
+          "1w": 0.17,
+          "3mo": 0.46
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "rolling_correlation.window?": {
+        "noul": 0.04,
+        "stats": {},
+        "type": "noul"
+      },
+      "summary_stats.symbol": {
+        "choice": "AMD",
+        "confidence": 0.78,
+        "probabilities": {
+          "AAPL": 0.0,
+          "AMD": 0.83,
+          "MSFT": 0.0,
+          "NVDA": 0.17,
+          "SPY": 0.0,
+          "TSLA": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "summary_stats.window": {
+        "choice": "3mo",
+        "confidence": 0.3,
+        "probabilities": {
+          "1d": 0.19,
+          "1mo": 0.12,
+          "1w": 0.21,
+          "3mo": 0.48
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "summary_stats.window?": {
+        "noul": 0.04,
+        "stats": {},
+        "type": "noul"
+      },
+      "top_movers.direction": {
+        "choice": "gainers",
+        "confidence": 0.49,
+        "probabilities": {
+          "gainers": 0.74,
+          "losers": 0.26
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "top_movers.window": {
+        "choice": "3mo",
+        "confidence": 0.26,
+        "probabilities": {
+          "1d": 0.23,
+          "1mo": 0.12,
+          "1w": 0.2,
+          "3mo": 0.45
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "top_movers.window?": {
+        "noul": 0.04,
+        "stats": {},
+        "type": "noul"
+      },
+      "volatility.annualized": {
+        "noul": 0.12,
+        "stats": {},
+        "type": "noul"
+      },
+      "volatility.annualized?": {
+        "noul": 0.02,
+        "stats": {},
+        "type": "noul"
+      },
+      "volatility.symbol": {
+        "choice": "AMD",
+        "confidence": 0.81,
+        "probabilities": {
+          "AAPL": 0.0,
+          "AMD": 0.85,
+          "MSFT": 0.0,
+          "NVDA": 0.15,
+          "SPY": 0.0,
+          "TSLA": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "volatility.window": {
+        "choice": "3mo",
+        "confidence": 0.3,
+        "probabilities": {
+          "1d": 0.22,
+          "1mo": 0.11,
+          "1w": 0.19,
+          "3mo": 0.48
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "volatility.window?": {
+        "noul": 0.04,
+        "stats": {},
+        "type": "noul"
+      }
+    },
+    "assets_used": null,
+    "model": "toxic_mango_loco",
+    "seconds": 0.45,
+    "usage": {
+      "input_tokens": 3215,
+      "output_tokens": 1680
+    }
+  },
+  "271a36e110f3b0eece206f622893bc75886d94686047f7382c3b2564463f6e25": {
+    "answers": {
+      "__tool__": {
+        "choice": "plot_price",
+        "confidence": 0.96,
+        "probabilities": {
+          "compare_returns": 0.0,
+          "drawdown": 0.0,
+          "intraday_pattern": 0.03,
+          "list_symbols": 0.0,
+          "market_summary": 0.0,
+          "plot_price": 0.97,
+          "rolling_correlation": 0.0,
+          "summary_stats": 0.0,
+          "top_movers": 0.0,
+          "volatility": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "compare_returns.normalize": {
+        "noul": 0.26,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.normalize?": {
+        "noul": 0.08,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.symbols.AAPL": {
+        "noul": 0.04,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.symbols.AMD": {
+        "noul": 0.02,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.symbols.MSFT": {
+        "noul": 0.02,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.symbols.NVDA": {
+        "noul": 0.04,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.symbols.SPY": {
+        "noul": 0.09,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.symbols.TSLA": {
+        "noul": 0.95,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.window": {
+        "choice": "3mo",
+        "confidence": 0.44,
+        "probabilities": {
+          "1d": 0.04,
+          "1mo": 0.31,
+          "1w": 0.07,
+          "3mo": 0.58
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "compare_returns.window?": {
+        "noul": 0.37,
+        "stats": {},
+        "type": "noul"
+      },
+      "drawdown.plot": {
+        "noul": 0.13,
+        "stats": {},
+        "type": "noul"
+      },
+      "drawdown.plot?": {
+        "noul": 0.19,
+        "stats": {},
+        "type": "noul"
+      },
+      "drawdown.symbol": {
+        "choice": "TSLA",
+        "confidence": 1.0,
+        "probabilities": {
+          "AAPL": 0.0,
+          "AMD": 0.0,
+          "MSFT": 0.0,
+          "NVDA": 0.0,
+          "SPY": 0.0,
+          "TSLA": 1.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "drawdown.window": {
+        "choice": "3mo",
+        "confidence": 0.48,
+        "probabilities": {
+          "1d": 0.06,
+          "1mo": 0.25,
+          "1w": 0.08,
+          "3mo": 0.61
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "drawdown.window?": {
+        "noul": 0.3,
+        "stats": {},
+        "type": "noul"
+      },
+      "intraday_pattern.metric": {
+        "choice": "return",
+        "confidence": 0.28,
+        "probabilities": {
+          "return": 0.52,
+          "volatility": 0.39,
+          "volume": 0.09
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "intraday_pattern.metric?": {
+        "noul": 0.11,
+        "stats": {},
+        "type": "noul"
+      },
+      "intraday_pattern.symbol": {
+        "choice": "TSLA",
+        "confidence": 1.0,
+        "probabilities": {
+          "AAPL": 0.0,
+          "AMD": 0.0,
+          "MSFT": 0.0,
+          "NVDA": 0.0,
+          "SPY": 0.0,
+          "TSLA": 1.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "intraday_pattern.window": {
+        "choice": "3mo",
+        "confidence": 0.39,
+        "probabilities": {
+          "1d": 0.07,
+          "1mo": 0.3,
+          "1w": 0.08,
+          "3mo": 0.55
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "intraday_pattern.window?": {
+        "noul": 0.39,
+        "stats": {},
+        "type": "noul"
+      },
+      "market_summary.window": {
+        "choice": "3mo",
+        "confidence": 0.43,
+        "probabilities": {
+          "1d": 0.06,
+          "1mo": 0.27,
+          "1w": 0.1,
+          "3mo": 0.57
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "market_summary.window?": {
+        "noul": 0.35,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.include_volume": {
+        "noul": 0.06,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.include_volume?": {
+        "noul": 0.02,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.log_scale": {
+        "noul": 0.02,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.log_scale?": {
+        "noul": 0.01,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.moving_average": {
+        "choice": "20",
+        "confidence": 1.0,
+        "probabilities": {
+          "20": 1.0,
+          "50": 0.0,
+          "9": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "plot_price.moving_average?": {
+        "noul": 0.86,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.resolution": {
+        "choice": "1d",
+        "confidence": 0.43,
+        "probabilities": {
+          "15m": 0.08,
+          "1d": 0.53,
+          "1h": 0.22,
+          "1m": 0.08,
+          "5m": 0.09
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "plot_price.resolution?": {
+        "noul": 0.19,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.style": {
+        "choice": "candles",
+        "confidence": 0.98,
+        "probabilities": {
+          "candles": 0.99,
+          "line": 0.01
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "plot_price.style?": {
+        "noul": 0.94,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.symbol": {
+        "choice": "TSLA",
+        "confidence": 1.0,
+        "probabilities": {
+          "AAPL": 0.0,
+          "AMD": 0.0,
+          "MSFT": 0.0,
+          "NVDA": 0.0,
+          "SPY": 0.0,
+          "TSLA": 1.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "plot_price.window": {
+        "choice": "3mo",
+        "confidence": 0.45,
+        "probabilities": {
+          "1d": 0.06,
+          "1mo": 0.29,
+          "1w": 0.06,
+          "3mo": 0.59
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "plot_price.window?": {
+        "noul": 0.31,
+        "stats": {},
+        "type": "noul"
+      },
+      "rolling_correlation.benchmark": {
+        "choice": "TSLA",
+        "confidence": 0.75,
+        "probabilities": {
+          "AAPL": 0.01,
+          "AMD": 0.01,
+          "MSFT": 0.02,
+          "NVDA": 0.01,
+          "SPY": 0.16,
+          "TSLA": 0.79
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "rolling_correlation.benchmark?": {
+        "noul": 0.02,
+        "stats": {},
+        "type": "noul"
+      },
+      "rolling_correlation.resolution": {
+        "choice": "1d",
+        "confidence": 0.6,
+        "probabilities": {
+          "15m": 0.03,
+          "1d": 0.67,
+          "1h": 0.11,
+          "1m": 0.12,
+          "5m": 0.07
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "rolling_correlation.resolution?": {
+        "noul": 0.36,
+        "stats": {},
+        "type": "noul"
+      },
+      "rolling_correlation.symbol": {
+        "choice": "TSLA",
+        "confidence": 0.99,
+        "probabilities": {
+          "AAPL": 0.0,
+          "AMD": 0.0,
+          "MSFT": 0.0,
+          "NVDA": 0.0,
+          "SPY": 0.0,
+          "TSLA": 1.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "rolling_correlation.window": {
+        "choice": "3mo",
+        "confidence": 0.44,
+        "probabilities": {
+          "1d": 0.06,
+          "1mo": 0.28,
+          "1w": 0.08,
+          "3mo": 0.58
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "rolling_correlation.window?": {
+        "noul": 0.31,
+        "stats": {},
+        "type": "noul"
+      },
+      "summary_stats.symbol": {
+        "choice": "TSLA",
+        "confidence": 1.0,
+        "probabilities": {
+          "AAPL": 0.0,
+          "AMD": 0.0,
+          "MSFT": 0.0,
+          "NVDA": 0.0,
+          "SPY": 0.0,
+          "TSLA": 1.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "summary_stats.window": {
+        "choice": "3mo",
+        "confidence": 0.48,
+        "probabilities": {
+          "1d": 0.06,
+          "1mo": 0.25,
+          "1w": 0.08,
+          "3mo": 0.61
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "summary_stats.window?": {
+        "noul": 0.3,
+        "stats": {},
+        "type": "noul"
+      },
+      "top_movers.direction": {
+        "choice": "gainers",
+        "confidence": 0.54,
+        "probabilities": {
+          "gainers": 0.77,
+          "losers": 0.23
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "top_movers.window": {
+        "choice": "3mo",
+        "confidence": 0.42,
+        "probabilities": {
+          "1d": 0.04,
+          "1mo": 0.33,
+          "1w": 0.07,
+          "3mo": 0.5599999999999999
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "top_movers.window?": {
+        "noul": 0.34,
+        "stats": {},
+        "type": "noul"
+      },
+      "volatility.annualized": {
+        "noul": 0.1,
+        "stats": {},
+        "type": "noul"
+      },
+      "volatility.annualized?": {
+        "noul": 0.02,
+        "stats": {},
+        "type": "noul"
+      },
+      "volatility.symbol": {
+        "choice": "TSLA",
+        "confidence": 1.0,
+        "probabilities": {
+          "AAPL": 0.0,
+          "AMD": 0.0,
+          "MSFT": 0.0,
+          "NVDA": 0.0,
+          "SPY": 0.0,
+          "TSLA": 1.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "volatility.window": {
+        "choice": "3mo",
+        "confidence": 0.43,
+        "probabilities": {
+          "1d": 0.05,
+          "1mo": 0.27,
+          "1w": 0.1,
+          "3mo": 0.58
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "volatility.window?": {
+        "noul": 0.35,
+        "stats": {},
+        "type": "noul"
+      }
+    },
+    "assets_used": null,
+    "model": "toxic_mango_loco",
+    "seconds": 0.42,
+    "usage": {
+      "input_tokens": 3221,
+      "output_tokens": 1686
+    }
+  },
+  "393ae7bbfa8dbce10351f10f5fbcfc1ed3f9ce7b089fedd63a15541d26595360": {
+    "answers": {
+      "__tool__": {
+        "choice": "drawdown",
+        "confidence": 0.82,
+        "probabilities": {
+          "compare_returns": 0.0,
+          "drawdown": 0.84,
+          "intraday_pattern": 0.0,
+          "list_symbols": 0.0,
+          "market_summary": 0.0,
+          "plot_price": 0.16,
+          "rolling_correlation": 0.0,
+          "summary_stats": 0.0,
+          "top_movers": 0.0,
+          "volatility": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "compare_returns.normalize": {
+        "noul": 0.58,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.normalize?": {
+        "noul": 0.12,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.symbols.AAPL": {
+        "noul": 0.02,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.symbols.AMD": {
+        "noul": 0.02,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.symbols.MSFT": {
+        "noul": 0.02,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.symbols.NVDA": {
+        "noul": 0.97,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.symbols.SPY": {
+        "noul": 0.07,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.symbols.TSLA": {
+        "noul": 0.02,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.window": {
+        "choice": "3mo",
+        "confidence": 0.99,
+        "probabilities": {
+          "1d": 0.0,
+          "1mo": 0.01,
+          "1w": 0.0,
+          "3mo": 0.99
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "compare_returns.window?": {
+        "noul": 0.95,
+        "stats": {},
+        "type": "noul"
+      },
+      "drawdown.plot": {
+        "noul": 0.98,
+        "stats": {},
+        "type": "noul"
+      },
+      "drawdown.plot?": {
+        "noul": 0.93,
+        "stats": {},
+        "type": "noul"
+      },
+      "drawdown.symbol": {
+        "choice": "NVDA",
+        "confidence": 1.0,
+        "probabilities": {
+          "AAPL": 0.0,
+          "AMD": 0.0,
+          "MSFT": 0.0,
+          "NVDA": 1.0,
+          "SPY": 0.0,
+          "TSLA": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "drawdown.window": {
+        "choice": "3mo",
+        "confidence": 0.99,
+        "probabilities": {
+          "1d": 0.0,
+          "1mo": 0.01,
+          "1w": 0.0,
+          "3mo": 0.99
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "drawdown.window?": {
+        "noul": 0.95,
+        "stats": {},
+        "type": "noul"
+      },
+      "intraday_pattern.metric": {
+        "choice": "return",
+        "confidence": 0.33,
+        "probabilities": {
+          "return": 0.55,
+          "volatility": 0.44,
+          "volume": 0.01
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "intraday_pattern.metric?": {
+        "noul": 0.29,
+        "stats": {},
+        "type": "noul"
+      },
+      "intraday_pattern.symbol": {
+        "choice": "NVDA",
+        "confidence": 1.0,
+        "probabilities": {
+          "AAPL": 0.0,
+          "AMD": 0.0,
+          "MSFT": 0.0,
+          "NVDA": 1.0,
+          "SPY": 0.0,
+          "TSLA": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "intraday_pattern.window": {
+        "choice": "3mo",
+        "confidence": 0.99,
+        "probabilities": {
+          "1d": 0.0,
+          "1mo": 0.01,
+          "1w": 0.0,
+          "3mo": 0.99
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "intraday_pattern.window?": {
+        "noul": 0.95,
+        "stats": {},
+        "type": "noul"
+      },
+      "market_summary.window": {
+        "choice": "3mo",
+        "confidence": 0.99,
+        "probabilities": {
+          "1d": 0.0,
+          "1mo": 0.01,
+          "1w": 0.0,
+          "3mo": 0.99
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "market_summary.window?": {
+        "noul": 0.95,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.include_volume": {
+        "noul": 0.04,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.include_volume?": {
+        "noul": 0.02,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.log_scale": {
+        "noul": 0.07,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.log_scale?": {
+        "noul": 0.02,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.moving_average": {
+        "choice": "20",
+        "confidence": 0.27,
+        "probabilities": {
+          "20": 0.51,
+          "50": 0.14,
+          "9": 0.35
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "plot_price.moving_average?": {
+        "noul": 0.07,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.resolution": {
+        "choice": "1d",
+        "confidence": 0.7,
+        "probabilities": {
+          "15m": 0.03,
+          "1d": 0.76,
+          "1h": 0.11,
+          "1m": 0.04,
+          "5m": 0.06
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "plot_price.resolution?": {
+        "noul": 0.06,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.style": {
+        "choice": "candles",
+        "confidence": 0.15,
+        "probabilities": {
+          "candles": 0.57,
+          "line": 0.43
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "plot_price.style?": {
+        "noul": 0.08,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.symbol": {
+        "choice": "NVDA",
+        "confidence": 1.0,
+        "probabilities": {
+          "AAPL": 0.0,
+          "AMD": 0.0,
+          "MSFT": 0.0,
+          "NVDA": 1.0,
+          "SPY": 0.0,
+          "TSLA": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "plot_price.window": {
+        "choice": "3mo",
+        "confidence": 0.99,
+        "probabilities": {
+          "1d": 0.0,
+          "1mo": 0.01,
+          "1w": 0.0,
+          "3mo": 0.99
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "plot_price.window?": {
+        "noul": 0.96,
+        "stats": {},
+        "type": "noul"
+      },
+      "rolling_correlation.benchmark": {
+        "choice": "NVDA",
+        "confidence": 0.44,
+        "probabilities": {
+          "AAPL": 0.01,
+          "AMD": 0.03,
+          "MSFT": 0.01,
+          "NVDA": 0.52,
+          "SPY": 0.42,
+          "TSLA": 0.01
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "rolling_correlation.benchmark?": {
+        "noul": 0.01,
+        "stats": {},
+        "type": "noul"
+      },
+      "rolling_correlation.resolution": {
+        "choice": "1d",
+        "confidence": 0.93,
+        "probabilities": {
+          "15m": 0.01,
+          "1d": 0.94,
+          "1h": 0.02,
+          "1m": 0.02,
+          "5m": 0.01
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "rolling_correlation.resolution?": {
+        "noul": 0.09,
+        "stats": {},
+        "type": "noul"
+      },
+      "rolling_correlation.symbol": {
+        "choice": "NVDA",
+        "confidence": 1.0,
+        "probabilities": {
+          "AAPL": 0.0,
+          "AMD": 0.0,
+          "MSFT": 0.0,
+          "NVDA": 1.0,
+          "SPY": 0.0,
+          "TSLA": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "rolling_correlation.window": {
+        "choice": "3mo",
+        "confidence": 0.99,
+        "probabilities": {
+          "1d": 0.0,
+          "1mo": 0.01,
+          "1w": 0.0,
+          "3mo": 0.99
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "rolling_correlation.window?": {
+        "noul": 0.94,
+        "stats": {},
+        "type": "noul"
+      },
+      "summary_stats.symbol": {
+        "choice": "NVDA",
+        "confidence": 1.0,
+        "probabilities": {
+          "AAPL": 0.0,
+          "AMD": 0.0,
+          "MSFT": 0.0,
+          "NVDA": 1.0,
+          "SPY": 0.0,
+          "TSLA": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "summary_stats.window": {
+        "choice": "3mo",
+        "confidence": 0.98,
+        "probabilities": {
+          "1d": 0.0,
+          "1mo": 0.01,
+          "1w": 0.0,
+          "3mo": 0.99
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "summary_stats.window?": {
+        "noul": 0.95,
+        "stats": {},
+        "type": "noul"
+      },
+      "top_movers.direction": {
+        "choice": "losers",
+        "confidence": 0.99,
+        "probabilities": {
+          "gainers": 0.0,
+          "losers": 1.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "top_movers.window": {
+        "choice": "3mo",
+        "confidence": 0.99,
+        "probabilities": {
+          "1d": 0.0,
+          "1mo": 0.01,
+          "1w": 0.0,
+          "3mo": 0.99
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "top_movers.window?": {
+        "noul": 0.95,
+        "stats": {},
+        "type": "noul"
+      },
+      "volatility.annualized": {
+        "noul": 0.22,
+        "stats": {},
+        "type": "noul"
+      },
+      "volatility.annualized?": {
+        "noul": 0.03,
+        "stats": {},
+        "type": "noul"
+      },
+      "volatility.symbol": {
+        "choice": "NVDA",
+        "confidence": 1.0,
+        "probabilities": {
+          "AAPL": 0.0,
+          "AMD": 0.0,
+          "MSFT": 0.0,
+          "NVDA": 1.0,
+          "SPY": 0.0,
+          "TSLA": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "volatility.window": {
+        "choice": "3mo",
+        "confidence": 0.99,
+        "probabilities": {
+          "1d": 0.0,
+          "1mo": 0.01,
+          "1w": 0.0,
+          "3mo": 0.99
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "volatility.window?": {
+        "noul": 0.95,
+        "stats": {},
+        "type": "noul"
+      }
+    },
+    "assets_used": null,
+    "model": "toxic_mango_loco",
+    "seconds": 0.4,
+    "usage": {
+      "input_tokens": 3223,
+      "output_tokens": 1686
+    }
+  },
+  "011c3968b99d5bb03b9b1a02cdb897511a84cfb84126398f0a55289ad200bc51": {
+    "answers": {
+      "__tool__": {
+        "choice": "top_movers",
+        "confidence": 0.88,
+        "probabilities": {
+          "compare_returns": 0.0,
+          "drawdown": 0.0,
+          "intraday_pattern": 0.0,
+          "list_symbols": 0.0,
+          "market_summary": 0.1,
+          "plot_price": 0.0,
+          "rolling_correlation": 0.0,
+          "summary_stats": 0.0,
+          "top_movers": 0.9,
+          "volatility": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "compare_returns.normalize": {
+        "noul": 0.33,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.normalize?": {
+        "noul": 0.05,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.symbols.AAPL": {
+        "noul": 0.2,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.symbols.AMD": {
+        "noul": 0.11,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.symbols.MSFT": {
+        "noul": 0.15,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.symbols.NVDA": {
+        "noul": 0.17,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.symbols.SPY": {
+        "noul": 0.26,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.symbols.TSLA": {
+        "noul": 0.17,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.window": {
+        "choice": "1d",
+        "confidence": 0.99,
+        "probabilities": {
+          "1d": 1.0,
+          "1mo": 0.0,
+          "1w": 0.0,
+          "3mo": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "compare_returns.window?": {
+        "noul": 0.96,
+        "stats": {},
+        "type": "noul"
+      },
+      "drawdown.plot": {
+        "noul": 0.06,
+        "stats": {},
+        "type": "noul"
+      },
+      "drawdown.plot?": {
+        "noul": 0.08,
+        "stats": {},
+        "type": "noul"
+      },
+      "drawdown.symbol": {
+        "choice": "SPY",
+        "confidence": 0.88,
+        "probabilities": {
+          "AAPL": 0.02,
+          "AMD": 0.01,
+          "MSFT": 0.02,
+          "NVDA": 0.03,
+          "SPY": 0.9,
+          "TSLA": 0.02
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "drawdown.window": {
+        "choice": "1d",
+        "confidence": 0.99,
+        "probabilities": {
+          "1d": 1.0,
+          "1mo": 0.0,
+          "1w": 0.0,
+          "3mo": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "drawdown.window?": {
+        "noul": 0.96,
+        "stats": {},
+        "type": "noul"
+      },
+      "intraday_pattern.metric": {
+        "choice": "volume",
+        "confidence": 0.34,
+        "probabilities": {
+          "return": 0.41,
+          "volatility": 0.03,
+          "volume": 0.56
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "intraday_pattern.metric?": {
+        "noul": 0.16,
+        "stats": {},
+        "type": "noul"
+      },
+      "intraday_pattern.symbol": {
+        "choice": "SPY",
+        "confidence": 0.89,
+        "probabilities": {
+          "AAPL": 0.02,
+          "AMD": 0.01,
+          "MSFT": 0.01,
+          "NVDA": 0.03,
+          "SPY": 0.91,
+          "TSLA": 0.02
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "intraday_pattern.window": {
+        "choice": "1d",
+        "confidence": 1.0,
+        "probabilities": {
+          "1d": 1.0,
+          "1mo": 0.0,
+          "1w": 0.0,
+          "3mo": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "intraday_pattern.window?": {
+        "noul": 0.97,
+        "stats": {},
+        "type": "noul"
+      },
+      "market_summary.window": {
+        "choice": "1d",
+        "confidence": 1.0,
+        "probabilities": {
+          "1d": 1.0,
+          "1mo": 0.0,
+          "1w": 0.0,
+          "3mo": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "market_summary.window?": {
+        "noul": 0.97,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.include_volume": {
+        "noul": 0.14,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.include_volume?": {
+        "noul": 0.13,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.log_scale": {
+        "noul": 0.01,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.log_scale?": {
+        "noul": 0.01,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.moving_average": {
+        "choice": "9",
+        "confidence": 0.53,
+        "probabilities": {
+          "20": 0.23,
+          "50": 0.09,
+          "9": 0.68
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "plot_price.moving_average?": {
+        "noul": 0.04,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.resolution": {
+        "choice": "1d",
+        "confidence": 0.77,
+        "probabilities": {
+          "15m": 0.03,
+          "1d": 0.81,
+          "1h": 0.06,
+          "1m": 0.07,
+          "5m": 0.03
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "plot_price.resolution?": {
+        "noul": 0.06,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.style": {
+        "choice": "line",
+        "confidence": 0.05,
+        "probabilities": {
+          "candles": 0.47,
+          "line": 0.53
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "plot_price.style?": {
+        "noul": 0.03,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.symbol": {
+        "choice": "SPY",
+        "confidence": 0.9,
+        "probabilities": {
+          "AAPL": 0.02,
+          "AMD": 0.01,
+          "MSFT": 0.01,
+          "NVDA": 0.02,
+          "SPY": 0.93,
+          "TSLA": 0.01
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "plot_price.window": {
+        "choice": "1d",
+        "confidence": 0.99,
+        "probabilities": {
+          "1d": 1.0,
+          "1mo": 0.0,
+          "1w": 0.0,
+          "3mo": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "plot_price.window?": {
+        "noul": 0.96,
+        "stats": {},
+        "type": "noul"
+      },
+      "rolling_correlation.benchmark": {
+        "choice": "SPY",
+        "confidence": 0.86,
+        "probabilities": {
+          "AAPL": 0.02,
+          "AMD": 0.02,
+          "MSFT": 0.02,
+          "NVDA": 0.03,
+          "SPY": 0.89,
+          "TSLA": 0.02
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "rolling_correlation.benchmark?": {
+        "noul": 0.02,
+        "stats": {},
+        "type": "noul"
+      },
+      "rolling_correlation.resolution": {
+        "choice": "1d",
+        "confidence": 0.89,
+        "probabilities": {
+          "15m": 0.01,
+          "1d": 0.9,
+          "1h": 0.03,
+          "1m": 0.05,
+          "5m": 0.01
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "rolling_correlation.resolution?": {
+        "noul": 0.04,
+        "stats": {},
+        "type": "noul"
+      },
+      "rolling_correlation.symbol": {
+        "choice": "SPY",
+        "confidence": 0.67,
+        "probabilities": {
+          "AAPL": 0.07,
+          "AMD": 0.04,
+          "MSFT": 0.04,
+          "NVDA": 0.08,
+          "SPY": 0.73,
+          "TSLA": 0.04
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "rolling_correlation.window": {
+        "choice": "1d",
+        "confidence": 1.0,
+        "probabilities": {
+          "1d": 1.0,
+          "1mo": 0.0,
+          "1w": 0.0,
+          "3mo": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "rolling_correlation.window?": {
+        "noul": 0.96,
+        "stats": {},
+        "type": "noul"
+      },
+      "summary_stats.symbol": {
+        "choice": "SPY",
+        "confidence": 0.89,
+        "probabilities": {
+          "AAPL": 0.02,
+          "AMD": 0.01,
+          "MSFT": 0.02,
+          "NVDA": 0.03,
+          "SPY": 0.91,
+          "TSLA": 0.01
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "summary_stats.window": {
+        "choice": "1d",
+        "confidence": 0.99,
+        "probabilities": {
+          "1d": 1.0,
+          "1mo": 0.0,
+          "1w": 0.0,
+          "3mo": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "summary_stats.window?": {
+        "noul": 0.97,
+        "stats": {},
+        "type": "noul"
+      },
+      "top_movers.direction": {
+        "choice": "gainers",
+        "confidence": 0.85,
+        "probabilities": {
+          "gainers": 0.92,
+          "losers": 0.08
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "top_movers.window": {
+        "choice": "1d",
+        "confidence": 0.99,
+        "probabilities": {
+          "1d": 1.0,
+          "1mo": 0.0,
+          "1w": 0.0,
+          "3mo": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "top_movers.window?": {
+        "noul": 0.96,
+        "stats": {},
+        "type": "noul"
+      },
+      "volatility.annualized": {
+        "noul": 0.14,
+        "stats": {},
+        "type": "noul"
+      },
+      "volatility.annualized?": {
+        "noul": 0.03,
+        "stats": {},
+        "type": "noul"
+      },
+      "volatility.symbol": {
+        "choice": "SPY",
+        "confidence": 0.91,
+        "probabilities": {
+          "AAPL": 0.01,
+          "AMD": 0.01,
+          "MSFT": 0.01,
+          "NVDA": 0.02,
+          "SPY": 0.93,
+          "TSLA": 0.01
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "volatility.window": {
+        "choice": "1d",
+        "confidence": 1.0,
+        "probabilities": {
+          "1d": 1.0,
+          "1mo": 0.0,
+          "1w": 0.0,
+          "3mo": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "volatility.window?": {
+        "noul": 0.97,
+        "stats": {},
+        "type": "noul"
+      }
+    },
+    "assets_used": null,
+    "model": "toxic_mango_loco",
+    "seconds": 1.07,
+    "usage": {
+      "input_tokens": 3212,
+      "output_tokens": 1686
+    }
+  },
+  "3302f09397206213e5e351ef999cae561ae3182d3582eddda434eb880ed4d7eb": {
+    "answers": {
+      "__tool__": {
+        "choice": "compare_returns",
+        "confidence": 1.0,
+        "probabilities": {
+          "compare_returns": 1.0,
+          "drawdown": 0.0,
+          "intraday_pattern": 0.0,
+          "list_symbols": 0.0,
+          "market_summary": 0.0,
+          "plot_price": 0.0,
+          "rolling_correlation": 0.0,
+          "summary_stats": 0.0,
+          "top_movers": 0.0,
+          "volatility": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "compare_returns.normalize": {
+        "noul": 0.6,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.normalize?": {
+        "noul": 0.05,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.symbols.AAPL": {
+        "noul": 0.02,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.symbols.AMD": {
+        "noul": 0.99,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.symbols.MSFT": {
+        "noul": 0.99,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.symbols.NVDA": {
+        "noul": 0.99,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.symbols.SPY": {
+        "noul": 0.06,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.symbols.TSLA": {
+        "noul": 0.01,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.window": {
+        "choice": "3mo",
+        "confidence": 1.0,
+        "probabilities": {
+          "1d": 0.0,
+          "1mo": 0.0,
+          "1w": 0.0,
+          "3mo": 1.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "compare_returns.window?": {
+        "noul": 0.98,
+        "stats": {},
+        "type": "noul"
+      },
+      "drawdown.plot": {
+        "noul": 0.13,
+        "stats": {},
+        "type": "noul"
+      },
+      "drawdown.plot?": {
+        "noul": 0.09,
+        "stats": {},
+        "type": "noul"
+      },
+      "drawdown.symbol": {
+        "choice": "NVDA",
+        "confidence": 0.78,
+        "probabilities": {
+          "AAPL": 0.0,
+          "AMD": 0.11,
+          "MSFT": 0.06,
+          "NVDA": 0.83,
+          "SPY": 0.0,
+          "TSLA": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "drawdown.window": {
+        "choice": "3mo",
+        "confidence": 1.0,
+        "probabilities": {
+          "1d": 0.0,
+          "1mo": 0.0,
+          "1w": 0.0,
+          "3mo": 1.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "drawdown.window?": {
+        "noul": 0.98,
+        "stats": {},
+        "type": "noul"
+      },
+      "intraday_pattern.metric": {
+        "choice": "return",
+        "confidence": 0.88,
+        "probabilities": {
+          "return": 0.92,
+          "volatility": 0.06,
+          "volume": 0.02
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "intraday_pattern.metric?": {
+        "noul": 0.06,
+        "stats": {},
+        "type": "noul"
+      },
+      "intraday_pattern.symbol": {
+        "choice": "NVDA",
+        "confidence": 0.74,
+        "probabilities": {
+          "AAPL": 0.0,
+          "AMD": 0.15,
+          "MSFT": 0.06,
+          "NVDA": 0.78,
+          "SPY": 0.0,
+          "TSLA": 0.01
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "intraday_pattern.window": {
+        "choice": "3mo",
+        "confidence": 1.0,
+        "probabilities": {
+          "1d": 0.0,
+          "1mo": 0.0,
+          "1w": 0.0,
+          "3mo": 1.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "intraday_pattern.window?": {
+        "noul": 0.98,
+        "stats": {},
+        "type": "noul"
+      },
+      "market_summary.window": {
+        "choice": "3mo",
+        "confidence": 1.0,
+        "probabilities": {
+          "1d": 0.0,
+          "1mo": 0.0,
+          "1w": 0.0,
+          "3mo": 1.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "market_summary.window?": {
+        "noul": 0.98,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.include_volume": {
+        "noul": 0.08,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.include_volume?": {
+        "noul": 0.02,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.log_scale": {
+        "noul": 0.01,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.log_scale?": {
+        "noul": 0.01,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.moving_average": {
+        "choice": "20",
+        "confidence": 0.31,
+        "probabilities": {
+          "20": 0.54,
+          "50": 0.04,
+          "9": 0.42
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "plot_price.moving_average?": {
+        "noul": 0.04,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.resolution": {
+        "choice": "1d",
+        "confidence": 0.87,
+        "probabilities": {
+          "15m": 0.04,
+          "1d": 0.89,
+          "1h": 0.04,
+          "1m": 0.01,
+          "5m": 0.02
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "plot_price.resolution?": {
+        "noul": 0.12,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.style": {
+        "choice": "line",
+        "confidence": 0.54,
+        "probabilities": {
+          "candles": 0.23,
+          "line": 0.77
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "plot_price.style?": {
+        "noul": 0.03,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.symbol": {
+        "choice": "NVDA",
+        "confidence": 0.75,
+        "probabilities": {
+          "AAPL": 0.0,
+          "AMD": 0.11,
+          "MSFT": 0.09,
+          "NVDA": 0.79,
+          "SPY": 0.0,
+          "TSLA": 0.01
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "plot_price.window": {
+        "choice": "3mo",
+        "confidence": 1.0,
+        "probabilities": {
+          "1d": 0.0,
+          "1mo": 0.0,
+          "1w": 0.0,
+          "3mo": 1.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "plot_price.window?": {
+        "noul": 0.98,
+        "stats": {},
+        "type": "noul"
+      },
+      "rolling_correlation.benchmark": {
+        "choice": "AMD",
+        "confidence": 0.3,
+        "probabilities": {
+          "AAPL": 0.0,
+          "AMD": 0.42,
+          "MSFT": 0.34,
+          "NVDA": 0.22,
+          "SPY": 0.01,
+          "TSLA": 0.01
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "rolling_correlation.benchmark?": {
+        "noul": 0.97,
+        "stats": {},
+        "type": "noul"
+      },
+      "rolling_correlation.resolution": {
+        "choice": "1d",
+        "confidence": 0.99,
+        "probabilities": {
+          "15m": 0.0,
+          "1d": 1.0,
+          "1h": 0.0,
+          "1m": 0.0,
+          "5m": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "rolling_correlation.resolution?": {
+        "noul": 0.35,
+        "stats": {},
+        "type": "noul"
+      },
+      "rolling_correlation.symbol": {
+        "choice": "NVDA",
+        "confidence": 0.97,
+        "probabilities": {
+          "AAPL": 0.0,
+          "AMD": 0.02,
+          "MSFT": 0.0,
+          "NVDA": 0.98,
+          "SPY": 0.0,
+          "TSLA": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "rolling_correlation.window": {
+        "choice": "3mo",
+        "confidence": 1.0,
+        "probabilities": {
+          "1d": 0.0,
+          "1mo": 0.0,
+          "1w": 0.0,
+          "3mo": 1.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "rolling_correlation.window?": {
+        "noul": 0.98,
+        "stats": {},
+        "type": "noul"
+      },
+      "summary_stats.symbol": {
+        "choice": "NVDA",
+        "confidence": 0.8,
+        "probabilities": {
+          "AAPL": 0.0,
+          "AMD": 0.09,
+          "MSFT": 0.07,
+          "NVDA": 0.84,
+          "SPY": 0.0,
+          "TSLA": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "summary_stats.window": {
+        "choice": "3mo",
+        "confidence": 1.0,
+        "probabilities": {
+          "1d": 0.0,
+          "1mo": 0.0,
+          "1w": 0.0,
+          "3mo": 1.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "summary_stats.window?": {
+        "noul": 0.98,
+        "stats": {},
+        "type": "noul"
+      },
+      "top_movers.direction": {
+        "choice": "gainers",
+        "confidence": 0.69,
+        "probabilities": {
+          "gainers": 0.84,
+          "losers": 0.16
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "top_movers.window": {
+        "choice": "3mo",
+        "confidence": 1.0,
+        "probabilities": {
+          "1d": 0.0,
+          "1mo": 0.0,
+          "1w": 0.0,
+          "3mo": 1.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "top_movers.window?": {
+        "noul": 0.98,
+        "stats": {},
+        "type": "noul"
+      },
+      "volatility.annualized": {
+        "noul": 0.15,
+        "stats": {},
+        "type": "noul"
+      },
+      "volatility.annualized?": {
+        "noul": 0.02,
+        "stats": {},
+        "type": "noul"
+      },
+      "volatility.symbol": {
+        "choice": "NVDA",
+        "confidence": 0.78,
+        "probabilities": {
+          "AAPL": 0.0,
+          "AMD": 0.1,
+          "MSFT": 0.07,
+          "NVDA": 0.83,
+          "SPY": 0.0,
+          "TSLA": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "volatility.window": {
+        "choice": "3mo",
+        "confidence": 1.0,
+        "probabilities": {
+          "1d": 0.0,
+          "1mo": 0.0,
+          "1w": 0.0,
+          "3mo": 1.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "volatility.window?": {
+        "noul": 0.98,
+        "stats": {},
+        "type": "noul"
+      }
+    },
+    "assets_used": null,
+    "model": "toxic_mango_loco",
+    "seconds": 0.47,
+    "usage": {
+      "input_tokens": 3221,
+      "output_tokens": 1684
+    }
+  },
+  "02f66f35b105d5a04f91e5238e549dec9f3f69fb025269a46ea01acf5cde4b87": {
+    "answers": {
+      "__tool__": {
+        "choice": "top_movers",
+        "confidence": 0.97,
+        "probabilities": {
+          "compare_returns": 0.0,
+          "drawdown": 0.0,
+          "intraday_pattern": 0.0,
+          "list_symbols": 0.0,
+          "market_summary": 0.02,
+          "plot_price": 0.0,
+          "rolling_correlation": 0.0,
+          "summary_stats": 0.0,
+          "top_movers": 0.98,
+          "volatility": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "compare_returns.normalize": {
+        "noul": 0.38,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.normalize?": {
+        "noul": 0.04,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.symbols.AAPL": {
+        "noul": 0.19,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.symbols.AMD": {
+        "noul": 0.15,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.symbols.MSFT": {
+        "noul": 0.18,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.symbols.NVDA": {
+        "noul": 0.15,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.symbols.SPY": {
+        "noul": 0.32,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.symbols.TSLA": {
+        "noul": 0.19,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.window": {
+        "choice": "1d",
+        "confidence": 1.0,
+        "probabilities": {
+          "1d": 1.0,
+          "1mo": 0.0,
+          "1w": 0.0,
+          "3mo": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "compare_returns.window?": {
+        "noul": 0.97,
+        "stats": {},
+        "type": "noul"
+      },
+      "drawdown.plot": {
+        "noul": 0.08,
+        "stats": {},
+        "type": "noul"
+      },
+      "drawdown.plot?": {
+        "noul": 0.09,
+        "stats": {},
+        "type": "noul"
+      },
+      "drawdown.symbol": {
+        "choice": "SPY",
+        "confidence": 0.96,
+        "probabilities": {
+          "AAPL": 0.01,
+          "AMD": 0.01,
+          "MSFT": 0.01,
+          "NVDA": 0.01,
+          "SPY": 0.96,
+          "TSLA": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "drawdown.window": {
+        "choice": "1d",
+        "confidence": 1.0,
+        "probabilities": {
+          "1d": 1.0,
+          "1mo": 0.0,
+          "1w": 0.0,
+          "3mo": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "drawdown.window?": {
+        "noul": 0.97,
+        "stats": {},
+        "type": "noul"
+      },
+      "intraday_pattern.metric": {
+        "choice": "return",
+        "confidence": 0.87,
+        "probabilities": {
+          "return": 0.91,
+          "volatility": 0.05,
+          "volume": 0.04
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "intraday_pattern.metric?": {
+        "noul": 0.17,
+        "stats": {},
+        "type": "noul"
+      },
+      "intraday_pattern.symbol": {
+        "choice": "SPY",
+        "confidence": 0.96,
+        "probabilities": {
+          "AAPL": 0.01,
+          "AMD": 0.01,
+          "MSFT": 0.01,
+          "NVDA": 0.01,
+          "SPY": 0.96,
+          "TSLA": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "intraday_pattern.window": {
+        "choice": "1d",
+        "confidence": 1.0,
+        "probabilities": {
+          "1d": 1.0,
+          "1mo": 0.0,
+          "1w": 0.0,
+          "3mo": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "intraday_pattern.window?": {
+        "noul": 0.98,
+        "stats": {},
+        "type": "noul"
+      },
+      "market_summary.window": {
+        "choice": "1d",
+        "confidence": 1.0,
+        "probabilities": {
+          "1d": 1.0,
+          "1mo": 0.0,
+          "1w": 0.0,
+          "3mo": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "market_summary.window?": {
+        "noul": 0.97,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.include_volume": {
+        "noul": 0.05,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.include_volume?": {
+        "noul": 0.07,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.log_scale": {
+        "noul": 0.01,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.log_scale?": {
+        "noul": 0.01,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.moving_average": {
+        "choice": "9",
+        "confidence": 0.32,
+        "probabilities": {
+          "20": 0.33,
+          "50": 0.13,
+          "9": 0.54
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "plot_price.moving_average?": {
+        "noul": 0.02,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.resolution": {
+        "choice": "1d",
+        "confidence": 0.42,
+        "probabilities": {
+          "15m": 0.04,
+          "1d": 0.53,
+          "1h": 0.04,
+          "1m": 0.28,
+          "5m": 0.11
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "plot_price.resolution?": {
+        "noul": 0.38,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.style": {
+        "choice": "candles",
+        "confidence": 0.03,
+        "probabilities": {
+          "candles": 0.52,
+          "line": 0.48
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "plot_price.style?": {
+        "noul": 0.02,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.symbol": {
+        "choice": "SPY",
+        "confidence": 0.96,
+        "probabilities": {
+          "AAPL": 0.01,
+          "AMD": 0.01,
+          "MSFT": 0.01,
+          "NVDA": 0.01,
+          "SPY": 0.96,
+          "TSLA": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "plot_price.window": {
+        "choice": "1d",
+        "confidence": 1.0,
+        "probabilities": {
+          "1d": 1.0,
+          "1mo": 0.0,
+          "1w": 0.0,
+          "3mo": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "plot_price.window?": {
+        "noul": 0.97,
+        "stats": {},
+        "type": "noul"
+      },
+      "rolling_correlation.benchmark": {
+        "choice": "SPY",
+        "confidence": 0.88,
+        "probabilities": {
+          "AAPL": 0.02,
+          "AMD": 0.02,
+          "MSFT": 0.01,
+          "NVDA": 0.03,
+          "SPY": 0.91,
+          "TSLA": 0.01
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "rolling_correlation.benchmark?": {
+        "noul": 0.02,
+        "stats": {},
+        "type": "noul"
+      },
+      "rolling_correlation.resolution": {
+        "choice": "1d",
+        "confidence": 0.86,
+        "probabilities": {
+          "15m": 0.01,
+          "1d": 0.89,
+          "1h": 0.01,
+          "1m": 0.07,
+          "5m": 0.02
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "rolling_correlation.resolution?": {
+        "noul": 0.04,
+        "stats": {},
+        "type": "noul"
+      },
+      "rolling_correlation.symbol": {
+        "choice": "SPY",
+        "confidence": 0.9,
+        "probabilities": {
+          "AAPL": 0.02,
+          "AMD": 0.02,
+          "MSFT": 0.01,
+          "NVDA": 0.02,
+          "SPY": 0.92,
+          "TSLA": 0.01
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "rolling_correlation.window": {
+        "choice": "1d",
+        "confidence": 1.0,
+        "probabilities": {
+          "1d": 1.0,
+          "1mo": 0.0,
+          "1w": 0.0,
+          "3mo": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "rolling_correlation.window?": {
+        "noul": 0.97,
+        "stats": {},
+        "type": "noul"
+      },
+      "summary_stats.symbol": {
+        "choice": "SPY",
+        "confidence": 0.97,
+        "probabilities": {
+          "AAPL": 0.01,
+          "AMD": 0.01,
+          "MSFT": 0.01,
+          "NVDA": 0.01,
+          "SPY": 0.96,
+          "TSLA": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "summary_stats.window": {
+        "choice": "1d",
+        "confidence": 1.0,
+        "probabilities": {
+          "1d": 1.0,
+          "1mo": 0.0,
+          "1w": 0.0,
+          "3mo": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "summary_stats.window?": {
+        "noul": 0.97,
+        "stats": {},
+        "type": "noul"
+      },
+      "top_movers.direction": {
+        "choice": "losers",
+        "confidence": 0.99,
+        "probabilities": {
+          "gainers": 0.01,
+          "losers": 0.99
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "top_movers.window": {
+        "choice": "1d",
+        "confidence": 1.0,
+        "probabilities": {
+          "1d": 1.0,
+          "1mo": 0.0,
+          "1w": 0.0,
+          "3mo": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "top_movers.window?": {
+        "noul": 0.98,
+        "stats": {},
+        "type": "noul"
+      },
+      "volatility.annualized": {
+        "noul": 0.16,
+        "stats": {},
+        "type": "noul"
+      },
+      "volatility.annualized?": {
+        "noul": 0.02,
+        "stats": {},
+        "type": "noul"
+      },
+      "volatility.symbol": {
+        "choice": "SPY",
+        "confidence": 0.97,
+        "probabilities": {
+          "AAPL": 0.0,
+          "AMD": 0.0,
+          "MSFT": 0.0,
+          "NVDA": 0.01,
+          "SPY": 0.99,
+          "TSLA": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "volatility.window": {
+        "choice": "1d",
+        "confidence": 1.0,
+        "probabilities": {
+          "1d": 1.0,
+          "1mo": 0.0,
+          "1w": 0.0,
+          "3mo": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "volatility.window?": {
+        "noul": 0.97,
+        "stats": {},
+        "type": "noul"
+      }
+    },
+    "assets_used": null,
+    "model": "toxic_mango_loco",
+    "seconds": 0.56,
+    "usage": {
+      "input_tokens": 3213,
+      "output_tokens": 1687
+    }
+  },
+  "05fd1b3979b392f97612538640b1ddad5d78a16f751e32c91e9b6e9605c325fb": {
+    "answers": {
+      "__tool__": {
+        "choice": "summary_stats",
+        "confidence": 0.86,
+        "probabilities": {
+          "compare_returns": 0.0,
+          "drawdown": 0.0,
+          "intraday_pattern": 0.0,
+          "list_symbols": 0.01,
+          "market_summary": 0.1,
+          "plot_price": 0.0,
+          "rolling_correlation": 0.0,
+          "summary_stats": 0.88,
+          "top_movers": 0.01,
+          "volatility": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "compare_returns.normalize": {
+        "noul": 0.34,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.normalize?": {
+        "noul": 0.04,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.symbols.AAPL": {
+        "noul": 0.1,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.symbols.AMD": {
+        "noul": 0.06,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.symbols.MSFT": {
+        "noul": 0.1,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.symbols.NVDA": {
+        "noul": 0.08,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.symbols.SPY": {
+        "noul": 0.81,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.symbols.TSLA": {
+        "noul": 0.08,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.window": {
+        "choice": "1mo",
+        "confidence": 1.0,
+        "probabilities": {
+          "1d": 0.0,
+          "1mo": 1.0,
+          "1w": 0.0,
+          "3mo": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "compare_returns.window?": {
+        "noul": 0.99,
+        "stats": {},
+        "type": "noul"
+      },
+      "drawdown.plot": {
+        "noul": 0.1,
+        "stats": {},
+        "type": "noul"
+      },
+      "drawdown.plot?": {
+        "noul": 0.1,
+        "stats": {},
+        "type": "noul"
+      },
+      "drawdown.symbol": {
+        "choice": "SPY",
+        "confidence": 1.0,
+        "probabilities": {
+          "AAPL": 0.0,
+          "AMD": 0.0,
+          "MSFT": 0.0,
+          "NVDA": 0.0,
+          "SPY": 1.0,
+          "TSLA": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "drawdown.window": {
+        "choice": "1mo",
+        "confidence": 1.0,
+        "probabilities": {
+          "1d": 0.0,
+          "1mo": 1.0,
+          "1w": 0.0,
+          "3mo": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "drawdown.window?": {
+        "noul": 0.99,
+        "stats": {},
+        "type": "noul"
+      },
+      "intraday_pattern.metric": {
+        "choice": "volume",
+        "confidence": 0.52,
+        "probabilities": {
+          "return": 0.07,
+          "volatility": 0.25,
+          "volume": 0.68
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "intraday_pattern.metric?": {
+        "noul": 0.08,
+        "stats": {},
+        "type": "noul"
+      },
+      "intraday_pattern.symbol": {
+        "choice": "SPY",
+        "confidence": 1.0,
+        "probabilities": {
+          "AAPL": 0.0,
+          "AMD": 0.0,
+          "MSFT": 0.0,
+          "NVDA": 0.0,
+          "SPY": 1.0,
+          "TSLA": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "intraday_pattern.window": {
+        "choice": "1mo",
+        "confidence": 1.0,
+        "probabilities": {
+          "1d": 0.0,
+          "1mo": 1.0,
+          "1w": 0.0,
+          "3mo": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "intraday_pattern.window?": {
+        "noul": 0.99,
+        "stats": {},
+        "type": "noul"
+      },
+      "market_summary.window": {
+        "choice": "1mo",
+        "confidence": 1.0,
+        "probabilities": {
+          "1d": 0.0,
+          "1mo": 1.0,
+          "1w": 0.0,
+          "3mo": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "market_summary.window?": {
+        "noul": 0.99,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.include_volume": {
+        "noul": 0.11,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.include_volume?": {
+        "noul": 0.21,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.log_scale": {
+        "noul": 0.0,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.log_scale?": {
+        "noul": 0.01,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.moving_average": {
+        "choice": "20",
+        "confidence": 0.18,
+        "probabilities": {
+          "20": 0.46,
+          "50": 0.14,
+          "9": 0.4
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "plot_price.moving_average?": {
+        "noul": 0.04,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.resolution": {
+        "choice": "1d",
+        "confidence": 0.65,
+        "probabilities": {
+          "15m": 0.04,
+          "1d": 0.73,
+          "1h": 0.19,
+          "1m": 0.02,
+          "5m": 0.02
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "plot_price.resolution?": {
+        "noul": 0.17,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.style": {
+        "choice": "line",
+        "confidence": 0.59,
+        "probabilities": {
+          "candles": 0.2,
+          "line": 0.8
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "plot_price.style?": {
+        "noul": 0.02,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.symbol": {
+        "choice": "SPY",
+        "confidence": 1.0,
+        "probabilities": {
+          "AAPL": 0.0,
+          "AMD": 0.0,
+          "MSFT": 0.0,
+          "NVDA": 0.0,
+          "SPY": 1.0,
+          "TSLA": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "plot_price.window": {
+        "choice": "1mo",
+        "confidence": 1.0,
+        "probabilities": {
+          "1d": 0.0,
+          "1mo": 1.0,
+          "1w": 0.0,
+          "3mo": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "plot_price.window?": {
+        "noul": 0.99,
+        "stats": {},
+        "type": "noul"
+      },
+      "rolling_correlation.benchmark": {
+        "choice": "SPY",
+        "confidence": 0.95,
+        "probabilities": {
+          "AAPL": 0.01,
+          "AMD": 0.01,
+          "MSFT": 0.01,
+          "NVDA": 0.01,
+          "SPY": 0.95,
+          "TSLA": 0.01
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "rolling_correlation.benchmark?": {
+        "noul": 0.01,
+        "stats": {},
+        "type": "noul"
+      },
+      "rolling_correlation.resolution": {
+        "choice": "1d",
+        "confidence": 0.78,
+        "probabilities": {
+          "15m": 0.02,
+          "1d": 0.83,
+          "1h": 0.06,
+          "1m": 0.07,
+          "5m": 0.02
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "rolling_correlation.resolution?": {
+        "noul": 0.08,
+        "stats": {},
+        "type": "noul"
+      },
+      "rolling_correlation.symbol": {
+        "choice": "SPY",
+        "confidence": 1.0,
+        "probabilities": {
+          "AAPL": 0.0,
+          "AMD": 0.0,
+          "MSFT": 0.0,
+          "NVDA": 0.0,
+          "SPY": 1.0,
+          "TSLA": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "rolling_correlation.window": {
+        "choice": "1mo",
+        "confidence": 1.0,
+        "probabilities": {
+          "1d": 0.0,
+          "1mo": 1.0,
+          "1w": 0.0,
+          "3mo": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "rolling_correlation.window?": {
+        "noul": 0.99,
+        "stats": {},
+        "type": "noul"
+      },
+      "summary_stats.symbol": {
+        "choice": "SPY",
+        "confidence": 1.0,
+        "probabilities": {
+          "AAPL": 0.0,
+          "AMD": 0.0,
+          "MSFT": 0.0,
+          "NVDA": 0.0,
+          "SPY": 1.0,
+          "TSLA": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "summary_stats.window": {
+        "choice": "1mo",
+        "confidence": 1.0,
+        "probabilities": {
+          "1d": 0.0,
+          "1mo": 1.0,
+          "1w": 0.0,
+          "3mo": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "summary_stats.window?": {
+        "noul": 0.99,
+        "stats": {},
+        "type": "noul"
+      },
+      "top_movers.direction": {
+        "choice": "gainers",
+        "confidence": 0.53,
+        "probabilities": {
+          "gainers": 0.77,
+          "losers": 0.23
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "top_movers.window": {
+        "choice": "1mo",
+        "confidence": 1.0,
+        "probabilities": {
+          "1d": 0.0,
+          "1mo": 1.0,
+          "1w": 0.0,
+          "3mo": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "top_movers.window?": {
+        "noul": 0.99,
+        "stats": {},
+        "type": "noul"
+      },
+      "volatility.annualized": {
+        "noul": 0.17,
+        "stats": {},
+        "type": "noul"
+      },
+      "volatility.annualized?": {
+        "noul": 0.02,
+        "stats": {},
+        "type": "noul"
+      },
+      "volatility.symbol": {
+        "choice": "SPY",
+        "confidence": 1.0,
+        "probabilities": {
+          "AAPL": 0.0,
+          "AMD": 0.0,
+          "MSFT": 0.0,
+          "NVDA": 0.0,
+          "SPY": 1.0,
+          "TSLA": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "volatility.window": {
+        "choice": "1mo",
+        "confidence": 1.0,
+        "probabilities": {
+          "1d": 0.0,
+          "1mo": 1.0,
+          "1w": 0.0,
+          "3mo": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "volatility.window?": {
+        "noul": 0.99,
+        "stats": {},
+        "type": "noul"
+      }
+    },
+    "assets_used": null,
+    "model": "toxic_mango_loco",
+    "seconds": 0.43,
+    "usage": {
+      "input_tokens": 3215,
+      "output_tokens": 1685
+    }
+  },
+  "0102df4b5c3cd7b0d37df08843d0f7a5f7314e8226da3d33cc3051759c439f7b": {
+    "answers": {
+      "__tool__": {
+        "choice": "list_symbols",
+        "confidence": 1.0,
+        "probabilities": {
+          "compare_returns": 0.0,
+          "drawdown": 0.0,
+          "intraday_pattern": 0.0,
+          "list_symbols": 1.0,
+          "market_summary": 0.0,
+          "plot_price": 0.0,
+          "rolling_correlation": 0.0,
+          "summary_stats": 0.0,
+          "top_movers": 0.0,
+          "volatility": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "compare_returns.normalize": {
+        "noul": 0.21,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.normalize?": {
+        "noul": 0.03,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.symbols.AAPL": {
+        "noul": 0.18,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.symbols.AMD": {
+        "noul": 0.15,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.symbols.MSFT": {
+        "noul": 0.17,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.symbols.NVDA": {
+        "noul": 0.19,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.symbols.SPY": {
+        "noul": 0.25,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.symbols.TSLA": {
+        "noul": 0.15,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.window": {
+        "choice": "1d",
+        "confidence": 0.77,
+        "probabilities": {
+          "1d": 0.84,
+          "1mo": 0.02,
+          "1w": 0.02,
+          "3mo": 0.12
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "compare_returns.window?": {
+        "noul": 0.02,
+        "stats": {},
+        "type": "noul"
+      },
+      "drawdown.plot": {
+        "noul": 0.04,
+        "stats": {},
+        "type": "noul"
+      },
+      "drawdown.plot?": {
+        "noul": 0.07,
+        "stats": {},
+        "type": "noul"
+      },
+      "drawdown.symbol": {
+        "choice": "SPY",
+        "confidence": 0.86,
+        "probabilities": {
+          "AAPL": 0.04,
+          "AMD": 0.02,
+          "MSFT": 0.02,
+          "NVDA": 0.02,
+          "SPY": 0.88,
+          "TSLA": 0.02
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "drawdown.window": {
+        "choice": "1d",
+        "confidence": 0.82,
+        "probabilities": {
+          "1d": 0.86,
+          "1mo": 0.02,
+          "1w": 0.02,
+          "3mo": 0.1
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "drawdown.window?": {
+        "noul": 0.01,
+        "stats": {},
+        "type": "noul"
+      },
+      "intraday_pattern.metric": {
+        "choice": "return",
+        "confidence": 0.15,
+        "probabilities": {
+          "return": 0.43,
+          "volatility": 0.14,
+          "volume": 0.43
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "intraday_pattern.metric?": {
+        "noul": 0.09,
+        "stats": {},
+        "type": "noul"
+      },
+      "intraday_pattern.symbol": {
+        "choice": "SPY",
+        "confidence": 0.85,
+        "probabilities": {
+          "AAPL": 0.04,
+          "AMD": 0.02,
+          "MSFT": 0.03,
+          "NVDA": 0.02,
+          "SPY": 0.87,
+          "TSLA": 0.02
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "intraday_pattern.window": {
+        "choice": "1d",
+        "confidence": 0.83,
+        "probabilities": {
+          "1d": 0.87,
+          "1mo": 0.02,
+          "1w": 0.02,
+          "3mo": 0.09
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "intraday_pattern.window?": {
+        "noul": 0.01,
+        "stats": {},
+        "type": "noul"
+      },
+      "market_summary.window": {
+        "choice": "1d",
+        "confidence": 0.79,
+        "probabilities": {
+          "1d": 0.84,
+          "1mo": 0.02,
+          "1w": 0.02,
+          "3mo": 0.12
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "market_summary.window?": {
+        "noul": 0.01,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.include_volume": {
+        "noul": 0.04,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.include_volume?": {
+        "noul": 0.02,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.log_scale": {
+        "noul": 0.01,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.log_scale?": {
+        "noul": 0.01,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.moving_average": {
+        "choice": "20",
+        "confidence": 0.27,
+        "probabilities": {
+          "20": 0.51,
+          "50": 0.11,
+          "9": 0.38
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "plot_price.moving_average?": {
+        "noul": 0.02,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.resolution": {
+        "choice": "1d",
+        "confidence": 0.39,
+        "probabilities": {
+          "15m": 0.1,
+          "1d": 0.51,
+          "1h": 0.09,
+          "1m": 0.19,
+          "5m": 0.11
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "plot_price.resolution?": {
+        "noul": 0.01,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.style": {
+        "choice": "line",
+        "confidence": 0.46,
+        "probabilities": {
+          "candles": 0.27,
+          "line": 0.73
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "plot_price.style?": {
+        "noul": 0.01,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.symbol": {
+        "choice": "SPY",
+        "confidence": 0.88,
+        "probabilities": {
+          "AAPL": 0.03,
+          "AMD": 0.01,
+          "MSFT": 0.02,
+          "NVDA": 0.02,
+          "SPY": 0.9,
+          "TSLA": 0.02
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "plot_price.window": {
+        "choice": "1d",
+        "confidence": 0.81,
+        "probabilities": {
+          "1d": 0.85,
+          "1mo": 0.02,
+          "1w": 0.02,
+          "3mo": 0.11
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "plot_price.window?": {
+        "noul": 0.02,
+        "stats": {},
+        "type": "noul"
+      },
+      "rolling_correlation.benchmark": {
+        "choice": "SPY",
+        "confidence": 0.83,
+        "probabilities": {
+          "AAPL": 0.04,
+          "AMD": 0.02,
+          "MSFT": 0.03,
+          "NVDA": 0.03,
+          "SPY": 0.86,
+          "TSLA": 0.02
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "rolling_correlation.benchmark?": {
+        "noul": 0.02,
+        "stats": {},
+        "type": "noul"
+      },
+      "rolling_correlation.resolution": {
+        "choice": "1d",
+        "confidence": 0.65,
+        "probabilities": {
+          "15m": 0.04,
+          "1d": 0.72,
+          "1h": 0.04,
+          "1m": 0.15,
+          "5m": 0.05
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "rolling_correlation.resolution?": {
+        "noul": 0.01,
+        "stats": {},
+        "type": "noul"
+      },
+      "rolling_correlation.symbol": {
+        "choice": "SPY",
+        "confidence": 0.62,
+        "probabilities": {
+          "AAPL": 0.16,
+          "AMD": 0.03,
+          "MSFT": 0.05,
+          "NVDA": 0.04,
+          "SPY": 0.6799999999999999,
+          "TSLA": 0.04
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "rolling_correlation.window": {
+        "choice": "1d",
+        "confidence": 0.8,
+        "probabilities": {
+          "1d": 0.85,
+          "1mo": 0.02,
+          "1w": 0.02,
+          "3mo": 0.11
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "rolling_correlation.window?": {
+        "noul": 0.01,
+        "stats": {},
+        "type": "noul"
+      },
+      "summary_stats.symbol": {
+        "choice": "SPY",
+        "confidence": 0.84,
+        "probabilities": {
+          "AAPL": 0.05,
+          "AMD": 0.02,
+          "MSFT": 0.03,
+          "NVDA": 0.02,
+          "SPY": 0.86,
+          "TSLA": 0.02
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "summary_stats.window": {
+        "choice": "1d",
+        "confidence": 0.73,
+        "probabilities": {
+          "1d": 0.8,
+          "1mo": 0.02,
+          "1w": 0.02,
+          "3mo": 0.16
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "summary_stats.window?": {
+        "noul": 0.01,
+        "stats": {},
+        "type": "noul"
+      },
+      "top_movers.direction": {
+        "choice": "gainers",
+        "confidence": 0.69,
+        "probabilities": {
+          "gainers": 0.85,
+          "losers": 0.15
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "top_movers.window": {
+        "choice": "1d",
+        "confidence": 0.78,
+        "probabilities": {
+          "1d": 0.84,
+          "1mo": 0.02,
+          "1w": 0.02,
+          "3mo": 0.12
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "top_movers.window?": {
+        "noul": 0.02,
+        "stats": {},
+        "type": "noul"
+      },
+      "volatility.annualized": {
+        "noul": 0.15,
+        "stats": {},
+        "type": "noul"
+      },
+      "volatility.annualized?": {
+        "noul": 0.02,
+        "stats": {},
+        "type": "noul"
+      },
+      "volatility.symbol": {
+        "choice": "SPY",
+        "confidence": 0.87,
+        "probabilities": {
+          "AAPL": 0.04,
+          "AMD": 0.01,
+          "MSFT": 0.02,
+          "NVDA": 0.02,
+          "SPY": 0.89,
+          "TSLA": 0.02
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "volatility.window": {
+        "choice": "1d",
+        "confidence": 0.79,
+        "probabilities": {
+          "1d": 0.85,
+          "1mo": 0.02,
+          "1w": 0.02,
+          "3mo": 0.11
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "volatility.window?": {
+        "noul": 0.01,
+        "stats": {},
+        "type": "noul"
+      }
+    },
+    "assets_used": null,
+    "model": "toxic_mango_loco",
+    "seconds": 0.45,
+    "usage": {
+      "input_tokens": 3215,
+      "output_tokens": 1685
+    }
+  },
+  "837ff0674369fb5b571c9a1bde7229ddebf5cdd67044ca90c95b44f78e6140ed": {
+    "answers": {
+      "__tool__": {
+        "choice": "intraday_pattern",
+        "confidence": 1.0,
+        "probabilities": {
+          "compare_returns": 0.0,
+          "drawdown": 0.0,
+          "intraday_pattern": 1.0,
+          "list_symbols": 0.0,
+          "market_summary": 0.0,
+          "plot_price": 0.0,
+          "rolling_correlation": 0.0,
+          "summary_stats": 0.0,
+          "top_movers": 0.0,
+          "volatility": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "compare_returns.normalize": {
+        "noul": 0.1,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.normalize?": {
+        "noul": 0.03,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.symbols.AAPL": {
+        "noul": 0.03,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.symbols.AMD": {
+        "noul": 0.05,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.symbols.MSFT": {
+        "noul": 0.02,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.symbols.NVDA": {
+        "noul": 0.86,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.symbols.SPY": {
+        "noul": 0.05,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.symbols.TSLA": {
+        "noul": 0.03,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.window": {
+        "choice": "1d",
+        "confidence": 0.37,
+        "probabilities": {
+          "1d": 0.53,
+          "1mo": 0.06,
+          "1w": 0.03,
+          "3mo": 0.38
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "compare_returns.window?": {
+        "noul": 0.03,
+        "stats": {},
+        "type": "noul"
+      },
+      "drawdown.plot": {
+        "noul": 0.02,
+        "stats": {},
+        "type": "noul"
+      },
+      "drawdown.plot?": {
+        "noul": 0.17,
+        "stats": {},
+        "type": "noul"
+      },
+      "drawdown.symbol": {
+        "choice": "NVDA",
+        "confidence": 1.0,
+        "probabilities": {
+          "AAPL": 0.0,
+          "AMD": 0.0,
+          "MSFT": 0.0,
+          "NVDA": 1.0,
+          "SPY": 0.0,
+          "TSLA": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "drawdown.window": {
+        "choice": "1d",
+        "confidence": 0.28,
+        "probabilities": {
+          "1d": 0.47000000000000003,
+          "1mo": 0.08,
+          "1w": 0.03,
+          "3mo": 0.42
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "drawdown.window?": {
+        "noul": 0.03,
+        "stats": {},
+        "type": "noul"
+      },
+      "intraday_pattern.metric": {
+        "choice": "volume",
+        "confidence": 1.0,
+        "probabilities": {
+          "return": 0.0,
+          "volatility": 0.0,
+          "volume": 1.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "intraday_pattern.metric?": {
+        "noul": 0.47,
+        "stats": {},
+        "type": "noul"
+      },
+      "intraday_pattern.symbol": {
+        "choice": "NVDA",
+        "confidence": 1.0,
+        "probabilities": {
+          "AAPL": 0.0,
+          "AMD": 0.0,
+          "MSFT": 0.0,
+          "NVDA": 1.0,
+          "SPY": 0.0,
+          "TSLA": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "intraday_pattern.window": {
+        "choice": "3mo",
+        "confidence": 0.32,
+        "probabilities": {
+          "1d": 0.4,
+          "1mo": 0.07,
+          "1w": 0.03,
+          "3mo": 0.5
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "intraday_pattern.window?": {
+        "noul": 0.04,
+        "stats": {},
+        "type": "noul"
+      },
+      "market_summary.window": {
+        "choice": "3mo",
+        "confidence": 0.35,
+        "probabilities": {
+          "1d": 0.37,
+          "1mo": 0.09,
+          "1w": 0.03,
+          "3mo": 0.51
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "market_summary.window?": {
+        "noul": 0.03,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.include_volume": {
+        "noul": 0.05,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.include_volume?": {
+        "noul": 0.13,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.log_scale": {
+        "noul": 0.0,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.log_scale?": {
+        "noul": 0.01,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.moving_average": {
+        "choice": "20",
+        "confidence": 0.35,
+        "probabilities": {
+          "20": 0.57,
+          "50": 0.13,
+          "9": 0.3
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "plot_price.moving_average?": {
+        "noul": 0.01,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.resolution": {
+        "choice": "1h",
+        "confidence": 0.54,
+        "probabilities": {
+          "15m": 0.09,
+          "1d": 0.14,
+          "1h": 0.64,
+          "1m": 0.08,
+          "5m": 0.05
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "plot_price.resolution?": {
+        "noul": 0.03,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.style": {
+        "choice": "line",
+        "confidence": 0.28,
+        "probabilities": {
+          "candles": 0.36,
+          "line": 0.64
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "plot_price.style?": {
+        "noul": 0.01,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.symbol": {
+        "choice": "NVDA",
+        "confidence": 1.0,
+        "probabilities": {
+          "AAPL": 0.0,
+          "AMD": 0.0,
+          "MSFT": 0.0,
+          "NVDA": 1.0,
+          "SPY": 0.0,
+          "TSLA": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "plot_price.window": {
+        "choice": "3mo",
+        "confidence": 0.36,
+        "probabilities": {
+          "1d": 0.36,
+          "1mo": 0.08,
+          "1w": 0.04,
+          "3mo": 0.52
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "plot_price.window?": {
+        "noul": 0.03,
+        "stats": {},
+        "type": "noul"
+      },
+      "rolling_correlation.benchmark": {
+        "choice": "SPY",
+        "confidence": 0.36,
+        "probabilities": {
+          "AAPL": 0.04,
+          "AMD": 0.1,
+          "MSFT": 0.01,
+          "NVDA": 0.37,
+          "SPY": 0.47,
+          "TSLA": 0.01
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "rolling_correlation.benchmark?": {
+        "noul": 0.01,
+        "stats": {},
+        "type": "noul"
+      },
+      "rolling_correlation.resolution": {
+        "choice": "1h",
+        "confidence": 0.32,
+        "probabilities": {
+          "15m": 0.09,
+          "1d": 0.17,
+          "1h": 0.44,
+          "1m": 0.24,
+          "5m": 0.06
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "rolling_correlation.resolution?": {
+        "noul": 0.01,
+        "stats": {},
+        "type": "noul"
+      },
+      "rolling_correlation.symbol": {
+        "choice": "NVDA",
+        "confidence": 1.0,
+        "probabilities": {
+          "AAPL": 0.0,
+          "AMD": 0.0,
+          "MSFT": 0.0,
+          "NVDA": 1.0,
+          "SPY": 0.0,
+          "TSLA": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "rolling_correlation.window": {
+        "choice": "3mo",
+        "confidence": 0.32,
+        "probabilities": {
+          "1d": 0.4,
+          "1mo": 0.08,
+          "1w": 0.04,
+          "3mo": 0.48
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "rolling_correlation.window?": {
+        "noul": 0.03,
+        "stats": {},
+        "type": "noul"
+      },
+      "summary_stats.symbol": {
+        "choice": "NVDA",
+        "confidence": 1.0,
+        "probabilities": {
+          "AAPL": 0.0,
+          "AMD": 0.0,
+          "MSFT": 0.0,
+          "NVDA": 1.0,
+          "SPY": 0.0,
+          "TSLA": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "summary_stats.window": {
+        "choice": "3mo",
+        "confidence": 0.29,
+        "probabilities": {
+          "1d": 0.42,
+          "1mo": 0.07,
+          "1w": 0.03,
+          "3mo": 0.48
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "summary_stats.window?": {
+        "noul": 0.03,
+        "stats": {},
+        "type": "noul"
+      },
+      "top_movers.direction": {
+        "choice": "gainers",
+        "confidence": 0.87,
+        "probabilities": {
+          "gainers": 0.94,
+          "losers": 0.06
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "top_movers.window": {
+        "choice": "3mo",
+        "confidence": 0.31,
+        "probabilities": {
+          "1d": 0.41,
+          "1mo": 0.07,
+          "1w": 0.03,
+          "3mo": 0.49
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "top_movers.window?": {
+        "noul": 0.03,
+        "stats": {},
+        "type": "noul"
+      },
+      "volatility.annualized": {
+        "noul": 0.07,
+        "stats": {},
+        "type": "noul"
+      },
+      "volatility.annualized?": {
+        "noul": 0.01,
+        "stats": {},
+        "type": "noul"
+      },
+      "volatility.symbol": {
+        "choice": "NVDA",
+        "confidence": 1.0,
+        "probabilities": {
+          "AAPL": 0.0,
+          "AMD": 0.0,
+          "MSFT": 0.0,
+          "NVDA": 1.0,
+          "SPY": 0.0,
+          "TSLA": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "volatility.window": {
+        "choice": "3mo",
+        "confidence": 0.33,
+        "probabilities": {
+          "1d": 0.38,
+          "1mo": 0.08,
+          "1w": 0.04,
+          "3mo": 0.5
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "volatility.window?": {
+        "noul": 0.03,
+        "stats": {},
+        "type": "noul"
+      }
+    },
+    "assets_used": null,
+    "model": "toxic_mango_loco",
+    "seconds": 0.61,
+    "usage": {
+      "input_tokens": 3219,
+      "output_tokens": 1686
+    }
+  },
+  "c77e3c20c9c89bee41d49f834a5429b8db9780cbaf1a696f85264533ffdf417b": {
+    "answers": {
+      "__tool__": {
+        "choice": "rolling_correlation",
+        "confidence": 1.0,
+        "probabilities": {
+          "compare_returns": 0.0,
+          "drawdown": 0.0,
+          "intraday_pattern": 0.0,
+          "list_symbols": 0.0,
+          "market_summary": 0.0,
+          "plot_price": 0.0,
+          "rolling_correlation": 1.0,
+          "summary_stats": 0.0,
+          "top_movers": 0.0,
+          "volatility": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "compare_returns.normalize": {
+        "noul": 0.47,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.normalize?": {
+        "noul": 0.07,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.symbols.AAPL": {
+        "noul": 0.02,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.symbols.AMD": {
+        "noul": 0.01,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.symbols.MSFT": {
+        "noul": 0.02,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.symbols.NVDA": {
+        "noul": 0.99,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.symbols.SPY": {
+        "noul": 0.99,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.symbols.TSLA": {
+        "noul": 0.02,
+        "stats": {},
+        "type": "noul"
+      },
+      "compare_returns.window": {
+        "choice": "1mo",
+        "confidence": 1.0,
+        "probabilities": {
+          "1d": 0.0,
+          "1mo": 1.0,
+          "1w": 0.0,
+          "3mo": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "compare_returns.window?": {
+        "noul": 0.99,
+        "stats": {},
+        "type": "noul"
+      },
+      "drawdown.plot": {
+        "noul": 0.27,
+        "stats": {},
+        "type": "noul"
+      },
+      "drawdown.plot?": {
+        "noul": 0.5,
+        "stats": {},
+        "type": "noul"
+      },
+      "drawdown.symbol": {
+        "choice": "NVDA",
+        "confidence": 0.88,
+        "probabilities": {
+          "AAPL": 0.0,
+          "AMD": 0.0,
+          "MSFT": 0.0,
+          "NVDA": 0.91,
+          "SPY": 0.09,
+          "TSLA": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "drawdown.window": {
+        "choice": "1mo",
+        "confidence": 1.0,
+        "probabilities": {
+          "1d": 0.0,
+          "1mo": 1.0,
+          "1w": 0.0,
+          "3mo": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "drawdown.window?": {
+        "noul": 1.0,
+        "stats": {},
+        "type": "noul"
+      },
+      "intraday_pattern.metric": {
+        "choice": "return",
+        "confidence": 0.65,
+        "probabilities": {
+          "return": 0.77,
+          "volatility": 0.21,
+          "volume": 0.02
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "intraday_pattern.metric?": {
+        "noul": 0.18,
+        "stats": {},
+        "type": "noul"
+      },
+      "intraday_pattern.symbol": {
+        "choice": "NVDA",
+        "confidence": 0.88,
+        "probabilities": {
+          "AAPL": 0.0,
+          "AMD": 0.0,
+          "MSFT": 0.0,
+          "NVDA": 0.91,
+          "SPY": 0.09,
+          "TSLA": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "intraday_pattern.window": {
+        "choice": "1mo",
+        "confidence": 1.0,
+        "probabilities": {
+          "1d": 0.0,
+          "1mo": 1.0,
+          "1w": 0.0,
+          "3mo": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "intraday_pattern.window?": {
+        "noul": 1.0,
+        "stats": {},
+        "type": "noul"
+      },
+      "market_summary.window": {
+        "choice": "1mo",
+        "confidence": 1.0,
+        "probabilities": {
+          "1d": 0.0,
+          "1mo": 1.0,
+          "1w": 0.0,
+          "3mo": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "market_summary.window?": {
+        "noul": 0.99,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.include_volume": {
+        "noul": 0.02,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.include_volume?": {
+        "noul": 0.01,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.log_scale": {
+        "noul": 0.02,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.log_scale?": {
+        "noul": 0.03,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.moving_average": {
+        "choice": "9",
+        "confidence": 0.29,
+        "probabilities": {
+          "20": 0.43,
+          "50": 0.04,
+          "9": 0.53
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "plot_price.moving_average?": {
+        "noul": 0.1,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.resolution": {
+        "choice": "1d",
+        "confidence": 0.58,
+        "probabilities": {
+          "15m": 0.07,
+          "1d": 0.66,
+          "1h": 0.1,
+          "1m": 0.04,
+          "5m": 0.13
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "plot_price.resolution?": {
+        "noul": 0.13,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.style": {
+        "choice": "line",
+        "confidence": 0.94,
+        "probabilities": {
+          "candles": 0.03,
+          "line": 0.97
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "plot_price.style?": {
+        "noul": 0.34,
+        "stats": {},
+        "type": "noul"
+      },
+      "plot_price.symbol": {
+        "choice": "NVDA",
+        "confidence": 0.89,
+        "probabilities": {
+          "AAPL": 0.0,
+          "AMD": 0.0,
+          "MSFT": 0.0,
+          "NVDA": 0.92,
+          "SPY": 0.08,
+          "TSLA": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "plot_price.window": {
+        "choice": "1mo",
+        "confidence": 1.0,
+        "probabilities": {
+          "1d": 0.0,
+          "1mo": 1.0,
+          "1w": 0.0,
+          "3mo": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "plot_price.window?": {
+        "noul": 0.99,
+        "stats": {},
+        "type": "noul"
+      },
+      "rolling_correlation.benchmark": {
+        "choice": "SPY",
+        "confidence": 0.99,
+        "probabilities": {
+          "AAPL": 0.0,
+          "AMD": 0.0,
+          "MSFT": 0.0,
+          "NVDA": 0.01,
+          "SPY": 0.99,
+          "TSLA": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "rolling_correlation.benchmark?": {
+        "noul": 0.99,
+        "stats": {},
+        "type": "noul"
+      },
+      "rolling_correlation.resolution": {
+        "choice": "1d",
+        "confidence": 0.85,
+        "probabilities": {
+          "15m": 0.03,
+          "1d": 0.89,
+          "1h": 0.04,
+          "1m": 0.03,
+          "5m": 0.01
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "rolling_correlation.resolution?": {
+        "noul": 0.09,
+        "stats": {},
+        "type": "noul"
+      },
+      "rolling_correlation.symbol": {
+        "choice": "NVDA",
+        "confidence": 0.96,
+        "probabilities": {
+          "AAPL": 0.0,
+          "AMD": 0.0,
+          "MSFT": 0.0,
+          "NVDA": 0.97,
+          "SPY": 0.03,
+          "TSLA": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "rolling_correlation.window": {
+        "choice": "1mo",
+        "confidence": 1.0,
+        "probabilities": {
+          "1d": 0.0,
+          "1mo": 1.0,
+          "1w": 0.0,
+          "3mo": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "rolling_correlation.window?": {
+        "noul": 0.99,
+        "stats": {},
+        "type": "noul"
+      },
+      "summary_stats.symbol": {
+        "choice": "NVDA",
+        "confidence": 0.88,
+        "probabilities": {
+          "AAPL": 0.0,
+          "AMD": 0.0,
+          "MSFT": 0.0,
+          "NVDA": 0.91,
+          "SPY": 0.09,
+          "TSLA": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "summary_stats.window": {
+        "choice": "1mo",
+        "confidence": 1.0,
+        "probabilities": {
+          "1d": 0.0,
+          "1mo": 1.0,
+          "1w": 0.0,
+          "3mo": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "summary_stats.window?": {
+        "noul": 1.0,
+        "stats": {},
+        "type": "noul"
+      },
+      "top_movers.direction": {
+        "choice": "gainers",
+        "confidence": 0.58,
+        "probabilities": {
+          "gainers": 0.79,
+          "losers": 0.21
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "top_movers.window": {
+        "choice": "1mo",
+        "confidence": 1.0,
+        "probabilities": {
+          "1d": 0.0,
+          "1mo": 1.0,
+          "1w": 0.0,
+          "3mo": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "top_movers.window?": {
+        "noul": 1.0,
+        "stats": {},
+        "type": "noul"
+      },
+      "volatility.annualized": {
+        "noul": 0.07,
+        "stats": {},
+        "type": "noul"
+      },
+      "volatility.annualized?": {
+        "noul": 0.02,
+        "stats": {},
+        "type": "noul"
+      },
+      "volatility.symbol": {
+        "choice": "NVDA",
+        "confidence": 0.84,
+        "probabilities": {
+          "AAPL": 0.0,
+          "AMD": 0.0,
+          "MSFT": 0.0,
+          "NVDA": 0.88,
+          "SPY": 0.12,
+          "TSLA": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "volatility.window": {
+        "choice": "1mo",
+        "confidence": 1.0,
+        "probabilities": {
+          "1d": 0.0,
+          "1mo": 1.0,
+          "1w": 0.0,
+          "3mo": 0.0
+        },
+        "stats": {},
+        "type": "choice"
+      },
+      "volatility.window?": {
+        "noul": 0.99,
+        "stats": {},
+        "type": "noul"
+      }
+    },
+    "assets_used": null,
+    "model": "toxic_mango_loco",
+    "seconds": 0.45,
+    "usage": {
+      "input_tokens": 3221,
+      "output_tokens": 1686
+    }
+  }
+}
