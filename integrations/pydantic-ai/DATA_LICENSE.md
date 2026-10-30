@@ -28,6 +28,6 @@ The request text is unchanged. Requests from the other eight domains are relabel
 `other_domain:weather`). The `intents` list names the 30 banking and credit-card intents.
 The cookbook code maps the `out_of_scope` label to the app's `decline` route.
 
-`json_cache.json` holds the recorded routing results of Jev (`jev-1.13.0`), `gpt-5.5` and
-`gpt-5.4-mini` for these requests. Each entry is keyed by the request text, so the cache
+`json_cache.json` holds the recorded routing results of Jev (`jev-1.14.0`) and `gpt-5.5`
+for these requests. Each entry is keyed by the request text, so the cache
 embeds the CLINC150 text and is covered by the same licence.
