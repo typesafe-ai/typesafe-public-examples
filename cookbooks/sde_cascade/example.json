@@ -1,0 +1,24 @@
+{
+  "prompt": "Find the date fall registration opens at Wrenfield Community College in Wrenfield, Oregon, for the 2026-2027 school year.",
+  "schema": {
+    "title": "RegistrationOpen",
+    "type": "object",
+    "properties": {
+      "registration_open_date": {
+        "title": "Registration Open Date",
+        "type": "string",
+        "description": "The date registration opens for the fall semester, in mm/dd/yyyy format, such as 08/03/2026. Return a blank string if you are unsure."
+      },
+      "description": {
+        "title": "Description",
+        "type": "string",
+        "description": "A short description of the registration open date, such as 'Registration opens for the fall semester'."
+      }
+    },
+    "required": [
+      "registration_open_date",
+      "description"
+    ]
+  },
+  "content": "Skip to content\n\n[Wrenfield Community College](https://www.wrenfield.example/)\n\n  * [Academics](https://www.wrenfield.example/academics)\n  * [Admissions](https://www.wrenfield.example/admissions)\n  * [Student Life](https://www.wrenfield.example/life)\n  * [About](https://www.wrenfield.example/about)\n\n[Log In](https://my.wrenfield.example/)\n\nSearch Site\n\n# Events Calendar\n\nSearch Events\n\nApply Reset\n\n## Fall 2026 Census Date\n\nMonday, September 14, 2026 · All day · Online\n\nThe census date is the last day to drop a fall class and get a full tuition refund. Classes\ndropped after this date stay on your transcript with a grade of W.\n\n[Add to calendar](https://events.wrenfield.example/fall-2026-census-date.ics)\n\nRelated: [Academic calendar](https://www.wrenfield.example/academics/calendar) ·\n[Drop a class](https://my.wrenfield.example/drop)\n\nWrenfield Community College\n\n  * [Campus Map](https://www.wrenfield.example/map)\n  * [Contact Us](https://www.wrenfield.example/contact)\n  * [Privacy](https://www.wrenfield.example/privacy)\n  * [Accessibility](https://www.wrenfield.example/accessibility)\n\n© 2026 Wrenfield Community College\n"
+}
