@@ -450,7 +450,6 @@
       }
     },
     "assets_used": null,
-    "model": "toxic_mango_loco",
     "seconds": 0.53,
     "usage": {
       "input_tokens": 3214,
@@ -908,7 +907,6 @@
       }
     },
     "assets_used": null,
-    "model": "toxic_mango_loco",
     "seconds": 0.52,
     "usage": {
       "input_tokens": 3215,
@@ -1366,7 +1364,6 @@
       }
     },
     "assets_used": null,
-    "model": "toxic_mango_loco",
     "seconds": 0.94,
     "usage": {
       "input_tokens": 3215,
@@ -1824,7 +1821,6 @@
       }
     },
     "assets_used": null,
-    "model": "toxic_mango_loco",
     "seconds": 0.43,
     "usage": {
       "input_tokens": 3216,
@@ -2282,7 +2278,6 @@
       }
     },
     "assets_used": null,
-    "model": "toxic_mango_loco",
     "seconds": 0.45,
     "usage": {
       "input_tokens": 3215,
@@ -2740,7 +2735,6 @@
       }
     },
     "assets_used": null,
-    "model": "toxic_mango_loco",
     "seconds": 0.42,
     "usage": {
       "input_tokens": 3221,
@@ -3198,7 +3192,6 @@
       }
     },
     "assets_used": null,
-    "model": "toxic_mango_loco",
     "seconds": 0.4,
     "usage": {
       "input_tokens": 3223,
@@ -3656,7 +3649,6 @@
       }
     },
     "assets_used": null,
-    "model": "toxic_mango_loco",
     "seconds": 1.07,
     "usage": {
       "input_tokens": 3212,
@@ -4114,7 +4106,6 @@
       }
     },
     "assets_used": null,
-    "model": "toxic_mango_loco",
     "seconds": 0.47,
     "usage": {
       "input_tokens": 3221,
@@ -4572,7 +4563,6 @@
       }
     },
     "assets_used": null,
-    "model": "toxic_mango_loco",
     "seconds": 0.56,
     "usage": {
       "input_tokens": 3213,
@@ -5030,7 +5020,6 @@
       }
     },
     "assets_used": null,
-    "model": "toxic_mango_loco",
     "seconds": 0.43,
     "usage": {
       "input_tokens": 3215,
@@ -5488,7 +5477,6 @@
       }
     },
     "assets_used": null,
-    "model": "toxic_mango_loco",
     "seconds": 0.45,
     "usage": {
       "input_tokens": 3215,
@@ -5946,7 +5934,6 @@
       }
     },
     "assets_used": null,
-    "model": "toxic_mango_loco",
     "seconds": 0.61,
     "usage": {
       "input_tokens": 3219,
@@ -6404,7 +6391,6 @@
       }
     },
     "assets_used": null,
-    "model": "toxic_mango_loco",
     "seconds": 0.45,
     "usage": {
       "input_tokens": 3221,
