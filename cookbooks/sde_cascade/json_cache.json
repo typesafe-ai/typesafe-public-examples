@@ -1,13 +1,13 @@
 {
-  "67a2c9ccb0978d4c79017e323c42e5a5f820d3cf0ecce8c81f04302bcc8827a2": {
+  "adb1a45fc7c6f786aee8d04fb1acd25060411529b536276c27afb106b2ff040f": {
     "registration_open_date": "",
     "description": "Registration opens for the fall semester"
   },
-  "bbf4a6ca5379aac4babd81d2621ec42cc2d08ce536b0c218cf960af3cff2f59b": {
+  "36e3c71875b8b348d9b4f5a39fb773a95f15cca24182982cf1f72a058f1affe7": {
     "registration_open_date": "",
     "description": ""
   },
-  "verify|{'registration_open_date': '', 'description': 'Registration opens for the fall semester'}": {
+  "45d4492c3674239ec4a632c4f38ef4969d86296f545973bb296ea9ce4f07da99": {
     "__overall__::judge": 0.9,
     "registration_open_date::absence_wrong": 0.05,
     "description::name_desc_mismatch": 0.46,

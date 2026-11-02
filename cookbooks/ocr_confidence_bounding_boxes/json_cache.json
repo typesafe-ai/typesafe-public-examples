@@ -1,5 +1,5 @@
 {
-  "135008dfeb9fe5282c379c0d82e6f1d8d3c140afdd11febb42560e9998d75894": {
+  "e410448b53b335dfaed736c474cd8abcc66c82acca163a8aa380c85bc2162e3e": {
     "boxes": {
       "account_holder": {
         "left": 0.167475,
@@ -45,7 +45,7 @@
       }
     }
   },
-  "478ab7a33019c782a86567f38aab9ff7d0126a1727edc14ff14d54e4f2da3a54": {
+  "f35088b5ecf7d4508c4fb85f0e294cb3cd1c4cb540fafbf02ed4522effecc626": {
     "boxes": {
       "account_holder": {
         "left": 0.0,
@@ -97,7 +97,7 @@
       }
     }
   },
-  "67a409a68d3705910f38625ea49fc2dd86a22cc56a28f51697bb82a9beb2986d": {
+  "69c37cad1790aa2b2cb0dfabfed34817cb4aee9ac1a30c27ce0433fe9745ad99": {
     "shows": {
       "account_holder": 0.96,
       "account_number": 0.78,
@@ -109,7 +109,7 @@
       "supplier_name": 0.31
     }
   },
-  "78ea0718e0acc00d9808e53de04e16149c1676f5202f7d85a4e40e64c6b9198b": {
+  "d1def1383434f62f5bf27013a6cc0b06f10fd09c0b8dff2f912a977c6011d9bf": {
     "shows": {
       "account_holder": 0.57,
       "account_number": 0.92,
@@ -120,7 +120,7 @@
       "supplier_name": 0.95
     }
   },
-  "b4aad2a91e3f7ade571be7b257caa83c408074f6ac0867237adf8e3e789844ee": {
+  "6d6c11b49c7d480eebe27287b4231db742c4b3e15f2aa9457a553000fd1452fd": {
     "boxes": {
       "account_holder": {
         "top": 0.71,
@@ -182,7 +182,7 @@
       "supplier_name": 0.96
     }
   },
-  "ed6c860a8bc0c1138e685ed5b7facb36e2776f839d5a75590b6ac59f44b29362": {
+  "b9bfe1849ed4b42a8de7ca87640cd57de8e41dca0e3c7691edd78a84c7ca7766": {
     "boxes": {
       "account_holder": {
         "top": 0.74,

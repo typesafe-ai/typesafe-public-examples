@@ -1,5 +1,5 @@
 {
-  "5dec9cc591c0308c417839f8f10148bd451fcfa4bb0be050d99b279c9f089329": {
+  "2654670e0ea1c3ebdaccb041787cbcc81bd0b777976c27b0cf7e0a6dc0e64264": {
     "judgments": [
       {
         "callout": "note",
@@ -265,7 +265,7 @@
     ]
   },
   "fetch_document|https://raw.githubusercontent.com/typesafe-ai/typesafe-public-examples/main/cookbooks/autoformat/build-memo.txt": "Migration to the new build system\n\nHi everyone, quick heads up about the build system migration that is\nhappening next week. We have been running the new pipeline in shadow\nmode for three weeks and the results look solid, so it is time to\nmake the switch for real.\n\nWhat changes for you\n\nThe old make targets keep working until the end of the month. The new\nentrypoint is a single command that wraps everything, including the\ndocs build that used to be separate.\n\nbun run build\n\nGenerated artifacts no longer need to be committed. The new pipeline\nuploads them to the registry automatically, and checking them in\njust creates merge conflicts.\n\nThe cutover touches three teams, so check whether you are on this\nlist before you plan anything for Monday:\nThe platform team\nThe web client team\nWhoever still owns the release tooling\n\nThings to do before Monday\n\nUpdate your local toolchain to version 2.4 or later\nDelete the old build cache directory\nRun the doctor script and fix anything it flags\n\nIf the doctor script reports a red result on the toolchain check, do\nnot proceed with the migration. Ping the infra channel first and we\nwill sort it out together.\n\nAs Dana put it in the kickoff, \"a migration nobody notices is the\nonly kind worth shipping.\"\n\nThanks, and shout if anything looks off.\n",
-  "stitch": {
+  "1fa81470bc7c3005d79c29f00b6a294f0959c99778c3ccf66d73ae4dc9de3f0d": {
     "joins": [
       0.0,
       0.0,
@@ -302,7 +302,7 @@
       244
     ]
   },
-  "stitch|same-paragraph": {
+  "7a3efbb5443303aba376beb2bc995e50c0fe8a25d6195ede0f1944d39dc084e4": {
     "joins": [
       0.0,
       0.0,
