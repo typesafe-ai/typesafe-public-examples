@@ -35,27 +35,27 @@ _client = TypeSafeClient(
 )
 
 
-@json_cache
-def _system_one(model: str, state: str, questions: str) -> dict:
-    response = _client.system_one(
-        state=state, questions=json.loads(questions), model=model
-    )
-    return {
-        "answers": {
-            key: answer.model_dump(mode="json")
-            for key, answer in response.answers.items()
-        },
-        "usage": response.usage.model_dump(mode="json"),
-    }
-
-
 class Client:
     """A TypeSafe client whose every call is memoized to json_cache.json."""
 
     def system_one(
         self, state: Any, questions: dict, model: str = TYPESAFE_MODEL
     ) -> SystemOneResponse:
-        raw = _system_one(model, str(state), json.dumps(questions, sort_keys=True))
+        # Defined per call so the request uses `model` while the cache key leaves it out.
+        @json_cache
+        def _system_one(state: str, questions: str) -> dict:
+            response = _client.system_one(
+                state=state, questions=json.loads(questions), model=model
+            )
+            return {
+                "answers": {
+                    key: answer.model_dump(mode="json")
+                    for key, answer in response.answers.items()
+                },
+                "usage": response.usage.model_dump(mode="json"),
+            }
+
+        raw = _system_one(str(state), json.dumps(questions, sort_keys=True))
         # The cache leaves the model out; the response type needs one, so use the requested model.
         return SystemOneResponse.model_validate({**raw, "model": model})
 

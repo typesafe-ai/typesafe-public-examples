@@ -1,5 +1,5 @@
 {
-  "read_parts|Heads up - the customer survey closes today at 5pm.|the date the survey closes": {
+  "89787d71f4beb5edf6f8b5a3dd8ab2968e0d2c9beae640c01656d30eade5f7ed": {
     "day": {
       "choice": "none",
       "confidence": 0.96
@@ -29,7 +29,7 @@
       "confidence": 0.96
     }
   },
-  "read_parts|Let's schedule the design review for next Thursday.|the date of the design review": {
+  "7ec2aba5cb08826deb8af24ffe920c4aa00979c36430c1ecd835aaa9e1c2825f": {
     "day": {
       "choice": "none",
       "confidence": 0.86
@@ -59,7 +59,7 @@
       "confidence": 0.88
     }
   },
-  "read_parts|Please return the signed form by August 14.|the date of the kickoff call": {
+  "3680af5994dc06bfc33eb372772bf24ab8fdf845c258db454dca9f434c40f87c": {
     "day": {
       "choice": "14",
       "confidence": 0.58
@@ -89,7 +89,7 @@
       "confidence": 0.9
     }
   },
-  "read_parts|Please return the signed form by August 14.|the deadline to return the form": {
+  "c2a1d51c71f1803c21b969c5b09ec27b581f8c3c0216c537cb6f640ca9dfd213": {
     "day": {
       "choice": "14",
       "confidence": 0.99
@@ -119,7 +119,7 @@
       "confidence": 0.95
     }
   },
-  "read_parts|This agreement is effective January 1, 2025 and expires December 31, 2027.|the date the agreement expires": {
+  "ba4f64c3e9ab63fac97740bab10535893ad1df28fb9aa1d89e08cdd4e7d40f52": {
     "day": {
       "choice": "31",
       "confidence": 0.97
@@ -149,7 +149,7 @@
       "confidence": 0.91
     }
   },
-  "read_parts|This agreement is effective January 1, 2025 and expires December 31, 2027.|the date the agreement takes effect": {
+  "7cdccb0ba20acbb58bdde5460ac6ec1f85921f45f8ee1caf899901dafc14f42c": {
     "day": {
       "choice": "1",
       "confidence": 0.98
