@@ -41,7 +41,6 @@ def _system_one(model: str, state: str, questions: str) -> dict:
         state=state, questions=json.loads(questions), model=model
     )
     return {
-        "model": response.model,
         "answers": {
             key: answer.model_dump(mode="json")
             for key, answer in response.answers.items()
@@ -57,7 +56,8 @@ class Client:
         self, state: Any, questions: dict, model: str = TYPESAFE_MODEL
     ) -> SystemOneResponse:
         raw = _system_one(model, str(state), json.dumps(questions, sort_keys=True))
-        return SystemOneResponse.model_validate(raw)
+        # The cache leaves the model out; the response type needs one, so use the requested model.
+        return SystemOneResponse.model_validate({**raw, "model": model})
 
 
 client = Client()
