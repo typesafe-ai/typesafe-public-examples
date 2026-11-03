@@ -1,0 +1,6302 @@
+{
+  "bb4505f733e0922b02f69da0ebf1805413836eda31fe22acf04bd0e8f9810709": {
+    "score": 0.28,
+    "probabilities": {
+      "0": 0.73,
+      "1": 0.27,
+      "2": 0.0
+    },
+    "confidence": 0.59,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.02
+    }
+  },
+  "5f8b65a8b4f53ca0bc46536d1ad5101852878af3d678dc1f4d6d410d1f726f92": {
+    "score": 0.19,
+    "probabilities": {
+      "0": 0.8200000000000001,
+      "1": 0.18,
+      "2": 0.0
+    },
+    "confidence": 0.73,
+    "properties": {
+      "same_title": 0.04,
+      "same_artist": 0.01,
+      "same_label": 0.02
+    }
+  },
+  "a5f075fa045c3bca492747b0d804b7c44997337f20889010f93643b3b96095b5": {
+    "score": 0.23,
+    "probabilities": {
+      "0": 0.78,
+      "1": 0.22,
+      "2": 0.0
+    },
+    "confidence": 0.67,
+    "properties": {
+      "same_title": 0.76,
+      "same_artist": 0.01,
+      "same_label": 0.02
+    }
+  },
+  "ad6bee34faaddec34a5dda96dd69e8961bf357227c0e431b16ad648974552162": {
+    "score": 0.23,
+    "probabilities": {
+      "0": 0.77,
+      "1": 0.23,
+      "2": 0.0
+    },
+    "confidence": 0.66,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "d56a11bfba01b1f0ae3337fa590eaa6545755c5c58799dfb4f08871dafd1b770": {
+    "score": 0.37,
+    "probabilities": {
+      "0": 0.64,
+      "1": 0.36,
+      "2": 0.0
+    },
+    "confidence": 0.46,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.99
+    }
+  },
+  "cfa2d39060dd94cc118489cabece999de5851aca3271a02bf3e36f6276f71ca5": {
+    "score": 0.27,
+    "probabilities": {
+      "0": 0.74,
+      "1": 0.25,
+      "2": 0.01
+    },
+    "confidence": 0.59,
+    "properties": {
+      "same_title": 0.59,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "9a121b6866d19969c76e1a664beba2c0b9cf75a3d597f9d22d2e68c6fb1e1648": {
+    "score": 0.75,
+    "probabilities": {
+      "0": 0.25,
+      "1": 0.75,
+      "2": 0.0
+    },
+    "confidence": 0.62,
+    "properties": {
+      "same_title": 0.02,
+      "same_artist": 0.99,
+      "same_label": 0.02
+    }
+  },
+  "d607fb18ecf70451349750217f8bbac42228ea59116df9e0408e1909263b540b": {
+    "score": 0.16,
+    "probabilities": {
+      "0": 0.85,
+      "1": 0.15,
+      "2": 0.0
+    },
+    "confidence": 0.78,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "4d470ee21bb52d46b5bee490d27b34bac284915f70a799d154f4c1c7efb6ebcb": {
+    "score": 0.96,
+    "probabilities": {
+      "0": 0.04,
+      "1": 0.96,
+      "2": 0.0
+    },
+    "confidence": 0.94,
+    "properties": {
+      "same_title": 0.05,
+      "same_artist": 0.99,
+      "same_label": 0.08
+    }
+  },
+  "c39b8c77a1198eec7e2f27b713a322855882ad5f6ab81f6571ea47764d944220": {
+    "score": 0.2,
+    "probabilities": {
+      "0": 0.8,
+      "1": 0.2,
+      "2": 0.0
+    },
+    "confidence": 0.7,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.02,
+      "same_label": 0.01
+    }
+  },
+  "d044ec5d8c3bc5bf07bc81170e7b3ad429196c3276698a4675a7d4c50617bc9d": {
+    "score": 0.79,
+    "probabilities": {
+      "0": 0.26,
+      "1": 0.69,
+      "2": 0.05
+    },
+    "confidence": 0.53,
+    "properties": {
+      "same_title": 0.03,
+      "same_artist": 0.98,
+      "same_label": 0.39
+    }
+  },
+  "4fae7b0e45ac0efd4fb68b39e0c919ea0ddf772ea52b16c4cfc00bdbd170300b": {
+    "score": 1.79,
+    "probabilities": {
+      "0": 0.01,
+      "1": 0.18,
+      "2": 0.81
+    },
+    "confidence": 0.7,
+    "properties": {
+      "same_title": 0.46,
+      "same_artist": 0.95,
+      "same_label": 0.92
+    }
+  },
+  "bd923e3b4690dc4a3bdaee3dd4d2b0e5132b67ab98bfc58c4c235cb5bc091eef": {
+    "score": 0.67,
+    "probabilities": {
+      "0": 0.35,
+      "1": 0.63,
+      "2": 0.02
+    },
+    "confidence": 0.44,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.41
+    }
+  },
+  "ab4cda3cb34aa1a0fd1cd7847422469ab0f748ad48e659efa6d734bde870c2d5": {
+    "score": 1.89,
+    "probabilities": {
+      "0": 0.01,
+      "1": 0.09,
+      "2": 0.9
+    },
+    "confidence": 0.83,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.88,
+      "same_label": 0.99
+    }
+  },
+  "57c2e4e0fff46aeecf91dcc5f46e64427359ae5febfc55138b51de69fa2b57e3": {
+    "score": 0.47,
+    "probabilities": {
+      "0": 0.54,
+      "1": 0.45,
+      "2": 0.01
+    },
+    "confidence": 0.29,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.02,
+      "same_label": 0.01
+    }
+  },
+  "5cfa61618f24b585a333a1fc41c90c32bc0ba2bc48cf47730703fe97440271cb": {
+    "score": 0.12,
+    "probabilities": {
+      "0": 0.88,
+      "1": 0.12,
+      "2": 0.0
+    },
+    "confidence": 0.82,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "4e387189ac3841405f3cdd0f0f1b8544045b5e6fa68670959e7d6f9e4a6f6252": {
+    "score": 1.99,
+    "probabilities": {
+      "0": 0.0,
+      "1": 0.01,
+      "2": 0.99
+    },
+    "confidence": 0.98,
+    "properties": {
+      "same_title": 0.95,
+      "same_artist": 0.99,
+      "same_label": 0.7
+    }
+  },
+  "7af64dcc3df204361379573e605b884ff8a4a800e1646cda8fe0f7c4a1001e44": {
+    "score": 0.22,
+    "probabilities": {
+      "0": 0.78,
+      "1": 0.22,
+      "2": 0.0
+    },
+    "confidence": 0.67,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.02
+    }
+  },
+  "cbab780fe9d91a4129887ea3efee0805eb260f7446552eb4d887b3f294db1fdc": {
+    "score": 0.13,
+    "probabilities": {
+      "0": 0.88,
+      "1": 0.12,
+      "2": 0.0
+    },
+    "confidence": 0.82,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.03,
+      "same_label": 0.01
+    }
+  },
+  "74ad613a3700afacb4c7f216a2dc0b078538d356466cbaf36694608fb7e815e4": {
+    "score": 0.25,
+    "probabilities": {
+      "0": 0.76,
+      "1": 0.24,
+      "2": 0.0
+    },
+    "confidence": 0.64,
+    "properties": {
+      "same_title": 0.02,
+      "same_artist": 0.77,
+      "same_label": 0.02
+    }
+  },
+  "62133bb23428e2c0008255e08f0ee61006d9019ff1300341032c3bf48deb3eb4": {
+    "score": 0.21,
+    "probabilities": {
+      "0": 0.79,
+      "1": 0.21,
+      "2": 0.0
+    },
+    "confidence": 0.69,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "b911ab9b8b29f28fc0e3ea50833c2f9e52311403a435889fafa020bdfb35a048": {
+    "score": 0.21,
+    "probabilities": {
+      "0": 0.79,
+      "1": 0.2,
+      "2": 0.01
+    },
+    "confidence": 0.67,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.03
+    }
+  },
+  "4e48bbe5b29ce85a41ddef921bc0df627e99679a2e5cd995a665f3d7853c28d3": {
+    "score": 0.12,
+    "probabilities": {
+      "0": 0.88,
+      "1": 0.12,
+      "2": 0.0
+    },
+    "confidence": 0.82,
+    "properties": {
+      "same_title": 0.98,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "8cd3a8166c2b51c76c2a04c18f11b3b7328d99687791b17f59e76b8d5c53d46b": {
+    "score": 0.26,
+    "probabilities": {
+      "0": 0.74,
+      "1": 0.26,
+      "2": 0.0
+    },
+    "confidence": 0.61,
+    "properties": {
+      "same_title": 0.96,
+      "same_artist": 0.01,
+      "same_label": 0.39
+    }
+  },
+  "75f29b7b61a085b40aa19b9bdf76c8d517c60e1b914056a72556187901f6db82": {
+    "score": 0.57,
+    "probabilities": {
+      "0": 0.52,
+      "1": 0.39,
+      "2": 0.09
+    },
+    "confidence": 0.14,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.03,
+      "same_label": 0.01
+    }
+  },
+  "78c4b6d8970d0a87ef5842203aa196cd44a383154aad43a8ae1c039e29286fc6": {
+    "score": 0.08,
+    "probabilities": {
+      "0": 0.93,
+      "1": 0.07,
+      "2": 0.0
+    },
+    "confidence": 0.9,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "ddab3c707e3051c85f8cf67d3ef182acb136c32d99fc3458d25e13f618aa5afd": {
+    "score": 0.26,
+    "probabilities": {
+      "0": 0.74,
+      "1": 0.25,
+      "2": 0.01
+    },
+    "confidence": 0.59,
+    "properties": {
+      "same_title": 0.68,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "030b99a58e4d19b009f6050f4a41d8ca564b39379ee710504f71102a2c9be3ae": {
+    "score": 0.47,
+    "probabilities": {
+      "0": 0.54,
+      "1": 0.45,
+      "2": 0.01
+    },
+    "confidence": 0.29,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.02
+    }
+  },
+  "7729640c47c51349c4f9e1765d24fb2ba288ea34162542787f234ce8a6e6c1d7": {
+    "score": 0.31,
+    "probabilities": {
+      "0": 0.69,
+      "1": 0.31,
+      "2": 0.0
+    },
+    "confidence": 0.53,
+    "properties": {
+      "same_title": 0.7,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "c757b054193779092c355fd8b21a6280751b7fb4eae60d170fba454fa56c8026": {
+    "score": 0.95,
+    "probabilities": {
+      "0": 0.08,
+      "1": 0.89,
+      "2": 0.03
+    },
+    "confidence": 0.83,
+    "properties": {
+      "same_title": 0.07,
+      "same_artist": 0.99,
+      "same_label": 0.02
+    }
+  },
+  "ef51553c4d4b702349be9458ce03ba5ff1aa1cb212690d5ec969ccebf8c697b5": {
+    "score": 0.98,
+    "probabilities": {
+      "0": 0.06,
+      "1": 0.9,
+      "2": 0.04
+    },
+    "confidence": 0.85,
+    "properties": {
+      "same_title": 0.03,
+      "same_artist": 0.99,
+      "same_label": 0.01
+    }
+  },
+  "4d87b94ced4dd169ec790a6b22e68b81a7c88364f7a5b3c613d449b99aa9f2bd": {
+    "score": 0.27,
+    "probabilities": {
+      "0": 0.74,
+      "1": 0.26,
+      "2": 0.0
+    },
+    "confidence": 0.61,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "d57bf5c5a042257d05dd8feae9f8e5dff6b992f1100f44843b9c11d339fde82e": {
+    "score": 0.31,
+    "probabilities": {
+      "0": 0.71,
+      "1": 0.28,
+      "2": 0.01
+    },
+    "confidence": 0.55,
+    "properties": {
+      "same_title": 0.87,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "8b321e440174c0d19fca01ee0d7ea8d66f547ca8853301c19306b28339362c36": {
+    "score": 0.3,
+    "probabilities": {
+      "0": 0.7,
+      "1": 0.29,
+      "2": 0.01
+    },
+    "confidence": 0.53,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.02
+    }
+  },
+  "ae1be5060a45edf4ee814423b5fef56241607963505d4832548119398bad683f": {
+    "score": 0.32,
+    "probabilities": {
+      "0": 0.6900000000000001,
+      "1": 0.31,
+      "2": 0.0
+    },
+    "confidence": 0.53,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.02
+    }
+  },
+  "57bd3930673615d01b66f87918f24bd8b041bbec9184d3f9d7c2a4174509d22a": {
+    "score": 2.0,
+    "probabilities": {
+      "0": 0.0,
+      "1": 0.0,
+      "2": 1.0
+    },
+    "confidence": 1.0,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.99,
+      "same_label": 0.61
+    }
+  },
+  "f58e29010b429f10db931e3cedd9d7df93d6b3fadb9d67ddc672ba918ab3c704": {
+    "score": 0.03,
+    "probabilities": {
+      "0": 0.97,
+      "1": 0.03,
+      "2": 0.0
+    },
+    "confidence": 0.95,
+    "properties": {
+      "same_title": 0.19,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "80785b013d58eba52a5450afc00a5d69af1dd6ec04e197ea72d4bcbdca4b9a04": {
+    "score": 0.06,
+    "probabilities": {
+      "0": 0.94,
+      "1": 0.06,
+      "2": 0.0
+    },
+    "confidence": 0.91,
+    "properties": {
+      "same_title": 0.04,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "715fe54d14295070acd5c01f4224823b0c4799f37f10da3613e5df5c9bc67d1c": {
+    "score": 0.27,
+    "probabilities": {
+      "0": 0.73,
+      "1": 0.26,
+      "2": 0.01
+    },
+    "confidence": 0.58,
+    "properties": {
+      "same_title": 0.39,
+      "same_artist": 0.01,
+      "same_label": 0.02
+    }
+  },
+  "60ce3ed5d3b167cfc56d60bb142b0a284a379e23919f8ca01d81036511913f1d": {
+    "score": 0.16,
+    "probabilities": {
+      "0": 0.84,
+      "1": 0.16,
+      "2": 0.0
+    },
+    "confidence": 0.76,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "8ed6f3ea798d376c677c2405d1f9f356eefd9ace41f789d36d60d690bb6c76f7": {
+    "score": 0.26,
+    "probabilities": {
+      "0": 0.75,
+      "1": 0.25,
+      "2": 0.0
+    },
+    "confidence": 0.62,
+    "properties": {
+      "same_title": 0.84,
+      "same_artist": 0.01,
+      "same_label": 0.02
+    }
+  },
+  "94718abaec5308efbdc7157d49a9ef5cff14aebe057c26c251b836b1205565eb": {
+    "score": 0.43,
+    "probabilities": {
+      "0": 0.58,
+      "1": 0.41,
+      "2": 0.01
+    },
+    "confidence": 0.35,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.02,
+      "same_label": 0.02
+    }
+  },
+  "bf8cbec0dcae5ed60e4e10e4cce0dc17e81bc62825d641d54cbc62b28c410bff": {
+    "score": 0.75,
+    "probabilities": {
+      "0": 0.26,
+      "1": 0.73,
+      "2": 0.01
+    },
+    "confidence": 0.59,
+    "properties": {
+      "same_title": 0.03,
+      "same_artist": 0.99,
+      "same_label": 0.02
+    }
+  },
+  "67f4d38e41c72426d6aeed64ed3323f602ddb0ad03f1718859b5e118ab800ccd": {
+    "score": 1.97,
+    "probabilities": {
+      "0": 0.0,
+      "1": 0.03,
+      "2": 0.97
+    },
+    "confidence": 0.95,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.99,
+      "same_label": 0.03
+    }
+  },
+  "f6e69078afcd6723473c5aeca613c71d2488ef5c36e42c1bad149f432e7b01e5": {
+    "score": 0.22,
+    "probabilities": {
+      "0": 0.78,
+      "1": 0.21,
+      "2": 0.01
+    },
+    "confidence": 0.66,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "9c87c0b48a3c2bd6c6f9fe52e17bf6ca76d5c968e99958fdc506dfbc27e7b3b5": {
+    "score": 0.99,
+    "probabilities": {
+      "0": 0.02,
+      "1": 0.98,
+      "2": 0.0
+    },
+    "confidence": 0.97,
+    "properties": {
+      "same_title": 0.1,
+      "same_artist": 0.8,
+      "same_label": 0.76
+    }
+  },
+  "1b2a37ce5536fd197a72efe6b95d1f92be0ababd2f55d0176ea74e69b9e06972": {
+    "score": 0.21,
+    "probabilities": {
+      "0": 0.79,
+      "1": 0.21,
+      "2": 0.0
+    },
+    "confidence": 0.69,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "a385a6c6611a04fea35ec7d332f985027efe1c00ab24b51fde163f1af8a42abf": {
+    "score": 0.2,
+    "probabilities": {
+      "0": 0.81,
+      "1": 0.19,
+      "2": 0.0
+    },
+    "confidence": 0.71,
+    "properties": {
+      "same_title": 0.97,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "293936b093994cd4d468f66590cbbdcb8b1090b532332c8fa2fb8fc3aaf5d07c": {
+    "score": 0.25,
+    "probabilities": {
+      "0": 0.76,
+      "1": 0.24,
+      "2": 0.0
+    },
+    "confidence": 0.64,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.02
+    }
+  },
+  "d6fc82320e2a9b2c3672c9704b014b63fec27d3cbd34cb81bb30b17c7ec10d0e": {
+    "score": 0.4,
+    "probabilities": {
+      "0": 0.61,
+      "1": 0.38,
+      "2": 0.01
+    },
+    "confidence": 0.4,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.05,
+      "same_label": 0.02
+    }
+  },
+  "e139d7b5a8372bccaef560f2182dc8817d53bdfa4ecbc6c3664e409e8e86fe2e": {
+    "score": 1.87,
+    "probabilities": {
+      "0": 0.0,
+      "1": 0.12,
+      "2": 0.88
+    },
+    "confidence": 0.82,
+    "properties": {
+      "same_title": 0.49,
+      "same_artist": 0.95,
+      "same_label": 0.94
+    }
+  },
+  "3ebff967fbca53a9936b9518c2516547930b31370e91a833126ef9b86eff6ecd": {
+    "score": 0.16,
+    "probabilities": {
+      "0": 0.84,
+      "1": 0.15,
+      "2": 0.01
+    },
+    "confidence": 0.74,
+    "properties": {
+      "same_title": 0.14,
+      "same_artist": 0.01,
+      "same_label": 0.15
+    }
+  },
+  "5716f7fdb66d676929bebf5b90b76c735c51cc41541e5d17b766ed9912588137": {
+    "score": 0.16,
+    "probabilities": {
+      "0": 0.85,
+      "1": 0.15,
+      "2": 0.0
+    },
+    "confidence": 0.78,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.02
+    }
+  },
+  "7ff0424c817c31d4580b87c07063907056de59cb91d497febc162ef2a2bb1333": {
+    "score": 0.12,
+    "probabilities": {
+      "0": 0.88,
+      "1": 0.12,
+      "2": 0.0
+    },
+    "confidence": 0.82,
+    "properties": {
+      "same_title": 0.09,
+      "same_artist": 0.01,
+      "same_label": 0.02
+    }
+  },
+  "a24bcdeac2fd7b4a9364b178c3c28f80cb4e81c0c4502b7fe7226c89779f4538": {
+    "score": 0.18,
+    "probabilities": {
+      "0": 0.82,
+      "1": 0.18,
+      "2": 0.0
+    },
+    "confidence": 0.73,
+    "properties": {
+      "same_title": 0.09,
+      "same_artist": 0.01,
+      "same_label": 0.02
+    }
+  },
+  "437c0a9f350891ef514eb7cf03e2dd1f8cf3249e1c6c1c18350649708a45c8dc": {
+    "score": 0.22,
+    "probabilities": {
+      "0": 0.79,
+      "1": 0.21,
+      "2": 0.0
+    },
+    "confidence": 0.69,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "a747427971d7129bc8e9373573f36e635a4a170ad183a03d32f9841838bc395d": {
+    "score": 0.49,
+    "probabilities": {
+      "0": 0.51,
+      "1": 0.49,
+      "2": 0.0
+    },
+    "confidence": 0.27,
+    "properties": {
+      "same_title": 0.09,
+      "same_artist": 0.95,
+      "same_label": 0.03
+    }
+  },
+  "c4b080c65eae7c807dddaf30c827e233be30271d0fd9fce06358672dbebf2cba": {
+    "score": 0.85,
+    "probabilities": {
+      "0": 0.26,
+      "1": 0.63,
+      "2": 0.11
+    },
+    "confidence": 0.44,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.04
+    }
+  },
+  "a4482c08793fb084c9fae08ff38806a7109611608c42ea2b7c61b947ad8373b6": {
+    "score": 0.28,
+    "probabilities": {
+      "0": 0.72,
+      "1": 0.28,
+      "2": 0.0
+    },
+    "confidence": 0.58,
+    "properties": {
+      "same_title": 0.07,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "522fc519ccaddf299481e6d652850dae930a74ba883fbb2e426390ee43ccfd88": {
+    "score": 0.94,
+    "probabilities": {
+      "0": 0.08,
+      "1": 0.9,
+      "2": 0.02
+    },
+    "confidence": 0.85,
+    "properties": {
+      "same_title": 0.05,
+      "same_artist": 0.99,
+      "same_label": 0.86
+    }
+  },
+  "220c97563fff95d2b03c0835eb9f564def203e91d72ee3c3174097bf504553de": {
+    "score": 0.28,
+    "probabilities": {
+      "0": 0.72,
+      "1": 0.28,
+      "2": 0.0
+    },
+    "confidence": 0.58,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "c091c542398121cd38fc4fb0d5192aa8dce723e289ab6d3d08d0ff5bd9f7832c": {
+    "score": 0.09,
+    "probabilities": {
+      "0": 0.91,
+      "1": 0.09,
+      "2": 0.0
+    },
+    "confidence": 0.86,
+    "properties": {
+      "same_title": 0.06,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "0dbe1d82353fec7a61fc81195812492c67e06b4f6b7f313f00620a34d7c93329": {
+    "score": 0.78,
+    "probabilities": {
+      "0": 0.24,
+      "1": 0.73,
+      "2": 0.03
+    },
+    "confidence": 0.59,
+    "properties": {
+      "same_title": 0.15,
+      "same_artist": 0.99,
+      "same_label": 0.96
+    }
+  },
+  "622870e2a7cda70cecb309501e37d553aa51ddd3f3a523d5eaf466ef81c96103": {
+    "score": 0.32,
+    "probabilities": {
+      "0": 0.68,
+      "1": 0.31,
+      "2": 0.01
+    },
+    "confidence": 0.5,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "6be9a30657a78ebb4b2be127579664b34df8b8ab06ed51c9ddbfb39c026ebf4f": {
+    "score": 0.28,
+    "probabilities": {
+      "0": 0.73,
+      "1": 0.27,
+      "2": 0.0
+    },
+    "confidence": 0.59,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "560bd5ac2cf836bb2398251ccb713fc979eb5e928a5f9299c0a172c114c502e7": {
+    "score": 0.41,
+    "probabilities": {
+      "0": 0.6,
+      "1": 0.4,
+      "2": 0.0
+    },
+    "confidence": 0.4,
+    "properties": {
+      "same_title": 0.71,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "1f76177c5e1d5b6556fb72d18699b63bd3838aaab464dc9504e962442f0beac7": {
+    "score": 0.31,
+    "probabilities": {
+      "0": 0.7,
+      "1": 0.3,
+      "2": 0.0
+    },
+    "confidence": 0.55,
+    "properties": {
+      "same_title": 0.83,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "9ee2b24a812012642711591c3c2779a45f6d5357d9d7bc0215c6833552f56e02": {
+    "score": 0.44,
+    "probabilities": {
+      "0": 0.58,
+      "1": 0.4,
+      "2": 0.02
+    },
+    "confidence": 0.34,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.02
+    }
+  },
+  "73338db93e630dedab60fb2127a0bb62d6d04ca380fc195854c070959b5834dd": {
+    "score": 0.15,
+    "probabilities": {
+      "0": 0.85,
+      "1": 0.15,
+      "2": 0.0
+    },
+    "confidence": 0.78,
+    "properties": {
+      "same_title": 0.02,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "98072b5fe653c7f03eca557cfb38080045bf3401fd064fe130a876811313f871": {
+    "score": 1.98,
+    "probabilities": {
+      "0": 0.0,
+      "1": 0.02,
+      "2": 0.98
+    },
+    "confidence": 0.97,
+    "properties": {
+      "same_title": 0.88,
+      "same_artist": 0.98,
+      "same_label": 0.96
+    }
+  },
+  "83ef2865079261300bdaf22f4be15969fb6ebc50f81fa65f8de4083770d2a5e3": {
+    "score": 0.27,
+    "probabilities": {
+      "0": 0.74,
+      "1": 0.26,
+      "2": 0.0
+    },
+    "confidence": 0.61,
+    "properties": {
+      "same_title": 0.07,
+      "same_artist": 0.01,
+      "same_label": 0.02
+    }
+  },
+  "ef7db7e0fa5c14d884442bee34587725451dddc86019b3e74e519bc9ad1289bb": {
+    "score": 0.26,
+    "probabilities": {
+      "0": 0.74,
+      "1": 0.26,
+      "2": 0.0
+    },
+    "confidence": 0.61,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.4
+    }
+  },
+  "4a8f18be13f68df04fedc079d4399ca8dd2b5fcfa1730cbc5ce7483fe08687ae": {
+    "score": 1.93,
+    "probabilities": {
+      "0": 0.0,
+      "1": 0.06,
+      "2": 0.94
+    },
+    "confidence": 0.91,
+    "properties": {
+      "same_title": 0.18,
+      "same_artist": 0.99,
+      "same_label": 0.99
+    }
+  },
+  "503c5b8e385e2606bd0d9a3b21426ec15367ad1427ec3ce55694019130404b9a": {
+    "score": 1.98,
+    "probabilities": {
+      "0": 0.0,
+      "1": 0.01,
+      "2": 0.99
+    },
+    "confidence": 0.98,
+    "properties": {
+      "same_title": 0.98,
+      "same_artist": 0.98,
+      "same_label": 0.98
+    }
+  },
+  "f5c8abc1a27db77faa2433c4f99261fda4dfa2402e986a2a29d2d38fe15e636e": {
+    "score": 1.95,
+    "probabilities": {
+      "0": 0.0,
+      "1": 0.04,
+      "2": 0.96
+    },
+    "confidence": 0.94,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.95,
+      "same_label": 0.23
+    }
+  },
+  "2a320f58e168c39737600c7453f415d301c9c5abe1b9b27d1d50ab63953e3750": {
+    "score": 0.27,
+    "probabilities": {
+      "0": 0.74,
+      "1": 0.26,
+      "2": 0.0
+    },
+    "confidence": 0.61,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.02
+    }
+  },
+  "718668250f1603e4cac5e60ff58a3e00aa84f81b95b0d464cdb48d91a8487ad9": {
+    "score": 0.16,
+    "probabilities": {
+      "0": 0.84,
+      "1": 0.16,
+      "2": 0.0
+    },
+    "confidence": 0.76,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.02
+    }
+  },
+  "96871e08a2f3daaa7ae1c390469dc90f9040d7b00a1728ec5b210aa384bc8afe": {
+    "score": 0.24,
+    "probabilities": {
+      "0": 0.77,
+      "1": 0.23,
+      "2": 0.0
+    },
+    "confidence": 0.66,
+    "properties": {
+      "same_title": 0.96,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "3d9663d195d0a2b7ed1d4b0eceb99379aba8aeee45ed2d3609722138e9f40641": {
+    "score": 0.19,
+    "probabilities": {
+      "0": 0.81,
+      "1": 0.19,
+      "2": 0.0
+    },
+    "confidence": 0.71,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "b599584e9b361b3fb87502d9f620db64716af0d7bbb84c370699d44ffa699051": {
+    "score": 0.21,
+    "probabilities": {
+      "0": 0.79,
+      "1": 0.21,
+      "2": 0.0
+    },
+    "confidence": 0.69,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "fd45109b6a931a971e9c808fd0ea00119778033173d46dd7706a60b28e72a064": {
+    "score": 0.15,
+    "probabilities": {
+      "0": 0.86,
+      "1": 0.14,
+      "2": 0.0
+    },
+    "confidence": 0.79,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "79fd44c51d219998d33a870d6966223cdcd79422aaf4c33618849c7e58d2e8a0": {
+    "score": 0.31,
+    "probabilities": {
+      "0": 0.7,
+      "1": 0.3,
+      "2": 0.0
+    },
+    "confidence": 0.55,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.02
+    }
+  },
+  "069ba83ed94e684cefd19e30e8ebf68f30f80e68d686a75dfc2e839fed4c7336": {
+    "score": 1.03,
+    "probabilities": {
+      "0": 0.06,
+      "1": 0.85,
+      "2": 0.09
+    },
+    "confidence": 0.78,
+    "properties": {
+      "same_title": 0.1,
+      "same_artist": 0.99,
+      "same_label": 0.03
+    }
+  },
+  "921790aba3f1f71bfe62d5c4d69fca16261b45e25bd038194ff184a2dfae12e3": {
+    "score": 0.18,
+    "probabilities": {
+      "0": 0.82,
+      "1": 0.17,
+      "2": 0.01
+    },
+    "confidence": 0.71,
+    "properties": {
+      "same_title": 0.05,
+      "same_artist": 0.42,
+      "same_label": 0.02
+    }
+  },
+  "ee753ceaf3e7822655da73251a9fbc3d0348ecd2917fadb7de6b7cdc10b1ce7b": {
+    "score": 0.41,
+    "probabilities": {
+      "0": 0.59,
+      "1": 0.4,
+      "2": 0.01
+    },
+    "confidence": 0.37,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "dd858fcd353d4a7e0769910ab4f1d4f1e805a482194c9f57099e06d809b6e48d": {
+    "score": 0.24,
+    "probabilities": {
+      "0": 0.76,
+      "1": 0.23,
+      "2": 0.01
+    },
+    "confidence": 0.62,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.03,
+      "same_label": 0.44
+    }
+  },
+  "9165034fe716b66d1fbe47793aae52550979268db7211dd33186a72a5b33aa55": {
+    "score": 0.12,
+    "probabilities": {
+      "0": 0.88,
+      "1": 0.12,
+      "2": 0.0
+    },
+    "confidence": 0.82,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "cfcdee14f9737a13814e5514665e26cf4d4d22e4888857a25e82cfa6459afa3d": {
+    "score": 0.23,
+    "probabilities": {
+      "0": 0.77,
+      "1": 0.23,
+      "2": 0.0
+    },
+    "confidence": 0.66,
+    "properties": {
+      "same_title": 0.02,
+      "same_artist": 0.99,
+      "same_label": 0.02
+    }
+  },
+  "fb23a1ed6619f3a07ed93c43bb816d02292c8b64c16b7789ec6c1373c89181d3": {
+    "score": 0.43,
+    "probabilities": {
+      "0": 0.58,
+      "1": 0.41,
+      "2": 0.01
+    },
+    "confidence": 0.35,
+    "properties": {
+      "same_title": 0.97,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "d260f2661bbdf492ef1d0fe3817770d23eeb07fb6b7a7398e85bda37e9dc11f4": {
+    "score": 0.92,
+    "probabilities": {
+      "0": 0.08,
+      "1": 0.92,
+      "2": 0.0
+    },
+    "confidence": 0.88,
+    "properties": {
+      "same_title": 0.05,
+      "same_artist": 0.99,
+      "same_label": 0.99
+    }
+  },
+  "ed41339640331d5e3afe45c04c05f6db5215fc6601c7e44269c1007d2ca37473": {
+    "score": 0.25,
+    "probabilities": {
+      "0": 0.76,
+      "1": 0.24,
+      "2": 0.0
+    },
+    "confidence": 0.64,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.02
+    }
+  },
+  "dda41d9eee0ebe8a01543ad61eb6d31530cf09f50aa593e199768808adc30185": {
+    "score": 0.95,
+    "probabilities": {
+      "0": 0.08,
+      "1": 0.89,
+      "2": 0.03
+    },
+    "confidence": 0.83,
+    "properties": {
+      "same_title": 0.63,
+      "same_artist": 0.93,
+      "same_label": 0.04
+    }
+  },
+  "abed239cbd128bf94b0468af7f7ce016eef549012cd8bb9a19360acae74f0217": {
+    "score": 0.39,
+    "probabilities": {
+      "0": 0.62,
+      "1": 0.38,
+      "2": 0.0
+    },
+    "confidence": 0.43,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "381e6f685432b71a1c8944d02cfaf89a76ad4a98782a5bb02560e44eede6649e": {
+    "score": 0.05,
+    "probabilities": {
+      "0": 0.95,
+      "1": 0.05,
+      "2": 0.0
+    },
+    "confidence": 0.93,
+    "properties": {
+      "same_title": 0.07,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "3b6e80381bee880d63e1b3d672252fdbd8d19475dc6ccb97b3b50a3be76a5aae": {
+    "score": 0.08,
+    "probabilities": {
+      "0": 0.93,
+      "1": 0.07,
+      "2": 0.0
+    },
+    "confidence": 0.9,
+    "properties": {
+      "same_title": 0.11,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "aa700509b67b762ef05acff069070d64b3e1c2a98e050160d960f9a803ad5612": {
+    "score": 0.3,
+    "probabilities": {
+      "0": 0.7,
+      "1": 0.3,
+      "2": 0.0
+    },
+    "confidence": 0.55,
+    "properties": {
+      "same_title": 0.92,
+      "same_artist": 0.01,
+      "same_label": 0.21
+    }
+  },
+  "d38711dfdea13da0f2d2fe22304d292d8d33e56ede8ecdf16f5c139aea10539e": {
+    "score": 0.24,
+    "probabilities": {
+      "0": 0.76,
+      "1": 0.24,
+      "2": 0.0
+    },
+    "confidence": 0.64,
+    "properties": {
+      "same_title": 0.17,
+      "same_artist": 0.01,
+      "same_label": 0.02
+    }
+  },
+  "d0220b9224af4b563ac534aeaaa2e012f4d98ea860214eea946fd6655b2fd667": {
+    "score": 0.35,
+    "probabilities": {
+      "0": 0.65,
+      "1": 0.35,
+      "2": 0.0
+    },
+    "confidence": 0.47,
+    "properties": {
+      "same_title": 0.94,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "3d0ecbfbac4b5604ca01fd53091c2a24dbaca91cb49c725955d1648eff18d300": {
+    "score": 0.19,
+    "probabilities": {
+      "0": 0.82,
+      "1": 0.18,
+      "2": 0.0
+    },
+    "confidence": 0.73,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "1e7215178823654058b4bff5c410ff9442c491c12176b40db5c4396e1b46b2e1": {
+    "score": 0.84,
+    "probabilities": {
+      "0": 0.21,
+      "1": 0.74,
+      "2": 0.05
+    },
+    "confidence": 0.61,
+    "properties": {
+      "same_title": 0.02,
+      "same_artist": 0.99,
+      "same_label": 0.02
+    }
+  },
+  "7ee2ab8d1f06f88eb6f087e9b559589d696ef7343b5f6e83df244778234c1599": {
+    "score": 0.37,
+    "probabilities": {
+      "0": 0.63,
+      "1": 0.37,
+      "2": 0.0
+    },
+    "confidence": 0.44,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.47
+    }
+  },
+  "fce99e16a5f73423a7cd446c426dd142c60e129db1b408d4262254dece4ba7d0": {
+    "score": 0.34,
+    "probabilities": {
+      "0": 0.67,
+      "1": 0.33,
+      "2": 0.0
+    },
+    "confidence": 0.5,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "6c4c24b02a5ae4fac37f7694d9dea93e5f089424ca0ee40ec6e76beecacd6f0c": {
+    "score": 0.39,
+    "probabilities": {
+      "0": 0.62,
+      "1": 0.38,
+      "2": 0.0
+    },
+    "confidence": 0.43,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "eec89fcb21e5ba5e88d98e54d3023506d58fd7ec0d913dbc122e2b730d992d46": {
+    "score": 0.94,
+    "probabilities": {
+      "0": 0.08,
+      "1": 0.9,
+      "2": 0.02
+    },
+    "confidence": 0.85,
+    "properties": {
+      "same_title": 0.11,
+      "same_artist": 0.99,
+      "same_label": 0.05
+    }
+  },
+  "acbf5a82a7e3920d7a24597cfb33c3d42b00c8015fc2b880cb6ed9d87a8252de": {
+    "score": 0.23,
+    "probabilities": {
+      "0": 0.77,
+      "1": 0.23,
+      "2": 0.0
+    },
+    "confidence": 0.66,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "96ff80016cda0650324a0b9cfe13fae7b80be19840d5e0160875c2c5f2085a36": {
+    "score": 0.37,
+    "probabilities": {
+      "0": 0.63,
+      "1": 0.36,
+      "2": 0.01
+    },
+    "confidence": 0.43,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.03
+    }
+  },
+  "0515ba85ce0807c11c493badca86e0990fa8c91e0a7b1375c127823f5bd446fb": {
+    "score": 0.17,
+    "probabilities": {
+      "0": 0.83,
+      "1": 0.17,
+      "2": 0.0
+    },
+    "confidence": 0.74,
+    "properties": {
+      "same_title": 0.09,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "ef5a6703e9c92d21e7c735c25371b3ebec182e178b5c2511961fc471bd1a3b26": {
+    "score": 0.6,
+    "probabilities": {
+      "0": 0.4,
+      "1": 0.6,
+      "2": 0.0
+    },
+    "confidence": 0.4,
+    "properties": {
+      "same_title": 0.02,
+      "same_artist": 0.99,
+      "same_label": 0.02
+    }
+  },
+  "740341cea6963e2020507562c63099192b64411834f4b1fd4be585614a5f1e3c": {
+    "score": 0.37,
+    "probabilities": {
+      "0": 0.63,
+      "1": 0.37,
+      "2": 0.0
+    },
+    "confidence": 0.44,
+    "properties": {
+      "same_title": 0.79,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "0f213dbc8b3996837ac0a8a799954aa9728b61530ac411565e6c46d283717c41": {
+    "score": 0.51,
+    "probabilities": {
+      "0": 0.52,
+      "1": 0.46,
+      "2": 0.02
+    },
+    "confidence": 0.25,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.03
+    }
+  },
+  "858a9884c31586d75e8fef959241928ed35ed193e5736d7cce7abb11e2fd2736": {
+    "score": 0.53,
+    "probabilities": {
+      "0": 0.51,
+      "1": 0.45,
+      "2": 0.04
+    },
+    "confidence": 0.2,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.03
+    }
+  },
+  "43b1ac3c7d6a7b45e359442ec62313b2568f2f2d6c2154d9afaec1e91a1ce676": {
+    "score": 0.98,
+    "probabilities": {
+      "0": 0.02,
+      "1": 0.98,
+      "2": 0.0
+    },
+    "confidence": 0.97,
+    "properties": {
+      "same_title": 0.22,
+      "same_artist": 0.99,
+      "same_label": 0.03
+    }
+  },
+  "5f6b9d05827911e13c4d8c132d8bc25d3979bfb71d7b733fa7efe364578e6955": {
+    "score": 1.86,
+    "probabilities": {
+      "0": 0.0,
+      "1": 0.13,
+      "2": 0.87
+    },
+    "confidence": 0.8,
+    "properties": {
+      "same_title": 0.98,
+      "same_artist": 0.98,
+      "same_label": 0.04
+    }
+  },
+  "709e468659231958d4f3a57cbb30b2345b2fa76e43e5351fd8761f184936d264": {
+    "score": 0.37,
+    "probabilities": {
+      "0": 0.64,
+      "1": 0.34,
+      "2": 0.02
+    },
+    "confidence": 0.43,
+    "properties": {
+      "same_title": 0.04,
+      "same_artist": 0.89,
+      "same_label": 0.97
+    }
+  },
+  "382281713c106196c1af496d64d4a5356affca555b4fa431171a41ac74c87959": {
+    "score": 0.91,
+    "probabilities": {
+      "0": 0.1,
+      "1": 0.89,
+      "2": 0.01
+    },
+    "confidence": 0.83,
+    "properties": {
+      "same_title": 0.04,
+      "same_artist": 0.99,
+      "same_label": 0.03
+    }
+  },
+  "a287478cd4b5892c427a7760f84794c9f52ff92205bd9af9b6c1f008817faf09": {
+    "score": 1.76,
+    "probabilities": {
+      "0": 0.0,
+      "1": 0.24,
+      "2": 0.76
+    },
+    "confidence": 0.64,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.99,
+      "same_label": 0.94
+    }
+  },
+  "ad9a46d8c068d3f302a389d0076f7a4b7156ae517d0db67286edc52feb34fd54": {
+    "score": 0.36,
+    "probabilities": {
+      "0": 0.65,
+      "1": 0.34,
+      "2": 0.01
+    },
+    "confidence": 0.46,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "169569ad2f1b81023d08b9ee27dbc5fe6da74fb0c2c4135c81f13a8932559384": {
+    "score": 0.37,
+    "probabilities": {
+      "0": 0.64,
+      "1": 0.36,
+      "2": 0.0
+    },
+    "confidence": 0.46,
+    "properties": {
+      "same_title": 0.91,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "ec597065073b4520c93434ea5561306951415fda64e84f87d48c6d78779dddd7": {
+    "score": 1.29,
+    "probabilities": {
+      "0": 0.03,
+      "1": 0.65,
+      "2": 0.32
+    },
+    "confidence": 0.47,
+    "properties": {
+      "same_title": 0.97,
+      "same_artist": 0.71,
+      "same_label": 0.03
+    }
+  },
+  "141d55079f9e87c11058829591493c87f800ecbfca9de12cc4ab0467f19dbac9": {
+    "score": 0.26,
+    "probabilities": {
+      "0": 0.74,
+      "1": 0.26,
+      "2": 0.0
+    },
+    "confidence": 0.61,
+    "properties": {
+      "same_title": 0.04,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "91a97a1eb792fff616828818bb1179daa517a2d7b312a8a07ecc7d8dbf5b1dbc": {
+    "score": 0.39,
+    "probabilities": {
+      "0": 0.62,
+      "1": 0.37,
+      "2": 0.01
+    },
+    "confidence": 0.41,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.02
+    }
+  },
+  "c58bded0097a7b7519577bee6ba4ef6f9fd1ffcdd72f2dd8481fea14d90e8634": {
+    "score": 0.28,
+    "probabilities": {
+      "0": 0.73,
+      "1": 0.27,
+      "2": 0.0
+    },
+    "confidence": 0.59,
+    "properties": {
+      "same_title": 0.98,
+      "same_artist": 0.01,
+      "same_label": 0.02
+    }
+  },
+  "1ad6acea7ece356f48efc87974e1c4839c22e53b08ebcaf156d20e2b74c28781": {
+    "score": 0.3,
+    "probabilities": {
+      "0": 0.7,
+      "1": 0.3,
+      "2": 0.0
+    },
+    "confidence": 0.55,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "3e26f1896136f74f4004e2f71ef39f7b7de9da83fe68b3ca670a433460b598d1": {
+    "score": 0.13,
+    "probabilities": {
+      "0": 0.87,
+      "1": 0.13,
+      "2": 0.0
+    },
+    "confidence": 0.8,
+    "properties": {
+      "same_title": 0.04,
+      "same_artist": 0.03,
+      "same_label": 0.34
+    }
+  },
+  "94fea4f291ae4b9d1bb921999f0417cefb32f5667bc2a14d89e93a24a5f5ea73": {
+    "score": 0.25,
+    "probabilities": {
+      "0": 0.76,
+      "1": 0.24,
+      "2": 0.0
+    },
+    "confidence": 0.64,
+    "properties": {
+      "same_title": 0.93,
+      "same_artist": 0.01,
+      "same_label": 0.02
+    }
+  },
+  "681bc81fa168ecdc2c661e21f197700078897aedd53bcd69a5b4896240b72a4b": {
+    "score": 0.46,
+    "probabilities": {
+      "0": 0.55,
+      "1": 0.44,
+      "2": 0.01
+    },
+    "confidence": 0.31,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.02
+    }
+  },
+  "fc08fabb66f37c886dc4e097459c6bb2beb92689d49cff440b472195f5d93db5": {
+    "score": 0.19,
+    "probabilities": {
+      "0": 0.81,
+      "1": 0.19,
+      "2": 0.0
+    },
+    "confidence": 0.71,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "1d95ecf8ccf0c76618b1404dd390e7b7fc7c33ba623e06226db7b40998532d98": {
+    "score": 0.37,
+    "probabilities": {
+      "0": 0.63,
+      "1": 0.36,
+      "2": 0.01
+    },
+    "confidence": 0.43,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.1,
+      "same_label": 0.02
+    }
+  },
+  "abe7087a1c5fb3e798f4152314b2fcfa9787cd60dc4ae586a41eac81e7c81549": {
+    "score": 0.39,
+    "probabilities": {
+      "0": 0.62,
+      "1": 0.37,
+      "2": 0.01
+    },
+    "confidence": 0.41,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.02
+    }
+  },
+  "363c903736902d11694327cc49db4c04c5713707a744ee0c3f13cc5347c6e448": {
+    "score": 1.95,
+    "probabilities": {
+      "0": 0.0,
+      "1": 0.05,
+      "2": 0.95
+    },
+    "confidence": 0.93,
+    "properties": {
+      "same_title": 0.71,
+      "same_artist": 0.99,
+      "same_label": 0.98
+    }
+  },
+  "549359d1374a93a01df0fa7485a82aa61e47468a4c1cbfc679cb62c8e4982deb": {
+    "score": 0.31,
+    "probabilities": {
+      "0": 0.69,
+      "1": 0.31,
+      "2": 0.0
+    },
+    "confidence": 0.53,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "fc4bcbb9e9a5f1bc67de758853c99865606431d4eafe852132b458e2b1b331b4": {
+    "score": 0.75,
+    "probabilities": {
+      "0": 0.26,
+      "1": 0.74,
+      "2": 0.0
+    },
+    "confidence": 0.61,
+    "properties": {
+      "same_title": 0.02,
+      "same_artist": 0.99,
+      "same_label": 0.03
+    }
+  },
+  "8239448d866926d7d0cdd36d476867e6259ec14e3671432a937b66457139e107": {
+    "score": 0.17,
+    "probabilities": {
+      "0": 0.83,
+      "1": 0.17,
+      "2": 0.0
+    },
+    "confidence": 0.74,
+    "properties": {
+      "same_title": 0.97,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "74020962a2bb410f2c6fb662ce91b1ad0dfa80b7407a8ec182d2e944cc888e83": {
+    "score": 0.14,
+    "probabilities": {
+      "0": 0.87,
+      "1": 0.13,
+      "2": 0.0
+    },
+    "confidence": 0.8,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "f2a22b260127000dc41174c3db552d92b080b6687fa6025365d9f8f6aa69f489": {
+    "score": 2.0,
+    "probabilities": {
+      "0": 0.0,
+      "1": 0.0,
+      "2": 1.0
+    },
+    "confidence": 1.0,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.99,
+      "same_label": 0.52
+    }
+  },
+  "b51d711bc7869ef591933db292aa1c7b748d4d88cdbf620d90c3a53de76a61b9": {
+    "score": 0.55,
+    "probabilities": {
+      "0": 0.48,
+      "1": 0.49,
+      "2": 0.03
+    },
+    "confidence": 0.23,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.02
+    }
+  },
+  "74a5421e4a47ead27781f802b70096e00a54079dc027dc571a7257156e4cec77": {
+    "score": 0.16,
+    "probabilities": {
+      "0": 0.84,
+      "1": 0.16,
+      "2": 0.0
+    },
+    "confidence": 0.76,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.02
+    }
+  },
+  "6a2cfedb92706c45d8f9ef1f132cc8e40e71200225c035100c5df42c6f14740b": {
+    "score": 0.37,
+    "probabilities": {
+      "0": 0.64,
+      "1": 0.35,
+      "2": 0.01
+    },
+    "confidence": 0.44,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.02
+    }
+  },
+  "d805d77f0c5615a6ee9fe894beed71f35e1f4e687461568d92217d4ae9dbf028": {
+    "score": 0.92,
+    "probabilities": {
+      "0": 0.09,
+      "1": 0.9,
+      "2": 0.01
+    },
+    "confidence": 0.85,
+    "properties": {
+      "same_title": 0.01,
+      "same_artist": 0.99,
+      "same_label": 0.03
+    }
+  },
+  "2b62661b91717aaf479c7e98ccd504be04a1176deee380a5bab285695570b125": {
+    "score": 0.15,
+    "probabilities": {
+      "0": 0.85,
+      "1": 0.15,
+      "2": 0.0
+    },
+    "confidence": 0.78,
+    "properties": {
+      "same_title": 0.35,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "fd507afb03b6c39a8bbf46758ac36ead906cccf2356ad26d96306394de4055a6": {
+    "score": 0.42,
+    "probabilities": {
+      "0": 0.59,
+      "1": 0.41,
+      "2": 0.0
+    },
+    "confidence": 0.39,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "2e622e988a707d19b8fc2f1400bb0eba0bb154cf2c23a20db96b7edb5a68d8f8": {
+    "score": 0.1,
+    "probabilities": {
+      "0": 0.9,
+      "1": 0.09,
+      "2": 0.01
+    },
+    "confidence": 0.83,
+    "properties": {
+      "same_title": 0.08,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "f53923410a6a9b1950e772ebacbe381dd4693e52ab65b7b91a9ab060eb355c1d": {
+    "score": 0.24,
+    "probabilities": {
+      "0": 0.76,
+      "1": 0.24,
+      "2": 0.0
+    },
+    "confidence": 0.64,
+    "properties": {
+      "same_title": 0.03,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "43b597ef6108211c2a4c80ad26c3c1da929f24ea4e9ed40a1a798886c17663dc": {
+    "score": 0.08,
+    "probabilities": {
+      "0": 0.92,
+      "1": 0.08,
+      "2": 0.0
+    },
+    "confidence": 0.88,
+    "properties": {
+      "same_title": 0.04,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "55dae686627366c452c70d3d7739845b2768fbc5f021a10e93adc494f7ab25fe": {
+    "score": 0.09,
+    "probabilities": {
+      "0": 0.91,
+      "1": 0.09,
+      "2": 0.0
+    },
+    "confidence": 0.86,
+    "properties": {
+      "same_title": 0.12,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "99f5c7eaa27aa3e5bb2ce599370abd36931cf79a917680401d9ba91cd7d91a10": {
+    "score": 1.86,
+    "probabilities": {
+      "0": 0.0,
+      "1": 0.13,
+      "2": 0.87
+    },
+    "confidence": 0.8,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.7,
+      "same_label": 0.03
+    }
+  },
+  "ac7cabc150af80318304efc834820422b7b8ff4bc1de3d9c1feb042ab7012b31": {
+    "score": 1.81,
+    "probabilities": {
+      "0": 0.0,
+      "1": 0.18,
+      "2": 0.8200000000000001
+    },
+    "confidence": 0.73,
+    "properties": {
+      "same_title": 0.14,
+      "same_artist": 0.99,
+      "same_label": 0.99
+    }
+  },
+  "e3aca37159b2c2d390e5fa970caf1797267b23a6eca34ce767b1b8f1b418c341": {
+    "score": 0.19,
+    "probabilities": {
+      "0": 0.82,
+      "1": 0.18,
+      "2": 0.0
+    },
+    "confidence": 0.73,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "0d5d13c6e9e68ffb3df33e8b71b93c70d5f9dfede822adb44a4520d1c6618cb9": {
+    "score": 0.99,
+    "probabilities": {
+      "0": 0.01,
+      "1": 0.99,
+      "2": 0.0
+    },
+    "confidence": 0.98,
+    "properties": {
+      "same_title": 0.14,
+      "same_artist": 0.99,
+      "same_label": 0.99
+    }
+  },
+  "82305e059fba070819fbefbaa269cba266cbceb5171fcc3d3b491fa2b8737cc0": {
+    "score": 0.36,
+    "probabilities": {
+      "0": 0.65,
+      "1": 0.35,
+      "2": 0.0
+    },
+    "confidence": 0.47,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "296971cee18d080649e3c879ade4b52517c0254d2a6f3f9a7a12f729d0ecd518": {
+    "score": 0.79,
+    "probabilities": {
+      "0": 0.22,
+      "1": 0.77,
+      "2": 0.01
+    },
+    "confidence": 0.66,
+    "properties": {
+      "same_title": 0.03,
+      "same_artist": 0.99,
+      "same_label": 0.03
+    }
+  },
+  "c1d800593383d4ec9f1a38207ebe49f633acf5ba354223bb3d9021a5c07abc04": {
+    "score": 1.83,
+    "probabilities": {
+      "0": 0.01,
+      "1": 0.15,
+      "2": 0.84
+    },
+    "confidence": 0.74,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.89,
+      "same_label": 0.99
+    }
+  },
+  "da16ce8656b7192f9b3b719352884e42d19667bbd9cdf609ad487cb34c677271": {
+    "score": 0.19,
+    "probabilities": {
+      "0": 0.81,
+      "1": 0.18,
+      "2": 0.01
+    },
+    "confidence": 0.7,
+    "properties": {
+      "same_title": 0.98,
+      "same_artist": 0.02,
+      "same_label": 0.01
+    }
+  },
+  "7faace977d5b1d82c66085b94cf6aba3b556383b44b3289be46101246fb2e746": {
+    "score": 0.53,
+    "probabilities": {
+      "0": 0.49,
+      "1": 0.49,
+      "2": 0.02
+    },
+    "confidence": 0.2,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.99
+    }
+  },
+  "adfa2de63b2d89cfc1b2f9e358d32a2c8d1c01af968640d8a8730c4aa8063c07": {
+    "score": 1.93,
+    "probabilities": {
+      "0": 0.0,
+      "1": 0.06,
+      "2": 0.94
+    },
+    "confidence": 0.91,
+    "properties": {
+      "same_title": 0.34,
+      "same_artist": 0.84,
+      "same_label": 0.99
+    }
+  },
+  "c238bc6c5351702d2c772f9abc2f6960807e16e0d1e6cc27aa22257483970f58": {
+    "score": 0.31,
+    "probabilities": {
+      "0": 0.7,
+      "1": 0.3,
+      "2": 0.0
+    },
+    "confidence": 0.55,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.02
+    }
+  },
+  "77f48aba18ee8b8173aaa95dd38545177b705709bdcc4cad80f92b013892f00b": {
+    "score": 0.25,
+    "probabilities": {
+      "0": 0.75,
+      "1": 0.25,
+      "2": 0.0
+    },
+    "confidence": 0.62,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "db3c8b5c0aa851d9d0f3b60a3c592beffa624a46656bd2e3fee00e1d0a23fb91": {
+    "score": 0.52,
+    "probabilities": {
+      "0": 0.48,
+      "1": 0.52,
+      "2": 0.0
+    },
+    "confidence": 0.28,
+    "properties": {
+      "same_title": 0.91,
+      "same_artist": 0.01,
+      "same_label": 0.02
+    }
+  },
+  "6e25a1ef341f018788ad395355552a3ca88ef56a7928488810f1080f05780ffa": {
+    "score": 0.25,
+    "probabilities": {
+      "0": 0.76,
+      "1": 0.24,
+      "2": 0.0
+    },
+    "confidence": 0.64,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "306595474a3f4005b82cef8a198ecca9d5a2015fdbaac5f50fd133570bcfe621": {
+    "score": 0.75,
+    "probabilities": {
+      "0": 0.25,
+      "1": 0.75,
+      "2": 0.0
+    },
+    "confidence": 0.62,
+    "properties": {
+      "same_title": 0.02,
+      "same_artist": 0.98,
+      "same_label": 0.99
+    }
+  },
+  "ce5f360fab94b837c6534d6582c893cc8baf640a03a66122a973cf11ea67048a": {
+    "score": 0.19,
+    "probabilities": {
+      "0": 0.81,
+      "1": 0.19,
+      "2": 0.0
+    },
+    "confidence": 0.71,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "302e93936431288aa36901ee7e1bdb07ed8f44fd9a411e76ef1d1fb4a557ec29": {
+    "score": 0.29,
+    "probabilities": {
+      "0": 0.72,
+      "1": 0.28,
+      "2": 0.0
+    },
+    "confidence": 0.58,
+    "properties": {
+      "same_title": 0.25,
+      "same_artist": 0.01,
+      "same_label": 0.02
+    }
+  },
+  "d13d231078195eeab7f959bfbea48b9079e989ae78b74b74cde703afd17074ec": {
+    "score": 0.17,
+    "probabilities": {
+      "0": 0.83,
+      "1": 0.17,
+      "2": 0.0
+    },
+    "confidence": 0.74,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "387101cc9fdc3ed7b1d42e96196a23a1c57bee2c1c86ec66a34cbd9d0b0988ec": {
+    "score": 0.44,
+    "probabilities": {
+      "0": 0.58,
+      "1": 0.4,
+      "2": 0.02
+    },
+    "confidence": 0.34,
+    "properties": {
+      "same_title": 0.89,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "85c77dd6d6dfa2d3c371242d53040f759a609946c513e16f7148194f34469d32": {
+    "score": 1.0,
+    "probabilities": {
+      "0": 0.02,
+      "1": 0.96,
+      "2": 0.02
+    },
+    "confidence": 0.94,
+    "properties": {
+      "same_title": 0.15,
+      "same_artist": 0.99,
+      "same_label": 0.95
+    }
+  },
+  "41ef472090159c350397c913a15c16de1599dc2280d5bd0ed71d460cc2dec07a": {
+    "score": 0.28,
+    "probabilities": {
+      "0": 0.72,
+      "1": 0.28,
+      "2": 0.0
+    },
+    "confidence": 0.58,
+    "properties": {
+      "same_title": 0.05,
+      "same_artist": 0.01,
+      "same_label": 0.02
+    }
+  },
+  "cb8ebbe3149d0a0cf1a0659253da8f2cbd223263830d94f628c6d30c85de9133": {
+    "score": 0.07,
+    "probabilities": {
+      "0": 0.93,
+      "1": 0.07,
+      "2": 0.0
+    },
+    "confidence": 0.9,
+    "properties": {
+      "same_title": 0.02,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "6e06587c219aa0966e5aed1a6d2105663b5b87c15f0bbd14cfff749f1ae04b4f": {
+    "score": 1.28,
+    "probabilities": {
+      "0": 0.01,
+      "1": 0.7,
+      "2": 0.29
+    },
+    "confidence": 0.55,
+    "properties": {
+      "same_title": 0.66,
+      "same_artist": 0.99,
+      "same_label": 0.01
+    }
+  },
+  "07b31079313bcee4da4ae2af93478adef62bad68e00d782d0c5985fe85c1fdc8": {
+    "score": 1.98,
+    "probabilities": {
+      "0": 0.0,
+      "1": 0.01,
+      "2": 0.99
+    },
+    "confidence": 0.98,
+    "properties": {
+      "same_title": 0.89,
+      "same_artist": 0.83,
+      "same_label": 0.99
+    }
+  },
+  "bf6b11bbe16b43039038eac60f87f17a42846669145c3acbbd29dedfb52fdfeb": {
+    "score": 0.12,
+    "probabilities": {
+      "0": 0.88,
+      "1": 0.11,
+      "2": 0.01
+    },
+    "confidence": 0.8,
+    "properties": {
+      "same_title": 0.07,
+      "same_artist": 0.01,
+      "same_label": 0.36
+    }
+  },
+  "04fef68ef93b8408587e49556ed95be033c0c6eb738e47e25b1a9697a3d6ab8b": {
+    "score": 0.41,
+    "probabilities": {
+      "0": 0.59,
+      "1": 0.4,
+      "2": 0.01
+    },
+    "confidence": 0.37,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.36
+    }
+  },
+  "e2a3ba8b8e62ae934dd709a303cf7a6de4843ab04a83c9f6d80273bcd59a2a84": {
+    "score": 0.25,
+    "probabilities": {
+      "0": 0.76,
+      "1": 0.24,
+      "2": 0.0
+    },
+    "confidence": 0.64,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "3730b8bea9056204e5efb13c17f33b4a701896b9609ca5121f6fb1ecfdbc62f4": {
+    "score": 0.27,
+    "probabilities": {
+      "0": 0.74,
+      "1": 0.26,
+      "2": 0.0
+    },
+    "confidence": 0.61,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "f5003c83a384e384d75332d82916e78a8fbc5e4ba26b6a136219974632cfe375": {
+    "score": 0.26,
+    "probabilities": {
+      "0": 0.75,
+      "1": 0.25,
+      "2": 0.0
+    },
+    "confidence": 0.62,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.38
+    }
+  },
+  "28f5a1619db9f008558ca0d47975ec57087b7cfaaca6654ab2192cdfde63672f": {
+    "score": 0.15,
+    "probabilities": {
+      "0": 0.85,
+      "1": 0.15,
+      "2": 0.0
+    },
+    "confidence": 0.78,
+    "properties": {
+      "same_title": 0.03,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "4fa97b4e23624f3b75c1789ff7eef3030d6dda8907ab7304685deeb58df9ad0d": {
+    "score": 0.39,
+    "probabilities": {
+      "0": 0.62,
+      "1": 0.38,
+      "2": 0.0
+    },
+    "confidence": 0.43,
+    "properties": {
+      "same_title": 0.96,
+      "same_artist": 0.01,
+      "same_label": 0.28
+    }
+  },
+  "03758caedb0a2ebcac86a31e335bf02d0107f1217febcb823773012909612310": {
+    "score": 1.98,
+    "probabilities": {
+      "0": 0.0,
+      "1": 0.01,
+      "2": 0.99
+    },
+    "confidence": 0.98,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.95,
+      "same_label": 0.12
+    }
+  },
+  "aaa66d9263ee9a8fadff6c880d0f30487252a60fd7a68611c3821f32692adbfb": {
+    "score": 0.35,
+    "probabilities": {
+      "0": 0.66,
+      "1": 0.33,
+      "2": 0.01
+    },
+    "confidence": 0.47,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "192d8779c3b947f32e394d44e082b23ba39d4fe2a270b6dd9aa4432b8eee93ad": {
+    "score": 0.25,
+    "probabilities": {
+      "0": 0.75,
+      "1": 0.24,
+      "2": 0.01
+    },
+    "confidence": 0.61,
+    "properties": {
+      "same_title": 0.95,
+      "same_artist": 0.03,
+      "same_label": 0.01
+    }
+  },
+  "61d9b812579b4e38e28b80b90dc33fcfa3b47c9dc2cd8e0f93fd4667f4d87b44": {
+    "score": 0.34,
+    "probabilities": {
+      "0": 0.67,
+      "1": 0.33,
+      "2": 0.0
+    },
+    "confidence": 0.5,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "dd39de58ed10aabc2486e2ec467fbcde50c06e0784ac392c683baca97c3ad816": {
+    "score": 0.19,
+    "probabilities": {
+      "0": 0.8200000000000001,
+      "1": 0.18,
+      "2": 0.0
+    },
+    "confidence": 0.73,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "a55dc011b05f0401698d781ae93fc167b867a2151a8c86869adc621d26699e0e": {
+    "score": 0.29,
+    "probabilities": {
+      "0": 0.71,
+      "1": 0.29,
+      "2": 0.0
+    },
+    "confidence": 0.56,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "2a8c9515e73f89f13ea002ee440b39304129b75470d50090f96d7880b1eb2df0": {
+    "score": 0.28,
+    "probabilities": {
+      "0": 0.72,
+      "1": 0.28,
+      "2": 0.0
+    },
+    "confidence": 0.58,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "83d74463895a832d7a02d48d2914526c6b8364117a95ae47543954b7e514b5e5": {
+    "score": 0.26,
+    "probabilities": {
+      "0": 0.74,
+      "1": 0.25,
+      "2": 0.01
+    },
+    "confidence": 0.59,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.02,
+      "same_label": 0.01
+    }
+  },
+  "dfb1a95476a402ba41de6339997c9b0a1ed59d57f8afba5d71e5ace2dd7ef4e8": {
+    "score": 0.33,
+    "probabilities": {
+      "0": 0.68,
+      "1": 0.32,
+      "2": 0.0
+    },
+    "confidence": 0.52,
+    "properties": {
+      "same_title": 0.05,
+      "same_artist": 0.05,
+      "same_label": 0.01
+    }
+  },
+  "77fd2e0d0145d39d0b1eba7c982bd776646e576e03c12cba7c91aeb92f3374ae": {
+    "score": 1.58,
+    "probabilities": {
+      "0": 0.01,
+      "1": 0.39,
+      "2": 0.6
+    },
+    "confidence": 0.38,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.99,
+      "same_label": 0.16
+    }
+  },
+  "a469c7604f3df72af732bc5ab8d2a1e5a217925383b74295ac056c194754aaad": {
+    "score": 0.2,
+    "probabilities": {
+      "0": 0.8,
+      "1": 0.2,
+      "2": 0.0
+    },
+    "confidence": 0.7,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "d43875e92226ee67dd5d48eef5de7bc5cf237c6a02dd20e46ba7c3e22f53b6bf": {
+    "score": 0.24,
+    "probabilities": {
+      "0": 0.77,
+      "1": 0.23,
+      "2": 0.0
+    },
+    "confidence": 0.66,
+    "properties": {
+      "same_title": 0.53,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "89812e27f167db8ec23c08b1815969e77c39b5e0d439bde8d9d2f33aeca2357b": {
+    "score": 0.82,
+    "probabilities": {
+      "0": 0.18,
+      "1": 0.82,
+      "2": 0.0
+    },
+    "confidence": 0.73,
+    "properties": {
+      "same_title": 0.02,
+      "same_artist": 0.96,
+      "same_label": 0.01
+    }
+  },
+  "77981cd7d49cbdaab64166297d2ae3c65f20517d9902af9dc63f1da574c28731": {
+    "score": 0.02,
+    "probabilities": {
+      "0": 0.98,
+      "1": 0.02,
+      "2": 0.0
+    },
+    "confidence": 0.97,
+    "properties": {
+      "same_title": 0.04,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "ca3d8abad27bb7a97dd75ad3bb46f02cee0a332cc0a06ec9eb4a04b4b60bcf7d": {
+    "score": 1.27,
+    "probabilities": {
+      "0": 0.01,
+      "1": 0.7,
+      "2": 0.29
+    },
+    "confidence": 0.55,
+    "properties": {
+      "same_title": 0.71,
+      "same_artist": 0.99,
+      "same_label": 0.96
+    }
+  },
+  "dc967294dafcbb1830775c1614e37529010571f3c2df4a2e62acf94f8d748cec": {
+    "score": 0.27,
+    "probabilities": {
+      "0": 0.73,
+      "1": 0.27,
+      "2": 0.0
+    },
+    "confidence": 0.59,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "857ded00fefc84222cd43d0853c40d88fa08609ad62850d343ae29b1a83d9bc8": {
+    "score": 0.43,
+    "probabilities": {
+      "0": 0.6,
+      "1": 0.37,
+      "2": 0.03
+    },
+    "confidence": 0.35,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.02,
+      "same_label": 0.03
+    }
+  },
+  "92a56b5af8bc0af5cfa4bc9dcb226a122d2bdc5714a73ab8c72ad354469e07f3": {
+    "score": 1.96,
+    "probabilities": {
+      "0": 0.0,
+      "1": 0.04,
+      "2": 0.96
+    },
+    "confidence": 0.94,
+    "properties": {
+      "same_title": 0.48,
+      "same_artist": 0.99,
+      "same_label": 0.64
+    }
+  },
+  "5a69c21f1c0f79ce11243f5206499ca10ee840b3e2cdcb075bdc226212ba7e07": {
+    "score": 0.99,
+    "probabilities": {
+      "0": 0.02,
+      "1": 0.98,
+      "2": 0.0
+    },
+    "confidence": 0.97,
+    "properties": {
+      "same_title": 0.34,
+      "same_artist": 0.99,
+      "same_label": 0.01
+    }
+  },
+  "d4bc99d5c9a9ae78b491590481750e3bb8b9e51f9316993e2dbccf2b2157578c": {
+    "score": 0.1,
+    "probabilities": {
+      "0": 0.9,
+      "1": 0.1,
+      "2": 0.0
+    },
+    "confidence": 0.85,
+    "properties": {
+      "same_title": 0.11,
+      "same_artist": 0.01,
+      "same_label": 0.42
+    }
+  },
+  "d1b1a96f208bb86e93c49486362aa6eb923007ff7754c133646bf9afd40aad09": {
+    "score": 0.25,
+    "probabilities": {
+      "0": 0.76,
+      "1": 0.24,
+      "2": 0.0
+    },
+    "confidence": 0.64,
+    "properties": {
+      "same_title": 0.66,
+      "same_artist": 0.01,
+      "same_label": 0.38
+    }
+  },
+  "97154d63074f6d9cf21fcf087db7048ab111a7d992e67fe56f9cb4131bf0c48b": {
+    "score": 0.2,
+    "probabilities": {
+      "0": 0.8,
+      "1": 0.2,
+      "2": 0.0
+    },
+    "confidence": 0.7,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "4290ab0bcbf249607af24b01f66eefc40d280fa142591ad8777457fb572d6623": {
+    "score": 0.55,
+    "probabilities": {
+      "0": 0.46,
+      "1": 0.53,
+      "2": 0.01
+    },
+    "confidence": 0.29,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.13
+    }
+  },
+  "0f7a7fdb19a8900b689cd78f911978ea285965be361ab7898339e02f89f5a06e": {
+    "score": 0.32,
+    "probabilities": {
+      "0": 0.68,
+      "1": 0.31,
+      "2": 0.01
+    },
+    "confidence": 0.5,
+    "properties": {
+      "same_title": 0.07,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "8836d56a8584f6b2dc0107482133c580949ad291c5086fca59fac66c70bb1d13": {
+    "score": 0.12,
+    "probabilities": {
+      "0": 0.89,
+      "1": 0.11,
+      "2": 0.0
+    },
+    "confidence": 0.83,
+    "properties": {
+      "same_title": 0.01,
+      "same_artist": 0.85,
+      "same_label": 0.01
+    }
+  },
+  "bbcd333df7b6d2d7e0e5d4137a86649d04a71e83075d2c2eabdba4505e60c70f": {
+    "score": 0.4,
+    "probabilities": {
+      "0": 0.61,
+      "1": 0.38,
+      "2": 0.01
+    },
+    "confidence": 0.4,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.03,
+      "same_label": 0.02
+    }
+  },
+  "d44f0d3964c28aa4934e8969ea9078c0611d5f69f8ddc1338925c3f608e37bd9": {
+    "score": 0.4,
+    "probabilities": {
+      "0": 0.61,
+      "1": 0.39,
+      "2": 0.0
+    },
+    "confidence": 0.41,
+    "properties": {
+      "same_title": 0.91,
+      "same_artist": 0.01,
+      "same_label": 0.02
+    }
+  },
+  "8e800c7a08b985723c0b21cc20957b0e959af13bbf230b32189b824717a68392": {
+    "score": 0.11,
+    "probabilities": {
+      "0": 0.89,
+      "1": 0.11,
+      "2": 0.0
+    },
+    "confidence": 0.83,
+    "properties": {
+      "same_title": 0.02,
+      "same_artist": 0.02,
+      "same_label": 0.01
+    }
+  },
+  "b9ee7b566279af449aef9f2c95d57ef7bebecfb3bb28cdda1c8e20917f6c97ac": {
+    "score": 1.4,
+    "probabilities": {
+      "0": 0.01,
+      "1": 0.58,
+      "2": 0.41
+    },
+    "confidence": 0.37,
+    "properties": {
+      "same_title": 0.15,
+      "same_artist": 0.99,
+      "same_label": 0.07
+    }
+  },
+  "22d93b1db0f1c049d3bcdd1bc69765d2f0494f4e59c6854b871731c4600d1d59": {
+    "score": 0.27,
+    "probabilities": {
+      "0": 0.74,
+      "1": 0.26,
+      "2": 0.0
+    },
+    "confidence": 0.61,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.02
+    }
+  },
+  "e1522193d220eae8694092cbf9baf3b2f16a18e5f93c4628703cf73462c41e2a": {
+    "score": 0.18,
+    "probabilities": {
+      "0": 0.82,
+      "1": 0.17,
+      "2": 0.01
+    },
+    "confidence": 0.71,
+    "properties": {
+      "same_title": 0.47,
+      "same_artist": 0.01,
+      "same_label": 0.02
+    }
+  },
+  "c4e589908407d470c0217821bdf457774dfb2ac58fb597170ad35119e5b87ae1": {
+    "score": 0.11,
+    "probabilities": {
+      "0": 0.9,
+      "1": 0.1,
+      "2": 0.0
+    },
+    "confidence": 0.85,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "97acf9463940250eb90b9e4355dd8b8f9255662f7b0c4598088df95eae5b5427": {
+    "score": 0.71,
+    "probabilities": {
+      "0": 0.3,
+      "1": 0.69,
+      "2": 0.01
+    },
+    "confidence": 0.53,
+    "properties": {
+      "same_title": 0.37,
+      "same_artist": 0.02,
+      "same_label": 0.01
+    }
+  },
+  "3734448126d558e9022561cf53f83ffc4943e7e399644daa0b8f72bdf143a938": {
+    "score": 0.11,
+    "probabilities": {
+      "0": 0.89,
+      "1": 0.11,
+      "2": 0.0
+    },
+    "confidence": 0.83,
+    "properties": {
+      "same_title": 0.95,
+      "same_artist": 0.01,
+      "same_label": 0.02
+    }
+  },
+  "ef3b2c6aaaa34758449662502b4e46c59e71726ec6c7723cc997e12234b1e887": {
+    "score": 0.18,
+    "probabilities": {
+      "0": 0.83,
+      "1": 0.17,
+      "2": 0.0
+    },
+    "confidence": 0.74,
+    "properties": {
+      "same_title": 0.94,
+      "same_artist": 0.01,
+      "same_label": 0.02
+    }
+  },
+  "48cbe8018dc4ff051c414b803f1b399cf91abcf085f3ee3bc58f27953f7c23b2": {
+    "score": 0.84,
+    "probabilities": {
+      "0": 0.17,
+      "1": 0.83,
+      "2": 0.0
+    },
+    "confidence": 0.74,
+    "properties": {
+      "same_title": 0.44,
+      "same_artist": 0.03,
+      "same_label": 0.03
+    }
+  },
+  "8171a337d9225e483370a3fba9a2150ed003db75077961a4bbd714247b72e50b": {
+    "score": 0.17,
+    "probabilities": {
+      "0": 0.84,
+      "1": 0.16,
+      "2": 0.0
+    },
+    "confidence": 0.76,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "9ee74fe1412226a88652a2a9084bdd89c4cbbf9738abfe8e45398deee05caefa": {
+    "score": 0.11,
+    "probabilities": {
+      "0": 0.9,
+      "1": 0.1,
+      "2": 0.0
+    },
+    "confidence": 0.85,
+    "properties": {
+      "same_title": 0.06,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "5990742009edb928b4a9ceb806a8aa9b4892327a721b76c1833264795b16bdc5": {
+    "score": 0.25,
+    "probabilities": {
+      "0": 0.76,
+      "1": 0.23,
+      "2": 0.01
+    },
+    "confidence": 0.62,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.02
+    }
+  },
+  "73f92764ae5dc70067dea09038338b37d0a1417272e8db3eb07e9c11ea97a521": {
+    "score": 0.98,
+    "probabilities": {
+      "0": 0.03,
+      "1": 0.96,
+      "2": 0.01
+    },
+    "confidence": 0.94,
+    "properties": {
+      "same_title": 0.04,
+      "same_artist": 0.99,
+      "same_label": 0.01
+    }
+  },
+  "293c620a5006e80dc46749e114fda635646df316fb392fa8bd4a1636e6bd3322": {
+    "score": 0.58,
+    "probabilities": {
+      "0": 0.43,
+      "1": 0.55,
+      "2": 0.02
+    },
+    "confidence": 0.32,
+    "properties": {
+      "same_title": 0.96,
+      "same_artist": 0.01,
+      "same_label": 0.88
+    }
+  },
+  "7e1695844aa21c41f49497d9c49bc74fa2b128ecba089d49c4dc2c3cdf1fb50b": {
+    "score": 0.18,
+    "probabilities": {
+      "0": 0.82,
+      "1": 0.18,
+      "2": 0.0
+    },
+    "confidence": 0.73,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.02
+    }
+  },
+  "80cd5e2399302dc51cdff621be15a194d12ef52ab10ea08d4aea8563475eb9f4": {
+    "score": 0.35,
+    "probabilities": {
+      "0": 0.65,
+      "1": 0.35,
+      "2": 0.0
+    },
+    "confidence": 0.47,
+    "properties": {
+      "same_title": 0.03,
+      "same_artist": 0.01,
+      "same_label": 0.02
+    }
+  },
+  "2e3635a3c726c6ab03fbedb43362fc04558574b1bc3f31a5e35197fdf438f94f": {
+    "score": 0.24,
+    "probabilities": {
+      "0": 0.76,
+      "1": 0.24,
+      "2": 0.0
+    },
+    "confidence": 0.64,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "d223b4b4d3f28219cc728903abca5c481558c69482751b8e8d6c285fe0289780": {
+    "score": 0.27,
+    "probabilities": {
+      "0": 0.73,
+      "1": 0.27,
+      "2": 0.0
+    },
+    "confidence": 0.59,
+    "properties": {
+      "same_title": 0.06,
+      "same_artist": 0.9,
+      "same_label": 0.01
+    }
+  },
+  "a315831e1bb3dddb2c85fb322e7a4000d9ca8d272d83467a726f6634c30a8047": {
+    "score": 0.2,
+    "probabilities": {
+      "0": 0.81,
+      "1": 0.19,
+      "2": 0.0
+    },
+    "confidence": 0.71,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.02
+    }
+  },
+  "1f0e63a4845143effaa7d78ab7db273831fba6aedc9c74d983b65a8ebf5a4293": {
+    "score": 0.21,
+    "probabilities": {
+      "0": 0.79,
+      "1": 0.21,
+      "2": 0.0
+    },
+    "confidence": 0.69,
+    "properties": {
+      "same_title": 0.54,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "1805a4e159f37baa2c29adbc205adfa60c99dad19e64b41033a09eb251e09f35": {
+    "score": 0.11,
+    "probabilities": {
+      "0": 0.89,
+      "1": 0.11,
+      "2": 0.0
+    },
+    "confidence": 0.83,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "a6c82b2ed71f1b8b5e2cc7001d6d270b79c759eba7ae6627cc2ee8a763b5d92b": {
+    "score": 1.88,
+    "probabilities": {
+      "0": 0.0,
+      "1": 0.11,
+      "2": 0.89
+    },
+    "confidence": 0.83,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.99,
+      "same_label": 0.03
+    }
+  },
+  "e27358d24102bd35d75df90045401cede9a08545cf3fbe41a2fab0ae57e918d0": {
+    "score": 0.45,
+    "probabilities": {
+      "0": 0.55,
+      "1": 0.44,
+      "2": 0.01
+    },
+    "confidence": 0.31,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.38
+    }
+  },
+  "85bcfc1f1bfd83b6053f2e5622f5bc6da4d5de8e4f5a06e1acb6b27ac4507e5d": {
+    "score": 0.26,
+    "probabilities": {
+      "0": 0.74,
+      "1": 0.26,
+      "2": 0.0
+    },
+    "confidence": 0.61,
+    "properties": {
+      "same_title": 0.95,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "4e9ea91e36670d34fa9dcbd6766da3fc0cabf7a37a28b8ad48a940a626076daf": {
+    "score": 0.34,
+    "probabilities": {
+      "0": 0.66,
+      "1": 0.33,
+      "2": 0.01
+    },
+    "confidence": 0.47,
+    "properties": {
+      "same_title": 0.08,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "c2669bed834d20960712a38a69d8d70746916c75172b0651306b08e983df2c9e": {
+    "score": 0.92,
+    "probabilities": {
+      "0": 0.12,
+      "1": 0.84,
+      "2": 0.04
+    },
+    "confidence": 0.76,
+    "properties": {
+      "same_title": 0.91,
+      "same_artist": 0.77,
+      "same_label": 0.02
+    }
+  },
+  "f0b1ac8c623cf41a34c230c83845c70dc13f5f8a301ffff69e1c2c0a5b8ccb10": {
+    "score": 0.18,
+    "probabilities": {
+      "0": 0.82,
+      "1": 0.18,
+      "2": 0.0
+    },
+    "confidence": 0.73,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "cce0baa13ba52ccfddd41e7b6b6d233241e2755c9dd87a0d353fa66f5e12cde1": {
+    "score": 1.71,
+    "probabilities": {
+      "0": 0.01,
+      "1": 0.27,
+      "2": 0.72
+    },
+    "confidence": 0.56,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.91,
+      "same_label": 0.08
+    }
+  },
+  "78922fc820822d63f4132b3255278efb7342e344d429c98a60be6008e1e5c3f0": {
+    "score": 0.24,
+    "probabilities": {
+      "0": 0.76,
+      "1": 0.24,
+      "2": 0.0
+    },
+    "confidence": 0.64,
+    "properties": {
+      "same_title": 0.94,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "d13687cbf2d98de13ca1178d093cd28f7ab4c4b4be34cc8cf0c7e7f1a6413e3e": {
+    "score": 0.33,
+    "probabilities": {
+      "0": 0.68,
+      "1": 0.32,
+      "2": 0.0
+    },
+    "confidence": 0.52,
+    "properties": {
+      "same_title": 0.93,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "05d75814848a03541b14e4e25de45c0c71a2136e7caab49708e4620734ba6a6c": {
+    "score": 0.38,
+    "probabilities": {
+      "0": 0.63,
+      "1": 0.37,
+      "2": 0.0
+    },
+    "confidence": 0.44,
+    "properties": {
+      "same_title": 0.38,
+      "same_artist": 0.01,
+      "same_label": 0.02
+    }
+  },
+  "09324efed2320d8adb8fb4a3a78de3e8d9c4bb95edf1e482c91f1648b98646ad": {
+    "score": 0.28,
+    "probabilities": {
+      "0": 0.73,
+      "1": 0.27,
+      "2": 0.0
+    },
+    "confidence": 0.59,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "0e373c06011330a8a2f3ca29cb4eae0ec90a515b1b1e2e2c774c0b92b512afe3": {
+    "score": 0.28,
+    "probabilities": {
+      "0": 0.72,
+      "1": 0.28,
+      "2": 0.0
+    },
+    "confidence": 0.58,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "608399695367dece5be58cc8939eb5a01d6f6592df01133cd7b70bc52f8e1b02": {
+    "score": 1.75,
+    "probabilities": {
+      "0": 0.01,
+      "1": 0.24,
+      "2": 0.75
+    },
+    "confidence": 0.61,
+    "properties": {
+      "same_title": 0.98,
+      "same_artist": 0.98,
+      "same_label": 0.01
+    }
+  },
+  "2e041b49e310a16fbfef5d9f27c31f91b5b713eff308a2b048589e45d3a26435": {
+    "score": 0.29,
+    "probabilities": {
+      "0": 0.72,
+      "1": 0.28,
+      "2": 0.0
+    },
+    "confidence": 0.58,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "55c761b7d9e2604114e992e8f479372fd4fe283b28dc5ab28bacda0a39c5879a": {
+    "score": 1.01,
+    "probabilities": {
+      "0": 0.06,
+      "1": 0.87,
+      "2": 0.07
+    },
+    "confidence": 0.8,
+    "properties": {
+      "same_title": 0.24,
+      "same_artist": 0.99,
+      "same_label": 0.22
+    }
+  },
+  "83d3d8af602176081fac0cd767e643e48d1d9dce9f0be20a58f6bd6a3771f5b1": {
+    "score": 0.17,
+    "probabilities": {
+      "0": 0.84,
+      "1": 0.16,
+      "2": 0.0
+    },
+    "confidence": 0.76,
+    "properties": {
+      "same_title": 0.04,
+      "same_artist": 0.01,
+      "same_label": 0.44
+    }
+  },
+  "32411973e9f31628617ffc7c1951b9b82dd1323e5bc94a7ea21d528afb5ef1ad": {
+    "score": 0.19,
+    "probabilities": {
+      "0": 0.81,
+      "1": 0.19,
+      "2": 0.0
+    },
+    "confidence": 0.71,
+    "properties": {
+      "same_title": 0.66,
+      "same_artist": 0.01,
+      "same_label": 0.02
+    }
+  },
+  "9d47ae7e446eb4034631950cd695252d3e9c144eb3e7478edab1ed3a2366d193": {
+    "score": 0.28,
+    "probabilities": {
+      "0": 0.74,
+      "1": 0.25,
+      "2": 0.01
+    },
+    "confidence": 0.59,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "8be3a07388343545c50e823e7c69201a411ff43937bc7a4373aa7e9d282f5b11": {
+    "score": 0.21,
+    "probabilities": {
+      "0": 0.79,
+      "1": 0.21,
+      "2": 0.0
+    },
+    "confidence": 0.69,
+    "properties": {
+      "same_title": 0.83,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "e0f0dcbd27817caba3351dd94e3467494f410bef824890500aa82a111ee4a115": {
+    "score": 0.15,
+    "probabilities": {
+      "0": 0.85,
+      "1": 0.15,
+      "2": 0.0
+    },
+    "confidence": 0.78,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "d1ebc42fce4f8ca065f21b595c48a91a29e6a17e51d9cf90c7384f3ceb99ee25": {
+    "score": 0.18,
+    "probabilities": {
+      "0": 0.82,
+      "1": 0.18,
+      "2": 0.0
+    },
+    "confidence": 0.73,
+    "properties": {
+      "same_title": 0.95,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "a7c738efe19cecfc7246e122245e44701a4484e4584f7efb3f89482517dcfa7e": {
+    "score": 0.1,
+    "probabilities": {
+      "0": 0.9,
+      "1": 0.1,
+      "2": 0.0
+    },
+    "confidence": 0.85,
+    "properties": {
+      "same_title": 0.02,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "c789be71f3401b3de8f034f638362e04ce19b55337ca4ca31d31734ff5198529": {
+    "score": 0.24,
+    "probabilities": {
+      "0": 0.76,
+      "1": 0.24,
+      "2": 0.0
+    },
+    "confidence": 0.64,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "b2c0932fc09e8ff61002c8585b8ae222f1de454dfba08b9d0aea0b39eaa798ec": {
+    "score": 1.08,
+    "probabilities": {
+      "0": 0.01,
+      "1": 0.9,
+      "2": 0.09
+    },
+    "confidence": 0.85,
+    "properties": {
+      "same_title": 0.23,
+      "same_artist": 0.97,
+      "same_label": 0.01
+    }
+  },
+  "e6d7e86d9039cdb22c8f9090faf5956d4e0c4c9860a70d9dd98d80163681d2ba": {
+    "score": 0.15,
+    "probabilities": {
+      "0": 0.85,
+      "1": 0.15,
+      "2": 0.0
+    },
+    "confidence": 0.78,
+    "properties": {
+      "same_title": 0.07,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "bfe4c40d3ac3fae4e516fa9cc19313f0e2221c2eb07faac444074285d9ed5b38": {
+    "score": 0.13,
+    "probabilities": {
+      "0": 0.88,
+      "1": 0.12,
+      "2": 0.0
+    },
+    "confidence": 0.82,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "dd90eb18b61016b909d3e7b38d55f28e61c9d6c94e9752943b2e27070bdf517b": {
+    "score": 0.32,
+    "probabilities": {
+      "0": 0.6799999999999999,
+      "1": 0.31,
+      "2": 0.01
+    },
+    "confidence": 0.5,
+    "properties": {
+      "same_title": 0.03,
+      "same_artist": 0.01,
+      "same_label": 0.02
+    }
+  },
+  "133549ca0f30ad4ba5f53f62c262fbfcb3b8b988dd02d2400ce50b448f4cba8c": {
+    "score": 0.38,
+    "probabilities": {
+      "0": 0.63,
+      "1": 0.36,
+      "2": 0.01
+    },
+    "confidence": 0.43,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "b489d0f2ab0aae92668639dab38cc875ec2e66b5c04c61d5605a0068249fa525": {
+    "score": 1.78,
+    "probabilities": {
+      "0": 0.0,
+      "1": 0.21,
+      "2": 0.79
+    },
+    "confidence": 0.69,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.94,
+      "same_label": 0.71
+    }
+  },
+  "006801f0b592ea0fe19cc2ca466901cccf0ae22835aa8041e404da1d5a69d377": {
+    "score": 0.2,
+    "probabilities": {
+      "0": 0.8,
+      "1": 0.2,
+      "2": 0.0
+    },
+    "confidence": 0.7,
+    "properties": {
+      "same_title": 0.02,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "1f6a0110f3f8c84c64bea45f1f6642621b5e4929e2f758eb26938a560ef160ec": {
+    "score": 0.22,
+    "probabilities": {
+      "0": 0.79,
+      "1": 0.21,
+      "2": 0.0
+    },
+    "confidence": 0.69,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.02
+    }
+  },
+  "3063ee7b109927b8b703dee4979e9bf52aa93f675752fd973a8278ad807d2ef5": {
+    "score": 0.07,
+    "probabilities": {
+      "0": 0.93,
+      "1": 0.07,
+      "2": 0.0
+    },
+    "confidence": 0.9,
+    "properties": {
+      "same_title": 0.05,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "d8b65f203de5a971609e04b911bb1373c45c1e28261f2b15ca300ff252ce9108": {
+    "score": 1.26,
+    "probabilities": {
+      "0": 0.04,
+      "1": 0.66,
+      "2": 0.3
+    },
+    "confidence": 0.49,
+    "properties": {
+      "same_title": 0.19,
+      "same_artist": 0.99,
+      "same_label": 0.32
+    }
+  },
+  "3a980e0d814483a3b7caaa12132b468c9d5d885a96df583174cd035285e9ef01": {
+    "score": 1.99,
+    "probabilities": {
+      "0": 0.0,
+      "1": 0.01,
+      "2": 0.99
+    },
+    "confidence": 0.98,
+    "properties": {
+      "same_title": 0.75,
+      "same_artist": 0.99,
+      "same_label": 0.99
+    }
+  },
+  "ab8f9673dfecdc68f823a326fa90fe1dcbc99b05b0da4ca8aa56fa1284c69ecd": {
+    "score": 0.2,
+    "probabilities": {
+      "0": 0.81,
+      "1": 0.19,
+      "2": 0.0
+    },
+    "confidence": 0.71,
+    "properties": {
+      "same_title": 0.84,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "7525a95cf52ccec886489174c419dd5cda45796f02e3d0fd3d3e8a5618133ab5": {
+    "score": 1.68,
+    "probabilities": {
+      "0": 0.01,
+      "1": 0.31,
+      "2": 0.6799999999999999
+    },
+    "confidence": 0.5,
+    "properties": {
+      "same_title": 0.16,
+      "same_artist": 0.99,
+      "same_label": 0.99
+    }
+  },
+  "79dacde6690c62a1730a0f487617893faad8c2929b615c862f819296700658f5": {
+    "score": 0.2,
+    "probabilities": {
+      "0": 0.8,
+      "1": 0.2,
+      "2": 0.0
+    },
+    "confidence": 0.7,
+    "properties": {
+      "same_title": 0.73,
+      "same_artist": 0.01,
+      "same_label": 0.02
+    }
+  },
+  "58e055f6b4ff952115580a4226acb80ad27731adc5b4f663b9a95be02c1cdc26": {
+    "score": 1.36,
+    "probabilities": {
+      "0": 0.2,
+      "1": 0.24,
+      "2": 0.56
+    },
+    "confidence": 0.04,
+    "properties": {
+      "same_title": 0.03,
+      "same_artist": 0.99,
+      "same_label": 0.93
+    }
+  },
+  "8f2e8ad47c4096af03394c39dcdd68e1dd5b1a231f683e3e820ffdbde404fb9b": {
+    "score": 0.2,
+    "probabilities": {
+      "0": 0.8,
+      "1": 0.2,
+      "2": 0.0
+    },
+    "confidence": 0.7,
+    "properties": {
+      "same_title": 0.03,
+      "same_artist": 0.01,
+      "same_label": 0.02
+    }
+  },
+  "c847ee7d916f670a8132f934837c70f3543be58689438cc38bf58b891c19bc67": {
+    "score": 1.03,
+    "probabilities": {
+      "0": 0.11,
+      "1": 0.75,
+      "2": 0.14
+    },
+    "confidence": 0.62,
+    "properties": {
+      "same_title": 0.09,
+      "same_artist": 0.73,
+      "same_label": 0.02
+    }
+  },
+  "705bf5a2b5e3ee540cc9cb7e2c01fb2ad36678c18adb2827654c2903b594f6a7": {
+    "score": 0.02,
+    "probabilities": {
+      "0": 0.98,
+      "1": 0.02,
+      "2": 0.0
+    },
+    "confidence": 0.97,
+    "properties": {
+      "same_title": 0.03,
+      "same_artist": 0.01,
+      "same_label": 0.02
+    }
+  },
+  "d759ed12f305665eb73a2660437dd5c5c0e509e55e452f43482745341f568074": {
+    "score": 1.01,
+    "probabilities": {
+      "0": 0.03,
+      "1": 0.93,
+      "2": 0.04
+    },
+    "confidence": 0.9,
+    "properties": {
+      "same_title": 0.06,
+      "same_artist": 0.99,
+      "same_label": 0.03
+    }
+  },
+  "b72cdd4209b3836d8f777475e384205d5391f165cac0cc5db50e66464502f8e9": {
+    "score": 0.3,
+    "probabilities": {
+      "0": 0.7,
+      "1": 0.29,
+      "2": 0.01
+    },
+    "confidence": 0.53,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.02
+    }
+  },
+  "d08fb1bc75784e3b2d92ad10aa8b89aa9c2a1e8dc918bab91a412bd190b303ce": {
+    "score": 0.36,
+    "probabilities": {
+      "0": 0.65,
+      "1": 0.34,
+      "2": 0.01
+    },
+    "confidence": 0.46,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.02
+    }
+  },
+  "0c261712a7745a229cc9cb0a2e4de1589cb04c4e4511224b0e44587fa3066986": {
+    "score": 0.34,
+    "probabilities": {
+      "0": 0.67,
+      "1": 0.33,
+      "2": 0.0
+    },
+    "confidence": 0.5,
+    "properties": {
+      "same_title": 0.06,
+      "same_artist": 0.01,
+      "same_label": 0.02
+    }
+  },
+  "6ed4a7bf533bc24a8ac17553732695b3f62aac2d049cddd92964fe58435c69d1": {
+    "score": 1.95,
+    "probabilities": {
+      "0": 0.0,
+      "1": 0.05,
+      "2": 0.95
+    },
+    "confidence": 0.93,
+    "properties": {
+      "same_title": 0.35,
+      "same_artist": 0.95,
+      "same_label": 0.99
+    }
+  },
+  "9e21920873466cab616dd876837442b607e8c67e9892a3494ad2970191a4174d": {
+    "score": 0.08,
+    "probabilities": {
+      "0": 0.92,
+      "1": 0.08,
+      "2": 0.0
+    },
+    "confidence": 0.88,
+    "properties": {
+      "same_title": 0.03,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "a666a8b165d346e5ee4af15a0b0dca0765a4218f7cd3cf19bb615dc73cfd2738": {
+    "score": 0.12,
+    "probabilities": {
+      "0": 0.89,
+      "1": 0.11,
+      "2": 0.0
+    },
+    "confidence": 0.83,
+    "properties": {
+      "same_title": 0.05,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "e9dc9cc61d4b6199e4149a341aab76a4fa24cf1000b57411e50efeb10a939ab6": {
+    "score": 0.18,
+    "probabilities": {
+      "0": 0.83,
+      "1": 0.16,
+      "2": 0.01
+    },
+    "confidence": 0.73,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.02
+    }
+  },
+  "dd3e9be144fd93d92d8eef7b01277300628a08e4e1db98a661b4e3b95911c774": {
+    "score": 0.33,
+    "probabilities": {
+      "0": 0.67,
+      "1": 0.32,
+      "2": 0.01
+    },
+    "confidence": 0.49,
+    "properties": {
+      "same_title": 0.97,
+      "same_artist": 0.01,
+      "same_label": 0.46
+    }
+  },
+  "c3c50a68e94d24d71fd71b9e14bc70084cafd7d3cb31c7507ef28d220a02092f": {
+    "score": 1.99,
+    "probabilities": {
+      "0": 0.0,
+      "1": 0.01,
+      "2": 0.99
+    },
+    "confidence": 0.98,
+    "properties": {
+      "same_title": 0.69,
+      "same_artist": 0.96,
+      "same_label": 0.99
+    }
+  },
+  "a97e112bfe3425822f5330468a8f92e50c3ee3ad30da0fc2b43c903d44af2389": {
+    "score": 0.21,
+    "probabilities": {
+      "0": 0.79,
+      "1": 0.21,
+      "2": 0.0
+    },
+    "confidence": 0.69,
+    "properties": {
+      "same_title": 0.08,
+      "same_artist": 0.01,
+      "same_label": 0.02
+    }
+  },
+  "b43f9e1e6617f87b8a5c375fcf0e7f33b5a3900f908ed4e604c92f3482103b84": {
+    "score": 0.17,
+    "probabilities": {
+      "0": 0.83,
+      "1": 0.17,
+      "2": 0.0
+    },
+    "confidence": 0.74,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "b868366b3a27dba52aebcd175a840127031350c8fe538628b236617cc394e9cb": {
+    "score": 1.94,
+    "probabilities": {
+      "0": 0.0,
+      "1": 0.06,
+      "2": 0.94
+    },
+    "confidence": 0.91,
+    "properties": {
+      "same_title": 0.83,
+      "same_artist": 0.99,
+      "same_label": 0.63
+    }
+  },
+  "4814f587ae29bbda9832a93ea28b26ce33c9f7a00ef5f58be71a28c68a430447": {
+    "score": 0.21,
+    "probabilities": {
+      "0": 0.79,
+      "1": 0.21,
+      "2": 0.0
+    },
+    "confidence": 0.69,
+    "properties": {
+      "same_title": 0.98,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "bf24009672fbcdc0742f55269e9ff68ae36735b8734b2de67a0c578a755d5690": {
+    "score": 0.09,
+    "probabilities": {
+      "0": 0.91,
+      "1": 0.09,
+      "2": 0.0
+    },
+    "confidence": 0.86,
+    "properties": {
+      "same_title": 0.01,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "06401163d7ba8bef586b9d4c5839fcc83d017d71e64acb6def08af7bf1a0b23d": {
+    "score": 1.89,
+    "probabilities": {
+      "0": 0.0,
+      "1": 0.11,
+      "2": 0.89
+    },
+    "confidence": 0.83,
+    "properties": {
+      "same_title": 0.9,
+      "same_artist": 0.99,
+      "same_label": 0.03
+    }
+  },
+  "53fd2dc4f5cadf48d0f2bfa2264d177d34bdf7655cfd664f274302409b22e977": {
+    "score": 0.49,
+    "probabilities": {
+      "0": 0.52,
+      "1": 0.48,
+      "2": 0.0
+    },
+    "confidence": 0.28,
+    "properties": {
+      "same_title": 0.03,
+      "same_artist": 0.04,
+      "same_label": 0.01
+    }
+  },
+  "2cb4de5b9149527e14aea3dd9ff05cd7dba79d20065bb44483e6a9c689670feb": {
+    "score": 1.47,
+    "probabilities": {
+      "0": 0.01,
+      "1": 0.51,
+      "2": 0.48
+    },
+    "confidence": 0.27,
+    "properties": {
+      "same_title": 0.62,
+      "same_artist": 0.99,
+      "same_label": 0.61
+    }
+  },
+  "f58f0ea6a942af6178c647cd345b5a9a0a2f7df67d13dc07240fc6f6d57e94c0": {
+    "score": 0.22,
+    "probabilities": {
+      "0": 0.79,
+      "1": 0.21,
+      "2": 0.0
+    },
+    "confidence": 0.69,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.27
+    }
+  },
+  "9538955277745df67fe873c9afda8ff07d017f5c89302e68664b6a5e18313f51": {
+    "score": 0.31,
+    "probabilities": {
+      "0": 0.7,
+      "1": 0.3,
+      "2": 0.0
+    },
+    "confidence": 0.55,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "dc6471f78f29ad3b2cc238532ca3ed49daad456e1a907b649619c79b33885b56": {
+    "score": 0.23,
+    "probabilities": {
+      "0": 0.78,
+      "1": 0.22,
+      "2": 0.0
+    },
+    "confidence": 0.67,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.02
+    }
+  },
+  "be2d9dce823fff767a745d7f2cb79a3db9709753d01772fa645231fda8995289": {
+    "score": 0.3,
+    "probabilities": {
+      "0": 0.7,
+      "1": 0.29,
+      "2": 0.01
+    },
+    "confidence": 0.53,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.36
+    }
+  },
+  "c0e172b964739b0881736ff0efb5b413513d9835bf49563c3459471fe44e29e9": {
+    "score": 0.34,
+    "probabilities": {
+      "0": 0.66,
+      "1": 0.33,
+      "2": 0.01
+    },
+    "confidence": 0.47,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.11,
+      "same_label": 0.35
+    }
+  },
+  "655f6330b36336973d03850d320e4fde403f568d50222b735b35ebb4f295a620": {
+    "score": 2.0,
+    "probabilities": {
+      "0": 0.0,
+      "1": 0.0,
+      "2": 1.0
+    },
+    "confidence": 1.0,
+    "properties": {
+      "same_title": 1.0,
+      "same_artist": 1.0,
+      "same_label": 0.99
+    }
+  },
+  "ca64af14285df84ceabe5cd3988c13cb179725aa53b6a3c6f517b70f051e40b1": {
+    "score": 0.33,
+    "probabilities": {
+      "0": 0.67,
+      "1": 0.32,
+      "2": 0.01
+    },
+    "confidence": 0.49,
+    "properties": {
+      "same_title": 0.27,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "03099c00a9d3f33b4ff0110967aa02b2a225d792c0180f07506ae88b40e2257d": {
+    "score": 0.34,
+    "probabilities": {
+      "0": 0.66,
+      "1": 0.33,
+      "2": 0.01
+    },
+    "confidence": 0.47,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.02
+    }
+  },
+  "00cc1fdb3a30dba2f4e82c7e1cab15d6c8463538d3662d2836023ced650e748c": {
+    "score": 0.05,
+    "probabilities": {
+      "0": 0.95,
+      "1": 0.05,
+      "2": 0.0
+    },
+    "confidence": 0.93,
+    "properties": {
+      "same_title": 0.02,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "7dc855533fec66d68ce1bbc7ba23b8c79f0618e20d66143a252c40dac28bd717": {
+    "score": 0.17,
+    "probabilities": {
+      "0": 0.84,
+      "1": 0.15,
+      "2": 0.01
+    },
+    "confidence": 0.74,
+    "properties": {
+      "same_title": 0.14,
+      "same_artist": 0.05,
+      "same_label": 0.01
+    }
+  },
+  "2cabd675413000d596533be94f3d3baa40f4c14afb42a9a4b071705899c17e27": {
+    "score": 2.0,
+    "probabilities": {
+      "0": 0.0,
+      "1": 0.0,
+      "2": 1.0
+    },
+    "confidence": 1.0,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.99,
+      "same_label": 0.49
+    }
+  },
+  "f841e5cb764430a5153fed802ae394607b75901af3b0ba98064b2e7b9c5d7e27": {
+    "score": 0.9,
+    "probabilities": {
+      "0": 0.12,
+      "1": 0.86,
+      "2": 0.02
+    },
+    "confidence": 0.79,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.06,
+      "same_label": 0.02
+    }
+  },
+  "79f6ff10fd46488ed5c60f41f34410ffb7c48cd0390495e94be28f7c305c7589": {
+    "score": 0.05,
+    "probabilities": {
+      "0": 0.95,
+      "1": 0.05,
+      "2": 0.0
+    },
+    "confidence": 0.93,
+    "properties": {
+      "same_title": 0.04,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "78b4af9174497d62c79962dc0185a31a7ea8f228a581259795354fc5c3cf531e": {
+    "score": 0.2,
+    "probabilities": {
+      "0": 0.81,
+      "1": 0.19,
+      "2": 0.0
+    },
+    "confidence": 0.71,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "a1101b6d8201654a3ec601c259f0dd01e561aebd349915c77970b71396cd0df8": {
+    "score": 0.02,
+    "probabilities": {
+      "0": 0.98,
+      "1": 0.02,
+      "2": 0.0
+    },
+    "confidence": 0.97,
+    "properties": {
+      "same_title": 0.07,
+      "same_artist": 0.01,
+      "same_label": 0.12
+    }
+  },
+  "aea41bb4b38832753b47ef37f22b3e9f28e2471a442275d4bc5d68def8cf7298": {
+    "score": 1.85,
+    "probabilities": {
+      "0": 0.0,
+      "1": 0.14,
+      "2": 0.86
+    },
+    "confidence": 0.79,
+    "properties": {
+      "same_title": 0.92,
+      "same_artist": 0.88,
+      "same_label": 0.04
+    }
+  },
+  "781009c7353531606b07c993745e62c0d3629cce2d6e849e11731323c0386b4a": {
+    "score": 0.21,
+    "probabilities": {
+      "0": 0.8,
+      "1": 0.2,
+      "2": 0.0
+    },
+    "confidence": 0.7,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "11f0285b5b38107990ae582669eca2bf4bd1cd3b91b12a3ced840197d9066708": {
+    "score": 0.23,
+    "probabilities": {
+      "0": 0.78,
+      "1": 0.22,
+      "2": 0.0
+    },
+    "confidence": 0.67,
+    "properties": {
+      "same_title": 0.95,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "83c107a61d3a442da4bc06cbd797d8a73179412b676a33616b061f1e26f952bd": {
+    "score": 0.85,
+    "probabilities": {
+      "0": 0.25,
+      "1": 0.65,
+      "2": 0.1
+    },
+    "confidence": 0.47,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.02,
+      "same_label": 0.04
+    }
+  },
+  "56955097e050f3be7c28ccb2ecb2d6a267877950560dbe9ef5078f34b491cfe3": {
+    "score": 0.05,
+    "probabilities": {
+      "0": 0.95,
+      "1": 0.05,
+      "2": 0.0
+    },
+    "confidence": 0.93,
+    "properties": {
+      "same_title": 0.05,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "e3c32739e9b7e5a00914a29b9e18a031ad0b6375d94fd81b4139abacd48000f2": {
+    "score": 0.03,
+    "probabilities": {
+      "0": 0.97,
+      "1": 0.03,
+      "2": 0.0
+    },
+    "confidence": 0.95,
+    "properties": {
+      "same_title": 0.07,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "f845da4b15ac500ae783fa5a666524124b4ad0f79883afac4da8e0b42a2e2ed1": {
+    "score": 0.15,
+    "probabilities": {
+      "0": 0.86,
+      "1": 0.14,
+      "2": 0.0
+    },
+    "confidence": 0.79,
+    "properties": {
+      "same_title": 0.09,
+      "same_artist": 0.01,
+      "same_label": 0.02
+    }
+  },
+  "97d528df874608c2ca919937a096869b324604da3f362f9576c9112d7cd41f3c": {
+    "score": 0.35,
+    "probabilities": {
+      "0": 0.66,
+      "1": 0.34,
+      "2": 0.0
+    },
+    "confidence": 0.49,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "069d39684693451f421e4c6156a5adb14f45987d3a174b29ff76a2393ebfbbb7": {
+    "score": 0.43,
+    "probabilities": {
+      "0": 0.6,
+      "1": 0.38,
+      "2": 0.02
+    },
+    "confidence": 0.37,
+    "properties": {
+      "same_title": 0.98,
+      "same_artist": 0.01,
+      "same_label": 0.02
+    }
+  },
+  "f5c9ab340f1ae7540c6eef996d1be5dae40a564f0f97d7f167e126c1baa2904c": {
+    "score": 0.17,
+    "probabilities": {
+      "0": 0.83,
+      "1": 0.17,
+      "2": 0.0
+    },
+    "confidence": 0.74,
+    "properties": {
+      "same_title": 0.09,
+      "same_artist": 0.01,
+      "same_label": 0.02
+    }
+  },
+  "490e3cd7e116850bfb4d5b4729ae4b9ed3a154d433b919acc9a767fda74c510f": {
+    "score": 0.52,
+    "probabilities": {
+      "0": 0.5,
+      "1": 0.48,
+      "2": 0.02
+    },
+    "confidence": 0.22,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "ca9539533946c07f40d1c0c01a109b9d6c2695c6cf550082b78fa854a4e3c6dd": {
+    "score": 0.42,
+    "probabilities": {
+      "0": 0.58,
+      "1": 0.41,
+      "2": 0.01
+    },
+    "confidence": 0.35,
+    "properties": {
+      "same_title": 0.81,
+      "same_artist": 0.02,
+      "same_label": 0.01
+    }
+  },
+  "7b6421fd7cb5f2503f56685a5528279655d3a41bd11fd8eb5412401d29166b91": {
+    "score": 0.26,
+    "probabilities": {
+      "0": 0.74,
+      "1": 0.25,
+      "2": 0.01
+    },
+    "confidence": 0.59,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.13
+    }
+  },
+  "5d18be3b6300155dcf263a1e181fc48d9dfdf60fe67bd535dd56a7d839e5f114": {
+    "score": 0.14,
+    "probabilities": {
+      "0": 0.87,
+      "1": 0.13,
+      "2": 0.0
+    },
+    "confidence": 0.8,
+    "properties": {
+      "same_title": 0.07,
+      "same_artist": 0.03,
+      "same_label": 0.02
+    }
+  },
+  "d7bb17ace76c5625f4da03516e92f1592070be0426737546691f82884d06e24b": {
+    "score": 0.05,
+    "probabilities": {
+      "0": 0.95,
+      "1": 0.05,
+      "2": 0.0
+    },
+    "confidence": 0.93,
+    "properties": {
+      "same_title": 0.03,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "9aa63280f4f944a1ac245a35b5b17ee67a8f2b6585500d898afe2026b8847481": {
+    "score": 0.08,
+    "probabilities": {
+      "0": 0.92,
+      "1": 0.08,
+      "2": 0.0
+    },
+    "confidence": 0.88,
+    "properties": {
+      "same_title": 0.03,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "7bddd816b7aebab9953648aa2b2c778080fc65e224f4d92ab8579e563f545a4a": {
+    "score": 0.15,
+    "probabilities": {
+      "0": 0.85,
+      "1": 0.14,
+      "2": 0.01
+    },
+    "confidence": 0.76,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.1
+    }
+  },
+  "141b9eb94dc48a2b3d829151f39e097d65080d21ffcf6c37189a0354763d4e5f": {
+    "score": 0.16,
+    "probabilities": {
+      "0": 0.84,
+      "1": 0.16,
+      "2": 0.0
+    },
+    "confidence": 0.76,
+    "properties": {
+      "same_title": 0.03,
+      "same_artist": 0.01,
+      "same_label": 0.02
+    }
+  },
+  "9f6cc9be6711278536446570201c30acb631d76218d21cd9b755a6fd36189d77": {
+    "score": 1.94,
+    "probabilities": {
+      "0": 0.0,
+      "1": 0.06,
+      "2": 0.94
+    },
+    "confidence": 0.91,
+    "properties": {
+      "same_title": 0.87,
+      "same_artist": 0.95,
+      "same_label": 0.04
+    }
+  },
+  "a22e0b57f0d76ee61ec7f75c33f346c6a45ee40dce21298a3755fe83ee3184c5": {
+    "score": 0.54,
+    "probabilities": {
+      "0": 0.48,
+      "1": 0.51,
+      "2": 0.01
+    },
+    "confidence": 0.27,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.02
+    }
+  },
+  "7059f40ffcc31a2e0dead263ac8deab48ed923eaf684286fdd0c8c756e84b9b0": {
+    "score": 1.82,
+    "probabilities": {
+      "0": 0.01,
+      "1": 0.16,
+      "2": 0.83
+    },
+    "confidence": 0.73,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.46,
+      "same_label": 0.03
+    }
+  },
+  "dce19fb65242d8bd787366a4d36f1c810bbbae18f8dc8d898060cbc428fedf85": {
+    "score": 0.34,
+    "probabilities": {
+      "0": 0.67,
+      "1": 0.33,
+      "2": 0.0
+    },
+    "confidence": 0.5,
+    "properties": {
+      "same_title": 0.98,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "513387bff6019ef5127a14fe528e7414f466bbaed374d6869fc82019988d5eb9": {
+    "score": 0.16,
+    "probabilities": {
+      "0": 0.84,
+      "1": 0.16,
+      "2": 0.0
+    },
+    "confidence": 0.76,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "eece9023df71ea6e008d7ce4063d00e40aaf43d924acdbc0e67dc01ff638aa73": {
+    "score": 0.2,
+    "probabilities": {
+      "0": 0.8,
+      "1": 0.2,
+      "2": 0.0
+    },
+    "confidence": 0.7,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.35
+    }
+  },
+  "ddc2e05eec08812acb8678964defffec98407b317a7883bf17683d96a61a4864": {
+    "score": 0.45,
+    "probabilities": {
+      "0": 0.56,
+      "1": 0.43,
+      "2": 0.01
+    },
+    "confidence": 0.32,
+    "properties": {
+      "same_title": 0.04,
+      "same_artist": 0.98,
+      "same_label": 0.01
+    }
+  },
+  "0b7ee91029d5e13912c037c4bb0f8d4ab2b1e4da860a6a69fb91e3cf6486c40e": {
+    "score": 1.99,
+    "probabilities": {
+      "0": 0.0,
+      "1": 0.01,
+      "2": 0.99
+    },
+    "confidence": 0.98,
+    "properties": {
+      "same_title": 0.97,
+      "same_artist": 0.99,
+      "same_label": 0.99
+    }
+  },
+  "ff19357102e21c35c9bdb6a9def821dc36d5c8fa9e1161eb4277e42313cb6bdc": {
+    "score": 0.77,
+    "probabilities": {
+      "0": 0.29,
+      "1": 0.65,
+      "2": 0.06
+    },
+    "confidence": 0.47,
+    "properties": {
+      "same_title": 0.97,
+      "same_artist": 0.02,
+      "same_label": 0.01
+    }
+  },
+  "6f6e806a2eef83ec8f36e44bf924879939bd19388b8293c2c626bc648dcf6ace": {
+    "score": 0.19,
+    "probabilities": {
+      "0": 0.8200000000000001,
+      "1": 0.18,
+      "2": 0.0
+    },
+    "confidence": 0.73,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.02
+    }
+  },
+  "e2b611c96d1fe4f15f9f921a1e05a405d8f75beabb6e9264887da8968a301622": {
+    "score": 0.22,
+    "probabilities": {
+      "0": 0.79,
+      "1": 0.21,
+      "2": 0.0
+    },
+    "confidence": 0.69,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "0220de98e06ab3d6868a98c105a24ded1723c3f2d9c599d173b5cfd585b06c65": {
+    "score": 0.09,
+    "probabilities": {
+      "0": 0.91,
+      "1": 0.09,
+      "2": 0.0
+    },
+    "confidence": 0.86,
+    "properties": {
+      "same_title": 0.03,
+      "same_artist": 0.01,
+      "same_label": 0.02
+    }
+  },
+  "72dae763af7ecea9ed9b885e410960abfab31ca61add6fa89e1a86e948a7f83f": {
+    "score": 1.97,
+    "probabilities": {
+      "0": 0.0,
+      "1": 0.03,
+      "2": 0.97
+    },
+    "confidence": 0.95,
+    "properties": {
+      "same_title": 0.92,
+      "same_artist": 0.99,
+      "same_label": 0.06
+    }
+  },
+  "06d92ca7816822fc176f2de10672abbaad897b27683d64d9576ced2af43b41c0": {
+    "score": 0.24,
+    "probabilities": {
+      "0": 0.76,
+      "1": 0.24,
+      "2": 0.0
+    },
+    "confidence": 0.64,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.02
+    }
+  },
+  "0c359c4b139b6ada6611b0952fb516cc9e5ed20163be0b5fb169f5e4b34fb6c5": {
+    "score": 0.02,
+    "probabilities": {
+      "0": 0.98,
+      "1": 0.02,
+      "2": 0.0
+    },
+    "confidence": 0.97,
+    "properties": {
+      "same_title": 0.04,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "7fba03232aaf45aefbc7c096e52eb2e35a694f3a643059a21adbc2741b8f4ac8": {
+    "score": 0.12,
+    "probabilities": {
+      "0": 0.88,
+      "1": 0.12,
+      "2": 0.0
+    },
+    "confidence": 0.82,
+    "properties": {
+      "same_title": 0.96,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "93e6a7e379349e9a4b920fbe7c8c76cfd2a84c573123df65935938abe3395500": {
+    "score": 0.18,
+    "probabilities": {
+      "0": 0.83,
+      "1": 0.17,
+      "2": 0.0
+    },
+    "confidence": 0.74,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.02,
+      "same_label": 0.01
+    }
+  },
+  "672cfd4cfcd929357b00f1c80babdf880fd91a683dd07b1713d401edde771470": {
+    "score": 0.39,
+    "probabilities": {
+      "0": 0.62,
+      "1": 0.38,
+      "2": 0.0
+    },
+    "confidence": 0.43,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "cf35462930bc1d4bdf1b5978a1b0197a1e0ee002364d9fe1f86385804fa5d59a": {
+    "score": 0.94,
+    "probabilities": {
+      "0": 0.07,
+      "1": 0.93,
+      "2": 0.0
+    },
+    "confidence": 0.9,
+    "properties": {
+      "same_title": 0.08,
+      "same_artist": 0.93,
+      "same_label": 0.04
+    }
+  },
+  "2b1ff34aebf71b9643c2e438171a171ab61de5d011a4897323a37e56089c45fe": {
+    "score": 0.09,
+    "probabilities": {
+      "0": 0.91,
+      "1": 0.09,
+      "2": 0.0
+    },
+    "confidence": 0.86,
+    "properties": {
+      "same_title": 0.04,
+      "same_artist": 0.01,
+      "same_label": 0.02
+    }
+  },
+  "11727b9cdcb57a48341cad7e44c6f1fd03f769ebf20d28cd1f86f5422d4379c9": {
+    "score": 0.51,
+    "probabilities": {
+      "0": 0.51,
+      "1": 0.48,
+      "2": 0.01
+    },
+    "confidence": 0.25,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.02
+    }
+  },
+  "aa93c51e0688b7e0aa8f910f7cfba574549a6e689b4ae1b004b644e507e62e53": {
+    "score": 0.78,
+    "probabilities": {
+      "0": 0.24,
+      "1": 0.75,
+      "2": 0.01
+    },
+    "confidence": 0.62,
+    "properties": {
+      "same_title": 0.06,
+      "same_artist": 0.99,
+      "same_label": 0.02
+    }
+  },
+  "5f0cc9980487f7d2cd425f4650207df8b62dde6da803738ba41fb1da14ade2f3": {
+    "score": 0.06,
+    "probabilities": {
+      "0": 0.95,
+      "1": 0.05,
+      "2": 0.0
+    },
+    "confidence": 0.93,
+    "properties": {
+      "same_title": 0.05,
+      "same_artist": 0.01,
+      "same_label": 0.02
+    }
+  },
+  "c0730a10bb93f26730d5db0e5ab3ba89770722270b06c4e79c75d1d098668b6f": {
+    "score": 0.31,
+    "probabilities": {
+      "0": 0.7,
+      "1": 0.3,
+      "2": 0.0
+    },
+    "confidence": 0.55,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.02
+    }
+  },
+  "83ef870bb0b7dd752b2413267690c62052e70d5ebbcec7a997b57ac1d2067968": {
+    "score": 1.92,
+    "probabilities": {
+      "0": 0.0,
+      "1": 0.08,
+      "2": 0.92
+    },
+    "confidence": 0.88,
+    "properties": {
+      "same_title": 0.73,
+      "same_artist": 0.98,
+      "same_label": 0.04
+    }
+  },
+  "15e07e09171acb59af74ec2b4a7a6a5c6b8c10e2fe5d7a9b81187d2837d3a507": {
+    "score": 0.04,
+    "probabilities": {
+      "0": 0.96,
+      "1": 0.04,
+      "2": 0.0
+    },
+    "confidence": 0.94,
+    "properties": {
+      "same_title": 0.06,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "1919ac958fdb188d5a365fe61712cd7b4ed9b7a31d3b6bef3f409ac5044e8173": {
+    "score": 0.26,
+    "probabilities": {
+      "0": 0.75,
+      "1": 0.24,
+      "2": 0.01
+    },
+    "confidence": 0.61,
+    "properties": {
+      "same_title": 0.04,
+      "same_artist": 0.01,
+      "same_label": 0.02
+    }
+  },
+  "bcd53f0280122141e402be030bb41d8db000ff57ca275243bebca9f9c162981c": {
+    "score": 1.66,
+    "probabilities": {
+      "0": 0.06,
+      "1": 0.23,
+      "2": 0.71
+    },
+    "confidence": 0.47,
+    "properties": {
+      "same_title": 0.81,
+      "same_artist": 0.92,
+      "same_label": 0.33
+    }
+  },
+  "b4c718bc4471831682d71f862e7c8326d575ffd8c1faacff662c8f7d13c3f922": {
+    "score": 0.4,
+    "probabilities": {
+      "0": 0.61,
+      "1": 0.39,
+      "2": 0.0
+    },
+    "confidence": 0.41,
+    "properties": {
+      "same_title": 0.04,
+      "same_artist": 0.99,
+      "same_label": 0.01
+    }
+  },
+  "c8875b9cd1335ddde47fdc7036e793d1fbb8ef13c58fe972cca874c9cbbcf046": {
+    "score": 0.33,
+    "probabilities": {
+      "0": 0.68,
+      "1": 0.31,
+      "2": 0.01
+    },
+    "confidence": 0.5,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "082123050156ce11bea08bc4a3db0e5ec5b3019a090506192c90b9b2452201b6": {
+    "score": 0.17,
+    "probabilities": {
+      "0": 0.84,
+      "1": 0.16,
+      "2": 0.0
+    },
+    "confidence": 0.76,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.02,
+      "same_label": 0.01
+    }
+  },
+  "c6cbb18c85738828bfe007347013c890d799162873d723c17ea7bd4d8272b3df": {
+    "score": 0.23,
+    "probabilities": {
+      "0": 0.77,
+      "1": 0.23,
+      "2": 0.0
+    },
+    "confidence": 0.66,
+    "properties": {
+      "same_title": 0.32,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "53f90ba04cfa50233d8b44134b7389b8eb605cb08a1639595ee635fc74dc1f45": {
+    "score": 1.25,
+    "probabilities": {
+      "0": 0.01,
+      "1": 0.73,
+      "2": 0.26
+    },
+    "confidence": 0.59,
+    "properties": {
+      "same_title": 0.94,
+      "same_artist": 0.99,
+      "same_label": 0.99
+    }
+  },
+  "177b8e8579606016997a8e8e464cada1fc82e3c45d2c801051d755dd6267b02c": {
+    "score": 0.33,
+    "probabilities": {
+      "0": 0.68,
+      "1": 0.31,
+      "2": 0.01
+    },
+    "confidence": 0.5,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "6f4fb7c85418bf3d797e8eb3399605e60cb45b1c0100a63a17ae653774b74c35": {
+    "score": 1.42,
+    "probabilities": {
+      "0": 0.04,
+      "1": 0.5,
+      "2": 0.46
+    },
+    "confidence": 0.25,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.91,
+      "same_label": 0.08
+    }
+  },
+  "143d3c8cec8bc8d15c3bc8b3c369305020d985fd43250ad4a5b4e5e3b09328e8": {
+    "score": 1.06,
+    "probabilities": {
+      "0": 0.01,
+      "1": 0.92,
+      "2": 0.07
+    },
+    "confidence": 0.88,
+    "properties": {
+      "same_title": 0.94,
+      "same_artist": 0.99,
+      "same_label": 0.02
+    }
+  },
+  "4a87a05f459e215f02cd7723ac480dfe9d3f366bf4a5613ceae736d41a828cdf": {
+    "score": 0.19,
+    "probabilities": {
+      "0": 0.81,
+      "1": 0.19,
+      "2": 0.0
+    },
+    "confidence": 0.71,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "d7da44a06037636334f6603d38248593d5728287167288b6478aff0bf844e168": {
+    "score": 1.95,
+    "probabilities": {
+      "0": 0.0,
+      "1": 0.05,
+      "2": 0.95
+    },
+    "confidence": 0.93,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.96,
+      "same_label": 0.25
+    }
+  },
+  "56e317d59c043263b00fa4408db11769cdb4af27b4560cd98dc9a9ac305fb378": {
+    "score": 0.16,
+    "probabilities": {
+      "0": 0.84,
+      "1": 0.16,
+      "2": 0.0
+    },
+    "confidence": 0.76,
+    "properties": {
+      "same_title": 0.27,
+      "same_artist": 0.01,
+      "same_label": 0.02
+    }
+  },
+  "7bb33cb22694d72840297d681c87d43ac90807d458b00300e590add227326c60": {
+    "score": 0.98,
+    "probabilities": {
+      "0": 0.03,
+      "1": 0.96,
+      "2": 0.01
+    },
+    "confidence": 0.94,
+    "properties": {
+      "same_title": 0.2,
+      "same_artist": 0.99,
+      "same_label": 0.99
+    }
+  },
+  "701629536817b2d656a22a94210e7f27ceb9a42475c4b5c6d3c56539b6ef9e83": {
+    "score": 0.19,
+    "probabilities": {
+      "0": 0.81,
+      "1": 0.19,
+      "2": 0.0
+    },
+    "confidence": 0.71,
+    "properties": {
+      "same_title": 0.03,
+      "same_artist": 0.01,
+      "same_label": 0.02
+    }
+  },
+  "b784ee651dd9b22170286713afab92eac9ad19cba1fa2164e8aedc7027bb4fa9": {
+    "score": 0.46,
+    "probabilities": {
+      "0": 0.55,
+      "1": 0.44,
+      "2": 0.01
+    },
+    "confidence": 0.31,
+    "properties": {
+      "same_title": 0.88,
+      "same_artist": 0.01,
+      "same_label": 0.14
+    }
+  },
+  "71ced5352fe83a6c67790dec06e078707a9da035673741eb7dac226b76b8acd4": {
+    "score": 0.1,
+    "probabilities": {
+      "0": 0.9,
+      "1": 0.1,
+      "2": 0.0
+    },
+    "confidence": 0.85,
+    "properties": {
+      "same_title": 0.06,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "8fbca0dc1b50485be0bef0257af10d5d917ebf278118d99946c9259a604466d2": {
+    "score": 0.22,
+    "probabilities": {
+      "0": 0.79,
+      "1": 0.21,
+      "2": 0.0
+    },
+    "confidence": 0.69,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "ec79fdf0ea04df9109fe3e29eddc8c579dd6f5a0a5f1640c039780085ce45da7": {
+    "score": 0.2,
+    "probabilities": {
+      "0": 0.8,
+      "1": 0.2,
+      "2": 0.0
+    },
+    "confidence": 0.7,
+    "properties": {
+      "same_title": 0.88,
+      "same_artist": 0.01,
+      "same_label": 0.47
+    }
+  },
+  "4d8344e51e10c126ca96019d6537298a83bd3c3f3a0d2bba1960c6ed4f63d77f": {
+    "score": 0.21,
+    "probabilities": {
+      "0": 0.8,
+      "1": 0.2,
+      "2": 0.0
+    },
+    "confidence": 0.7,
+    "properties": {
+      "same_title": 0.97,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "ad0d0020cf5e13bb4ab36a9cd90f9b27b57db77cc6bdcf1b37dca2ebcd2a05db": {
+    "score": 0.89,
+    "probabilities": {
+      "0": 0.15,
+      "1": 0.8,
+      "2": 0.05
+    },
+    "confidence": 0.7,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.04,
+      "same_label": 0.93
+    }
+  },
+  "8e11fe3290f92ada23266e4999a478c00f1fb9f1044275658ad0cd8d404018ab": {
+    "score": 0.23,
+    "probabilities": {
+      "0": 0.79,
+      "1": 0.2,
+      "2": 0.01
+    },
+    "confidence": 0.67,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.02,
+      "same_label": 0.02
+    }
+  },
+  "3af68e1870166777190efcfaa7f3b16f3ec8f3669b817f6f40267dbd23b24d4b": {
+    "score": 0.34,
+    "probabilities": {
+      "0": 0.67,
+      "1": 0.33,
+      "2": 0.0
+    },
+    "confidence": 0.5,
+    "properties": {
+      "same_title": 0.94,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "5913ad245d0d876508436e2608c29632f3f7b3f4c4b8ae1c1c495a60452577b1": {
+    "score": 0.29,
+    "probabilities": {
+      "0": 0.71,
+      "1": 0.28,
+      "2": 0.01
+    },
+    "confidence": 0.55,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.41
+    }
+  },
+  "d44505237e8c8653b4d15632344b495c14af1200174a1bafe344010f2e3cd5fd": {
+    "score": 0.2,
+    "probabilities": {
+      "0": 0.81,
+      "1": 0.19,
+      "2": 0.0
+    },
+    "confidence": 0.71,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "777d03a28765862e659f777c5b6c3f3cf6db82cf544f05f4c44d43815ba3ea4d": {
+    "score": 0.35,
+    "probabilities": {
+      "0": 0.65,
+      "1": 0.35,
+      "2": 0.0
+    },
+    "confidence": 0.47,
+    "properties": {
+      "same_title": 0.09,
+      "same_artist": 0.05,
+      "same_label": 0.01
+    }
+  },
+  "679740d6d60f34e1409ef24246dadf855ba8f415ee9a3af8b0b3daa930be32be": {
+    "score": 0.11,
+    "probabilities": {
+      "0": 0.91,
+      "1": 0.08,
+      "2": 0.01
+    },
+    "confidence": 0.85,
+    "properties": {
+      "same_title": 0.03,
+      "same_artist": 0.99,
+      "same_label": 0.99
+    }
+  },
+  "ba35ce19b106b9764954966c1e065aa580c619cd2e00984e14226ee30b6274c2": {
+    "score": 0.41,
+    "probabilities": {
+      "0": 0.59,
+      "1": 0.41,
+      "2": 0.0
+    },
+    "confidence": 0.39,
+    "properties": {
+      "same_title": 0.94,
+      "same_artist": 0.01,
+      "same_label": 0.02
+    }
+  },
+  "6defbf6678d46266e81ddd17f42a369bf8a95ac205405cccc5513664b92498ca": {
+    "score": 0.26,
+    "probabilities": {
+      "0": 0.75,
+      "1": 0.25,
+      "2": 0.0
+    },
+    "confidence": 0.62,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.02
+    }
+  },
+  "5a7be308c7995ec324476c6ffee5ac0176035a8de806f25ec2da0b12172c2134": {
+    "score": 1.96,
+    "probabilities": {
+      "0": 0.0,
+      "1": 0.04,
+      "2": 0.96
+    },
+    "confidence": 0.94,
+    "properties": {
+      "same_title": 0.74,
+      "same_artist": 0.99,
+      "same_label": 0.99
+    }
+  },
+  "45c90b1395841642bd8f393556bb7801bcc96998e3ed6da39e031c46288a3556": {
+    "score": 0.29,
+    "probabilities": {
+      "0": 0.72,
+      "1": 0.28,
+      "2": 0.0
+    },
+    "confidence": 0.58,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.02
+    }
+  },
+  "b9c73698b9912cc912366bb9f60303d893cc74a6b4a00a6a0197fe23610c7254": {
+    "score": 0.81,
+    "probabilities": {
+      "0": 0.2,
+      "1": 0.79,
+      "2": 0.01
+    },
+    "confidence": 0.68,
+    "properties": {
+      "same_title": 0.02,
+      "same_artist": 0.99,
+      "same_label": 0.02
+    }
+  },
+  "c93f814a4a678b4e773ad65311c00579b2ea321dbe5c3979678c1f18761d4ce5": {
+    "score": 0.2,
+    "probabilities": {
+      "0": 0.8,
+      "1": 0.2,
+      "2": 0.0
+    },
+    "confidence": 0.7,
+    "properties": {
+      "same_title": 0.42,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "da5eb59f952afe6edb54ac00c6fbccc906311e367db7ec68d3b62bce2071cfb7": {
+    "score": 0.24,
+    "probabilities": {
+      "0": 0.77,
+      "1": 0.23,
+      "2": 0.0
+    },
+    "confidence": 0.66,
+    "properties": {
+      "same_title": 0.07,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "a1d52b9ff12b233f625995e349e8821f39ee21858c0c8b4036e772dc648bc5fd": {
+    "score": 0.27,
+    "probabilities": {
+      "0": 0.74,
+      "1": 0.26,
+      "2": 0.0
+    },
+    "confidence": 0.61,
+    "properties": {
+      "same_title": 0.05,
+      "same_artist": 0.01,
+      "same_label": 0.02
+    }
+  },
+  "a6446ed423d0686ec4af61b2fecaec325afbd11e6547d900cb3963f3f59fe8fd": {
+    "score": 0.4,
+    "probabilities": {
+      "0": 0.6,
+      "1": 0.4,
+      "2": 0.0
+    },
+    "confidence": 0.4,
+    "properties": {
+      "same_title": 0.08,
+      "same_artist": 0.01,
+      "same_label": 0.02
+    }
+  },
+  "38cc2482a3b2859c12d0b46d2592e65a23a76acd619f11b0c6378c42603453cf": {
+    "score": 0.32,
+    "probabilities": {
+      "0": 0.6900000000000001,
+      "1": 0.31,
+      "2": 0.0
+    },
+    "confidence": 0.53,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.02
+    }
+  },
+  "2714cac712e6d8b6dcd3c1f8f7b723db0dc78eead227e9abbe9475b995eb722d": {
+    "score": 0.25,
+    "probabilities": {
+      "0": 0.75,
+      "1": 0.24,
+      "2": 0.01
+    },
+    "confidence": 0.61,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.02
+    }
+  },
+  "c13447499292d082cecf3af63eab6aec67fa6ffd4c2c14428d2488b399b8100b": {
+    "score": 0.95,
+    "probabilities": {
+      "0": 0.05,
+      "1": 0.95,
+      "2": 0.0
+    },
+    "confidence": 0.93,
+    "properties": {
+      "same_title": 0.01,
+      "same_artist": 0.99,
+      "same_label": 0.99
+    }
+  },
+  "65c5f80321eb8ee3a509ffa95f172a8672db56fee5f375dc34b82fafc7e2dbdc": {
+    "score": 0.34,
+    "probabilities": {
+      "0": 0.67,
+      "1": 0.33,
+      "2": 0.0
+    },
+    "confidence": 0.5,
+    "properties": {
+      "same_title": 0.06,
+      "same_artist": 0.09,
+      "same_label": 0.99
+    }
+  },
+  "2e35ddbd8920bb75e387d4f143da13dad4d0595c5ba2b3743132a930574944dc": {
+    "score": 0.31,
+    "probabilities": {
+      "0": 0.7,
+      "1": 0.29,
+      "2": 0.01
+    },
+    "confidence": 0.53,
+    "properties": {
+      "same_title": 0.1,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "37e342f46c96e96008f1e71f6d9ab8daf91b16aa50c2223083b3bdad5ea7baa4": {
+    "score": 0.18,
+    "probabilities": {
+      "0": 0.82,
+      "1": 0.18,
+      "2": 0.0
+    },
+    "confidence": 0.73,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "db132dae856aac90f7f7bb69d8d8106713ee1065f44302f9d257bf1ec4e7be14": {
+    "score": 0.35,
+    "probabilities": {
+      "0": 0.66,
+      "1": 0.34,
+      "2": 0.0
+    },
+    "confidence": 0.49,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "b5aee8d38dcf2e637621ce868e54f16003b95e0cc49887fe15437a302a2bf7ba": {
+    "score": 0.25,
+    "probabilities": {
+      "0": 0.76,
+      "1": 0.24,
+      "2": 0.0
+    },
+    "confidence": 0.64,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.35
+    }
+  },
+  "69374ee68085eeb51fcffac637561cbd081ef716ffe6157601191c2d03477b34": {
+    "score": 0.12,
+    "probabilities": {
+      "0": 0.88,
+      "1": 0.12,
+      "2": 0.0
+    },
+    "confidence": 0.82,
+    "properties": {
+      "same_title": 0.07,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "1f67a63bd6e9573b1a084e8a935c7fd40c53c01ca04d58e6a80f669341b610c5": {
+    "score": 0.19,
+    "probabilities": {
+      "0": 0.8200000000000001,
+      "1": 0.18,
+      "2": 0.0
+    },
+    "confidence": 0.73,
+    "properties": {
+      "same_title": 0.11,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "ead5621a77c737e713d825f435ad7f40e45926123e369230773d6934d2a6e05d": {
+    "score": 1.79,
+    "probabilities": {
+      "0": 0.01,
+      "1": 0.18,
+      "2": 0.81
+    },
+    "confidence": 0.7,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.14,
+      "same_label": 0.03
+    }
+  },
+  "b2575963597e7bc224c48b67f65fc17a5263234bf88bb95d8c002e1c082e0748": {
+    "score": 0.57,
+    "probabilities": {
+      "0": 0.45,
+      "1": 0.54,
+      "2": 0.01
+    },
+    "confidence": 0.31,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.02
+    }
+  },
+  "ffc4c5bf30ea90539135e52f0d24902ae4c7745966eac9487b351e43de23de3d": {
+    "score": 1.99,
+    "probabilities": {
+      "0": 0.0,
+      "1": 0.01,
+      "2": 0.99
+    },
+    "confidence": 0.98,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.98,
+      "same_label": 0.99
+    }
+  },
+  "3829d97c4895be2e1eb8abade24cda85ab448b6fe956cff8fa85d9e78684f31d": {
+    "score": 0.35,
+    "probabilities": {
+      "0": 0.65,
+      "1": 0.35,
+      "2": 0.0
+    },
+    "confidence": 0.47,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "4b160571e6013b5e4722f8753c953d28468b40097c5bb482a6e383b472109da6": {
+    "score": 0.35,
+    "probabilities": {
+      "0": 0.66,
+      "1": 0.34,
+      "2": 0.0
+    },
+    "confidence": 0.49,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "6038126a5dcef14a6c7c1aa5847508bae3d50d35531ff762deb989583484ae78": {
+    "score": 1.95,
+    "probabilities": {
+      "0": 0.0,
+      "1": 0.04,
+      "2": 0.96
+    },
+    "confidence": 0.94,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.95,
+      "same_label": 0.99
+    }
+  },
+  "098610736dd377ab0101656d226d65b4860a54c2f6e21f3ca87c39ad94d4db74": {
+    "score": 0.32,
+    "probabilities": {
+      "0": 0.6799999999999999,
+      "1": 0.31,
+      "2": 0.01
+    },
+    "confidence": 0.5,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.02
+    }
+  },
+  "31ecf09b288a1ddd721ff6df9725c7349768d355af2b59a38d7301b1835b11bd": {
+    "score": 0.41,
+    "probabilities": {
+      "0": 0.62,
+      "1": 0.36,
+      "2": 0.02
+    },
+    "confidence": 0.4,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.02
+    }
+  },
+  "82109d2a27696ba3bfe462c3c2725ce77e34052b968f9d8658ae9431e8132739": {
+    "score": 0.82,
+    "probabilities": {
+      "0": 0.18,
+      "1": 0.8200000000000001,
+      "2": 0.0
+    },
+    "confidence": 0.73,
+    "properties": {
+      "same_title": 0.46,
+      "same_artist": 0.01,
+      "same_label": 0.02
+    }
+  },
+  "1e0b936088b1bc05998c28e62c63bb4dfe341dd5c0a4c9fa9857eddbc9c78184": {
+    "score": 0.34,
+    "probabilities": {
+      "0": 0.66,
+      "1": 0.33,
+      "2": 0.01
+    },
+    "confidence": 0.47,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.02
+    }
+  },
+  "0b0b33a793af88c5fa4c6e98c9c6fc79464e232033469d1fcf91aac7ac11241b": {
+    "score": 0.12,
+    "probabilities": {
+      "0": 0.88,
+      "1": 0.12,
+      "2": 0.0
+    },
+    "confidence": 0.82,
+    "properties": {
+      "same_title": 0.08,
+      "same_artist": 0.02,
+      "same_label": 0.01
+    }
+  },
+  "b1dac587b18eeca15d23abb583963fbb9851b9b153660bc7e3d3b5bd5c1052b4": {
+    "score": 1.84,
+    "probabilities": {
+      "0": 0.0,
+      "1": 0.16,
+      "2": 0.84
+    },
+    "confidence": 0.76,
+    "properties": {
+      "same_title": 0.13,
+      "same_artist": 0.99,
+      "same_label": 0.05
+    }
+  },
+  "c81da196c9363244bcde43e032fd65e04fdf987736f780254acc8c3ab6f3c8a4": {
+    "score": 0.28,
+    "probabilities": {
+      "0": 0.73,
+      "1": 0.27,
+      "2": 0.0
+    },
+    "confidence": 0.59,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "d983b0b624eff7bebfd93aabdf0ff28742f22e046298e6d91adf16b33ab28432": {
+    "score": 0.21,
+    "probabilities": {
+      "0": 0.8,
+      "1": 0.2,
+      "2": 0.0
+    },
+    "confidence": 0.7,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "080d426709ffba39874d2f1d5e3965173b3c0e6140ce2162f6a2a3dcab58ca86": {
+    "score": 0.48,
+    "probabilities": {
+      "0": 0.53,
+      "1": 0.46,
+      "2": 0.01
+    },
+    "confidence": 0.28,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "80cfd9a37eee01bc44fb76312bc4d98c9eb740ad79d696e3443db089f47d115e": {
+    "score": 0.48,
+    "probabilities": {
+      "0": 0.53,
+      "1": 0.46,
+      "2": 0.01
+    },
+    "confidence": 0.28,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.02
+    }
+  },
+  "271d0460c5891ccd41fde148194eccaa4c08fb394ed565a3e8a545b071aa0074": {
+    "score": 0.58,
+    "probabilities": {
+      "0": 0.46,
+      "1": 0.5,
+      "2": 0.04
+    },
+    "confidence": 0.25,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.3
+    }
+  },
+  "9ec4f721ca35e7352aa3ed1b0d595112c40c649b43b1f060cb731a368be41dde": {
+    "score": 1.79,
+    "probabilities": {
+      "0": 0.02,
+      "1": 0.16,
+      "2": 0.81
+    },
+    "confidence": 0.7,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.86,
+      "same_label": 0.94
+    }
+  },
+  "7f0aadc4804d0bfc760be81c48289df80df5ebe5c678020892257978a5eada2c": {
+    "score": 0.46,
+    "probabilities": {
+      "0": 0.55,
+      "1": 0.45,
+      "2": 0.0
+    },
+    "confidence": 0.32,
+    "properties": {
+      "same_title": 0.31,
+      "same_artist": 0.01,
+      "same_label": 0.37
+    }
+  },
+  "2f47d41d20ca975e9fada9697cebb94d93a1fe3adca5d9d65ba4a4acd37f1646": {
+    "score": 0.19,
+    "probabilities": {
+      "0": 0.81,
+      "1": 0.19,
+      "2": 0.0
+    },
+    "confidence": 0.71,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.02
+    }
+  },
+  "901ed910edafd0a23b742b04d3fd1362a9a956279c58151bede5696f12705b6f": {
+    "score": 0.34,
+    "probabilities": {
+      "0": 0.66,
+      "1": 0.33,
+      "2": 0.01
+    },
+    "confidence": 0.47,
+    "properties": {
+      "same_title": 0.94,
+      "same_artist": 0.01,
+      "same_label": 0.3
+    }
+  },
+  "6fff8fe208221a29cd8c1cceecf9c2a2015ada3da42222351f180283ace7d23b": {
+    "score": 0.33,
+    "probabilities": {
+      "0": 0.67,
+      "1": 0.33,
+      "2": 0.0
+    },
+    "confidence": 0.5,
+    "properties": {
+      "same_title": 0.42,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "e67282dee971ddf4d2220b3169988ae17a0e6f34901c0c5d87bf7c053bf693f0": {
+    "score": 1.93,
+    "probabilities": {
+      "0": 0.0,
+      "1": 0.06,
+      "2": 0.9400000000000001
+    },
+    "confidence": 0.91,
+    "properties": {
+      "same_title": 0.98,
+      "same_artist": 0.58,
+      "same_label": 0.95
+    }
+  },
+  "20fdf63e7f16a46f52ee9d932aa689b081454cf77294d8f76183910b4f6cc2d3": {
+    "score": 0.42,
+    "probabilities": {
+      "0": 0.6,
+      "1": 0.39,
+      "2": 0.01
+    },
+    "confidence": 0.38,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.03,
+      "same_label": 0.02
+    }
+  },
+  "bde21c2647797357cde4a1a88d01e9218326aad3aed3ef0669d34b02dd442a36": {
+    "score": 1.98,
+    "probabilities": {
+      "0": 0.0,
+      "1": 0.01,
+      "2": 0.99
+    },
+    "confidence": 0.98,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.98,
+      "same_label": 0.94
+    }
+  },
+  "7b7da9bed911c4976d567cf49bbe0b1c0a6bb8cffa6bdbccfcdcdc74aaae0c93": {
+    "score": 0.96,
+    "probabilities": {
+      "0": 0.09,
+      "1": 0.86,
+      "2": 0.05
+    },
+    "confidence": 0.79,
+    "properties": {
+      "same_title": 0.01,
+      "same_artist": 0.99,
+      "same_label": 0.9
+    }
+  },
+  "036dcdd1eba4ed80158523563195940a4eaae07700d18e2ddbf90bd27ae8b14a": {
+    "score": 1.99,
+    "probabilities": {
+      "0": 0.0,
+      "1": 0.01,
+      "2": 0.99
+    },
+    "confidence": 0.98,
+    "properties": {
+      "same_title": 0.92,
+      "same_artist": 0.99,
+      "same_label": 0.99
+    }
+  },
+  "c01539f0a6e22783c8a47322228741743a2901a174677aa1b28b3f733c8e2d26": {
+    "score": 1.97,
+    "probabilities": {
+      "0": 0.0,
+      "1": 0.02,
+      "2": 0.98
+    },
+    "confidence": 0.97,
+    "properties": {
+      "same_title": 0.86,
+      "same_artist": 0.99,
+      "same_label": 0.99
+    }
+  },
+  "29110be4a35ac8fc0f0887610f49c01769c83d30ac5160b10a51c9b649546065": {
+    "score": 0.28,
+    "probabilities": {
+      "0": 0.73,
+      "1": 0.27,
+      "2": 0.0
+    },
+    "confidence": 0.59,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "52d53398b39230c58fc19ada2810cfb0e6bb28555e24b2b283b0f046638f3ee5": {
+    "score": 0.54,
+    "probabilities": {
+      "0": 0.47,
+      "1": 0.52,
+      "2": 0.01
+    },
+    "confidence": 0.28,
+    "properties": {
+      "same_title": 0.96,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "22892d9603b30ac83b94d0b871e34bb88a84eb0595caf86e9afde9097180b86c": {
+    "score": 1.96,
+    "probabilities": {
+      "0": 0.0,
+      "1": 0.03,
+      "2": 0.97
+    },
+    "confidence": 0.95,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.89,
+      "same_label": 0.62
+    }
+  },
+  "596c2b500da88a5789ab74fb111ca82bcedfab2d2cfc2dfa71d852e0c755c0d1": {
+    "score": 0.22,
+    "probabilities": {
+      "0": 0.79,
+      "1": 0.21,
+      "2": 0.0
+    },
+    "confidence": 0.69,
+    "properties": {
+      "same_title": 0.02,
+      "same_artist": 0.99,
+      "same_label": 0.01
+    }
+  },
+  "fb140cd523b2f6170069b8ab75ed6b7647b255348ea578058f6a1c9663160388": {
+    "score": 0.16,
+    "probabilities": {
+      "0": 0.85,
+      "1": 0.15,
+      "2": 0.0
+    },
+    "confidence": 0.78,
+    "properties": {
+      "same_title": 0.69,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "bd02dcfa05de9eaa8e16ca01fe74347c849c8d0cac17e0f603143443ac4062d1": {
+    "score": 0.18,
+    "probabilities": {
+      "0": 0.82,
+      "1": 0.18,
+      "2": 0.0
+    },
+    "confidence": 0.73,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "ad37d56d420298e6d5cb28b867215195402591f2b55288390dee8d389981799a": {
+    "score": 0.7,
+    "probabilities": {
+      "0": 0.3,
+      "1": 0.7,
+      "2": 0.0
+    },
+    "confidence": 0.55,
+    "properties": {
+      "same_title": 0.03,
+      "same_artist": 0.99,
+      "same_label": 0.01
+    }
+  },
+  "6c43b4fa46f611f5514ee55d7be81c2195a5b8e40a77157a97eb0be26a53d6c8": {
+    "score": 1.29,
+    "probabilities": {
+      "0": 0.03,
+      "1": 0.65,
+      "2": 0.32
+    },
+    "confidence": 0.47,
+    "properties": {
+      "same_title": 0.14,
+      "same_artist": 0.98,
+      "same_label": 0.01
+    }
+  },
+  "e424b4b9c8ae8cc0815bcac9453fafa1a40d513059a35445723951917d67ec5c": {
+    "score": 0.16,
+    "probabilities": {
+      "0": 0.85,
+      "1": 0.15,
+      "2": 0.0
+    },
+    "confidence": 0.78,
+    "properties": {
+      "same_title": 0.02,
+      "same_artist": 0.99,
+      "same_label": 0.02
+    }
+  },
+  "155b1fd9cf78248379e75e978608dc84885b8304d9e67dda556a24b0610dd5a2": {
+    "score": 0.58,
+    "probabilities": {
+      "0": 0.42,
+      "1": 0.57,
+      "2": 0.01
+    },
+    "confidence": 0.35,
+    "properties": {
+      "same_title": 0.12,
+      "same_artist": 0.99,
+      "same_label": 0.05
+    }
+  },
+  "2dbcfe24db8f0fd3c5eb7939c72d1adfd00b0a837e42899868f3013d83cb246f": {
+    "score": 0.02,
+    "probabilities": {
+      "0": 0.99,
+      "1": 0.01,
+      "2": 0.0
+    },
+    "confidence": 0.98,
+    "properties": {
+      "same_title": 0.01,
+      "same_artist": 0.99,
+      "same_label": 0.02
+    }
+  },
+  "96fe3526c942c8b86376e28f1bb860c2d11fbda366567e99b1db57654bc4c33c": {
+    "score": 0.21,
+    "probabilities": {
+      "0": 0.81,
+      "1": 0.18,
+      "2": 0.01
+    },
+    "confidence": 0.7,
+    "properties": {
+      "same_title": 0.02,
+      "same_artist": 0.02,
+      "same_label": 0.02
+    }
+  },
+  "18609498d6d8732fb096172065209b4c027085ef5d1b07ecc39d37865232fd00": {
+    "score": 0.03,
+    "probabilities": {
+      "0": 0.98,
+      "1": 0.02,
+      "2": 0.0
+    },
+    "confidence": 0.97,
+    "properties": {
+      "same_title": 0.05,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "65d5589f499ee3192e7b10c0b9da687ca7f95590bf1ef073ff064255a3818268": {
+    "score": 1.91,
+    "probabilities": {
+      "0": 0.0,
+      "1": 0.08,
+      "2": 0.92
+    },
+    "confidence": 0.88,
+    "properties": {
+      "same_title": 0.98,
+      "same_artist": 0.98,
+      "same_label": 0.05
+    }
+  },
+  "d9d33c0fd771b41d091e2fbaaef54f7b0e210494f316dbee4b29a2b0cdbe0fae": {
+    "score": 1.04,
+    "probabilities": {
+      "0": 0.02,
+      "1": 0.92,
+      "2": 0.06
+    },
+    "confidence": 0.88,
+    "properties": {
+      "same_title": 0.07,
+      "same_artist": 0.99,
+      "same_label": 0.89
+    }
+  },
+  "f4a7f13618f026b90d6e63e01da40b08779c7caf7217283cf12e02e4a3a1ef26": {
+    "score": 1.31,
+    "probabilities": {
+      "0": 0.02,
+      "1": 0.65,
+      "2": 0.33
+    },
+    "confidence": 0.47,
+    "properties": {
+      "same_title": 0.96,
+      "same_artist": 0.98,
+      "same_label": 0.02
+    }
+  },
+  "5810d3d6fdaac5c92856e7dfe6e6ad2ee729413ca5025edb5095d2d4caa91e39": {
+    "score": 0.14,
+    "probabilities": {
+      "0": 0.88,
+      "1": 0.11,
+      "2": 0.01
+    },
+    "confidence": 0.8,
+    "properties": {
+      "same_title": 0.04,
+      "same_artist": 0.91,
+      "same_label": 0.02
+    }
+  },
+  "3fb1f37b2555e255b872289bf4bf9c3f1ce6dc69774c4f7c35cf0e5f0e930785": {
+    "score": 0.26,
+    "probabilities": {
+      "0": 0.74,
+      "1": 0.25,
+      "2": 0.01
+    },
+    "confidence": 0.59,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.38
+    }
+  },
+  "dbb2a17c49ad702ab5640590af3ae93514fdf61295c4a412144bb11aefaf6abe": {
+    "score": 1.43,
+    "probabilities": {
+      "0": 0.05,
+      "1": 0.47,
+      "2": 0.48
+    },
+    "confidence": 0.15,
+    "properties": {
+      "same_title": 0.98,
+      "same_artist": 0.89,
+      "same_label": 0.39
+    }
+  },
+  "a85c77aff85eadfa2ed437822e744748fd4c90dac61f04fdc6c479a48f462693": {
+    "score": 1.98,
+    "probabilities": {
+      "0": 0.0,
+      "1": 0.01,
+      "2": 0.99
+    },
+    "confidence": 0.98,
+    "properties": {
+      "same_title": 0.96,
+      "same_artist": 0.99,
+      "same_label": 0.99
+    }
+  },
+  "d92a5816607000a7f03faaa910a88aebf082039ae2a94eb932b5034696062eb8": {
+    "score": 0.24,
+    "probabilities": {
+      "0": 0.77,
+      "1": 0.23,
+      "2": 0.0
+    },
+    "confidence": 0.66,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "26c8a14b04e24b19ab0f235fb9e55242c83549be164f3c2fd58495b40fb38b4b": {
+    "score": 0.03,
+    "probabilities": {
+      "0": 0.97,
+      "1": 0.03,
+      "2": 0.0
+    },
+    "confidence": 0.95,
+    "properties": {
+      "same_title": 0.08,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "205a7b1307bb7e1b2cedf66d5f24fea5721999449137ba71e115221eb52d5db6": {
+    "score": 1.47,
+    "probabilities": {
+      "0": 0.06,
+      "1": 0.41,
+      "2": 0.53
+    },
+    "confidence": 0.2,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.19,
+      "same_label": 0.02
+    }
+  },
+  "57f1e526536b8f7a90ba04be6c924e50604072b376cc8a3fb5e75228f2054493": {
+    "score": 0.18,
+    "probabilities": {
+      "0": 0.83,
+      "1": 0.17,
+      "2": 0.0
+    },
+    "confidence": 0.74,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "9efc39d3d41d1e4c748be2f039443189bdcaf3baa0c255ca53b14afe38bc6aeb": {
+    "score": 0.16,
+    "probabilities": {
+      "0": 0.85,
+      "1": 0.15,
+      "2": 0.0
+    },
+    "confidence": 0.78,
+    "properties": {
+      "same_title": 0.19,
+      "same_artist": 0.01,
+      "same_label": 0.02
+    }
+  },
+  "1639f80e544abb83ab59777ea71db76b0cfec0e024be0965d18f629c40cd9e44": {
+    "score": 1.98,
+    "probabilities": {
+      "0": 0.0,
+      "1": 0.02,
+      "2": 0.98
+    },
+    "confidence": 0.97,
+    "properties": {
+      "same_title": 0.84,
+      "same_artist": 0.99,
+      "same_label": 0.94
+    }
+  },
+  "b892c7fa6c0073bd9558082c7057d1d6f764b87b569f4d79d28264f0693e0e26": {
+    "score": 0.06,
+    "probabilities": {
+      "0": 0.94,
+      "1": 0.06,
+      "2": 0.0
+    },
+    "confidence": 0.91,
+    "properties": {
+      "same_title": 0.02,
+      "same_artist": 0.01,
+      "same_label": 0.02
+    }
+  },
+  "692b860805b5978685226bd34cd4498c57ae8d60295d1e9422da676d0e4d9866": {
+    "score": 0.22,
+    "probabilities": {
+      "0": 0.78,
+      "1": 0.21,
+      "2": 0.01
+    },
+    "confidence": 0.66,
+    "properties": {
+      "same_title": 0.08,
+      "same_artist": 0.01,
+      "same_label": 0.02
+    }
+  },
+  "786b340b086893d2dd086f4baa81fb2b8e829ee593dc9e26ec4fee6b1c3651b0": {
+    "score": 0.44,
+    "probabilities": {
+      "0": 0.57,
+      "1": 0.42,
+      "2": 0.01
+    },
+    "confidence": 0.34,
+    "properties": {
+      "same_title": 0.44,
+      "same_artist": 0.03,
+      "same_label": 0.33
+    }
+  },
+  "d9d4017ab9b4ba80bd52256475957623e171074bc1c3a51bab40f92c654dd9cc": {
+    "score": 1.99,
+    "probabilities": {
+      "0": 0.0,
+      "1": 0.01,
+      "2": 0.99
+    },
+    "confidence": 0.98,
+    "properties": {
+      "same_title": 0.93,
+      "same_artist": 0.96,
+      "same_label": 0.96
+    }
+  },
+  "565604d828ab48ab8f64ed2022c41fa64022ad9bf4cff9ee6db9ad8f2c1fda1b": {
+    "score": 0.05,
+    "probabilities": {
+      "0": 0.95,
+      "1": 0.05,
+      "2": 0.0
+    },
+    "confidence": 0.93,
+    "properties": {
+      "same_title": 0.07,
+      "same_artist": 0.01,
+      "same_label": 0.01
+    }
+  },
+  "bd455f5cdc254e3480c5d9d91f798c61666295ce1c80a3627c90240241d38b57": {
+    "score": 0.35,
+    "probabilities": {
+      "0": 0.66,
+      "1": 0.33,
+      "2": 0.01
+    },
+    "confidence": 0.47,
+    "properties": {
+      "same_title": 0.99,
+      "same_artist": 0.01,
+      "same_label": 0.02
+    }
+  },
+  "6e39e28d695813bb599755614fc79fb35de33b0c70c7690a3802bfa9f0bbc6af": {
+    "score": 0.98,
+    "probabilities": {
+      "0": 0.02,
+      "1": 0.98,
+      "2": 0.0
+    },
+    "confidence": 0.97,
+    "properties": {
+      "same_title": 0.09,
+      "same_artist": 0.99,
+      "same_label": 0.05
+    }
+  },
+  "9d5cd9d8fd19ac06125e5d862c1a095113a2b4a2232852fee90adfbede434a65": {
+    "score": 0.89,
+    "probabilities": {
+      "0": 0.12,
+      "1": 0.86,
+      "2": 0.02
+    },
+    "confidence": 0.79,
+    "properties": {
+      "same_title": 0.05,
+      "same_artist": 0.99,
+      "same_label": 0.34
+    }
+  }
+}
