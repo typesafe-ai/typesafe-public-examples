@@ -1,0 +1,807 @@
+{
+  "triage|Are your candles made with soy wax or paraffin? I have a sensitivity.": {
+    "queue": "product",
+    "route": {
+      "type": "choice",
+      "choice": "product",
+      "confidence": 1,
+      "probabilities": {
+        "orders": 0,
+        "returns": 0,
+        "shipping": 0,
+        "account": 0,
+        "product": 1
+      }
+    },
+    "risk": null
+  },
+  "triage|Can I exchange the medium hoodie for a large instead of getting a refund?": {
+    "queue": "returns",
+    "route": {
+      "type": "choice",
+      "choice": "returns",
+      "confidence": 1,
+      "probabilities": {
+        "orders": 0,
+        "returns": 1,
+        "shipping": 0,
+        "account": 0,
+        "product": 0
+      }
+    },
+    "risk": null
+  },
+  "triage|Can I use a discount code on an order I placed yesterday? I forgot to enter WELCOME10.": {
+    "queue": "orders",
+    "route": {
+      "type": "choice",
+      "choice": "orders",
+      "confidence": 1,
+      "probabilities": {
+        "orders": 1,
+        "returns": 0,
+        "shipping": 0,
+        "account": 0,
+        "product": 0
+      }
+    },
+    "risk": null
+  },
+  "triage|Do I have to pay for return postage on a sale item?": {
+    "queue": "returns",
+    "route": {
+      "type": "choice",
+      "choice": "returns",
+      "confidence": 1,
+      "probabilities": {
+        "orders": 0,
+        "returns": 1,
+        "shipping": 0,
+        "account": 0,
+        "product": 0
+      }
+    },
+    "risk": null
+  },
+  "triage|Do you ship to Ireland, and how long does it usually take?": {
+    "queue": "shipping",
+    "route": {
+      "type": "choice",
+      "choice": "shipping",
+      "confidence": 1,
+      "probabilities": {
+        "orders": 0,
+        "returns": 0,
+        "shipping": 1,
+        "account": 0,
+        "product": 0
+      }
+    },
+    "risk": null
+  },
+  "triage|Does the standing desk come in a width under 120cm? The product page only lists 140 and 160.": {
+    "queue": "product",
+    "route": {
+      "type": "choice",
+      "choice": "product",
+      "confidence": 1,
+      "probabilities": {
+        "orders": 0,
+        "returns": 0,
+        "shipping": 0,
+        "account": 0,
+        "product": 1
+      }
+    },
+    "risk": null
+  },
+  "triage|Hi, I placed order 48213 about an hour ago and realised I ordered two of the desk lamp instead of one. Can you change the quantity before it ships?": {
+    "queue": "orders",
+    "route": {
+      "type": "choice",
+      "choice": "orders",
+      "confidence": 1,
+      "probabilities": {
+        "orders": 1,
+        "returns": 0,
+        "shipping": 0,
+        "account": 0,
+        "product": 0
+      }
+    },
+    "risk": null
+  },
+  "triage|How do I change the email address on my account? I've moved jobs and the old one is closing.": {
+    "queue": "account",
+    "route": {
+      "type": "choice",
+      "choice": "account",
+      "confidence": 1,
+      "probabilities": {
+        "orders": 0,
+        "returns": 0,
+        "shipping": 0,
+        "account": 1,
+        "product": 0
+      }
+    },
+    "risk": null
+  },
+  "triage|I can't get into my account to check where my order is.": {
+    "queue": "account",
+    "route": {
+      "type": "choice",
+      "choice": "account",
+      "confidence": 1,
+      "probabilities": {
+        "orders": 0,
+        "returns": 0,
+        "shipping": 0,
+        "account": 1,
+        "product": 0
+      }
+    },
+    "risk": null
+  },
+  "triage|I can't log in. The password reset email never arrives, I've checked spam.": {
+    "queue": "account",
+    "route": {
+      "type": "choice",
+      "choice": "account",
+      "confidence": 1,
+      "probabilities": {
+        "orders": 0,
+        "returns": 0,
+        "shipping": 0,
+        "account": 1,
+        "product": 0
+      }
+    },
+    "risk": null
+  },
+  "triage|I got an email saying my password was changed but I didn't change it. Someone else may be in my account.": {
+    "queue": "account",
+    "route": {
+      "type": "choice",
+      "choice": "account",
+      "confidence": 1,
+      "probabilities": {
+        "orders": 0,
+        "returns": 0,
+        "shipping": 0,
+        "account": 1,
+        "product": 0
+      }
+    },
+    "risk": null
+  },
+  "triage|I keep getting marketing emails after I unsubscribed twice.": {
+    "queue": "account",
+    "route": {
+      "type": "choice",
+      "choice": "account",
+      "confidence": 1,
+      "probabilities": {
+        "orders": 0,
+        "returns": 0,
+        "shipping": 0,
+        "account": 1,
+        "product": 0
+      }
+    },
+    "risk": null
+  },
+  "triage|I ordered the wrong size by mistake. Can I swap it for the right one?": {
+    "queue": "returns",
+    "route": {
+      "type": "choice",
+      "choice": "returns",
+      "confidence": 0.94,
+      "probabilities": {
+        "orders": 0.05,
+        "returns": 0.95,
+        "shipping": 0,
+        "account": 0,
+        "product": 0
+      }
+    },
+    "risk": null
+  },
+  "triage|I paid for next-day delivery on Monday and it's now Thursday with no parcel. Order 48499.": {
+    "queue": "shipping",
+    "route": {
+      "type": "choice",
+      "choice": "shipping",
+      "confidence": 1,
+      "probabilities": {
+        "orders": 0,
+        "returns": 0,
+        "shipping": 1,
+        "account": 0,
+        "product": 0
+      }
+    },
+    "risk": null
+  },
+  "triage|I put the wrong flat number on my delivery address. Order 48460, it should be flat 3B not 3D.": {
+    "queue": "shipping",
+    "route": {
+      "type": "choice",
+      "choice": "shipping",
+      "confidence": 0.91,
+      "probabilities": {
+        "orders": 0.07,
+        "returns": 0,
+        "shipping": 0.93,
+        "account": 0,
+        "product": 0
+      }
+    },
+    "risk": null
+  },
+  "triage|I returned a coat two weeks ago (tracking shows you received it on the 1st) and still haven't seen the refund. Order 47110.": {
+    "queue": "returns",
+    "route": {
+      "type": "choice",
+      "choice": "returns",
+      "confidence": 1,
+      "probabilities": {
+        "orders": 0,
+        "returns": 1,
+        "shipping": 0,
+        "account": 0,
+        "product": 0
+      }
+    },
+    "risk": null
+  },
+  "triage|I run a small cafe and want to know if the espresso cups are dishwasher safe for commercial use.": {
+    "queue": "product",
+    "route": {
+      "type": "choice",
+      "choice": "product",
+      "confidence": 1,
+      "probabilities": {
+        "orders": 0,
+        "returns": 0,
+        "shipping": 0,
+        "account": 0,
+        "product": 1
+      }
+    },
+    "risk": null
+  },
+  "triage|I want to cancel order 48377. I found the same jacket cheaper elsewhere, sorry.": {
+    "queue": "orders",
+    "route": {
+      "type": "choice",
+      "choice": "orders",
+      "confidence": 1,
+      "probabilities": {
+        "orders": 1,
+        "returns": 0,
+        "shipping": 0,
+        "account": 0,
+        "product": 0
+      }
+    },
+    "risk": null
+  },
+  "triage|I want to remove an old card from my saved payment methods but there's no delete button.": {
+    "queue": "account",
+    "route": {
+      "type": "choice",
+      "choice": "account",
+      "confidence": 1,
+      "probabilities": {
+        "orders": 0,
+        "returns": 0,
+        "shipping": 0,
+        "account": 1,
+        "product": 0
+      }
+    },
+    "risk": null
+  },
+  "triage|I was charged twice for order 48290. Two identical amounts on my card statement from you this morning. Please sort this out today.": {
+    "queue": "orders",
+    "route": {
+      "type": "choice",
+      "choice": "orders",
+      "confidence": 1,
+      "probabilities": {
+        "orders": 1,
+        "returns": 0,
+        "shipping": 0,
+        "account": 0,
+        "product": 0
+      }
+    },
+    "risk": null
+  },
+  "triage|I'd like to change order 48512 from the walnut finish to the oak finish if it hasn't left the warehouse.": {
+    "queue": "orders",
+    "route": {
+      "type": "choice",
+      "choice": "orders",
+      "confidence": 1,
+      "probabilities": {
+        "orders": 1,
+        "returns": 0,
+        "shipping": 0,
+        "account": 0,
+        "product": 0
+      }
+    },
+    "risk": null
+  },
+  "triage|I've lost the returns label you emailed me. Can you send another one for order 47522?": {
+    "queue": "returns",
+    "route": {
+      "type": "choice",
+      "choice": "returns",
+      "confidence": 1,
+      "probabilities": {
+        "orders": 0,
+        "returns": 1,
+        "shipping": 0,
+        "account": 0,
+        "product": 0
+      }
+    },
+    "risk": null
+  },
+  "triage|Is it possible to add a gift note to an order I already placed? It's 48405.": {
+    "queue": "orders",
+    "route": {
+      "type": "choice",
+      "choice": "orders",
+      "confidence": 1,
+      "probabilities": {
+        "orders": 1,
+        "returns": 0,
+        "shipping": 0,
+        "account": 0,
+        "product": 0
+      }
+    },
+    "risk": null
+  },
+  "triage|Is the wool blanket machine washable or dry clean only?": {
+    "queue": "product",
+    "route": {
+      "type": "choice",
+      "choice": "product",
+      "confidence": 1,
+      "probabilities": {
+        "orders": 0,
+        "returns": 0,
+        "shipping": 0,
+        "account": 0,
+        "product": 1
+      }
+    },
+    "risk": null
+  },
+  "triage|My loyalty points from last month haven't shown up on my account.": {
+    "queue": "account",
+    "route": {
+      "type": "choice",
+      "choice": "account",
+      "confidence": 1,
+      "probabilities": {
+        "orders": 0,
+        "returns": 0,
+        "shipping": 0,
+        "account": 1,
+        "product": 0
+      }
+    },
+    "risk": null
+  },
+  "triage|My order was split into two parcels. One arrived, where is the other?": {
+    "queue": "shipping",
+    "route": {
+      "type": "choice",
+      "choice": "shipping",
+      "confidence": 1,
+      "probabilities": {
+        "orders": 0,
+        "returns": 0,
+        "shipping": 1,
+        "account": 0,
+        "product": 0
+      }
+    },
+    "risk": null
+  },
+  "triage|Please delete my account and any data you hold on me.": {
+    "queue": "account",
+    "route": {
+      "type": "choice",
+      "choice": "account",
+      "confidence": 1,
+      "probabilities": {
+        "orders": 0,
+        "returns": 0,
+        "shipping": 0,
+        "account": 1,
+        "product": 0
+      }
+    },
+    "risk": null
+  },
+  "triage|The box was left in the rain and the packaging is soaked. Everything inside seems fine but I wanted you to know the courier didn't ring the bell.": {
+    "queue": "shipping",
+    "route": {
+      "type": "choice",
+      "choice": "shipping",
+      "confidence": 1,
+      "probabilities": {
+        "orders": 0,
+        "returns": 0,
+        "shipping": 1,
+        "account": 0,
+        "product": 0
+      }
+    },
+    "risk": null
+  },
+  "triage|The checkout said my order went through but I never got a confirmation email. Order number would be from about 2pm today, name Priya Nair.": {
+    "queue": "orders",
+    "route": {
+      "type": "choice",
+      "choice": "orders",
+      "confidence": 1,
+      "probabilities": {
+        "orders": 1,
+        "returns": 0,
+        "shipping": 0,
+        "account": 0,
+        "product": 0
+      }
+    },
+    "risk": null
+  },
+  "triage|The courier says they delivered my parcel yesterday but there's nothing here and no card through the door.": {
+    "queue": "shipping",
+    "route": {
+      "type": "choice",
+      "choice": "shipping",
+      "confidence": 1,
+      "probabilities": {
+        "orders": 0,
+        "returns": 0,
+        "shipping": 1,
+        "account": 0,
+        "product": 0
+      }
+    },
+    "risk": null
+  },
+  "triage|The instructions that came with the bookshelf are for a different model. Can you send the right ones?": {
+    "queue": "product",
+    "route": {
+      "type": "choice",
+      "choice": "product",
+      "confidence": 1,
+      "probabilities": {
+        "orders": 0,
+        "returns": 0,
+        "shipping": 0,
+        "account": 0,
+        "product": 1
+      }
+    },
+    "risk": null
+  },
+  "triage|The kettle arrived with a cracked lid. I'd like a replacement rather than a refund if that's possible.": {
+    "queue": "returns",
+    "route": {
+      "type": "choice",
+      "choice": "returns",
+      "confidence": 1,
+      "probabilities": {
+        "orders": 0,
+        "returns": 1,
+        "shipping": 0,
+        "account": 0,
+        "product": 0
+      }
+    },
+    "risk": null
+  },
+  "triage|The refund for order 47301 came through as store credit but I asked for it back to my card.": {
+    "queue": "returns",
+    "route": {
+      "type": "choice",
+      "choice": "returns",
+      "confidence": 0.97,
+      "probabilities": {
+        "orders": 0.02,
+        "returns": 0.98,
+        "shipping": 0,
+        "account": 0,
+        "product": 0
+      }
+    },
+    "risk": null
+  },
+  "triage|The running shoes I bought are too narrow. How do I send them back for a refund?": {
+    "queue": "returns",
+    "route": {
+      "type": "choice",
+      "choice": "returns",
+      "confidence": 1,
+      "probabilities": {
+        "orders": 0,
+        "returns": 1,
+        "shipping": 0,
+        "account": 0,
+        "product": 0
+      }
+    },
+    "risk": null
+  },
+  "triage|The sizing chart says a 10 is 27cm but the shoes I got are more like 26. Is that normal for this brand?": {
+    "queue": "product",
+    "route": {
+      "type": "choice",
+      "choice": "product",
+      "confidence": 1,
+      "probabilities": {
+        "orders": 0,
+        "returns": 0,
+        "shipping": 0,
+        "account": 0,
+        "product": 1
+      }
+    },
+    "risk": null
+  },
+  "triage|The tracking page for order 48102 hasn't updated since Tuesday. Is the parcel lost?": {
+    "queue": "shipping",
+    "route": {
+      "type": "choice",
+      "choice": "shipping",
+      "confidence": 1,
+      "probabilities": {
+        "orders": 0,
+        "returns": 0,
+        "shipping": 1,
+        "account": 0,
+        "product": 0
+      }
+    },
+    "risk": null
+  },
+  "triage|There's an order in my account history for a TV I never bought, shipped to an address I don't recognise.": {
+    "queue": "orders",
+    "route": {
+      "type": "choice",
+      "choice": "orders",
+      "confidence": 0.81,
+      "probabilities": {
+        "orders": 0.85,
+        "returns": 0,
+        "shipping": 0,
+        "account": 0.15,
+        "product": 0
+      }
+    },
+    "risk": null
+  },
+  "triage|Tracking says delivered but I don't have it. If it's gone I just want my money back.": {
+    "queue": "shipping",
+    "route": {
+      "type": "choice",
+      "choice": "shipping",
+      "confidence": 1,
+      "probabilities": {
+        "orders": 0,
+        "returns": 0,
+        "shipping": 1,
+        "account": 0,
+        "product": 0
+      }
+    },
+    "risk": null
+  },
+  "triage|What courier do you use? I need to know whether they deliver on Saturdays.": {
+    "queue": "shipping",
+    "route": {
+      "type": "choice",
+      "choice": "shipping",
+      "confidence": 1,
+      "probabilities": {
+        "orders": 0,
+        "returns": 0,
+        "shipping": 1,
+        "account": 0,
+        "product": 0
+      }
+    },
+    "risk": null
+  },
+  "triage|What's the difference between the classic and the pro version of the coffee grinder? The pro is twice the price.": {
+    "queue": "product",
+    "route": {
+      "type": "choice",
+      "choice": "product",
+      "confidence": 1,
+      "probabilities": {
+        "orders": 0,
+        "returns": 0,
+        "shipping": 0,
+        "account": 0,
+        "product": 1
+      }
+    },
+    "risk": null
+  },
+  "triage|What's your return window? I bought a blender as a gift in August and the recipient already has one.": {
+    "queue": "returns",
+    "route": {
+      "type": "choice",
+      "choice": "returns",
+      "confidence": 1,
+      "probabilities": {
+        "orders": 0,
+        "returns": 1,
+        "shipping": 0,
+        "account": 0,
+        "product": 0
+      }
+    },
+    "risk": null
+  },
+  "triage|When will the green armchair be back in stock? It's been showing sold out for a month.": {
+    "queue": "product",
+    "route": {
+      "type": "choice",
+      "choice": "product",
+      "confidence": 1,
+      "probabilities": {
+        "orders": 0,
+        "returns": 0,
+        "shipping": 0,
+        "account": 0,
+        "product": 1
+      }
+    },
+    "risk": null
+  },
+  "triage|Will the phone case fit the 2026 model or only last year's?": {
+    "queue": "product",
+    "route": {
+      "type": "choice",
+      "choice": "product",
+      "confidence": 1,
+      "probabilities": {
+        "orders": 0,
+        "returns": 0,
+        "shipping": 0,
+        "account": 0,
+        "product": 1
+      }
+    },
+    "risk": null
+  },
+  "triage|I cancelled order 48150 last week but I've now been charged for it anyway and there's no refund showing.": {
+    "queue": "orders",
+    "route": {
+      "type": "choice",
+      "choice": "orders",
+      "confidence": 1,
+      "probabilities": {
+        "orders": 1,
+        "returns": 0,
+        "shipping": 0,
+        "account": 0,
+        "product": 0
+      }
+    },
+    "risk": null
+  },
+  "triage|There's a charge from you on my card this morning but when I log in my account shows no orders at all.": {
+    "queue": "orders",
+    "route": {
+      "type": "choice",
+      "choice": "orders",
+      "confidence": 1,
+      "probabilities": {
+        "orders": 1,
+        "returns": 0,
+        "shipping": 0,
+        "account": 0,
+        "product": 0
+      }
+    },
+    "risk": null
+  },
+  "triage|Can I have two shipping addresses saved, one for home and one for work?": {
+    "queue": "review",
+    "route": {
+      "type": "choice",
+      "choice": "account",
+      "confidence": 0.65,
+      "probabilities": {
+        "orders": 0,
+        "returns": 0,
+        "shipping": 0.28,
+        "account": 0.72,
+        "product": 0
+      }
+    },
+    "risk": 0.02
+  },
+  "triage|Can I pick my order up from somewhere instead of having it delivered? I'm never home during the day.": {
+    "queue": "review",
+    "route": {
+      "type": "choice",
+      "choice": "orders",
+      "confidence": 0.46,
+      "probabilities": {
+        "orders": 0.57,
+        "returns": 0,
+        "shipping": 0.43,
+        "account": 0,
+        "product": 0
+      }
+    },
+    "risk": 0.03
+  },
+  "triage|Do you do bulk orders? I need 40 of the ceramic mugs for an office and want to know if there's a price break.": {
+    "queue": "review",
+    "route": {
+      "type": "choice",
+      "choice": "orders",
+      "confidence": 0.7,
+      "probabilities": {
+        "orders": 0.76,
+        "returns": 0,
+        "shipping": 0,
+        "account": 0,
+        "product": 0.24
+      }
+    },
+    "risk": 0.01
+  },
+  "triage|My order still says processing after four days. Has it been picked yet or is something stuck?": {
+    "queue": "review",
+    "route": {
+      "type": "choice",
+      "choice": "orders",
+      "confidence": 0.49,
+      "probabilities": {
+        "orders": 0.59,
+        "returns": 0,
+        "shipping": 0.41,
+        "account": 0,
+        "product": 0
+      }
+    },
+    "risk": 0.05
+  },
+  "triage|Three of the four glasses in the set arrived, the fourth was missing from the box. Can you send the missing one or refund that part?": {
+    "queue": "review",
+    "route": {
+      "type": "choice",
+      "choice": "shipping",
+      "confidence": 0.29,
+      "probabilities": {
+        "orders": 0.31,
+        "returns": 0.26,
+        "shipping": 0.43,
+        "account": 0,
+        "product": 0
+      }
+    },
+    "risk": 0.11
+  },
+  "risk_check|I cancelled order 48150 last week but I've now been charged for it anyway and there's no refund showing.": 0.83,
+  "risk_check|I got an email saying my password was changed but I didn't change it. Someone else may be in my account.": 0.93,
+  "risk_check|I was charged twice for order 48290. Two identical amounts on my card statement from you this morning. Please sort this out today.": 0.89,
+  "risk_check|There's a charge from you on my card this morning but when I log in my account shows no orders at all.": 0.77,
+  "risk_check|There's an order in my account history for a TV I never bought, shipped to an address I don't recognise.": 0.93
+}
