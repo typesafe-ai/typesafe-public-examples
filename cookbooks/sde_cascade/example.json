@@ -1,24 +1,5 @@
 {
-  "prompt": "Find the date fall registration opens at Wrenfield Community College in Wrenfield, Oregon, for the 2026-2027 school year.",
-  "schema": {
-    "title": "RegistrationOpen",
-    "type": "object",
-    "properties": {
-      "registration_open_date": {
-        "title": "Registration Open Date",
-        "type": "string",
-        "description": "The date registration opens for the fall semester, in mm/dd/yyyy format, such as 08/03/2026. Return a blank string if you are unsure."
-      },
-      "description": {
-        "title": "Description",
-        "type": "string",
-        "description": "A short description of the registration open date, such as 'Registration opens for the fall semester'."
-      }
-    },
-    "required": [
-      "registration_open_date",
-      "description"
-    ]
-  },
-  "content": "Skip to content\n\n[Wrenfield Community College](https://www.wrenfield.example/)\n\n  * [Academics](https://www.wrenfield.example/academics)\n  * [Admissions](https://www.wrenfield.example/admissions)\n  * [Student Life](https://www.wrenfield.example/life)\n  * [About](https://www.wrenfield.example/about)\n\n[Log In](https://my.wrenfield.example/)\n\nSearch Site\n\n# Events Calendar\n\nSearch Events\n\nApply Reset\n\n## Fall 2026 Census Date\n\nMonday, September 14, 2026 · All day · Online\n\nThe census date is the last day to drop a fall class and get a full tuition refund. Classes\ndropped after this date stay on your transcript with a grade of W.\n\n[Add to calendar](https://events.wrenfield.example/fall-2026-census-date.ics)\n\nRelated: [Academic calendar](https://www.wrenfield.example/academics/calendar) ·\n[Drop a class](https://my.wrenfield.example/drop)\n\nWrenfield Community College\n\n  * [Campus Map](https://www.wrenfield.example/map)\n  * [Contact Us](https://www.wrenfield.example/contact)\n  * [Privacy](https://www.wrenfield.example/privacy)\n  * [Accessibility](https://www.wrenfield.example/accessibility)\n\n© 2026 Wrenfield Community College\n"
+  "id": "calendar_scheduling_example_58",
+  "prompt_0shot": "You are an expert at scheduling meetings. You are given a few constraints on the existing schedule of each participant, the meeting duration, and possibly some preferences on the meeting time. Note there exists a solution that works with existing schedule of every participant. Here are a few example tasks and solutions:\n\nTASK: You need to schedule a meeting for Joan, Theresa and Shirley for one hour between the work hours of 9:00 to 17:00 on Monday. \n\nHere are the existing schedules for everyone during the day: \nJoan has meetings on Monday during 11:00 to 11:30, 12:30 to 13:00; \nTheresa has meetings on Monday during 12:00 to 12:30, 15:00 to 15:30; \nShirley has meetings on Monday during 9:30 to 10:30, 11:00 to 12:00, 13:00 to 14:00, 15:30 to 16:30; \n\nFind a time that works for everyone's schedule and constraints. \nSOLUTION: ",
+  "golden_plan": "Here is the proposed time: Monday, 14:00 - 15:00 "
 }
