@@ -1,103 +1,95 @@
 {
   "89787d71f4beb5edf6f8b5a3dd8ab2968e0d2c9beae640c01656d30eade5f7ed": {
-    "day": {
-      "choice": "none",
-      "confidence": 0.96
-    },
-    "day_anchor": {
-      "choice": "today",
-      "confidence": 0.96
-    },
     "mode": {
       "choice": "relative",
-      "confidence": 0.94
+      "confidence": 0.98
     },
     "month": {
       "choice": "none",
-      "confidence": 0.99
+      "confidence": 1.0
     },
-    "week_offset": {
+    "day": {
       "choice": "none",
-      "confidence": 0.96
-    },
-    "weekday": {
-      "choice": "none",
-      "confidence": 0.98
+      "confidence": 1.0
     },
     "year": {
       "choice": "none",
-      "confidence": 0.96
+      "confidence": 0.99
+    },
+    "day_anchor": {
+      "choice": "today",
+      "confidence": 0.99
+    },
+    "weekday": {
+      "choice": "none",
+      "confidence": 0.94
+    },
+    "week_offset": {
+      "choice": "none",
+      "confidence": 0.89
     }
   },
   "7ec2aba5cb08826deb8af24ffe920c4aa00979c36430c1ecd835aaa9e1c2825f": {
-    "day": {
-      "choice": "none",
-      "confidence": 0.86
-    },
-    "day_anchor": {
-      "choice": "weekday",
-      "confidence": 0.92
-    },
     "mode": {
       "choice": "relative",
       "confidence": 1.0
     },
     "month": {
       "choice": "none",
-      "confidence": 0.98
+      "confidence": 1.0
     },
-    "week_offset": {
-      "choice": "next",
-      "confidence": 0.99
+    "day": {
+      "choice": "none",
+      "confidence": 1.0
+    },
+    "year": {
+      "choice": "none",
+      "confidence": 1.0
+    },
+    "day_anchor": {
+      "choice": "weekday",
+      "confidence": 0.87
     },
     "weekday": {
       "choice": "Thursday",
-      "confidence": 0.99
+      "confidence": 1.0
     },
-    "year": {
-      "choice": "none",
-      "confidence": 0.88
+    "week_offset": {
+      "choice": "next",
+      "confidence": 0.98
     }
   },
   "3680af5994dc06bfc33eb372772bf24ab8fdf845c258db454dca9f434c40f87c": {
-    "day": {
-      "choice": "14",
-      "confidence": 0.58
-    },
-    "day_anchor": {
-      "choice": "none",
-      "confidence": 0.97
-    },
     "mode": {
-      "choice": "absolute",
-      "confidence": 0.8
+      "choice": "none",
+      "confidence": 0.66
     },
     "month": {
       "choice": "none",
-      "confidence": 0.46
+      "confidence": 0.7
     },
-    "week_offset": {
+    "day": {
       "choice": "none",
-      "confidence": 0.99
-    },
-    "weekday": {
-      "choice": "none",
-      "confidence": 0.98
+      "confidence": 0.66
     },
     "year": {
       "choice": "none",
-      "confidence": 0.9
-    }
-  },
-  "c2a1d51c71f1803c21b969c5b09ec27b581f8c3c0216c537cb6f640ca9dfd213": {
-    "day": {
-      "choice": "14",
-      "confidence": 0.99
+      "confidence": 0.96
     },
     "day_anchor": {
       "choice": "none",
-      "confidence": 0.75
+      "confidence": 0.96
     },
+    "weekday": {
+      "choice": "none",
+      "confidence": 0.99
+    },
+    "week_offset": {
+      "choice": "none",
+      "confidence": 1.0
+    }
+  },
+  "c2a1d51c71f1803c21b969c5b09ec27b581f8c3c0216c537cb6f640ca9dfd213": {
     "mode": {
       "choice": "absolute",
       "confidence": 1.0
@@ -106,58 +98,58 @@
       "choice": "August",
       "confidence": 1.0
     },
-    "week_offset": {
-      "choice": "none",
-      "confidence": 0.94
-    },
-    "weekday": {
-      "choice": "none",
-      "confidence": 0.81
+    "day": {
+      "choice": "14",
+      "confidence": 1.0
     },
     "year": {
       "choice": "none",
-      "confidence": 0.95
-    }
-  },
-  "ba4f64c3e9ab63fac97740bab10535893ad1df28fb9aa1d89e08cdd4e7d40f52": {
-    "day": {
-      "choice": "31",
-      "confidence": 0.97
+      "confidence": 1.0
     },
     "day_anchor": {
       "choice": "none",
-      "confidence": 0.92
+      "confidence": 0.62
     },
+    "weekday": {
+      "choice": "none",
+      "confidence": 0.6
+    },
+    "week_offset": {
+      "choice": "none",
+      "confidence": 0.97
+    }
+  },
+  "ba4f64c3e9ab63fac97740bab10535893ad1df28fb9aa1d89e08cdd4e7d40f52": {
     "mode": {
       "choice": "absolute",
       "confidence": 1.0
     },
     "month": {
       "choice": "December",
-      "confidence": 0.99
+      "confidence": 1.0
     },
-    "week_offset": {
-      "choice": "none",
-      "confidence": 0.98
-    },
-    "weekday": {
-      "choice": "none",
-      "confidence": 0.9
+    "day": {
+      "choice": "31",
+      "confidence": 1.0
     },
     "year": {
       "choice": "2027",
-      "confidence": 0.91
-    }
-  },
-  "7cdccb0ba20acbb58bdde5460ac6ec1f85921f45f8ee1caf899901dafc14f42c": {
-    "day": {
-      "choice": "1",
-      "confidence": 0.98
+      "confidence": 0.97
     },
     "day_anchor": {
       "choice": "none",
-      "confidence": 0.89
+      "confidence": 0.69
     },
+    "weekday": {
+      "choice": "none",
+      "confidence": 0.15
+    },
+    "week_offset": {
+      "choice": "none",
+      "confidence": 1.0
+    }
+  },
+  "7cdccb0ba20acbb58bdde5460ac6ec1f85921f45f8ee1caf899901dafc14f42c": {
     "mode": {
       "choice": "absolute",
       "confidence": 1.0
@@ -166,17 +158,25 @@
       "choice": "January",
       "confidence": 1.0
     },
-    "week_offset": {
-      "choice": "none",
-      "confidence": 0.99
-    },
-    "weekday": {
-      "choice": "none",
-      "confidence": 0.86
+    "day": {
+      "choice": "1",
+      "confidence": 1.0
     },
     "year": {
       "choice": "2025",
-      "confidence": 0.97
+      "confidence": 0.87
+    },
+    "day_anchor": {
+      "choice": "none",
+      "confidence": 0.73
+    },
+    "weekday": {
+      "choice": "none",
+      "confidence": 0.23
+    },
+    "week_offset": {
+      "choice": "none",
+      "confidence": 1.0
     }
   }
 }

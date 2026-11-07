@@ -2,72 +2,72 @@
   "4fd516cb20109e97e5879202231dd75cc5957be49c830b61ae5aedd2e9fed2ab": {
     "answers": {
       "c_0_0": {
-        "score": 3.02
+        "score": 3.03
       },
       "c_0_1": {
-        "score": 1.11
+        "score": 1.07
       },
       "c_1_0": {
         "score": 1.0
       },
       "c_1_1": {
-        "score": 1.0
+        "score": 1.01
       },
       "c_2_0": {
-        "score": 1.0
+        "score": 1.01
       }
     }
   },
   "53c0874a6eaebb85e35970e5dfcd11f2eb7515f437776fddccce864be93eeeed": {
     "answers": {
       "c_1_1": {
-        "score": 3.67
+        "score": 3.36
       },
       "c_2_0": {
-        "score": 1.1
-      }
-    }
-  },
-  "88b385c48a1c80495f3ef5d2d27b20870194c400ad4865c9599d007c84dd79ba": {
-    "answers": {
-      "c_0_1": {
-        "score": 3.74
-      },
-      "c_1_0": {
-        "score": 1.0
-      },
-      "c_1_1": {
-        "score": 1.1
-      },
-      "c_2_0": {
-        "score": 1.09
-      }
-    }
-  },
-  "b78449edb5db0bca3c876fa0e5725a2e97201189603426613d202145a63c98c4": {
-    "answers": {
-      "c_2_0": {
-        "score": 2.06
+        "score": 1.12
       }
     }
   },
   "62b6fd61d21b3e7537799289a301be89a7fb1699e4727bfb62ba8dca15fb12e5": {
     "answers": {
       "c_2_0": {
-        "score": 3.93
+        "score": 3.76
+      }
+    }
+  },
+  "88b385c48a1c80495f3ef5d2d27b20870194c400ad4865c9599d007c84dd79ba": {
+    "answers": {
+      "c_0_1": {
+        "score": 3.6
+      },
+      "c_1_0": {
+        "score": 1.01
+      },
+      "c_1_1": {
+        "score": 1.09
+      },
+      "c_2_0": {
+        "score": 1.07
       }
     }
   },
   "b019f579fd321e75a17a083a352d8143298a721a7f576b03ced3f2dd73777fd0": {
     "answers": {
       "c_1_0": {
-        "score": 3.76
+        "score": 3.45
       },
       "c_1_1": {
-        "score": 1.15
+        "score": 1.1
       },
       "c_2_0": {
-        "score": 1.06
+        "score": 1.11
+      }
+    }
+  },
+  "b78449edb5db0bca3c876fa0e5725a2e97201189603426613d202145a63c98c4": {
+    "answers": {
+      "c_2_0": {
+        "score": 2.01
       }
     }
   }

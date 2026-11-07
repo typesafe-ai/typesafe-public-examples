@@ -24,7 +24,7 @@ from typesafe_sdk import SystemOneResponse, TypeSafeClient
 matplotlib.use("Agg")  # headless render
 import matplotlib.pyplot as plt  # noqa: E402
 
-TYPESAFE_MODEL = "jev-1.12"
+TYPESAFE_MODEL = "jev-1.14.0"
 json_cache = JsonCache(Path(__file__).with_name("json_cache.json"))
 _client = TypeSafeClient(
     api_key=os.environ.get(

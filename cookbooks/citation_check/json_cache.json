@@ -1,86 +1,86 @@
 {
   "407310c2ba753cf7e262e445d81d55b73247d4b03016ccea00ba4402b97b88dc": {
     "choice": "says_nothing",
-    "confidence": 0.56,
-    "input_tokens": 434,
-    "output_tokens": 42,
     "probabilities": {
-      "contradicts": 0.28,
-      "says_nothing": 0.71,
-      "supports": 0.01
+      "supports": 0.0,
+      "contradicts": 0.02,
+      "says_nothing": 0.98
     },
-    "seconds": 0.09
+    "confidence": 0.97,
+    "seconds": 0.15,
+    "input_tokens": 472,
+    "output_tokens": 48
   },
   "eb0ad627efc571cf0376edcfa163f91edfed80120aaf23531673539bc03e8c90": {
     "choice": "supports",
-    "confidence": 0.99,
-    "input_tokens": 490,
-    "output_tokens": 39,
     "probabilities": {
+      "supports": 1.0,
       "contradicts": 0.0,
-      "says_nothing": 0.0,
-      "supports": 1.0
+      "says_nothing": 0.0
     },
-    "seconds": 0.08
+    "confidence": 1.0,
+    "seconds": 0.21,
+    "input_tokens": 528,
+    "output_tokens": 44
   },
   "77b451eb5a5f790e91dfb9a9ac19001f36977e6b965a126ceb24d97ef7f7c744": {
     "choice": "supports",
-    "confidence": 0.95,
-    "input_tokens": 544,
-    "output_tokens": 39,
     "probabilities": {
-      "contradicts": 0.03,
-      "says_nothing": 0.01,
-      "supports": 0.96
+      "supports": 0.99,
+      "contradicts": 0.01,
+      "says_nothing": 0.0
     },
-    "seconds": 0.09
+    "confidence": 0.98,
+    "seconds": 0.17,
+    "input_tokens": 582,
+    "output_tokens": 44
   },
   "a6db89562e1373e80f42c5fc9164c0cb7ca6d629ff5d4a2e6e0deb5cf5b313c6": {
     "choice": "supports",
-    "confidence": 0.99,
-    "input_tokens": 569,
-    "output_tokens": 39,
     "probabilities": {
+      "supports": 1.0,
       "contradicts": 0.0,
-      "says_nothing": 0.0,
-      "supports": 1.0
+      "says_nothing": 0.0
     },
-    "seconds": 0.17
+    "confidence": 1.0,
+    "seconds": 0.16,
+    "input_tokens": 605,
+    "output_tokens": 44
   },
   "5b09d4f32c3a700cce2461d1f71f776b72dfba9e533e32fc52309df0bf5d7688": {
     "choice": "says_nothing",
-    "confidence": 0.27,
-    "input_tokens": 762,
-    "output_tokens": 42,
     "probabilities": {
-      "contradicts": 0.17,
-      "says_nothing": 0.52,
-      "supports": 0.31
+      "supports": 0.01,
+      "contradicts": 0.28,
+      "says_nothing": 0.71
     },
-    "seconds": 0.09
+    "confidence": 0.56,
+    "seconds": 0.18,
+    "input_tokens": 807,
+    "output_tokens": 48
   },
   "64b7e42cd0aea10bfffa9744fa4308d31d8c246d58373d80ea2c1d22183111c2": {
     "choice": "supports",
-    "confidence": 0.93,
-    "input_tokens": 1133,
-    "output_tokens": 39,
     "probabilities": {
+      "supports": 0.99,
       "contradicts": 0.01,
-      "says_nothing": 0.04,
-      "supports": 0.95
+      "says_nothing": 0.0
     },
-    "seconds": 0.25
+    "confidence": 0.98,
+    "seconds": 0.25,
+    "input_tokens": 1196,
+    "output_tokens": 44
   },
   "19d1376f19d05024d46b5bfb7bcc9b0376ac1eb54d0e77ef9bcbaf97ac15de62": {
     "choice": "contradicts",
-    "confidence": 0.99,
-    "input_tokens": 488,
-    "output_tokens": 41,
     "probabilities": {
+      "supports": 0.0,
       "contradicts": 1.0,
-      "says_nothing": 0.0,
-      "supports": 0.0
+      "says_nothing": 0.0
     },
-    "seconds": 0.08
+    "confidence": 1.0,
+    "seconds": 0.16,
+    "input_tokens": 526,
+    "output_tokens": 46
   }
 }
