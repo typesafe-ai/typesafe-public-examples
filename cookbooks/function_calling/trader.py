@@ -15,6 +15,8 @@ from functools import cache
 from pathlib import Path
 from typing import Any, Literal
 
+from contextlib import contextmanager
+
 import matplotlib
 import numpy as np
 import polars as pl
@@ -170,6 +172,42 @@ def resample(bars: pl.DataFrame, resolution: Resolution) -> pl.DataFrame:
     )
 
 
+# Series colours for each chart theme. The dark ones are lighter, to read on the docs' dark
+# background.
+PALETTES = {
+    "light": {
+        "price": "#2b6cb0", "up": "#2f855a", "down": "#c53030", "average": "#dd6b20",
+        "volume": "#8899aa", "session": "#2c7a7b", "correlation": "#6b46c1", "reference": "#718096",
+    },
+    "dark": {
+        "price": "#7aa7e0", "up": "#5fbf8a", "down": "#f07070", "average": "#f0a060",
+        "volume": "#8a96a8", "session": "#5fb8b9", "correlation": "#a68bea", "reference": "#a1a1aa",
+    },
+}
+COLOURS = dict(PALETTES["light"])
+_DARK_RC = {
+    "figure.facecolor": "#0d0a0f", "axes.facecolor": "#0d0a0f", "savefig.facecolor": "#0d0a0f",
+    "text.color": "#fafafa", "axes.labelcolor": "#fafafa", "axes.titlecolor": "#fafafa",
+    "xtick.color": "#a1a1aa", "ytick.color": "#a1a1aa", "xtick.labelcolor": "#fafafa",
+    "ytick.labelcolor": "#fafafa", "axes.edgecolor": "#71717a", "grid.color": "#a1a1aa",
+    "axes.prop_cycle": matplotlib.cycler(
+        color=["#7aa7e0", "#f0a060", "#5fbf8a", "#f07070", "#a68bea", "#5fb8b9"]
+    ),
+}
+
+
+@contextmanager
+def chart_theme(theme: Literal["light", "dark"] = "light"):
+    """Draw the charts made inside this block in the light or the dark theme."""
+    rc = {"figure.facecolor": "#ffffff", "axes.facecolor": "#ffffff"} if theme == "light" else _DARK_RC
+    COLOURS.update(PALETTES[theme])
+    try:
+        with matplotlib.rc_context(rc):
+            yield
+    finally:
+        COLOURS.update(PALETTES["light"])
+
+
 def _panel(title: str, height: float = 3.2):
     figure, axes = plt.subplots(figsize=(9, height))
     axes.set_title(title, fontsize=10)
@@ -285,7 +323,7 @@ def plot_price(
             2, 1, figsize=(9, 4.4), sharex=True, height_ratios=[3, 1]
         )
         axes.set_title(title, fontsize=10)
-        lower.bar(bars["timestamp"], bars["volume"], width=0.4, color="#8899aa")
+        lower.bar(bars["timestamp"], bars["volume"], width=0.4, color=COLOURS["volume"])
         lower.set_ylabel("volume", fontsize=8)
         for panel in (axes, lower):
             panel.grid(alpha=0.25, linewidth=0.5)
@@ -296,7 +334,7 @@ def plot_price(
             0.6 * (bars["timestamp"][1] - bars["timestamp"][0]).total_seconds() / 86400
         )
         for row in bars.iter_rows(named=True):
-            colour = "#2f855a" if row["close"] >= row["open"] else "#c53030"
+            colour = COLOURS["up"] if row["close"] >= row["open"] else COLOURS["down"]
             axes.plot(
                 [row["timestamp"]] * 2,
                 [row["low"], row["high"]],
@@ -311,7 +349,7 @@ def plot_price(
                 color=colour,
             )
     else:
-        axes.plot(bars["timestamp"], bars["close"], linewidth=1.1, color="#2b6cb0")
+        axes.plot(bars["timestamp"], bars["close"], linewidth=1.1, color=COLOURS["price"])
     if moving_average is not None:
         smoothed = bars.select(
             pl.col("close").rolling_mean(int(moving_average))
@@ -320,7 +358,7 @@ def plot_price(
             bars["timestamp"],
             smoothed,
             linewidth=1.2,
-            color="#dd6b20",
+            color=COLOURS["average"],
             label=f"{moving_average}-bar average",
         )
         axes.legend(fontsize=8, frameon=False)
@@ -367,7 +405,7 @@ def intraday_pattern(
         f"{symbol}  average session by time of day, {metric}, last {window}"
     )
     hours = [f"{b // 60:02d}:{b % 60:02d}" for b in bucketed["bucket"]]
-    axes.bar(hours, bucketed[metric], color="#2c7a7b")
+    axes.bar(hours, bucketed[metric], color=COLOURS["session"])
     axes.set_ylabel(labels[metric], fontsize=8)
     axes.tick_params(axis="x", labelrotation=90, labelsize=7)
     figure.tight_layout()
@@ -417,12 +455,12 @@ def rolling_correlation(
     figure, axes = _panel(
         f"{symbol} vs {benchmark}  rolling correlation of {resolution} returns, last {window}"
     )
-    axes.plot(wide["timestamp"], wide["rho"], linewidth=1.1, color="#6b46c1")
+    axes.plot(wide["timestamp"], wide["rho"], linewidth=1.1, color=COLOURS["correlation"])
     axes.axhline(
         overall,
         linestyle="--",
         linewidth=0.9,
-        color="#718096",
+        color=COLOURS["reference"],
         label=f"whole window {overall:.2f}",
     )
     axes.set_ylim(-1.05, 1.05)
@@ -451,7 +489,7 @@ def drawdown(symbol: Symbol, window: Window = "3mo", plot: bool = False):
         return text
     figure, axes = _panel(f"{symbol} drawdown from running peak, last {window}")
     axes.fill_between(
-        curve["timestamp"], curve["drawdown"], 0, color="#c53030", alpha=0.35
+        curve["timestamp"], curve["drawdown"], 0, color=COLOURS["down"], alpha=0.35
     )
     axes.set_ylabel("%", fontsize=8)
     figure.autofmt_xdate()
