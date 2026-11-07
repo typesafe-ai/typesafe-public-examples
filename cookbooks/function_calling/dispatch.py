@@ -203,7 +203,7 @@ def read(
 
 
 class Dispatcher:
-    def __init__(self, spec, tools, client, model="jev-1.12"):
+    def __init__(self, spec, tools, client, model="jev-1.14.0"):
         self.spec, self.tools, self.client, self.model = (
             spec,
             dict(tools),
