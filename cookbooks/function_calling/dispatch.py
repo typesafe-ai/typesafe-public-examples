@@ -1,6 +1,6 @@
 """Turn a sentence into a call to one of your functions.
 
-    dispatcher = Dispatcher(SPEC, TOOLS, client)
+    dispatcher = Dispatcher(SPEC, TOOLS, client, model="jev-1.14.0")
     call = dispatcher("show nvda 1h")
     call.kwargs, call.confidence, call.run()
 
@@ -203,7 +203,7 @@ def read(
 
 
 class Dispatcher:
-    def __init__(self, spec, tools, client, model="jev-1.14.0"):
+    def __init__(self, spec, tools, client, model):
         self.spec, self.tools, self.client, self.model = (
             spec,
             dict(tools),

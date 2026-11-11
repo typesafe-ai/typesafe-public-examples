@@ -1,0 +1,564 @@
+{
+  "0d1b26b88335313767742a4be94dfcb39e424e4c140b50d1517f2cc43c316faf": {
+    "usage": {
+      "input_tokens": 612,
+      "output_tokens": 20
+    },
+    "answers": {
+      "remember": {
+        "type": "noul",
+        "noul": 0.02
+      }
+    }
+  },
+  "1fc14d7d09872f738bcad10d01601ca33333ea9ecf4854cbff9a3e15a07021c4": {
+    "usage": {
+      "input_tokens": 633,
+      "output_tokens": 20
+    },
+    "answers": {
+      "remember": {
+        "type": "noul",
+        "noul": 0.97
+      }
+    }
+  },
+  "2d8af23d911f1e9a8f1f7d2f8cc64e0f4f2d2b41e7b6132f597e8d32e3f182ea": {
+    "usage": {
+      "input_tokens": 611,
+      "output_tokens": 20
+    },
+    "answers": {
+      "remember": {
+        "type": "noul",
+        "noul": 0.03
+      }
+    }
+  },
+  "352afedea23790376acbc21352551a672e68a177447fd110ef635ce706cce190": {
+    "usage": {
+      "input_tokens": 620,
+      "output_tokens": 81
+    },
+    "answers": {
+      "team": {
+        "type": "choice",
+        "choice": "selfhosted_windows",
+        "confidence": 0.6,
+        "probabilities": {
+          "cloud_ops": 0.0,
+          "selfhosted_linux": 0.0,
+          "selfhosted_windows": 0.66,
+          "billing": 0.0,
+          "enterprise_desk": 0.01,
+          "general": 0.33,
+          "none_suitable": 0.0
+        }
+      }
+    }
+  },
+  "3ce6c806ea219944db90189456b1b7c59f4e616494f68f89cefdf17cf37bc5bd": {
+    "usage": {
+      "input_tokens": 598,
+      "output_tokens": 81
+    },
+    "answers": {
+      "team": {
+        "type": "choice",
+        "choice": "none_suitable",
+        "confidence": 0.51,
+        "probabilities": {
+          "cloud_ops": 0.12,
+          "selfhosted_linux": 0.15,
+          "selfhosted_windows": 0.1,
+          "billing": 0.01,
+          "enterprise_desk": 0.0,
+          "general": 0.04,
+          "none_suitable": 0.58
+        }
+      }
+    }
+  },
+  "405bc6524bfcfdfc570d8b37600e3682adca9d0fdfeaca3ffa613051c7555714": {
+    "usage": {
+      "input_tokens": 602,
+      "output_tokens": 20
+    },
+    "answers": {
+      "remember": {
+        "type": "noul",
+        "noul": 0.02
+      }
+    }
+  },
+  "49cc8783e278979600cf3c4f2d6d2409315cd383c87709354694086e9cedcbe8": {
+    "usage": {
+      "input_tokens": 974,
+      "output_tokens": 81
+    },
+    "answers": {
+      "team": {
+        "type": "choice",
+        "choice": "selfhosted_windows",
+        "confidence": 0.98,
+        "probabilities": {
+          "cloud_ops": 0.0,
+          "selfhosted_linux": 0.0,
+          "selfhosted_windows": 0.98,
+          "billing": 0.0,
+          "enterprise_desk": 0.02,
+          "general": 0.0,
+          "none_suitable": 0.0
+        }
+      }
+    }
+  },
+  "4d5e33026b58c375be55ad0d2d508fb943983a06c12b192d5ed45d0f9bd07400": {
+    "usage": {
+      "input_tokens": 797,
+      "output_tokens": 81
+    },
+    "answers": {
+      "team": {
+        "type": "choice",
+        "choice": "selfhosted_windows",
+        "confidence": 0.99,
+        "probabilities": {
+          "cloud_ops": 0.0,
+          "selfhosted_linux": 0.0,
+          "selfhosted_windows": 0.99,
+          "billing": 0.0,
+          "enterprise_desk": 0.0,
+          "general": 0.0,
+          "none_suitable": 0.01
+        }
+      }
+    }
+  },
+  "504043f7bb9110dda8bc832b5046f51817a5ad5e045962aa4425c5ae9805c06a": {
+    "usage": {
+      "input_tokens": 974,
+      "output_tokens": 81
+    },
+    "answers": {
+      "team": {
+        "type": "choice",
+        "choice": "selfhosted_windows",
+        "confidence": 1.0,
+        "probabilities": {
+          "cloud_ops": 0.0,
+          "selfhosted_linux": 0.0,
+          "selfhosted_windows": 1.0,
+          "billing": 0.0,
+          "enterprise_desk": 0.0,
+          "general": 0.0,
+          "none_suitable": 0.0
+        }
+      }
+    }
+  },
+  "53d3ea93703d441ff7042042d9681707749655296cbc40532743884fa81939c8": {
+    "usage": {
+      "input_tokens": 808,
+      "output_tokens": 78
+    },
+    "answers": {
+      "team": {
+        "type": "choice",
+        "choice": "billing",
+        "confidence": 0.85,
+        "probabilities": {
+          "cloud_ops": 0.0,
+          "selfhosted_linux": 0.0,
+          "selfhosted_windows": 0.1,
+          "billing": 0.87,
+          "enterprise_desk": 0.0,
+          "general": 0.02,
+          "none_suitable": 0.01
+        }
+      }
+    }
+  },
+  "555463202a22f4c9cc25b7ce09e5a37e0c5b5e7f5ae43bcf9389e4afed00bf48": {
+    "usage": {
+      "input_tokens": 599,
+      "output_tokens": 79
+    },
+    "answers": {
+      "team": {
+        "type": "choice",
+        "choice": "cloud_ops",
+        "confidence": 0.48,
+        "probabilities": {
+          "cloud_ops": 0.55,
+          "selfhosted_linux": 0.06,
+          "selfhosted_windows": 0.02,
+          "billing": 0.0,
+          "enterprise_desk": 0.0,
+          "general": 0.02,
+          "none_suitable": 0.34
+        }
+      }
+    }
+  },
+  "66243389bebfc3c6eb18d1095c0f48d5b98e76b06e23ea23681d523df40b4606": {
+    "usage": {
+      "input_tokens": 807,
+      "output_tokens": 80
+    },
+    "answers": {
+      "team": {
+        "type": "choice",
+        "choice": "enterprise_desk",
+        "confidence": 0.4,
+        "probabilities": {
+          "cloud_ops": 0.01,
+          "selfhosted_linux": 0.0,
+          "selfhosted_windows": 0.26,
+          "billing": 0.01,
+          "enterprise_desk": 0.49,
+          "general": 0.2,
+          "none_suitable": 0.03
+        }
+      }
+    }
+  },
+  "810b5c074ce8ba2a0acce6406b48459226ecc32aafceca2f4389c1cfb2b4e0d5": {
+    "usage": {
+      "input_tokens": 604,
+      "output_tokens": 20
+    },
+    "answers": {
+      "remember": {
+        "type": "noul",
+        "noul": 0.04
+      }
+    }
+  },
+  "86c425380ef5fefc1d25d19ecb2f4255779b295d74b76cf35f8230e98219d556": {
+    "usage": {
+      "input_tokens": 600,
+      "output_tokens": 80
+    },
+    "answers": {
+      "team": {
+        "type": "choice",
+        "choice": "enterprise_desk",
+        "confidence": 0.45,
+        "probabilities": {
+          "cloud_ops": 0.0,
+          "selfhosted_linux": 0.0,
+          "selfhosted_windows": 0.0,
+          "billing": 0.43,
+          "enterprise_desk": 0.53,
+          "general": 0.01,
+          "none_suitable": 0.03
+        }
+      }
+    }
+  },
+  "89987a023655c03636fc28cd252bdec4723b1adcd2f80e834cc65f6994dbc24a": {
+    "usage": {
+      "input_tokens": 795,
+      "output_tokens": 78
+    },
+    "answers": {
+      "team": {
+        "type": "choice",
+        "choice": "general",
+        "confidence": 1.0,
+        "probabilities": {
+          "cloud_ops": 0.0,
+          "selfhosted_linux": 0.0,
+          "selfhosted_windows": 0.0,
+          "billing": 0.0,
+          "enterprise_desk": 0.0,
+          "general": 1.0,
+          "none_suitable": 0.0
+        }
+      }
+    }
+  },
+  "8ce65b337d012355ddd061fbd5780bcf99c615de6dbe5805a2366d36e671b580": {
+    "usage": {
+      "input_tokens": 619,
+      "output_tokens": 20
+    },
+    "answers": {
+      "remember": {
+        "type": "noul",
+        "noul": 0.98
+      }
+    }
+  },
+  "92ab5a02386c3675b080481cf57f7b2bc0d69326ef8eb8cf0a04185305ab9409": {
+    "usage": {
+      "input_tokens": 624,
+      "output_tokens": 20
+    },
+    "answers": {
+      "remember": {
+        "type": "noul",
+        "noul": 0.96
+      }
+    }
+  },
+  "a3683139f7ed37a1866df81693733ca90d7aee613d57e621fd5a53b5799706ac": {
+    "usage": {
+      "input_tokens": 798,
+      "output_tokens": 80
+    },
+    "answers": {
+      "team": {
+        "type": "choice",
+        "choice": "enterprise_desk",
+        "confidence": 0.45,
+        "probabilities": {
+          "cloud_ops": 0.0,
+          "selfhosted_linux": 0.0,
+          "selfhosted_windows": 0.18,
+          "billing": 0.27,
+          "enterprise_desk": 0.53,
+          "general": 0.01,
+          "none_suitable": 0.01
+        }
+      }
+    }
+  },
+  "a7ff01d2d27f4386162539aee3ff3bb3784d9058978a0e6c3e84b5142555e4e9": {
+    "usage": {
+      "input_tokens": 598,
+      "output_tokens": 79
+    },
+    "answers": {
+      "team": {
+        "type": "choice",
+        "choice": "cloud_ops",
+        "confidence": 0.63,
+        "probabilities": {
+          "cloud_ops": 0.68,
+          "selfhosted_linux": 0.06,
+          "selfhosted_windows": 0.01,
+          "billing": 0.0,
+          "enterprise_desk": 0.0,
+          "general": 0.02,
+          "none_suitable": 0.23
+        }
+      }
+    }
+  },
+  "a8cce731ebf13a6dc8d3f8a71117fff746439665426cd071e835c36f44bd1b1c": {
+    "usage": {
+      "input_tokens": 615,
+      "output_tokens": 20
+    },
+    "answers": {
+      "remember": {
+        "type": "noul",
+        "noul": 0.02
+      }
+    }
+  },
+  "acc5994647dec557cb041004dc2053a39e0c9ea1cbd8940926a973a205674975": {
+    "usage": {
+      "input_tokens": 975,
+      "output_tokens": 80
+    },
+    "answers": {
+      "team": {
+        "type": "choice",
+        "choice": "enterprise_desk",
+        "confidence": 1.0,
+        "probabilities": {
+          "cloud_ops": 0.0,
+          "selfhosted_linux": 0.0,
+          "selfhosted_windows": 0.0,
+          "billing": 0.0,
+          "enterprise_desk": 1.0,
+          "general": 0.0,
+          "none_suitable": 0.0
+        }
+      }
+    }
+  },
+  "b26898ce72ccb88a637a544a99ac08e93cd8be699aea309c64b6d564b7b37ebd": {
+    "usage": {
+      "input_tokens": 782,
+      "output_tokens": 79
+    },
+    "answers": {
+      "team": {
+        "type": "choice",
+        "choice": "cloud_ops",
+        "confidence": 0.98,
+        "probabilities": {
+          "cloud_ops": 0.98,
+          "selfhosted_linux": 0.0,
+          "selfhosted_windows": 0.0,
+          "billing": 0.0,
+          "enterprise_desk": 0.0,
+          "general": 0.01,
+          "none_suitable": 0.01
+        }
+      }
+    }
+  },
+  "bcdea8bb6730f69974abe1d45a030062f69fe26fefb4d034f8f586328b8d8599": {
+    "usage": {
+      "input_tokens": 615,
+      "output_tokens": 20
+    },
+    "answers": {
+      "remember": {
+        "type": "noul",
+        "noul": 0.03
+      }
+    }
+  },
+  "c09261080cbf46dc1dd83526e1030ebbf81f58c15fa502b921e4f5191ab1c92b": {
+    "usage": {
+      "input_tokens": 783,
+      "output_tokens": 78
+    },
+    "answers": {
+      "team": {
+        "type": "choice",
+        "choice": "billing",
+        "confidence": 0.98,
+        "probabilities": {
+          "cloud_ops": 0.0,
+          "selfhosted_linux": 0.0,
+          "selfhosted_windows": 0.0,
+          "billing": 0.98,
+          "enterprise_desk": 0.01,
+          "general": 0.01,
+          "none_suitable": 0.0
+        }
+      }
+    }
+  },
+  "c329be64e40220cfd68b6a04f4f308e670a35cf2cfc799436a68d30681719158": {
+    "usage": {
+      "input_tokens": 619,
+      "output_tokens": 78
+    },
+    "answers": {
+      "team": {
+        "type": "choice",
+        "choice": "general",
+        "confidence": 0.86,
+        "probabilities": {
+          "cloud_ops": 0.12,
+          "selfhosted_linux": 0.0,
+          "selfhosted_windows": 0.0,
+          "billing": 0.0,
+          "enterprise_desk": 0.0,
+          "general": 0.88,
+          "none_suitable": 0.0
+        }
+      }
+    }
+  },
+  "d0b703ded04b8c4ec648303c3f28047559b89188e5ff764dc49000de90d06463": {
+    "usage": {
+      "input_tokens": 601,
+      "output_tokens": 20
+    },
+    "answers": {
+      "remember": {
+        "type": "noul",
+        "noul": 0.04
+      }
+    }
+  },
+  "d61eaf0f935d948edbd06939a17236331632476b78582bf631e7548f5fe74db5": {
+    "usage": {
+      "input_tokens": 599,
+      "output_tokens": 78
+    },
+    "answers": {
+      "team": {
+        "type": "choice",
+        "choice": "billing",
+        "confidence": 0.51,
+        "probabilities": {
+          "cloud_ops": 0.0,
+          "selfhosted_linux": 0.0,
+          "selfhosted_windows": 0.0,
+          "billing": 0.58,
+          "enterprise_desk": 0.37,
+          "general": 0.01,
+          "none_suitable": 0.04
+        }
+      }
+    }
+  },
+  "e51fe3022656094113c1b08df2ed61d527adf8c16239a8ec3fbc724b4d676772": {
+    "usage": {
+      "input_tokens": 612,
+      "output_tokens": 20
+    },
+    "answers": {
+      "remember": {
+        "type": "noul",
+        "noul": 0.02
+      }
+    }
+  },
+  "ed6843cf7c58360726bbfc5d8d85f761d702c08ed4df570274b93f4e57f0ec8c": {
+    "usage": {
+      "input_tokens": 601,
+      "output_tokens": 20
+    },
+    "answers": {
+      "remember": {
+        "type": "noul",
+        "noul": 0.02
+      }
+    }
+  },
+  "ee91bf99ed6a57f0e48fb12aca4af2cffc1f4b51526fed1179b4041f8b2bdbcd": {
+    "usage": {
+      "input_tokens": 599,
+      "output_tokens": 81
+    },
+    "answers": {
+      "team": {
+        "type": "choice",
+        "choice": "none_suitable",
+        "confidence": 0.58,
+        "probabilities": {
+          "cloud_ops": 0.06,
+          "selfhosted_linux": 0.15,
+          "selfhosted_windows": 0.11,
+          "billing": 0.0,
+          "enterprise_desk": 0.0,
+          "general": 0.04,
+          "none_suitable": 0.64
+        }
+      }
+    }
+  },
+  "f153603c92190f839a841370199706199a0c87ed55aef6fdff3419b96877a22f": {
+    "usage": {
+      "input_tokens": 782,
+      "output_tokens": 79
+    },
+    "answers": {
+      "team": {
+        "type": "choice",
+        "choice": "cloud_ops",
+        "confidence": 0.94,
+        "probabilities": {
+          "cloud_ops": 0.95,
+          "selfhosted_linux": 0.01,
+          "selfhosted_windows": 0.0,
+          "billing": 0.0,
+          "enterprise_desk": 0.0,
+          "general": 0.01,
+          "none_suitable": 0.03
+        }
+      }
+    }
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "407310c2ba753cf7e262e445d81d55b73247d4b03016ccea00ba4402b97b88dc": {
+  "07abbaf4dab22c25f00b3eb29b0577fa68fe3949e8f9aaaad0f73cfbdebe476f": {
     "choice": "says_nothing",
     "probabilities": {
       "supports": 0.0,
@@ -11,19 +11,7 @@
     "input_tokens": 472,
     "output_tokens": 48
   },
-  "eb0ad627efc571cf0376edcfa163f91edfed80120aaf23531673539bc03e8c90": {
-    "choice": "supports",
-    "probabilities": {
-      "supports": 1.0,
-      "contradicts": 0.0,
-      "says_nothing": 0.0
-    },
-    "confidence": 1.0,
-    "seconds": 0.21,
-    "input_tokens": 528,
-    "output_tokens": 44
-  },
-  "77b451eb5a5f790e91dfb9a9ac19001f36977e6b965a126ceb24d97ef7f7c744": {
+  "3bc0a4ee4448cf4d4138167fe42fa2a1806d3e85ce885199684eaf35fa11b28c": {
     "choice": "supports",
     "probabilities": {
       "supports": 0.99,
@@ -35,19 +23,7 @@
     "input_tokens": 582,
     "output_tokens": 44
   },
-  "a6db89562e1373e80f42c5fc9164c0cb7ca6d629ff5d4a2e6e0deb5cf5b313c6": {
-    "choice": "supports",
-    "probabilities": {
-      "supports": 1.0,
-      "contradicts": 0.0,
-      "says_nothing": 0.0
-    },
-    "confidence": 1.0,
-    "seconds": 0.16,
-    "input_tokens": 605,
-    "output_tokens": 44
-  },
-  "5b09d4f32c3a700cce2461d1f71f776b72dfba9e533e32fc52309df0bf5d7688": {
+  "4b27836ead1b372fb6c9c70763940f16e61b2ca81fbf0e7b25db9370e1767e79": {
     "choice": "says_nothing",
     "probabilities": {
       "supports": 0.01,
@@ -59,7 +35,7 @@
     "input_tokens": 807,
     "output_tokens": 48
   },
-  "64b7e42cd0aea10bfffa9744fa4308d31d8c246d58373d80ea2c1d22183111c2": {
+  "5be1577d302daa5f635f38738ccda880e751ee1034e545763a0d152d3d3d7cc9": {
     "choice": "supports",
     "probabilities": {
       "supports": 0.99,
@@ -71,7 +47,31 @@
     "input_tokens": 1196,
     "output_tokens": 44
   },
-  "19d1376f19d05024d46b5bfb7bcc9b0376ac1eb54d0e77ef9bcbaf97ac15de62": {
+  "63a88bdccb0f05c91b95bf581cf9b63618efbb7fb4ee8e63c50145335fbed52e": {
+    "choice": "supports",
+    "probabilities": {
+      "supports": 1.0,
+      "contradicts": 0.0,
+      "says_nothing": 0.0
+    },
+    "confidence": 1.0,
+    "seconds": 0.16,
+    "input_tokens": 605,
+    "output_tokens": 44
+  },
+  "adbd08f21d6de6de47f1f9927c17a7779bf90a6c46c2532b9e31fb0173368111": {
+    "choice": "supports",
+    "probabilities": {
+      "supports": 1.0,
+      "contradicts": 0.0,
+      "says_nothing": 0.0
+    },
+    "confidence": 1.0,
+    "seconds": 0.21,
+    "input_tokens": 528,
+    "output_tokens": 44
+  },
+  "bd657f135f85137ffd140b787b9d15fd5847a958fa07c5661b8f2305b672663b": {
     "choice": "contradicts",
     "probabilities": {
       "supports": 0.0,

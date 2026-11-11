@@ -1,5 +1,4 @@
-"""A small trader assistant, and a cached TypeSafe client - the parts the cookbook does not
-teach.
+"""A small trader assistant: the stand-in API the cookbook calls, not the part it teaches.
 
 The ten functions are ordinary code with ordinary signatures. Their closed-set arguments are
 ``Literal``s, a set of them is a ``list[Literal[...]]``, and a switch is a ``bool``; that is all
@@ -8,61 +7,19 @@ the cookbook needs from them. Bars are mock, built from a seed on first import.
 
 from __future__ import annotations
 
-import json
-import os
 from datetime import date, datetime, timedelta
 from functools import cache
 from pathlib import Path
-from typing import Any, Literal
+from typing import Literal
 
 from contextlib import contextmanager
 
 import matplotlib
 import numpy as np
 import polars as pl
-from cooksafe import JsonCache
-from typesafe_sdk import SystemOneResponse, TypeSafeClient
 
 matplotlib.use("Agg")  # headless render
 import matplotlib.pyplot as plt  # noqa: E402
-
-TYPESAFE_MODEL = "jev-1.14.0"
-json_cache = JsonCache(Path(__file__).with_name("json_cache.json"))
-_client = TypeSafeClient(
-    api_key=os.environ.get(
-        "TYPESAFE_API_KEY", "cache-only"
-    ),  # keyless kernels replay the cache
-    base_url=os.environ.get("TYPESAFE_ENDPOINT"),
-    timeout=120.0,
-)
-
-
-class Client:
-    """A TypeSafe client whose every call is memoized to json_cache.json."""
-
-    def system_one(
-        self, state: Any, questions: dict, model: str = TYPESAFE_MODEL
-    ) -> SystemOneResponse:
-        # Defined per call so the request uses `model` while the cache key leaves it out.
-        @json_cache
-        def _system_one(state: str, questions: str) -> dict:
-            response = _client.system_one(
-                state=state, questions=json.loads(questions), model=model
-            )
-            return {
-                "answers": {
-                    key: answer.model_dump(mode="json")
-                    for key, answer in response.answers.items()
-                },
-                "usage": response.usage.model_dump(mode="json"),
-            }
-
-        raw = _system_one(str(state), json.dumps(questions, sort_keys=True))
-        # The cache leaves the model out; the response type needs one, so use the requested model.
-        return SystemOneResponse.model_validate({**raw, "model": model})
-
-
-client = Client()
 
 BARS = Path(__file__).with_name("bars.parquet")
 SESSION_MINUTES = 390  # 09:30 through 15:59

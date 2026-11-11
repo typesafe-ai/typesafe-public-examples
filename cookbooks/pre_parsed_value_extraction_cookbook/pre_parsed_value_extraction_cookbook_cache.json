@@ -1,0 +1,32 @@
+{
+  "089ac49c62d013408ea27d40a6d6b651228be0b2c063632a09e8a5754d474656": {
+    "choice": "jane.doe@example.com",
+    "confidence": 1.0
+  },
+  "29a389a45e4a8aad17150826331a5650bdef63a977481b9d9a31b7659979469a": 0.98,
+  "2f6ec50c8dcc5f9d34761e9c2614c81faa9f25623aa8d7ff6772aefeff95ec3d": {
+    "choice": "USD",
+    "confidence": 1.0
+  },
+  "370093073af90a74bab2cef3831d1a5bfe8877000a8a1de9c93da4698f9e01bd": {
+    "choice": "$50.00",
+    "confidence": 1.0
+  },
+  "412167bddebb5e57da86de58ca009978e365922d27061159eb1bbc7957c7365c": {
+    "choice": "(415) 555-0177",
+    "confidence": 1.0
+  },
+  "90144031aa73e0112fde3c1af0c4be80647c7ef71092ff7d3d426bf53ce8110f": 0.03,
+  "b09ddd122b3c41aa042c5ca13d3e86c72dd759365e94de7efde9e6c8a45b0594": {
+    "choice": "$1,315.50",
+    "confidence": 0.56
+  },
+  "d61543f4bc547ab31b2dcd0f31ac8e2b49cbac1d9e33a038fadf8f0f8b6b61ea": {
+    "choice": "US",
+    "confidence": 1.0
+  },
+  "dd140dd54d4612cf37be5103dcb7a2de45e4d67d9086a300cbc3bf884eda8377": {
+    "choice": "jane.personal@example.net",
+    "confidence": 0.97
+  }
+}
