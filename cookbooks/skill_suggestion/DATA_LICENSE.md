@@ -47,4 +47,4 @@ These skills are under the [Apache License 2.0](../../LICENSES/Apache-2.0.txt):
 - `hyperframes`: heygen-com
 - `impeccable`: Paul Bakaus
 
-`requests.json` and `json_cache.json` are TypeSafe's work under the MIT licence of typesafe-public-examples.
+`requests.json` and `skill_suggestion_cache.json` are TypeSafe's work under the MIT licence of typesafe-public-examples.

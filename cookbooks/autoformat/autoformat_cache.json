@@ -1,6 +1,5 @@
 {
-  "fetch_document|https://raw.githubusercontent.com/typesafe-ai/typesafe-public-examples/main/cookbooks/autoformat/build-memo.txt": "Migration to the new build system\n\nHi everyone, quick heads up about the build system migration that is\nhappening next week. We have been running the new pipeline in shadow\nmode for three weeks and the results look solid, so it is time to\nmake the switch for real.\n\nWhat changes for you\n\nThe old make targets keep working until the end of the month. The new\nentrypoint is a single command that wraps everything, including the\ndocs build that used to be separate.\n\nbun run build\n\nGenerated artifacts no longer need to be committed. The new pipeline\nuploads them to the registry automatically, and checking them in\njust creates merge conflicts.\n\nThe cutover touches three teams, so check whether you are on this\nlist before you plan anything for Monday:\nThe platform team\nThe web client team\nWhoever still owns the release tooling\n\nThings to do before Monday\n\nUpdate your local toolchain to version 2.4 or later\nDelete the old build cache directory\nRun the doctor script and fix anything it flags\n\nIf the doctor script reports a red result on the toolchain check, do\nnot proceed with the migration. Ping the infra channel first and we\nwill sort it out together.\n\nAs Dana put it in the kickoff, \"a migration nobody notices is the\nonly kind worth shipping.\"\n\nThanks, and shout if anything looks off.\n",
-  "2654670e0ea1c3ebdaccb041787cbcc81bd0b777976c27b0cf7e0a6dc0e64264": {
+  "745e8d2fa6a7ed727ec7a7f7ad617f9e5e0daa18701d031c938f9e0744b75808": {
     "judgments": [
       {
         "type": "heading",
@@ -265,7 +264,7 @@
       2560
     ]
   },
-  "4f4f9e2b8ecf6cac12ab47618c3853d3aa1906cca79b623f40d907511db13a3b": {
+  "79d40686899b7a5e1de989636942d724f7d8d8505fdd2ecbf7d9293d274766a6": {
     "joins": [
       0.0,
       0.0,
@@ -302,7 +301,7 @@
       308
     ]
   },
-  "ac0c747f8b1dfd94afa92dd76b7e6e42da505fc8b6b45e52fb5fa3a8de669970": {
+  "dfd2ec644d1f8fd75ed6460702f403ec2f07184490f0b93417655d35c44be82b": {
     "joins": [
       0.0,
       0.0,
@@ -338,5 +337,6 @@
       2711,
       308
     ]
-  }
+  },
+  "fetch_document|https://raw.githubusercontent.com/typesafe-ai/typesafe-public-examples/main/cookbooks/autoformat/build-memo.txt": "Migration to the new build system\n\nHi everyone, quick heads up about the build system migration that is\nhappening next week. We have been running the new pipeline in shadow\nmode for three weeks and the results look solid, so it is time to\nmake the switch for real.\n\nWhat changes for you\n\nThe old make targets keep working until the end of the month. The new\nentrypoint is a single command that wraps everything, including the\ndocs build that used to be separate.\n\nbun run build\n\nGenerated artifacts no longer need to be committed. The new pipeline\nuploads them to the registry automatically, and checking them in\njust creates merge conflicts.\n\nThe cutover touches three teams, so check whether you are on this\nlist before you plan anything for Monday:\nThe platform team\nThe web client team\nWhoever still owns the release tooling\n\nThings to do before Monday\n\nUpdate your local toolchain to version 2.4 or later\nDelete the old build cache directory\nRun the doctor script and fix anything it flags\n\nIf the doctor script reports a red result on the toolchain check, do\nnot proceed with the migration. Ping the infra channel first and we\nwill sort it out together.\n\nAs Dana put it in the kickoff, \"a migration nobody notices is the\nonly kind worth shipping.\"\n\nThanks, and shout if anything looks off.\n"
 }

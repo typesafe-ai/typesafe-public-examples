@@ -4,6 +4,6 @@
 
 The code downloads the [Cooperative Patent Classification](https://www.cooperativepatentclassification.org/) scheme, version 2026.05, from the European Patent Office and the United States Patent and Trademark Office, and the [Shopify Product Taxonomy](https://github.com/Shopify/product-taxonomy) release v2026-02 (`dist/en/categories.txt`, Copyright (c) Shopify, MIT License) from their publishers.
 
-`json_cache.json` contains category names from these three schemes, which stay under their publishers' terms.
+`hierarchical_classification_cache.json` contains category names from these three schemes, which stay under their publishers' terms.
 
 The other files this cookbook publishes to typesafe-public-examples are TypeSafe's work under that repository's MIT licence.

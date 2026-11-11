@@ -1,0 +1,379 @@
+{
+  "0ecc23431eb076915284ad8e27e6b8b5a582483df531b5449afaa6af96d9f077": {
+    "category": "backseat",
+    "probabilities": {
+      "question": 0.0,
+      "hype": 0.0,
+      "conversation": 0.0,
+      "backseat": 1.0,
+      "spam": 0.0
+    },
+    "toxic": 0.03,
+    "spoiler": 0.07,
+    "seconds": 0.12
+  },
+  "1e2228f98b364a66fa0ad10777eb25f2ae33f3a69c0d6f397c5b913083924331": {
+    "category": "spam",
+    "probabilities": {
+      "question": 0.0,
+      "hype": 0.0,
+      "conversation": 0.0,
+      "backseat": 0.0,
+      "spam": 1.0
+    },
+    "toxic": 0.04,
+    "spoiler": 0.01,
+    "seconds": 0.13
+  },
+  "236315580fc89dfaf7b187b398d451cda4c370439e43811cbb652e86a0375cc2": {
+    "category": "backseat",
+    "probabilities": {
+      "question": 0.0,
+      "hype": 0.0,
+      "conversation": 0.0,
+      "backseat": 1.0,
+      "spam": 0.0
+    },
+    "toxic": 0.04,
+    "spoiler": 0.05,
+    "seconds": 0.07
+  },
+  "370b4747fd469a4d07406b1a1bf116e9f9b93db90587e33fa6334cabab829444": {
+    "category": "hype",
+    "probabilities": {
+      "question": 0.0,
+      "hype": 1.0,
+      "conversation": 0.0,
+      "backseat": 0.0,
+      "spam": 0.0
+    },
+    "toxic": 0.02,
+    "spoiler": 0.02,
+    "seconds": 0.11
+  },
+  "4214d581bdd745321b056bb806dc7adbbf5314359e51f1a43a3c5c872f86bbd8": {
+    "category": "conversation",
+    "probabilities": {
+      "question": 0.0,
+      "hype": 0.2,
+      "conversation": 0.8,
+      "backseat": 0.0,
+      "spam": 0.0
+    },
+    "toxic": 0.02,
+    "spoiler": 0.02,
+    "seconds": 0.1
+  },
+  "493b98aca5ee7cb324da9da915abb76caa47294c731569fcfa9aca445c874d29": {
+    "category": "backseat",
+    "probabilities": {
+      "question": 0.0,
+      "hype": 0.0,
+      "conversation": 0.0,
+      "backseat": 1.0,
+      "spam": 0.0
+    },
+    "toxic": 0.22,
+    "spoiler": 0.02,
+    "seconds": 0.07
+  },
+  "4eed0e27bbbe8d3a43beeb7186d1746e56cbc20add3277cfe4684051a19053b9": {
+    "category": "question",
+    "probabilities": {
+      "question": 0.96,
+      "hype": 0.0,
+      "conversation": 0.03,
+      "backseat": 0.01,
+      "spam": 0.0
+    },
+    "toxic": 0.02,
+    "spoiler": 0.03,
+    "seconds": 0.09
+  },
+  "569d0a1acc2d77a38d6dc2af1a500d3c7e15e8978e103ec7078396172119b07e": {
+    "category": "conversation",
+    "probabilities": {
+      "question": 0.0,
+      "hype": 0.04,
+      "conversation": 0.96,
+      "backseat": 0.0,
+      "spam": 0.0
+    },
+    "toxic": 0.02,
+    "spoiler": 0.05,
+    "seconds": 0.08
+  },
+  "5960ce0217d062a329e4c80b2a3103b7dc26f07fc210f0b327740dc998f11287": {
+    "category": "conversation",
+    "probabilities": {
+      "question": 0.0,
+      "hype": 0.0,
+      "conversation": 1.0,
+      "backseat": 0.0,
+      "spam": 0.0
+    },
+    "toxic": 0.02,
+    "spoiler": 0.02,
+    "seconds": 0.11
+  },
+  "5ac1099352bec7460d6378ffd6a2c29fb8c6e97ec81f92092ccb1a1ad5cc2ba4": {
+    "category": "conversation",
+    "probabilities": {
+      "question": 0.0,
+      "hype": 0.0,
+      "conversation": 0.96,
+      "backseat": 0.03,
+      "spam": 0.01
+    },
+    "toxic": 0.98,
+    "spoiler": 0.02,
+    "seconds": 0.11
+  },
+  "656791e1cee3ae1856a4efe5e33069f5ef94ce3bae583511bee064dcb520a0bc": {
+    "category": "conversation",
+    "probabilities": {
+      "question": 0.0,
+      "hype": 0.0,
+      "conversation": 0.99,
+      "backseat": 0.0,
+      "spam": 0.01
+    },
+    "toxic": 0.97,
+    "spoiler": 0.02,
+    "seconds": 0.07
+  },
+  "7053bda581571aff26990bf1a919d8d7f40a038278d21f70f862c4403d6ea971": {
+    "category": "conversation",
+    "probabilities": {
+      "question": 0.0,
+      "hype": 0.04,
+      "conversation": 0.96,
+      "backseat": 0.0,
+      "spam": 0.0
+    },
+    "toxic": 0.01,
+    "spoiler": 0.03,
+    "seconds": 0.07
+  },
+  "71101de45946f5ce3575a5c7a9a5a18b2487bdf394c18659e138526a35472537": {
+    "category": "question",
+    "probabilities": {
+      "question": 0.99,
+      "hype": 0.0,
+      "conversation": 0.01,
+      "backseat": 0.0,
+      "spam": 0.0
+    },
+    "toxic": 0.02,
+    "spoiler": 0.02,
+    "seconds": 0.11
+  },
+  "80d101de3d69f7f5dbd109e1aedae09d18789a00d271d1b5df5617c3c3b8f0f9": {
+    "category": "question",
+    "probabilities": {
+      "question": 0.54,
+      "hype": 0.0,
+      "conversation": 0.46,
+      "backseat": 0.0,
+      "spam": 0.0
+    },
+    "toxic": 0.01,
+    "spoiler": 0.01,
+    "seconds": 0.07
+  },
+  "8574002b68d19090038a36d4f5e6646c0abb6743c099e4b46c90fea8f1d689ac": {
+    "category": "hype",
+    "probabilities": {
+      "question": 0.0,
+      "hype": 1.0,
+      "conversation": 0.0,
+      "backseat": 0.0,
+      "spam": 0.0
+    },
+    "toxic": 0.02,
+    "spoiler": 0.02,
+    "seconds": 0.08
+  },
+  "8bfd6779066f84ad8c2bb2cece39388255cddf4103d5737f7c7adf1a41a3d7d1": {
+    "category": "hype",
+    "probabilities": {
+      "question": 0.01,
+      "hype": 0.93,
+      "conversation": 0.05,
+      "backseat": 0.01,
+      "spam": 0.0
+    },
+    "toxic": 0.38,
+    "spoiler": 0.02,
+    "seconds": 0.06
+  },
+  "930d6f8de5659a83602806fb0fd28dc542ca83f5b973aee05e1bf40aeef04b1b": {
+    "category": "hype",
+    "probabilities": {
+      "question": 0.0,
+      "hype": 0.66,
+      "conversation": 0.34,
+      "backseat": 0.0,
+      "spam": 0.0
+    },
+    "toxic": 0.02,
+    "spoiler": 0.02,
+    "seconds": 0.07
+  },
+  "99069a5896285b566f5709aded1f9337e64a4cfcf542f485b4a8461a4b95c5c7": {
+    "category": "conversation",
+    "probabilities": {
+      "question": 0.0,
+      "hype": 0.02,
+      "conversation": 0.98,
+      "backseat": 0.0,
+      "spam": 0.0
+    },
+    "toxic": 0.02,
+    "spoiler": 0.03,
+    "seconds": 0.09
+  },
+  "9a467a0a9875e18b8e0803f1d19b1cd5d943e65af04f58784f56e8ee5e8a1c84": {
+    "category": "hype",
+    "probabilities": {
+      "question": 0.0,
+      "hype": 0.99,
+      "conversation": 0.01,
+      "backseat": 0.0,
+      "spam": 0.0
+    },
+    "toxic": 0.05,
+    "spoiler": 0.02,
+    "seconds": 0.14
+  },
+  "a4e86fc932e9c77fd083226e2ddbc7e6cc4e6434d4a3d8efdaa07f30420cb7e9": {
+    "category": "question",
+    "probabilities": {
+      "question": 0.98,
+      "hype": 0.0,
+      "conversation": 0.02,
+      "backseat": 0.0,
+      "spam": 0.0
+    },
+    "toxic": 0.02,
+    "spoiler": 0.04,
+    "seconds": 0.06
+  },
+  "a68159b92cc3b56c13544f5f4e4f6dca48a25dfb5a783520a51a733b4a94a808": {
+    "category": "question",
+    "probabilities": {
+      "question": 0.93,
+      "hype": 0.0,
+      "conversation": 0.03,
+      "backseat": 0.04,
+      "spam": 0.0
+    },
+    "toxic": 0.02,
+    "spoiler": 0.03,
+    "seconds": 0.1
+  },
+  "accb1212cf914661720851a813214434966fe70ffb951955a595bb89f52c893f": {
+    "category": "conversation",
+    "probabilities": {
+      "question": 0.0,
+      "hype": 0.05,
+      "conversation": 0.95,
+      "backseat": 0.0,
+      "spam": 0.0
+    },
+    "toxic": 0.02,
+    "spoiler": 0.02,
+    "seconds": 0.12
+  },
+  "b28a6227872cc577cbf6ea42e92db4958c35ca4a04bd5c62c5062623622fe6b2": {
+    "category": "hype",
+    "probabilities": {
+      "question": 0.0,
+      "hype": 0.99,
+      "conversation": 0.01,
+      "backseat": 0.0,
+      "spam": 0.0
+    },
+    "toxic": 0.02,
+    "spoiler": 0.04,
+    "seconds": 0.14
+  },
+  "b44829a0dad011885566d6a0de0645f79a26b197b7d4ae8f29490d81c354c77a": {
+    "category": "question",
+    "probabilities": {
+      "question": 0.95,
+      "hype": 0.0,
+      "conversation": 0.02,
+      "backseat": 0.03,
+      "spam": 0.0
+    },
+    "toxic": 0.02,
+    "spoiler": 0.38,
+    "seconds": 0.09
+  },
+  "bd529d3c8eed18001967469e27b33c9c812a89982a6a441e933af03d2de89674": {
+    "category": "conversation",
+    "probabilities": {
+      "question": 0.0,
+      "hype": 0.0,
+      "conversation": 1.0,
+      "backseat": 0.0,
+      "spam": 0.0
+    },
+    "toxic": 0.01,
+    "spoiler": 0.02,
+    "seconds": 0.07
+  },
+  "c01b91639ce5acf1a8505d376cc43c47ef68767656a7140d9e1f07f9647aaa2e": {
+    "category": "conversation",
+    "probabilities": {
+      "question": 0.0,
+      "hype": 0.21,
+      "conversation": 0.79,
+      "backseat": 0.0,
+      "spam": 0.0
+    },
+    "toxic": 0.28,
+    "spoiler": 0.02,
+    "seconds": 0.07
+  },
+  "cd3be84b30f758079e8eaff0532d9970c5d060a990285ec4de8c2c60db116701": {
+    "category": "conversation",
+    "probabilities": {
+      "question": 0.0,
+      "hype": 0.0,
+      "conversation": 0.99,
+      "backseat": 0.01,
+      "spam": 0.0
+    },
+    "toxic": 0.03,
+    "spoiler": 0.95,
+    "seconds": 0.06
+  },
+  "e88c0cace1f8c3dcb0d1c4e89b4a74427e5c499055ea33e62b77ff6dd1f32654": {
+    "category": "spam",
+    "probabilities": {
+      "question": 0.0,
+      "hype": 0.0,
+      "conversation": 0.0,
+      "backseat": 0.0,
+      "spam": 1.0
+    },
+    "toxic": 0.02,
+    "spoiler": 0.02,
+    "seconds": 0.06
+  },
+  "f39844aa8d26bd0a8e37a82d2ae3f6e06336d8f0b3a57707df966381c46273d8": {
+    "category": "conversation",
+    "probabilities": {
+      "question": 0.0,
+      "hype": 0.01,
+      "conversation": 0.67,
+      "backseat": 0.32,
+      "spam": 0.0
+    },
+    "toxic": 0.04,
+    "spoiler": 0.95,
+    "seconds": 0.07
+  }
+}
