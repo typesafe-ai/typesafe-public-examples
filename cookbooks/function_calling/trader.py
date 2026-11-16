@@ -15,11 +15,9 @@ from typing import Literal
 from contextlib import contextmanager
 
 import matplotlib
+import matplotlib.pyplot as plt
 import numpy as np
 import polars as pl
-
-matplotlib.use("Agg")  # headless render
-import matplotlib.pyplot as plt  # noqa: E402
 
 BARS = Path(__file__).with_name("bars.parquet")
 SESSION_MINUTES = 390  # 09:30 through 15:59
