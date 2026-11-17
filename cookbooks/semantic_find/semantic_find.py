@@ -36,9 +36,16 @@
 # request, [create a TypeSafe API key](https://console.typesafe.ai/keys) and set
 # `TYPESAFE_API_KEY`; in Colab, add it in the Secrets panel.
 #
-# ### Create the script
+# ### Run the script
 #
-# Start `semantic_search.py` with the imports and the client:
+# [`semantic_find.py`](https://github.com/typesafe-ai/typesafe-public-examples/blob/main/cookbooks/semantic_find/semantic_find.py)
+# holds every code block on this page, in order. Run it from the file's directory:
+#
+# ```bash
+# python semantic_find.py
+# ```
+#
+# The first block imports `typesafe_sdk`, reads `TYPESAFE_API_KEY` and creates the client:
 
 # %%
 import os
