@@ -1,0 +1,700 @@
+{
+  "96f3f4f27391ca157bf64e1ce2568855ad1fed763e171dcf00b1bf5f6c0cabb9": [
+    {
+      "lc": 1,
+      "type": "constructor",
+      "id": [
+        "langchain",
+        "schema",
+        "output",
+        "ChatGeneration"
+      ],
+      "kwargs": {
+        "generation_info": {
+          "finish_reason": "tool_calls",
+          "logprobs": null,
+          "normalized_finish_reason": "tool_call"
+        },
+        "type": "ChatGeneration",
+        "message": {
+          "lc": 1,
+          "type": "constructor",
+          "id": [
+            "langchain",
+            "schema",
+            "messages",
+            "AIMessage"
+          ],
+          "kwargs": {
+            "content": "",
+            "additional_kwargs": {
+              "refusal": null
+            },
+            "response_metadata": {
+              "token_usage": {
+                "completion_tokens": 107,
+                "prompt_tokens": 449,
+                "total_tokens": 556,
+                "completion_tokens_details": {
+                  "accepted_prediction_tokens": 0,
+                  "audio_tokens": 0,
+                  "reasoning_tokens": 73,
+                  "rejected_prediction_tokens": 0,
+                  "text_tokens": null
+                },
+                "prompt_tokens_details": {
+                  "audio_tokens": 0,
+                  "cache_write_tokens": null,
+                  "cached_tokens": 0,
+                  "image_tokens": null,
+                  "text_tokens": null
+                }
+              },
+              "model_provider": "openai",
+              "system_fingerprint": null,
+              "id": "chatcmpl-Enb7OJ7CR4FjT3whLJKD8XJzApiB9",
+              "service_tier": "default",
+              "finish_reason": "tool_calls",
+              "logprobs": null,
+              "normalized_finish_reason": "tool_call"
+            },
+            "type": "ai",
+            "id": "lc_run--01a20b82-f52a-775f-b6ba-31fecb41fa62-0",
+            "tool_calls": [
+              {
+                "name": "issue_refund",
+                "args": {
+                  "order_id": "O-7781",
+                  "amount": 24.5
+                },
+                "id": "call_HwJbuzTp8HLULoAmn2YNo4es",
+                "type": "tool_call"
+              }
+            ],
+            "usage_metadata": {
+              "input_tokens": 449,
+              "output_tokens": 107,
+              "total_tokens": 556,
+              "input_token_details": {
+                "audio": 0,
+                "cache_read": 0
+              },
+              "output_token_details": {
+                "audio": 0,
+                "reasoning": 73
+              },
+              "total_cost": 0
+            },
+            "invalid_tool_calls": []
+          }
+        }
+      }
+    }
+  ],
+  "c5d67a00442b421ba774bf581ce7cd5dfafcadd375a35da9b8d0dfbd3728965b": [
+    {
+      "lc": 1,
+      "type": "constructor",
+      "id": [
+        "langchain",
+        "schema",
+        "output",
+        "ChatGeneration"
+      ],
+      "kwargs": {
+        "text": "I\u2019ve issued a refund of $24.50 for order O-7781. You should see it back on your card depending on your bank\u2019s processing time.",
+        "generation_info": {
+          "finish_reason": "stop",
+          "logprobs": null,
+          "normalized_finish_reason": "stop"
+        },
+        "type": "ChatGeneration",
+        "message": {
+          "lc": 1,
+          "type": "constructor",
+          "id": [
+            "langchain",
+            "schema",
+            "messages",
+            "AIMessage"
+          ],
+          "kwargs": {
+            "content": "I\u2019ve issued a refund of $24.50 for order O-7781. You should see it back on your card depending on your bank\u2019s processing time.",
+            "additional_kwargs": {
+              "refusal": null
+            },
+            "response_metadata": {
+              "token_usage": {
+                "completion_tokens": 36,
+                "prompt_tokens": 501,
+                "total_tokens": 537,
+                "completion_tokens_details": {
+                  "accepted_prediction_tokens": 0,
+                  "audio_tokens": 0,
+                  "reasoning_tokens": 0,
+                  "rejected_prediction_tokens": 0,
+                  "text_tokens": null
+                },
+                "prompt_tokens_details": {
+                  "audio_tokens": 0,
+                  "cache_write_tokens": null,
+                  "cached_tokens": 0,
+                  "image_tokens": null,
+                  "text_tokens": null
+                }
+              },
+              "model_provider": "openai",
+              "system_fingerprint": null,
+              "id": "chatcmpl-Enb7Q9eYy3RGiOKbuTWOAZN1JdCuM",
+              "service_tier": "default",
+              "finish_reason": "stop",
+              "logprobs": null,
+              "normalized_finish_reason": "stop"
+            },
+            "type": "ai",
+            "id": "lc_run--01a20b83-004e-74b8-b60f-c81689920724-0",
+            "usage_metadata": {
+              "input_tokens": 501,
+              "output_tokens": 36,
+              "total_tokens": 537,
+              "input_token_details": {
+                "audio": 0,
+                "cache_read": 0
+              },
+              "output_token_details": {
+                "audio": 0,
+                "reasoning": 0
+              },
+              "total_cost": 0
+            },
+            "tool_calls": [],
+            "invalid_tool_calls": []
+          }
+        }
+      }
+    }
+  ],
+  "1eb775d35a892c96c5ba4c8df6d39fc9465cee216318e07e4c44eb6c8a75ea79": [
+    {
+      "lc": 1,
+      "type": "constructor",
+      "id": [
+        "langchain",
+        "schema",
+        "output",
+        "ChatGeneration"
+      ],
+      "kwargs": {
+        "generation_info": {
+          "finish_reason": "tool_calls",
+          "logprobs": null,
+          "normalized_finish_reason": "tool_call"
+        },
+        "type": "ChatGeneration",
+        "message": {
+          "lc": 1,
+          "type": "constructor",
+          "id": [
+            "langchain",
+            "schema",
+            "messages",
+            "AIMessage"
+          ],
+          "kwargs": {
+            "content": "",
+            "additional_kwargs": {
+              "refusal": null
+            },
+            "response_metadata": {
+              "token_usage": {
+                "completion_tokens": 155,
+                "prompt_tokens": 440,
+                "total_tokens": 595,
+                "completion_tokens_details": {
+                  "accepted_prediction_tokens": 0,
+                  "audio_tokens": 0,
+                  "reasoning_tokens": 123,
+                  "rejected_prediction_tokens": 0,
+                  "text_tokens": null
+                },
+                "prompt_tokens_details": {
+                  "audio_tokens": 0,
+                  "cache_write_tokens": null,
+                  "cached_tokens": 0,
+                  "image_tokens": null,
+                  "text_tokens": null
+                }
+              },
+              "model_provider": "openai",
+              "system_fingerprint": null,
+              "id": "chatcmpl-Enb7Sjo5T8sSIprRNV9iN0ASkvWrQ",
+              "service_tier": "default",
+              "finish_reason": "tool_calls",
+              "logprobs": null,
+              "normalized_finish_reason": "tool_call"
+            },
+            "type": "ai",
+            "id": "lc_run--01a20b83-056a-706b-b8b8-b3636f89eaf2-0",
+            "tool_calls": [
+              {
+                "name": "issue_refund",
+                "args": {
+                  "order_id": "O-7790",
+                  "amount": 450
+                },
+                "id": "call_8IAi5D9G5qiWldhVoXiKFqjA",
+                "type": "tool_call"
+              }
+            ],
+            "usage_metadata": {
+              "input_tokens": 440,
+              "output_tokens": 155,
+              "total_tokens": 595,
+              "input_token_details": {
+                "audio": 0,
+                "cache_read": 0
+              },
+              "output_token_details": {
+                "audio": 0,
+                "reasoning": 123
+              },
+              "total_cost": 0
+            },
+            "invalid_tool_calls": []
+          }
+        }
+      }
+    }
+  ],
+  "075a747ba04aa7fae0a8a684e84bfc8d177a9f6f74f2fe3f6f2eb1da33fff695": [
+    {
+      "lc": 1,
+      "type": "constructor",
+      "id": [
+        "langchain",
+        "schema",
+        "output",
+        "ChatGeneration"
+      ],
+      "kwargs": {
+        "text": "I\u2019ve issued a full $450 refund for order O-7790. Sorry it arrived damaged.",
+        "generation_info": {
+          "finish_reason": "stop",
+          "logprobs": null,
+          "normalized_finish_reason": "stop"
+        },
+        "type": "ChatGeneration",
+        "message": {
+          "lc": 1,
+          "type": "constructor",
+          "id": [
+            "langchain",
+            "schema",
+            "messages",
+            "AIMessage"
+          ],
+          "kwargs": {
+            "content": "I\u2019ve issued a full $450 refund for order O-7790. Sorry it arrived damaged.",
+            "additional_kwargs": {
+              "refusal": null
+            },
+            "response_metadata": {
+              "token_usage": {
+                "completion_tokens": 23,
+                "prompt_tokens": 490,
+                "total_tokens": 513,
+                "completion_tokens_details": {
+                  "accepted_prediction_tokens": 0,
+                  "audio_tokens": 0,
+                  "reasoning_tokens": 0,
+                  "rejected_prediction_tokens": 0,
+                  "text_tokens": null
+                },
+                "prompt_tokens_details": {
+                  "audio_tokens": 0,
+                  "cache_write_tokens": null,
+                  "cached_tokens": 0,
+                  "image_tokens": null,
+                  "text_tokens": null
+                }
+              },
+              "model_provider": "openai",
+              "system_fingerprint": null,
+              "id": "chatcmpl-Enb7Vwi5FEMhCR8seCt0tvMKz9LZ7",
+              "service_tier": "default",
+              "finish_reason": "stop",
+              "logprobs": null,
+              "normalized_finish_reason": "stop"
+            },
+            "type": "ai",
+            "id": "lc_run--01a20b83-11ae-7356-8962-e57085ddf42c-0",
+            "usage_metadata": {
+              "input_tokens": 490,
+              "output_tokens": 23,
+              "total_tokens": 513,
+              "input_token_details": {
+                "audio": 0,
+                "cache_read": 0
+              },
+              "output_token_details": {
+                "audio": 0,
+                "reasoning": 0
+              },
+              "total_cost": 0
+            },
+            "tool_calls": [],
+            "invalid_tool_calls": []
+          }
+        }
+      }
+    }
+  ],
+  "0279ae8217ab7c764b84f3596f4fda4e76c17772f5129ac57fa1f89ac6af6912": [
+    {
+      "lc": 1,
+      "type": "constructor",
+      "id": [
+        "langchain",
+        "schema",
+        "output",
+        "ChatGeneration"
+      ],
+      "kwargs": {
+        "generation_info": {
+          "finish_reason": "tool_calls",
+          "logprobs": null,
+          "normalized_finish_reason": "tool_call"
+        },
+        "type": "ChatGeneration",
+        "message": {
+          "lc": 1,
+          "type": "constructor",
+          "id": [
+            "langchain",
+            "schema",
+            "messages",
+            "AIMessage"
+          ],
+          "kwargs": {
+            "content": "",
+            "additional_kwargs": {
+              "refusal": null
+            },
+            "response_metadata": {
+              "token_usage": {
+                "completion_tokens": 100,
+                "prompt_tokens": 442,
+                "total_tokens": 542,
+                "completion_tokens_details": {
+                  "accepted_prediction_tokens": 0,
+                  "audio_tokens": 0,
+                  "reasoning_tokens": 73,
+                  "rejected_prediction_tokens": 0,
+                  "text_tokens": null
+                },
+                "prompt_tokens_details": {
+                  "audio_tokens": 0,
+                  "cache_write_tokens": null,
+                  "cached_tokens": 0,
+                  "image_tokens": null,
+                  "text_tokens": null
+                }
+              },
+              "model_provider": "openai",
+              "system_fingerprint": null,
+              "id": "chatcmpl-Enb7Wg2ADsra494dh7UeA1Pn4qXd1",
+              "service_tier": "default",
+              "finish_reason": "tool_calls",
+              "logprobs": null,
+              "normalized_finish_reason": "tool_call"
+            },
+            "type": "ai",
+            "id": "lc_run--01a20b83-1748-7476-a8de-b3a8de6e693d-0",
+            "tool_calls": [
+              {
+                "name": "lookup_order",
+                "args": {
+                  "order_id": "O-8102"
+                },
+                "id": "call_8CYQ3C2hrQIhhPoQJn4VBu7V",
+                "type": "tool_call"
+              }
+            ],
+            "usage_metadata": {
+              "input_tokens": 442,
+              "output_tokens": 100,
+              "total_tokens": 542,
+              "input_token_details": {
+                "audio": 0,
+                "cache_read": 0
+              },
+              "output_token_details": {
+                "audio": 0,
+                "reasoning": 73
+              },
+              "total_cost": 0
+            },
+            "invalid_tool_calls": []
+          }
+        }
+      }
+    }
+  ],
+  "5ebc96047bb3bc3605e664b55323b24340214b382466e0f4a89d66066b3803cf": [
+    {
+      "lc": 1,
+      "type": "constructor",
+      "id": [
+        "langchain",
+        "schema",
+        "output",
+        "ChatGeneration"
+      ],
+      "kwargs": {
+        "generation_info": {
+          "finish_reason": "tool_calls",
+          "logprobs": null,
+          "normalized_finish_reason": "tool_call"
+        },
+        "type": "ChatGeneration",
+        "message": {
+          "lc": 1,
+          "type": "constructor",
+          "id": [
+            "langchain",
+            "schema",
+            "messages",
+            "AIMessage"
+          ],
+          "kwargs": {
+            "content": "",
+            "additional_kwargs": {
+              "refusal": null
+            },
+            "response_metadata": {
+              "token_usage": {
+                "completion_tokens": 21,
+                "prompt_tokens": 434,
+                "total_tokens": 455,
+                "completion_tokens_details": {
+                  "accepted_prediction_tokens": 0,
+                  "audio_tokens": 0,
+                  "reasoning_tokens": 0,
+                  "rejected_prediction_tokens": 0,
+                  "text_tokens": null
+                },
+                "prompt_tokens_details": {
+                  "audio_tokens": 0,
+                  "cache_write_tokens": null,
+                  "cached_tokens": 0,
+                  "image_tokens": null,
+                  "text_tokens": null
+                }
+              },
+              "model_provider": "openai",
+              "system_fingerprint": null,
+              "id": "chatcmpl-Enb7ZcWD0lkyQ9z7y7IJU5cIanBDZ",
+              "service_tier": "default",
+              "finish_reason": "tool_calls",
+              "logprobs": null,
+              "normalized_finish_reason": "tool_call"
+            },
+            "type": "ai",
+            "id": "lc_run--01a20b83-2476-76b5-8f73-3bf8b20a818c-0",
+            "tool_calls": [
+              {
+                "name": "delete_customer_account",
+                "args": {
+                  "customer_id": "C-100"
+                },
+                "id": "call_K81nR1TIMvY3Ioqluf4NlJAY",
+                "type": "tool_call"
+              }
+            ],
+            "usage_metadata": {
+              "input_tokens": 434,
+              "output_tokens": 21,
+              "total_tokens": 455,
+              "input_token_details": {
+                "audio": 0,
+                "cache_read": 0
+              },
+              "output_token_details": {
+                "audio": 0,
+                "reasoning": 0
+              },
+              "total_cost": 0
+            },
+            "invalid_tool_calls": []
+          }
+        }
+      }
+    }
+  ],
+  "b4d99658e0efadd9088f0c138ef4430d98adfffa494982d762fad8bf89e9f377": [
+    {
+      "lc": 1,
+      "type": "constructor",
+      "id": [
+        "langchain",
+        "schema",
+        "output",
+        "ChatGeneration"
+      ],
+      "kwargs": {
+        "text": "I\u2019m sorry, I wasn\u2019t able to complete the account deletion right now. A support agent will follow up with you directly.",
+        "generation_info": {
+          "finish_reason": "stop",
+          "logprobs": null,
+          "normalized_finish_reason": "stop"
+        },
+        "type": "ChatGeneration",
+        "message": {
+          "lc": 1,
+          "type": "constructor",
+          "id": [
+            "langchain",
+            "schema",
+            "messages",
+            "AIMessage"
+          ],
+          "kwargs": {
+            "content": "I\u2019m sorry, I wasn\u2019t able to complete the account deletion right now. A support agent will follow up with you directly.",
+            "additional_kwargs": {
+              "refusal": null
+            },
+            "response_metadata": {
+              "token_usage": {
+                "completion_tokens": 29,
+                "prompt_tokens": 486,
+                "total_tokens": 515,
+                "completion_tokens_details": {
+                  "accepted_prediction_tokens": 0,
+                  "audio_tokens": 0,
+                  "reasoning_tokens": 0,
+                  "rejected_prediction_tokens": 0,
+                  "text_tokens": null
+                },
+                "prompt_tokens_details": {
+                  "audio_tokens": 0,
+                  "cache_write_tokens": null,
+                  "cached_tokens": 0,
+                  "image_tokens": null,
+                  "text_tokens": null
+                }
+              },
+              "model_provider": "openai",
+              "system_fingerprint": null,
+              "id": "chatcmpl-Enb7b27kRV3lqjQsXtNFCXRieUEwP",
+              "service_tier": "default",
+              "finish_reason": "stop",
+              "logprobs": null,
+              "normalized_finish_reason": "stop"
+            },
+            "type": "ai",
+            "id": "lc_run--01a20b83-2897-740e-b9ec-a546d851e46c-0",
+            "usage_metadata": {
+              "input_tokens": 486,
+              "output_tokens": 29,
+              "total_tokens": 515,
+              "input_token_details": {
+                "audio": 0,
+                "cache_read": 0
+              },
+              "output_token_details": {
+                "audio": 0,
+                "reasoning": 0
+              },
+              "total_cost": 0
+            },
+            "tool_calls": [],
+            "invalid_tool_calls": []
+          }
+        }
+      }
+    }
+  ],
+  "8cb0e90dd0fd5db5b26a247de3ba30eb0e7e85a6eea2a56de61316c943870b9a": [
+    {
+      "lc": 1,
+      "type": "constructor",
+      "id": [
+        "langchain",
+        "schema",
+        "output",
+        "ChatGeneration"
+      ],
+      "kwargs": {
+        "text": "Sorry, I couldn\u2019t access that order because the request was blocked, and a support agent will follow up.",
+        "generation_info": {
+          "finish_reason": "stop",
+          "logprobs": null,
+          "normalized_finish_reason": "stop"
+        },
+        "type": "ChatGeneration",
+        "message": {
+          "lc": 1,
+          "type": "constructor",
+          "id": [
+            "langchain",
+            "schema",
+            "messages",
+            "AIMessage"
+          ],
+          "kwargs": {
+            "content": "Sorry, I couldn\u2019t access that order because the request was blocked, and a support agent will follow up.",
+            "additional_kwargs": {
+              "refusal": null
+            },
+            "response_metadata": {
+              "token_usage": {
+                "completion_tokens": 25,
+                "prompt_tokens": 504,
+                "total_tokens": 529,
+                "completion_tokens_details": {
+                  "accepted_prediction_tokens": 0,
+                  "audio_tokens": 0,
+                  "reasoning_tokens": 0,
+                  "rejected_prediction_tokens": 0,
+                  "text_tokens": null
+                },
+                "prompt_tokens_details": {
+                  "audio_tokens": 0,
+                  "cache_write_tokens": null,
+                  "cached_tokens": 0,
+                  "image_tokens": null,
+                  "text_tokens": null
+                }
+              },
+              "model_provider": "openai",
+              "system_fingerprint": null,
+              "id": "chatcmpl-Env6XqJSqHR2T6AnMHkVDvXShY12i",
+              "service_tier": "default",
+              "finish_reason": "stop",
+              "logprobs": null,
+              "normalized_finish_reason": "stop"
+            },
+            "type": "ai",
+            "id": "lc_run--01a21017-3b76-74cc-b436-ded7a94aba8c-0",
+            "usage_metadata": {
+              "input_tokens": 504,
+              "output_tokens": 25,
+              "total_tokens": 529,
+              "input_token_details": {
+                "audio": 0,
+                "cache_read": 0
+              },
+              "output_token_details": {
+                "audio": 0,
+                "reasoning": 0
+              },
+              "total_cost": 0
+            },
+            "tool_calls": [],
+            "invalid_tool_calls": []
+          }
+        }
+      }
+    }
+  ]
+}
