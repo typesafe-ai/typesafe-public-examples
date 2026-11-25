@@ -40,33 +40,11 @@
 # %% [markdown]
 # ## Setup
 #
-# Requires Python 3.10 or later. Choose a package manager to install the dependencies:
-#
-# <Tabs sync={false}>
-#   <Tab title="pip">
-#     Create a virtual environment and add the dependencies:
-#
-#     ```bash wrap
-#     python3 -m venv .venv
-#     .venv/bin/pip install 'typesafe-sdk>=0.7.5,<0.8.0' pillow matplotlib ipython 'cooksafe>=0.3.0,<0.4.0'
-#     ```
-#   </Tab>
-#   <Tab title="uv">
-#     Initialize a project and add the dependencies:
-#
-#     ```bash wrap
-#     uv init --bare
-#     uv add 'typesafe-sdk>=0.7.5,<0.8.0' pillow matplotlib ipython 'cooksafe>=0.3.0,<0.4.0'
-#     ```
-#   </Tab>
-# </Tabs>
-#
-# [`feeder_watch.py`](https://github.com/typesafe-ai/typesafe-public-examples/blob/main/cookbooks/feeder_watch/feeder_watch.py) holds every code block on
-# this page, in order. This command runs it whether you installed with pip or uv:
-#
 # ```bash
-# .venv/bin/python feeder_watch.py
+# pip install 'typesafe-sdk>=0.7.5,<0.8.0' pillow matplotlib ipython 'cooksafe>=0.3.0,<0.4.0'
 # ```
+#
+# With uv, `uv run feeder_watch.py` installs the dependencies for you.
 #
 # A full run sends about 180 requests. Pillow draws the boxes and matplotlib lays out the
 # figures.

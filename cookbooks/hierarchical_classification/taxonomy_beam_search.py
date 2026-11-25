@@ -76,6 +76,8 @@
 # pip install typesafe-sdk ipython 'cooksafe>=0.3.0,<0.4.0'
 # ```
 #
+# With uv, `uv run taxonomy_beam_search.py` installs the dependencies for you.
+#
 # The code replays saved answers, so it runs as published without an API key. To change a
 # request, set `TYPESAFE_API_KEY`; in Colab, add it in the Secrets panel. The first run
 # downloads the three hierarchies (about 28 MB) into `datasets/`.

@@ -55,26 +55,11 @@
 # %% [markdown]
 # ## Setup
 #
-# Requires Python 3.10 or later. Choose a package manager to install the dependencies:
+# ```bash
+# pip install matplotlib ipython 'cooksafe>=0.3.0,<0.4.0'
+# ```
 #
-# <Tabs sync={false}>
-#   <Tab title="pip">
-#     Create a virtual environment and add the dependencies:
-#
-#     ```bash wrap
-#     python3 -m venv .venv
-#     .venv/bin/pip install matplotlib ipython 'cooksafe>=0.3.0,<0.4.0'
-#     ```
-#   </Tab>
-#   <Tab title="uv">
-#     Initialize a project and add the dependencies:
-#
-#     ```bash wrap
-#     uv init --bare
-#     uv add matplotlib ipython 'cooksafe>=0.3.0,<0.4.0'
-#     ```
-#   </Tab>
-# </Tabs>
+# With uv, `uv run entity_alignment.py` installs the dependencies for you.
 #
 # The code downloads the published answers into `entity_alignment_cache.json`, so it runs as
 # published without an API key; to run live, set `DOWNLOAD_CACHE = False` and delete that

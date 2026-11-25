@@ -85,13 +85,12 @@
 # pip install anthropic matplotlib ipython 'cooksafe>=0.3.0,<0.4.0'
 # ```
 #
+# With uv, `uv run skill_suggestion.py` installs the dependencies for you.
+#
 # The code replays saved answers, so it runs as published without an API key. To change a
 # request, set a [TypeSafe API key](https://console.typesafe.ai/keys) as `TYPESAFE_API_KEY`,
 # and an Anthropic key for the agent being measured as `ANTHROPIC_API_KEY`; in Colab, add
 # them in the Secrets panel.
-#
-# > **Note:** this page's code blocks form one script,
-# > [`skill_suggestion.py`](https://github.com/typesafe-ai/typesafe-public-examples/blob/main/cookbooks/skill_suggestion/skill_suggestion.py).
 #
 # ## Caching results
 #

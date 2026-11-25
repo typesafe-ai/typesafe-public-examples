@@ -67,6 +67,8 @@
 #     'cooksafe>=0.3.0,<0.4.0'
 # ```
 #
+# With uv, `uv run reading_scanned_documents.py` installs the dependencies for you.
+#
 # The code replays saved answers, so it runs as published without an API key. To change a
 # request, set `TYPESAFE_API_KEY`; in Colab, add it in the Secrets panel.
 #

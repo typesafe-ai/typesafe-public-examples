@@ -65,6 +65,8 @@
 # pip install openai ipython matplotlib 'cooksafe>=0.3.0,<0.4.0'
 # ```
 #
+# With uv, `uv run verify_llm_outputs.py` installs the dependencies for you.
+#
 # The code replays saved answers, so it runs as published without an API key. To change a
 # request, set `TYPESAFE_API_KEY` and `OPENAI_API_KEY`; in Colab, add them in the Secrets
 # panel. OpenAI models write the answers being checked. In the measurement at the end, an

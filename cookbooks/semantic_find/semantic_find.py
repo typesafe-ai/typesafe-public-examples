@@ -26,24 +26,15 @@
 # %% [markdown]
 # ## Setup
 #
-# ### Install the dependencies
-#
 # ```bash
 # pip install ipython 'cooksafe>=0.3.0,<0.4.0'
 # ```
 #
+# With uv, `uv run semantic_find.py` installs the dependencies for you.
+#
 # The code replays saved answers, so it runs as published without an API key. To change a
 # request, [create a TypeSafe API key](https://console.typesafe.ai/keys) and set
 # `TYPESAFE_API_KEY`; in Colab, add it in the Secrets panel.
-#
-# ### Run the script
-#
-# [`semantic_find.py`](https://github.com/typesafe-ai/typesafe-public-examples/blob/main/cookbooks/semantic_find/semantic_find.py)
-# holds every code block on this page, in order. Run it from the file's directory:
-#
-# ```bash
-# python semantic_find.py
-# ```
 #
 # The first block imports `typesafe_sdk`, reads `TYPESAFE_API_KEY` and creates the client:
 

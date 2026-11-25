@@ -64,6 +64,8 @@
 # pip install openai ipython matplotlib 'cooksafe>=0.3.0,<0.4.0'
 # ```
 #
+# With uv, `uv run infinite_cardinality_choice.py` installs the dependencies for you.
+#
 # The code downloads the published answers into `infinite_cardinality_choice_cache.json`, so
 # it runs as published without an API key; to run live, set `DOWNLOAD_CACHE = False` and
 # delete that file. To change a request, set `TYPESAFE_API_KEY`, and `OPENAI_API_KEY` for the
