@@ -85,6 +85,8 @@
 # pip install ipython 'cooksafe>=0.3.0,<0.4.0'
 # ```
 #
+# With uv, `uv run intelliprompter.py` installs the dependencies for you.
+#
 # The code replays saved answers, so it runs as published without an API key. To change a
 # request, [create a TypeSafe API key](https://console.typesafe.ai/keys) and set
 # `TYPESAFE_API_KEY`; in Colab, add it in the Secrets panel.
