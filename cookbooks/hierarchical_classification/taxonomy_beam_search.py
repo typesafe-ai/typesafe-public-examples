@@ -139,8 +139,8 @@ class Hierarchy(NamedTuple):
 
 
 EXAMPLES_URL = (
-    "https://raw.githubusercontent.com/typesafe-ai/typesafe-public-examples/"
-    "main/cookbooks/hierarchical_classification"
+    "https://raw.githubusercontent.com/typesafe-ai/typesafe-public-examples/main/"
+    "cookbooks/hierarchical_classification"
 )
 CPC_URL = (
     "https://www.cooperativepatentclassification.org/sites/default/files/"

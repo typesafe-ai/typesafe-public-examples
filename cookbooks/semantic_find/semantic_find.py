@@ -96,25 +96,9 @@ json_cache = JsonCache(CACHE)
 # result points to one quotable line.
 
 # %%
-DOCUMENT_URL = (
-    "https://raw.githubusercontent.com/typesafe-ai/typesafe-public-examples/main/cookbooks/semantic_find/github-tos.txt"
-)
-
-
-@json_cache
-def fetch_document(url: str) -> str:
-    request = urllib.request.Request(
-        url, headers={"User-Agent": "typesafe-cookbook/1.0"}
-    )
-    with urllib.request.urlopen(request) as response:
-        return response.read().decode()
-
-
-LINES = fetch_document(DOCUMENT_URL).splitlines()
+LINES = download("github-tos.txt").read_text(encoding="utf-8").splitlines()
 
 # %% [markdown]
-# The cache prevents repeated downloads.
-#
 # Now prefix each line with a short ID and join the lines back into one document. The model
 # uses these IDs to point to its answer.
 
@@ -309,8 +293,8 @@ show("can I join a class action lawsuit against GitHub?", top=2)
 # The ranking tells you where to look; the `exists` score tells you whether the result
 # answers the question.
 #
-# To search your own document, swap `DOCUMENT_URL`; every other line of the script works off
-# `LINES`.
+# To search your own document, load its lines into `LINES`; every other line of the script
+# works off `LINES`.
 #
 # ## Open it in the playground
 #
