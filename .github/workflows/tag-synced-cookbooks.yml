@@ -1,0 +1,49 @@
+name: Tag synced cookbooks
+
+# When a pull request to main merges and its description ends with a line such as
+#
+#   Tags: pub-20261125-a3f9c2
+#
+# create each tag it names at the merge commit. Cookbook pages link their files by these
+# tags, so a tag is never moved once it exists.
+
+on:
+  pull_request:
+    types: [closed]
+    branches: [main]
+
+permissions: {}
+
+jobs:
+  tag:
+    if: github.event.pull_request.merged == true
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+    steps:
+      - name: Create the tags the pull request names
+        env:
+          GH_TOKEN: ${{ github.token }}
+          # The description is text anyone can write: it reaches the script only as a variable.
+          BODY: ${{ github.event.pull_request.body }}
+          SHA: ${{ github.event.pull_request.merge_commit_sha }}
+          REPO: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+          line=$(printf '%s\n' "$BODY" | tr -d '\r' | grep -E '^Tags: ' | tail -n 1 || true)
+          if [ -z "$line" ]; then
+            echo "No Tags: line in the pull request's description; nothing to tag."
+            exit 0
+          fi
+          IFS=', ' read -r -a tags <<< "${line#Tags: }"
+          for tag in "${tags[@]}"; do
+            if ! [[ "$tag" =~ ^pub-[0-9]{8}-[0-9a-f]{6}$ ]]; then
+              echo "::error::not a public tag: $tag"
+              exit 1
+            fi
+          done
+          for tag in "${tags[@]}"; do
+            gh api "repos/$REPO/git/refs" -f "ref=refs/tags/$tag" -f "sha=$SHA" --silent
+            echo "Tagged $tag at $SHA"
+          done
