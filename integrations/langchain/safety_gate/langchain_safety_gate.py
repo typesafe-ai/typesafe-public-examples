@@ -100,7 +100,7 @@
 # With uv, `uv run langchain_safety_gate.py` installs the dependencies for you.
 #
 # The code downloads
-# [`requests.json`](https://github.com/typesafe-ai/typesafe-public-examples/blob/main/integrations/langchain/safety_gate/requests.json),
+# [`requests.json`](https://github.com/typesafe-ai/typesafe-public-examples/blob/pub-20261126-563de2/integrations/langchain/safety_gate/requests.json),
 # which holds the 24 labeled tool calls, from typesafe-public-examples unless the file is
 # already on disk.
 #
@@ -158,7 +158,7 @@ LLM_MODEL = "gpt-5.5"  # proposes the agent's tool calls
 
 HERE = Path(__file__).resolve().parent if "__file__" in globals() else Path.cwd()
 EXAMPLES = (
-    "https://raw.githubusercontent.com/typesafe-ai/typesafe-public-examples/main/"
+    "https://raw.githubusercontent.com/typesafe-ai/typesafe-public-examples/pub-20261126-563de2/"
     "integrations/langchain/safety_gate"
 )
 
