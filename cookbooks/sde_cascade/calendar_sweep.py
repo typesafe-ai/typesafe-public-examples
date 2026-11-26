@@ -14,7 +14,7 @@ It writes one row per task to ``calendar_results.csv``, which Step 6 reads to dr
 Every call is cached in ``calendar_cache.json``; with that file present the script replays
 without calling anything. Needs OPENAI_API_KEY and TYPESAFE_API_KEY to run live.
 
-    uv run python calendar_sweep.py
+    uv run calendar_sweep.py
 """
 
 from __future__ import annotations
